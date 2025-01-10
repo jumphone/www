@@ -1,44 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<title>互连协议查询 - IP查询 - 查IP(www.cip.cc)</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<meta name="description" content="查IP(www.cip.cc)网站, 提供免费的IP查询服务,命令行查询IP, 并且支持'PC网站, 手机网站, 命令行(Windows/UNIX/Linux)' 三大平台, 是个多平台的IP查询网站, 更新即使, 数据准确是我们的目标"/>
-		<meta name="keywords" content="IP, 查IP, IP查询"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<meta content="width=device-width,initial-scale=1" name="viewport">
-		<link rel="icon" href="data:;base64,=">
-		 <link href="//static.cip.cc/static/styles.min.css?v=15" rel="stylesheet" />
-		 <script type="text/javascript" src="//static.cip.cc/static/js.min.js?v=6"></script>
-	</head>
-	<body>
-
-<div class="wrapper">
-	<div class="page">
-		<div class="logo">
-			<h1>
-				<strong>多平台的命令行IP查询</strong>
-				<a href="//www.cip.cc/" title="手机, 命令行IP查询"><img src="//static.cip.cc/static/img/logo.png?v=2" alt="手机, 命令行IP查询"/></a>
-			</h1>
-		</div>
-		<div class="search">
-			<form action="/" onsubmit="return query();">
-				<table>
-					<tbody>
-					<tr>
-						<td style=" width: 75%; " >
-					<input id="data-input" placeholder="请输入要查询的 IP 地址" size="26" type="text"  />
-						</td>
-						<td>
-					<input id="data-submit" type="submit" class="kq-button" value="查询"/>
-						</td>
-					</tr>
-					</tbody>
-				</table>
-			</form>
-		</div>
-		<div class="data kq-well">
-				<pre>IP	: 222.67.163.111
+IP	: 222.67.163.111
 地址	: 中国  上海
 运营商	: 电信
 
@@ -114,7 +74,7 @@ var _hmt = _hmt || [];
 </script>
 </html>
 
-2025-01-11 00:16:59
+2025-01-11 00:19:57
 
 ##############################
 
@@ -125,12 +85,12 @@ avg-cpu:  %user   %nice %system %iowait  %steal   %idle
 
 Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
 sda               0.00         0.02         0.00       7017          4
-sdb               0.47         4.82        11.92    1360957    3364656
-dm-0              0.35         4.32         9.14    1218531    2581441
+sdb               0.47         4.82        11.91    1360957    3365160
+dm-0              0.35         4.31         9.14    1218531    2581491
 dm-1              0.00         0.01         0.00       2204          0
-dm-2              0.14         0.37         2.93     104320     828058
+dm-2              0.14         0.37         2.93     104320     828551
 
 
 ##############################
-NextUpdate:566.414s
+NextUpdate:610.889s
 ##############################
