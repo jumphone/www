@@ -7,74 +7,8 @@ IP	: 222.67.163.111
 数据三	: 中国上海上海市 | 电信
 
 URL	: http://www.cip.cc/222.67.163.111
-</pre>
-		</div>
-		<div class="i-don-t-like-you">
 
-		</div>
-		<div class="kq-well">
-			<div class="cmd-title">
-				<strong>命令行查询(详细):</strong>
-			</div>
-			<div class="sys-cmd">
-				<ul>
-					<li>
-						UNIX/Linux:	<span><code>#curl cip.cc</code></span>
-					</li>
-					<li>
-						Windows:	<span><code>>telnet cip.cc</code></span>
-					</li>
-					<li>
-						&nbsp;<span><code>>ftp cip.cc</code></span>
-					</li>
-				</ul>
-			</div>
-
-			<div class="cmd-title">
-				<strong>命令行查询(纯ip):</strong>
-			</div>
-
-
-			<div class="sys-cmd">
-				<ul>
-					<li>
-						UNIX/Linux:	<span><code>#curl ip.cip.cc</code></span>
-					</li>
-				</ul>
-			</div>
-
-		</div>
-		<div class="i-don-t-like-you">
-
-		</div>
-		<div class="links">
-			<ul>
-				<li>
-					<a href="http://www.boll.me/" title="波尔(www.boll.me)博客, 专注于Linux Web学习的博客" target="_blank" style="color: #fff;">波尔(Boll)</a>
-				</li>
-				<li>
-					<a href="http://beian.miit.gov.cn/" rel="external nofollow" target="_blank" style="color: #ececec;">闽ICP备13019094号-1</a>
-				</li>
-
-			</ul>
-		</div>
-	</div>
-</div>
-
-
-</body>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?6c34da399cbcfbb71d86c72215942759";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-</html>
-
-2025-01-11 00:19:57
+2025-01-11 00:21:43
 
 ##############################
 
@@ -85,12 +19,12 @@ avg-cpu:  %user   %nice %system %iowait  %steal   %idle
 
 Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
 sda               0.00         0.02         0.00       7017          4
-sdb               0.47         4.82        11.91    1360957    3365160
-dm-0              0.35         4.31         9.14    1218531    2581491
+sdb               0.47         4.82        11.91    1361013    3365984
+dm-0              0.35         4.31         9.14    1218587    2581715
 dm-1              0.00         0.01         0.00       2204          0
-dm-2              0.14         0.37         2.93     104320     828551
+dm-2              0.14         0.37         2.93     104320     829193
 
 
 ##############################
-NextUpdate:610.889s
+NextUpdate:653.817s
 ##############################
