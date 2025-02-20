@@ -8,7 +8,6 @@
 
 ---------------------------------------
 
-&nbsp;
  * **IP**:
 
  * **Port**:
@@ -20,8 +19,6 @@
 ## ▸ Courses:
 
 ---------------------------------------
-
-&nbsp;
 
  *  **01.Programming 1**: [Slides](https://github.com/jumphone/BiUH-course/tree/main/c01)
 
