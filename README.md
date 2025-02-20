@@ -2,9 +2,9 @@
 
 ## Server:
 
-IP:
+* **IP**:
 
-Port:
+* **Port**:
 
 
 ## Courses:
