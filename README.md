@@ -1,4 +1,4 @@
-<p float="left">
+<p float="center">
 <img src="https://www.bioinfo-lab.com/img/road2ocean.jpg" height="300">
 </p>
 
