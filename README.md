@@ -1,4 +1,6 @@
-# Content
+<p float="left">
+<img src="https://www.bioinfo-lab.com/img/road2ocean.jpg" height="60">
+</p>
 
 ---------------------------------------
 
