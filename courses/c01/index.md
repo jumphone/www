@@ -2,4 +2,10 @@
 
 # Programming 1
 
-### [Lesson 1](https://www.bioinfo-lab.com/courses/c01/s01/)
+--------------
+
+• Slides
+
+---------------
+
+[Lesson 1](https://www.bioinfo-lab.com/courses/c01/s01/)
