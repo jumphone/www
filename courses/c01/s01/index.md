@@ -642,7 +642,7 @@
 ### Slide 71: Introduction to Python REPL
 **Content:**    
 - Now, we'll explore the Python interactive command line, also known as the Python REPL.  
-- It's a powerful tool for learning Python with instant feedback.
+- It's a powerful tool for learning Python with ‌immediate‌ feedback.
 
 ---
 
