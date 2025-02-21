@@ -12,8 +12,6 @@
 
  * **Data Analysis and Intro to ML**: 
 
-&nbsp;&nbsp;
-
 [admin](https://github.com/jumphone/BiUH/tree/main)
 
 &nbsp;&nbsp;
