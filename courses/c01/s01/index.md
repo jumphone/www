@@ -175,8 +175,7 @@
 
 ### Slide 21: Introduction to Server Login
 **Content:**  
-- Welcome back to Programming 1.  
-- Today, we’ll cover how to log into the Linux server we’ll use throughout this course.  
+- Now, we’ll cover how to log into the Linux server we’ll use throughout this course.  
 - Don’t worry, I’ll guide you through each step.
 
 ---
