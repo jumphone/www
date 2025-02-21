@@ -212,7 +212,6 @@
 **Content:**  
 - Select the server from your saved connections in Termius.  
 - Termius will attempt to establish a connection using SSH.  
-- Verify the server’s identity if prompted, then enter your password.
 
 ---
 
