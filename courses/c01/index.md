@@ -4,15 +4,6 @@
 
 --------------
 
-## ▸ Slides
-
----------------
-
- * [Lesson 1](https://www.bioinfo-lab.com/courses/c01/s01/)
-
-
---------------
-
 ## ▸ Content
 
 ---------------
@@ -37,3 +28,15 @@ WIL: Work-Integrated Learning
 16. WIL: Processing Excel & Word with Python
 17. WIL: Environment Setup with Podman & Anaconda
 18. WIL: Local Deployment of Distilled DeepSeek
+
+---------------
+
+## ▸ Slides
+
+---------------
+
+ * [Lesson 1](https://www.bioinfo-lab.com/courses/c01/s01/)
+
+
+--------------
+
