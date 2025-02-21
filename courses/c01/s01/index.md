@@ -262,9 +262,8 @@
 ---
 
 ### Slide 31: Introduction to Remote File Management
-**Content:**  
-- Welcome back to Programming 1.  
-- Today, we’ll explore remote file management using SFTP and Termius.  
+**Content:**   
+- Now, we’ll explore remote file management using SFTP and Termius.  
 - Understanding these tools is crucial for managing files on remote servers.
 
 ---
@@ -773,7 +772,6 @@
 
 ### Slide 81: Introduction to Programming 1
 **Content:**
-- Welcome back to Programming 1.
 - In this section, we'll write our first Python program.
 - Starting simple with the classic "Hello, World!" program.
 
@@ -886,8 +884,7 @@
 
 ### Slide 91: Introduction to Python Interpreter and Script Mode
 **Content:**
-- Welcome back to Programming 1.
-- Today, we’ll explore Python’s interpreter and script mode.
+- Now, we’ll explore Python’s interpreter and script mode.
 - Understand how Python code is executed and run effectively.
 
 ---
@@ -1007,8 +1004,7 @@
 
 ### Slide 101: Introduction to Python Documentation
 **Content:**  
-- Welcome back to Programming 1.  
-- Today, we’ll explore how to find and read Python documentation.  
+- Now, we’ll explore how to find and read Python documentation.  
 - Python’s documentation is a valuable resource for learning and troubleshooting.
 
 ---
@@ -1106,9 +1102,9 @@
 
 ---
 
-### Slide 111: Welcome to the Final Segment
+### Slide 111: Final Segment
 **Content:**  
-Hello, everyone! Welcome to the final segment of today’s lesson in Programming 1. We’ve covered a lot of ground so far, and now, we’re going to wrap up today’s class with a summary and Q&A session.  
+Welcome to the final segment of today’s lesson in Programming 1. We’ve covered a lot of ground so far, and now, we’re going to wrap up today’s class with a summary and Q&A session.  
 
 ---
 
