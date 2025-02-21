@@ -1,4 +1,4 @@
-[back](https://www.bioinfo-lab.com)
+[home](https://www.bioinfo-lab.com)
 
 # Programming 1
 
