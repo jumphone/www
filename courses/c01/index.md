@@ -33,5 +33,5 @@
 	14.	WIL: Simple Game Development with Pygame
 	15.	WIL: Text Analysis with NLTK
 	16.	WIL: Processing Excel & Word with Python
-	17.	Environment Setup with Podman & Anaconda
+	17.	WIL: Environment Setup with Podman & Anaconda
 	18.	WIL: Local Deployment of Distilled DeepSeek
