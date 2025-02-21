@@ -8,7 +8,7 @@
 
 ---------------------------------------
 
- * **Programming 1**: [slides & content](https://www.bioinfo-lab.com/courses/c01/)
+ * **Programming 1**: [content & slides](https://www.bioinfo-lab.com/courses/c01/)
 
  * **Data Analysis and Intro to ML**: 
 
