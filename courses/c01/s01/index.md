@@ -627,7 +627,7 @@
 
 ---
 
-### Slide 70: Conclusion
+### Slide 70: Summary (continues)
 **Content:**  
 - Python is versatile and easy to learn.  
 - It is widely used across many industries.  
@@ -757,7 +757,7 @@
 
 ---
 
-### Slide 80: Conclusion
+### Slide 80: Summary
 **Content:**  
 - The Python REPL is a powerful learning tool.  
 - Use it to:  
@@ -990,9 +990,9 @@
 
 ---
 
-### Slide 100: Conclusion
+### Slide 100: Summary
 **Content:**
-- Today, we covered the basics of Python’s interpreter and script mode.
+- we covered the basics of Python’s interpreter and script mode.
 - You learned how to write and run Python programs using script mode.
 - Script mode helps create organized, reusable, and maintainable code.
 - This knowledge is crucial for your future learning.
@@ -1091,7 +1091,7 @@
 
 ---
 
-### Slide 110: Conclusion
+### Slide 110: Summary
 **Content:**  
 - We’ve covered how to use Python’s official documentation.  
 - Whether you’re searching for built-in functions or third-party libraries, the documentation is your best resource.  
@@ -1102,21 +1102,21 @@
 
 ---
 
-### Slide 111: Final Segment
+### Slide 111: Final summary
 **Content:**  
-Welcome to the final segment of today’s lesson in Programming 1. We’ve covered a lot of ground so far, and now, we’re going to wrap up today’s class with a summary and Q&A session.  
+In the first lesson in Programming 1, We’ve covered a lot of ground so far, and now, we’re going to summarize the first class.  
 
 ---
 
-### Slide 112: Quick Recap of What We Covered Today
+### Slide 112: Quick Recap of What We Covered
 **Content:**  
-Today, we started with an introduction to the course. You learned about the overall structure of the lessons and what you can expect to achieve by the end of the course. Our main focus today was on the foundational concepts of Python programming and getting comfortable with the Linux environment.  
+We started with an introduction to the course. You learned about the overall structure of the lessons and what you can expect to achieve by the end of the course. Our main focus today was on the foundational concepts of Python programming and getting comfortable with the Linux environment.  
 
 ---
 
 ### Slide 113: Course Overview
 **Content:**  
-- We discussed how this course will guide you through Python programming from scratch, with the help of resources like ChatGPT and other language models.  
+- We discussed how this course will guide you through Python programming from scratch, with the help of resources like ChatGPT, deepseek, kimi and other language models.  
 - We also emphasized the importance of self-learning and using tools like documentation and online resources to enhance your programming skills.  
 
 ---
