@@ -14,7 +14,7 @@
 
 &nbsp;&nbsp;
 
-[management](https://github.com/jumphone/BiUH/tree/main)
+[admin](https://github.com/jumphone/BiUH/tree/main)
 
 &nbsp;&nbsp;
 
