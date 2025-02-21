@@ -25,7 +25,7 @@
 ### Slide 3: Learning to Learn
 **Content:**  
 - Become an independent learner  
-- Utilize tools like large language models (e.g., ChatGPT)  
+- Utilize tools like large language models (e.g., ChatGPT, Deepseek, Kimi)  
 - Debug code, explain concepts, and get hints when stuck  
 
 ---
@@ -99,7 +99,7 @@
 
 ### Slide 12: Why Linux is Popular
 **Content:**  
-- Highly customizable, secure, and stable.  
+- Highly adjustable, secure, and stable.  
 - Efficient even on large-scale systems.  
 - Great for learning how servers work.
 
