@@ -4,8 +4,8 @@
 
 --------------
 
-## • Slides
+## ▸ Slides
 
 ---------------
 
-[Lesson 1](https://www.bioinfo-lab.com/courses/c01/s01/)
+ * [Lesson 1](https://www.bioinfo-lab.com/courses/c01/s01/)
