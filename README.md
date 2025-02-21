@@ -8,9 +8,9 @@
 
 ---------------------------------------
 
- * **01.Programming 1**: [slides](https://github.com/jumphone/BiUH-course/tree/main/c01/slides)
+ * **01***: Programming 1, [slides](https://github.com/jumphone/BiUH-course/tree/main/c01/slides)
 
- * **02.Data Analysis and Intro to ML**:
+ * **02**: Data Analysis and Intro to ML, 
 
 &nbsp;&nbsp;
 
