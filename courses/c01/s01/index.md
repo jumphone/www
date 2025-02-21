@@ -1,30 +1,3 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>c01s01</title>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown.min.css">
-    <style>
-        .markdown-body {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            background-color: #fff;
-        }
-    </style>
-</head>
-<body>
-    <div id="output" class="markdown-body"></div>
-
-    <script>
-    
-        const markdownContent = `
-#####################################
-
 
 ---
 
@@ -1197,11 +1170,3 @@ Today, we started with an introduction to the course. You learned about the over
 
 
     
-##############################################
-        `;
-
-        // 直接解析 Markdown 并渲染到 HTML 页面
-        document.getElementById("output").innerHTML = marked.parse(markdownContent);
-    </script>
-</body>
-</html>
