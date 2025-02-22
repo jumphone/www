@@ -1,6 +1,4 @@
-<p style="text-align: left;">
-<img src="https://www.bioinfo-lab.com/img/road2ocean.jpg" width="90%" height="auto">
-</p>
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="50">
 
 ---------------------------------------
 
