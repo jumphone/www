@@ -1,5 +1,5 @@
 <p float="left">
-<img src="https://www.bioinfo-lab.com/img/road2ocean.jpg" height="300">
+<img src="https://www.bioinfo-lab.com/img/road2ocean.jpg" width="100%" height="auto">
 </p>
 
 ---------------------------------------
