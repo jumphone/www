@@ -10,15 +10,15 @@
 
 WIL: Work-Integrated Learning
 
-1. Overview & Linux Server Access
-2. Leveraging Large Language Models (LLMs) for Programming
-3. Python Basics
-4. Control Flow
-5. Functions and Modules
-6. Data Structures
-7. File Operations
-8. Exception Handling
-9. Object-Oriented Programming
+01. Overview & Linux Server Access
+02. Leveraging Large Language Models (LLMs) for Programming
+03. Python Basics
+04. Control Flow
+05. Functions and Modules
+06. Data Structures
+07. File Operations
+08. Exception Handling
+09. Object-Oriented Programming
 10. Standard Library & Third-Party Libraries
 11. Concurrent Programming
 12. Documentation & Code Management
