@@ -1,83 +1,83 @@
 
 ---
 
-### Slide 1: Course Overview
+### Slide 1: Course Introduction
 **Content:**  
-- Dive into data analysis and machine learning with R.  
-- Build foundational skills to understand and work with data.  
-- Focus on biomedical data applications.
+- This course aims to teach you the basics of R programming.  
+- In 13 sessions, you’ll be comfortable with R and ready to tackle data analysis and machine learning tasks.  
+- No prior experience needed. Ideal for beginners.
 
 ---
 
-### Slide 2: Course Structure
+### Slide 2: Why Learn R?
 **Content:**  
-- 13 lessons, each about 2 hours long.  
-- Step-by-step skill building.  
-- Progress from basics to advanced topics.
+- R is powerful for data manipulation, statistical analysis, and visualization.  
+- Widely used in data science, bioinformatics, and research.  
+- Learn from basic syntax to advanced topics like machine learning and RNA sequencing.
 
 ---
 
-### Slide 3: Learning R
+### Slide 3: Course Structure
 **Content:**  
-- Start with R syntax and basic operations.  
-- Move to machine learning models.  
-- Apply skills to real-world data.
+- Concepts introduced gradually to build your skills over time.  
+- Use large language models like ChatGPT for learning and problem-solving.  
+- Emphasis on practical application and continuous learning.
 
 ---
 
-### Slide 4: Leveraging Large Language Models
+### Slide 4: Linux Environment
 **Content:**  
-- Use ChatGPT to guide through problems.  
-- Simplify complex concepts.  
-- Accelerate learning and improve skills.
+- We’ll use a Linux-based server for our work.  
+- Learn basic Linux commands and file management.  
+- Linux is powerful, flexible, and secure, making it ideal for data analysis.
 
 ---
 
-### Slide 5: Self-Learning Skills
+### Slide 5: First Session Overview
 **Content:**  
-- Emphasize self-study and troubleshooting.  
-- Utilize resources like ChatGPT and online forums.  
-- Develop independent problem-solving abilities.
+- Introduction to Linux and logging into the CentOS 7 server.  
+- Basic file management using the command line.  
+- Installing R locally on your machine for practice.
 
 ---
 
-### Slide 6: Practical Application
+### Slide 6: R as a Tool
 **Content:**  
-- Learn to approach and break down problems.  
-- Use available tools to find solutions.  
-- Essential for data science and machine learning.
+- R is a tool, not a language to memorize.  
+- Extensive community and documentation available.  
+- Interactive environment for immediate feedback and experimentation.
 
 ---
 
-### Slide 7: Building on Previous Lessons
+### Slide 7: Session Goals
 **Content:**  
-- Each lesson builds on the last.  
-- Strong understanding of R by the end.  
-- Focus on both theory and practical skills.
+- Comfortably log into the server and manage files.  
+- Install R on your personal computer.  
+- Run basic commands in R’s interactive environment.
 
 ---
 
-### Slide 8: Course Goals
+### Slide 8: Terminal Skills
 **Content:**  
-- Not just learning R, but the process of learning.  
-- Tackle complex challenges.  
-- Apply knowledge across various fields.
+- Learn essential terminal skills for text editing and file management.  
+- These skills are crucial for any programming or data project.  
+- Practice using the command line for various tasks.
 
 ---
 
-### Slide 9: Real-World Relevance
+### Slide 9: Self-Learning Importance
 **Content:**  
-- Skills applicable in data analysis and machine learning.  
-- Versatility in solving real-world problems.  
-- Prepare for a variety of professional fields.
+- Programming improves with practice and persistence.  
+- Experiment, make mistakes, and learn from them.  
+- Use large language models for troubleshooting and additional resources.
 
 ---
 
-### Slide 10: Conclusion
+### Slide 10: Course Summary
 **Content:**  
-- Gain confidence in learning and problem-solving.  
-- Equip yourself with essential skills.  
-- Ready to take on complex challenges.
+- By the end of this course, you’ll be proficient in R programming.  
+- You’ll understand how to use Linux and the command line.  
+- You’ll have the skills to tackle real-world data analysis and machine learning tasks.
 
 ---
 
@@ -86,164 +86,144 @@
 
 ### Slide 11: Introduction to Linux
 **Content:**  
-- In this section, we’ll discuss Linux and CentOS 7.  
-- Linux is an open-source operating system.  
-- It’s customizable and widely used for high performance tasks.
+Let’s start with the Linux operating system, a cornerstone of this course. You’ll discover what Linux is and why it’s crucial in data analysis, machine learning, and scientific research. We’ll also overview CentOS 7, the Linux version we’ll use on our server.
 
 ---
 
-### Slide 12: Why Linux?
+### Slide 12: Linux: The Open-Source Advantage
 **Content:**  
-- Linux is used in programming, data analysis, and server management.  
-- CentOS 7 is stable, secure, and ideal for data processing.  
-- It’s a free version of Red Hat Enterprise Linux (RHEL).
+Linux is an open-source OS, free to use, modify, and share. Known for stability, security, and flexibility, it’s preferred for servers and high-performance computing. Almost all the world’s most powerful supercomputers run on Linux due to its superior performance, scalability, and customization.
 
 ---
 
-### Slide 13: CentOS 7
+### Slide 13: Why Linux Over Windows or macOS?
 **Content:**  
-- CentOS stands for Community ENTerprise Operating System.  
-- Suitable for handling large datasets.  
-- Commonly used in server environments.
+For data analysis and machine learning, Linux offers key advantages. Most tools and libraries, like R and machine learning frameworks, are optimized for Linux. It’s lightweight and efficient, ideal for complex computations, and its commands are tailored for data scientists and researchers.
 
 ---
 
-### Slide 14: Importance of Learning Linux
+### Slide 14: CentOS 7: Our Linux Distribution
 **Content:**  
-- Essential for large-scale data work.  
-- Used in machine learning and bioinformatics.  
-- Helps manage files and run programs smoothly.
+CentOS, short for Community ENTerprise Operating System, is a popular Linux distribution based on Red Hat Enterprise Linux. It provides a stable, reliable environment, especially for servers, and is widely used in academic and research institutions due to its cost-effectiveness.
 
 ---
 
-### Slide 15: Command-Line Interface
+### Slide 15: Interacting with Linux via the Command Line
 **Content:**  
-- Linux is command-line based.  
-- Interaction is through text-based commands.  
-- Efficient and powerful once you get used to it.
+To work with Linux, you’ll often use the terminal or command-line interface (CLI). Unlike a GUI, the terminal lets you interact with the system by typing commands. This method is powerful and efficient for tasks like managing files, running programs, and setting up environments.
 
 ---
 
-### Slide 16: No GUI on CentOS 7
+### Slide 16: Essential Linux Commands
 **Content:**  
-- CentOS 7 has no graphical user interface by default.  
-- Common in server environments to save resources.  
-- You’ll interact with the system through the terminal.
+As part of this course, you’ll learn basic Linux commands like `ls` to list files, `cd` to change directories, and `cp` to copy files. These commands form the foundation for your interactions with the Linux system and will become essential tools in your work.
 
 ---
 
-### Slide 17: Power of the Command Line
+### Slide 17: Understanding the Linux File System
 **Content:**  
-- Fast: Navigate and manage files quickly.  
-- Flexible: Write scripts to automate tasks.  
-- Combine programs and commands for complex tasks.
+Linux organizes everything into a hierarchical structure with the root directory (/) at the top. Key directories include `/home` for user files, `/etc` for configuration files, and `/usr` for software and libraries. Navigating this structure using the terminal is crucial for managing files and running programs.
 
 ---
 
-### Slide 18: Stability and Security
+### Slide 18: User Permissions in Linux
 **Content:**  
-- Linux is known for its stability and security.  
-- Open-source means constant improvements.  
-- Reliable for long-term, resource-heavy tasks.
+Linux is built with security in mind. Each file or directory has permissions that dictate who can read, write, or execute it. You’ll learn commands like `chmod` and `chown` to manage these permissions, which are essential for tasks like editing documents or executing scripts.
 
 ---
 
-### Slide 19: Practical Applications
+### Slide 19: Remote Access with Termius
 **Content:**  
-- Learn to navigate Linux through the command line.  
-- Familiarize yourself with file management and text editors.  
-- Essential for working on R projects.
+Since we’ll be working with a server, you’ll need to know how to connect remotely. Termius is a terminal emulator that allows you to connect to your CentOS 7 server from your local machine. This tool gives you access to the system as if you were sitting in front of it.
 
 ---
 
-### Slide 20: Future Skills
+### Slide 20: Secure File Transfer with SFTP
 **Content:**  
-- By the end of the course, you’ll be able to analyze data in R and navigate Linux.  
-- Manage projects and access remote servers.  
-- A valuable skill for your career in data science.
+To manage files on the server, you’ll use SFTP (Secure File Transfer Protocol). SFTP lets you transfer files between your local computer and the server securely. During the course, you’ll learn how to use SFTP through Termius to move files seamlessly.
 
 ---
 
 
 ---
 
-### Slide 21: Logging into the Linux Server
+### Slide 21: Logging into CentOS 7 Server
 **Content:**  
-- Focus on accessing the Linux server for the course.  
-- Introduction to the terminal and command line.  
-- Essential for interacting with CentOS 7.
+- Today, we will learn how to log into a CentOS 7 server using the terminal.  
+- This skill is crucial for this course as we will be using the server extensively.  
+- We will use Termius, a tool that allows secure remote access to the server.
 
 ---
 
-### Slide 22: Using a Remote Server
+### Slide 22: Understanding the Terminal
 **Content:**  
-- Access the server over the internet.  
-- Common in industry for large datasets and heavy computations.  
-- Allows use of powerful hardware and secure work environment.
+- The terminal is a text-based interface for interacting with your system.  
+- Unlike graphical interfaces, it requires typing commands.  
+- It is powerful and efficient for managing servers and large data systems.
 
 ---
 
-### Slide 23: Connecting with Termius
+### Slide 23: Using SSH with Termius
 **Content:**  
-- Termius for secure connections to remote systems.  
-- Uses SSH (Secure Shell) protocol.  
-- Install Termius on Windows, macOS, or Linux.
+- SSH (Secure Shell) enables secure connections to remote servers.  
+- Termius uses SSH to connect to the CentOS 7 server.  
+- It provides a user-friendly interface for managing connections.
 
 ---
 
-### Slide 24: Setting Up Termius
+### Slide 24: Installing Termius
 **Content:**  
-- Need server’s IP address, username, and password or private key.  
-- Provided by John.  
-- Enter login details and click “Connect”.
+- Download Termius from its website.  
+- Install it on your local machine (Windows, macOS, Linux).  
+- Open the application after installation.
 
 ---
 
-### Slide 25: Logging In
+### Slide 25: Creating a New Connection
 **Content:**  
-- Prompted for password or private key.  
-- After authentication, you’re logged into the server.  
-- See the command line interface (CLI) or terminal.
+- Click “New Host” in Termius.  
+- Enter the server’s IP address and your login credentials.  
+- Save the connection settings.
 
 ---
 
-### Slide 26: Introduction to the Terminal
+### Slide 26: Connecting to the Server
 **Content:**  
-- Text-based interface for interacting with the server.  
-- No icons or windows, only text commands.  
-- Powerful tool for managing and running programs on Linux.
+- Double-click the saved server connection.  
+- Termius will connect to the server using SSH.  
+- You will see a command prompt ready for input.
 
 ---
 
-### Slide 27: Basic Components of the Terminal
+### Slide 27: Basic Terminal Commands
 **Content:**  
-- **Prompt:** [username@hostname ~]$  
-- **Commands:** Type commands to interact with the system.  
-- **Example:** `ls` to list files in the current directory.
+- **pwd**: Shows your current directory.  
+- **ls**: Lists the contents of the current directory.  
+- **cd**: Changes to a different directory.
 
 ---
 
-### Slide 28: Navigating Directories
+### Slide 28: More Basic Commands
 **Content:**  
-- Use `pwd` to see current directory.  
-- Use `cd` to change directories.  
-- Example: `cd Documents` to move to the Documents directory.
+- **mkdir**: Creates a new directory.  
+- **rm**: Deletes a file.  
+- **touch**: Creates a new empty file.
 
 ---
 
-### Slide 29: Running Programs
+### Slide 29: Using nano Text Editor
 **Content:**  
-- Execute programs by typing their names.  
-- Example: Type `R` to start the R interpreter.  
-- Terminal is primary interface for running programs on remote servers.
+- **nano**: Opens a text editor within the terminal.  
+- Use it to create and edit text files.  
+- Example: `$ nano myfile.txt`
 
 ---
 
-### Slide 30: Exiting the Terminal
+### Slide 30: Logging Out
 **Content:**  
-- Type `exit` to log out and close the terminal.  
-- Terminal is crucial for managing files, running programs, and processing data.  
-- Essential for tasks like data analysis and machine learning.
+- When done, type `exit` to log out.  
+- Termius will disconnect you from the server.  
+- Proper logout ensures security and resource management.
 
 ---
 
@@ -252,165 +232,153 @@
 
 ### Slide 31: Introduction to Remote File Management
 **Content:**  
-- Learn the basics of remote file management.  
-- Focus on managing files on CentOS 7 server using SFTP and Termius.  
-- Importance for creating, editing, and managing files remotely.
+In this session, we’ll explore remote file management using SFTP within Termius to manage files on a CentOS 7 server. Efficient file management is crucial for storing and organizing data, scripts, and outputs.
 
 ---
 
 ### Slide 32: What is SFTP?
 **Content:**  
-- SFTP stands for Secure File Transfer Protocol.  
-- Securely transfers files between local computer and remote server.  
-- Uses encryption for secure data transmission.
+SFTP, or Secure File Transfer Protocol, is a secure version of FTP. It encrypts both commands and data, ensuring secure file transfers over a network. Unlike FTP, SFTP keeps your information protected.
 
 ---
 
-### Slide 33: Using SFTP in Termius
+### Slide 33: Why Use SFTP?
 **Content:**  
-- Termius supports SFTP for file management.  
-- Connect to CentOS 7 server and transfer files easily.  
-- Interface allows managing files on both local and remote sides.
+SFTP simplifies file management between your local machine and remote servers. It allows you to securely upload, download, and manage files, making it essential for tasks like transferring R scripts and managing program outputs.
 
 ---
 
-### Slide 34: Opening the SFTP Window
+### Slide 34: Setting Up Termius
 **Content:**  
-- Access SFTP via “SFTP” tab or folder icon in Termius.  
-- Interface shows local and remote files on either side.  
-- Navigate directories by clicking on folders.
+1. Open Termius on your local machine.  
+2. Create a connection to your CentOS 7 server by entering the server’s IP address and your login credentials.  
+3. Click on the server connection to log in and open a terminal window.
 
 ---
 
-### Slide 35: Uploading and Downloading Files
+### Slide 35: Entering SFTP Mode
 **Content:**  
-- Upload files by dragging and dropping or right-clicking and selecting “Upload.”  
-- Download files by dragging and dropping or right-clicking and selecting “Download.”  
-- Secure file transfer ensures data safety.
+To start managing files using SFTP in Termius:  
+- Type `sftp username@hostname` (replace `username` and `hostname` with your details).  
+- You’ll see an SFTP prompt (`sftp>`), indicating you’re connected securely.
 
 ---
 
-### Slide 36: Managing Directories and Files
+### Slide 36: Basic SFTP Commands
 **Content:**  
-- Create, delete, and rename directories and files.  
-- Similar to using a file manager on your local computer.  
-- Helps in organizing project files and data.
+- **Listing Files:** Use `ls` to display files and directories in the current directory.  
+- **Navigating Directories:** Use `cd` to change directories (e.g., `cd projects`). Confirm your location with `pwd`.
 
 ---
 
-### Slide 37: File Permissions in Linux
+### Slide 37: Downloading and Uploading Files
 **Content:**  
-- Every file and directory has permissions in Linux.  
-- Permissions determine read, write, and execute access.  
-- Important for managing files and running scripts.
+- **Downloading Files:** Use `get filename` to download files from the server (e.g., `get data.csv`). Specify a local path if needed.  
+- **Uploading Files:** Use `put filename` to upload files to the server (e.g., `put script.R`).
 
 ---
 
-### Slide 38: Importance of SFTP
+### Slide 38: Managing Files
 **Content:**  
-- Essential for managing files on the server.  
-- Useful for uploading large datasets and managing R scripts.  
-- Ensures efficient and secure file handling.
+- **Deleting Files:** Use `rm filename` to remove files. Be cautious, as this action is permanent.  
+- **Deleting Directories:** Use `rmdir directoryname` to remove empty directories.
 
 ---
 
-### Slide 39: Termius Integrated File Explorer
+### Slide 39: Exiting SFTP Mode
 **Content:**  
-- Termius provides a graphical file explorer.  
-- Move, rename, and delete files directly on the server.  
-- Helps in organizing files and managing project versions.
+When you’re done, type `exit` to leave SFTP mode and return to the normal terminal window in Termius. Continue running commands or disconnect from the server as needed.
 
 ---
 
-### Slide 40: Conclusion
+### Slide 40: Benefits and Future Use
 **Content:**  
-- Mastering file management is crucial.  
-- SFTP and Termius tools enhance efficiency.  
-- Essential for handling projects and organizing data.
+SFTP provides a secure and efficient way to manage files remotely, essential for sensitive data and remote work. As you progress, file management will become even more critical. Tools like SFTP will help you stay organized across different systems.
 
 ---
 
 
 ---
 
-### Slide 41: Introduction to Nano
+### Slide 41: Introduction to Nano Text Editor
 **Content:**  
-- Learn to use nano, a simple text editor for server-based tasks.  
-- Essential for editing scripts and text files directly on the server.
+- Nano is a command-line text editor used for creating, editing, and saving text files directly within the terminal.  
+- It is simple, easy to use, and highly effective for tasks like writing scripts or editing configuration files, especially on server environments like CentOS 7.
 
 ---
 
-### Slide 42: Why Nano?
+### Slide 42: Command Line Interface (CLI)
 **Content:**  
-- Lightweight, terminal-based text editor.  
-- Runs in command line interface (CLI), not GUI.  
-- Ideal for servers without GUI, like CentOS 7.
+- Many tasks in Linux systems are done through the CLI.  
+- Nano is commonly used because it is lightweight, doesn’t require a graphical user interface, and can be easily accessed from within the terminal.
 
 ---
 
-### Slide 43: Basic Nano Commands
+### Slide 43: Opening Nano and Creating a New File
 **Content:**  
-- Open nano from command line: `nano filename`  
-- Example: `nano example.txt`  
-- Nano will create the file if it doesn’t exist.
+- To start using nano, open a terminal window and type:  
+  `nano filename.txt`  
+- If the file doesn’t exist, nano will create a new one. If it exists, nano will open it for editing.
 
 ---
 
-### Slide 44: Navigating in Nano
+### Slide 44: Navigating and Editing in Nano
 **Content:**  
-- Arrow keys: Move cursor around text.  
-- Page Up/Down: Scroll through long files.  
-- Ctrl + W: Open search prompt.
+- Arrow Keys: Move the cursor within the file.  
+- Backspace: Delete characters to the left of the cursor.  
+- Delete: Remove characters to the right of the cursor.  
+- Ctrl + K: Cut the current line.  
+- Ctrl + U: Paste the text back.  
+- Ctrl + W: Find a specific word or section of text.  
+- Ctrl + C: Cancel the current action.
 
 ---
 
-### Slide 45: Editing Text
+### Slide 45: Saving and Exiting Nano
 **Content:**  
-- Move cursor to desired location and type.  
-- Delete characters with Backspace.  
-- Delete line: Position cursor at line start, press Ctrl + K.
+- To save your file, press Ctrl + O, confirm the file name, and press Enter.  
+- To exit nano, press Ctrl + X. If you haven’t saved your changes, nano will prompt you to save before exiting.
 
 ---
 
-### Slide 46: Copying and Pasting Text
+### Slide 46: Opening and Editing an Existing File
 **Content:**  
-- Set copy start point: Ctrl + Shift + 6.  
-- Move cursor to end of text, press Ctrl + K to cut.  
-- Paste: Ctrl + U.
+- To open an existing file, type:  
+  `nano existing_file.txt`  
+- Make changes as needed and save using the same steps.
 
 ---
 
-### Slide 47: Saving Your Work
+### Slide 47: Common Uses of Nano in this Course
 **Content:**  
-- Save file: Press Ctrl + O.  
-- Confirm file name or type new name.  
-- Press Enter to save.
+- Writing R scripts with a .R extension.  
+- Creating text files for data storage.  
+- Editing configuration files for the server.  
+- Running R scripts in the R console.
 
 ---
 
-### Slide 48: Exiting Nano
+### Slide 48: Additional Nano Tips
 **Content:**  
-- Exit nano: Press Ctrl + X.  
-- If unsaved changes, choose to save or discard.
+- Undo: Use Ctrl + Z to undo the last operation.  
+- Copy and Paste: Use Ctrl + ^ to set a starting point, move the cursor, and press Ctrl + K to cut, then Ctrl + U to paste.  
+- Help Menu: Press Ctrl + G to bring up the help menu.
 
 ---
 
-### Slide 49: Practical Example
+### Slide 49: Why Nano?
 **Content:**  
-1. Open `script.R` with `nano script.R`.  
-2. Type R code: `print("Hello, world!")`.  
-3. Save with Ctrl + O, confirm name.  
-4. Exit with Ctrl + X.
+- Nano is lightweight and doesn’t require a graphical interface.  
+- It is perfect for remote servers and easy to learn and use in a terminal environment.  
+- Nano will be a valuable tool for your R scripts and beyond.
 
 ---
 
-### Slide 50: Why Nano is Useful for This Course
+### Slide 50: Conclusion
 **Content:**  
-- Edit R scripts and text files directly on the server.  
-- Quick and easy for course tasks.  
-- Additional tips:  
-  - Undo last action: Ctrl + Z.  
-  - Help screen: Ctrl + G.
+- Nano is a powerful tool for editing text files on Linux systems.  
+- It is essential for tasks in this course, including writing and editing scripts and configuration files.  
+- Familiarize yourself with nano to enhance your efficiency in a server environment.
 
 ---
 
@@ -419,82 +387,78 @@
 
 ### Slide 51: Introduction to R Installation
 **Content:**  
-- Today, we will install R 4.2.0 on your local machine.  
-- R is essential for our course.  
-- We will cover Windows, macOS, and Linux.
+In this section, we will guide you through the installation of R 4.2.0 on your local machine. R is essential for data analysis and machine learning in this course. Proper setup is crucial for your learning experience.
 
 ---
 
-### Slide 52: Why Install R Locally?
+### Slide 52: Installing R on Windows - Step 1
 **Content:**  
-- Run R code and scripts.  
-- Practice anytime, anywhere.  
-- Work offline without internet.
+1. **Download the R Installer:**  
+   - Open your web browser and go to the official CRAN website: https://cran.r-project.org/.  
+   - Click “Download R for Windows,” then “base,” and download the installer for R 4.2.0.
 
 ---
 
-### Slide 53: Installing R on Windows
+### Slide 53: Installing R on Windows - Step 2
 **Content:**  
-1. Download R from the R Project website.  
-2. Choose “Download R 4.2.0 for Windows.”  
-3. Run the installer and follow the wizard.  
-4. Verify installation by opening R Console and typing `version`.
+2. **Run the Installer:**  
+   - Locate the downloaded installer in your Downloads folder and double-click it.  
+   - Follow the prompts, using default settings. The default installation path is C:\Program Files\R\R-4.2.0.
 
 ---
 
-### Slide 54: Installing R on macOS
+### Slide 54: Installing R on Windows - Step 3
 **Content:**  
-1. Download R from the R Project website.  
-2. Select the R-4.2.0.pkg file.  
-3. Run the installer from your Downloads folder.  
-4. Verify installation by opening Terminal and typing `R`.
+3. **Verifying the Installation:**  
+   - After installation, search for “R” in the Start menu.  
+   - Open “R x64 4.2.0” to verify the installation.
 
 ---
 
-### Slide 55: Installing R on Linux (CentOS 7)
+### Slide 55: Installing R on Windows - Optional Step
 **Content:**  
-1. Install EPEL repository: `sudo yum install epel-release`.  
-2. Install R: `sudo yum install R`.  
-3. Verify installation by typing `R` and checking the version.
+4. **Optional Step: Installing RStudio:**  
+   - Go to https://posit.co/download/rstudio-desktop/ and download the free version for Windows.  
+   - Run the installer and follow the prompts. RStudio will detect your R installation.
 
 ---
 
-### Slide 56: Installing RStudio (Optional)
+### Slide 56: Installing R on macOS - Step 1
 **Content:**  
-- RStudio enhances your coding experience.  
-- Provides syntax highlighting, built-in help, and file management.  
-- Download and install similarly to R.
+1. **Download the R Installer:**  
+   - Open Safari or your preferred browser and go to https://cran.r-project.org/.  
+   - Click “Download R for macOS” and download the R-4.2.0.pkg installer.
 
 ---
 
-### Slide 57: Importance of Local Installation
+### Slide 57: Installing R on macOS - Step 2
 **Content:**  
-- Immediate hands-on practice.  
-- Write scripts, analyze data, visualize results.  
-- Develop a deeper understanding of R.
+2. **Run the Installer:**  
+   - Open the downloaded .pkg file.  
+   - Follow the prompts, accepting the default settings to install R in the /Applications folder.
 
 ---
 
-### Slide 58: Summary
+### Slide 58: Installing R on macOS - Step 3
 **Content:**  
-- R is crucial for our course.  
-- Follow the steps for your OS.  
-- Verify installation to ensure it’s working.
+3. **Verifying the Installation:**  
+   - Open the Applications folder and double-click the R icon.  
+   - Alternatively, open Terminal and type `R` to start the R console.
 
 ---
 
-### Slide 59: Next Steps
+### Slide 59: Installing R on macOS - Optional Step
 **Content:**  
-- Practice running R commands.  
-- Explore RStudio features.  
-- Prepare for the next lesson.
+4. **Optional Step: Installing RStudio:**  
+   - Download the macOS version of RStudio from https://posit.co/download/rstudio-desktop/.  
+   - Open the .dmg file and drag the RStudio icon into your Applications folder.
 
 ---
 
-### Slide 60: Q&A
+### Slide 60: Verifying and Updating R
 **Content:**  
-- Any questions about the installation process?  
-- Let’s troubleshoot any issues together.
+- **Verifying Installation:** Open the terminal or RStudio and type `R`. Run `print("Hello, R!")` to test.  
+- **Updating R:** On Windows and macOS, download the latest version from the R website. On Linux, use `sudo yum update R`.
 
 ---
 
@@ -503,552 +467,522 @@
 
 ### Slide 61: Introduction to R
 **Content:**  
-- R is a programming language for data analysis, statistics, and visualization.  
-- It is designed for data professionals like statisticians and researchers.  
-- Specialized in handling data, making it ideal for fields like biology, economics, and social sciences.
+- R is a powerful, open-source language for data analysis, statistics, and machine learning.  
+- It is widely used in data science, academic research, and various industries.  
+- R’s flexibility and ease of use make it an excellent choice for beginners.
 
 ---
 
-### Slide 62: Why Learn R?
+### Slide 62: Why Use R?
 **Content:**  
-- Built for data analysis from the ground up.  
-- Extensive community support with numerous free packages.  
-- Robust support for machine learning and predictive modeling.
+- Strong support for statistics and data visualization.  
+- Designed for statisticians and data scientists.  
+- Extensive ecosystem with thousands of packages for various tasks.
 
 ---
 
-### Slide 63: Key Features of R
+### Slide 63: R Environment
 **Content:**  
-- **Data Manipulation:** Import, clean, filter, and transform data.  
-- **Statistical Analysis:** Perform a wide range of statistical tests and methods.  
-- **Visualization:** Create clear, attractive visualizations with libraries like ggplot2.  
-- **Extensibility:** Rich ecosystem of libraries for various tasks.
+- The R console is an interactive environment where you can type and execute commands.  
+- Useful for running simple commands and testing code snippets.  
+- For more complex analysis, R scripts (text files with a .R extension) can be written and executed.
 
 ---
 
-### Slide 64: R Environment
+### Slide 64: R Data Types and Objects
 **Content:**  
-- **R Console:** Interactive part of R for executing commands.  
-- **RStudio:** Recommended IDE for easier coding, managing files, and viewing plots.  
-- **Script Editor:** Write and run scripts in RStudio.  
-- **Workspace:** Stores objects created during your session.
+- R is object-oriented: everything is an object.  
+- Basic data types include numeric, character, logical, integer, and complex.  
+- More complex structures include vectors, lists, data frames, and matrices.
 
 ---
 
-### Slide 65: Basic Structure of R Code
+### Slide 65: Assigning Values in R
 **Content:**  
-- **Commands:** Execute tasks using functions like `print()`.  
-- **Variables:** Store values using assignment operators like `<-`.  
-- **Functions:** Perform specific tasks, e.g., `sum(3, 5)`.  
-- **Comments:** Add explanations using `#`.
+- Use the assignment operator <- to assign values to variables.  
+- Example: `x <- 10` assigns the value 10 to the variable x.  
+- Variables can be used in subsequent calculations or commands.
 
 ---
 
-### Slide 66: Data Types in R
+### Slide 66: Basic Arithmetic and Operations
 **Content:**  
-- **Numeric:** Integers and floating-point numbers.  
-- **Character:** Text data.  
-- **Logical:** Boolean values (TRUE or FALSE).  
-- **Vectors:** Collections of elements of the same type.  
-- **Data Frames:** Tables with columns of different data types.
+- R supports basic arithmetic operations: +, -, *, /, and ^.  
+- Example: `2^3` returns 8.  
+- Functions for advanced operations: `sqrt(16)` returns 4.
 
 ---
 
-### Slide 67: Interactive Nature of R
+### Slide 67: R Functions and Syntax
 **Content:**  
-- Immediate feedback allows for step-by-step learning.  
-- Ideal for beginners to experiment and test logic.  
-- Facilitates quick understanding of code execution.
+- Functions perform specific tasks and are essential in R.  
+- Example: `sum(1, 2, 3)` returns 6.  
+- Syntax: `function_name(argument1, argument2, ...)`
 
 ---
 
-### Slide 68:8 Learning Path with R
+### Slide 68: Vectors in R
 **Content:**  
-- Start with basic syntax and features.  
-- Progress to data manipulation, plotting, and statistical techniques.  
-- Apply knowledge to real-world data analysis and machine learning tasks.
+- Vectors are collections of values of the same type.  
+- Create vectors using the `c()` function: `my_vector <- c(1, 2, 3, 4, 5)`.  
+- Access elements using square brackets: `my_vector[1]` returns 1.
 
 ---
 
-### Slide 69: Conclusion
+### Slide 69: Summary of Key Points
 **Content:**  
-- R is a powerful tool for data analysis.  
-- Understanding its core features and environment is crucial.  
-- Proficiency in R enables effective data analysis and machine learning.
+- R is powerful for statistical computing and data analysis.  
+- It is object-oriented and supports basic arithmetic and functions.  
+- Functions work with data structures like vectors, matrices, and data frames.  
+- The interactive R console is great for learning and experimenting.
 
 ---
 
 ### Slide 70: Next Steps
 **Content:**  
-- Begin practicing with R code.  
-- Explore R packages and resources.  
-- Apply R to your data analysis projects.
+- Continue exploring R’s capabilities.  
+- Practice using R for data manipulation and visualization.  
+- Utilize R’s extensive package ecosystem to expand your skills.
 
 ---
 
 
 ---
 
-### Slide 71: Introduction to R Command Line Interface
+### Slide 71: Introduction to the R REPL
 **Content:**  
-- The R command line interface (REPL) is essential for testing code snippets and learning R interactively.  
-- It is beginner-friendly, quick, and flexible.
+The R REPL (Read-Eval-Print Loop) is a core component of R, allowing direct interaction with the language. It's essential for beginners, offering an interactive, hands-on experience where you can experiment and get immediate feedback.
 
 ---
 
-### Slide 72: What is the R REPL?
+### Slide 72: Starting the R Interactive Session
 **Content:**  
-- REPL stands for Read, Evaluate, Print, Loop.  
-- It reads your input, evaluates it, prints the result, and waits for the next input.
+To start using R interactively, launch R from your terminal or command prompt.  
+- **Windows:** Open Start menu, search for R, or use RStudio.  
+- **macOS:** Open terminal and type `R`, or use RStudio.  
+- **Linux:** Open terminal and type `R`.
 
 ---
 
-### Slide 73: Starting R in the Command Line
+### Slide 73: The R REPL Interface
 **Content:**  
-- Open your terminal and type `R` to start the R command line.  
-- You will see the prompt `>` indicating R is ready for commands.
+Once you type `R` and press Enter, you enter the R REPL. It looks like this:  
+```
+R version 4.2.0 (2022-04-22) -- "Innocent and Trusting"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+Type 'demo()' for some demos, 'help()' for on-line help, or 'q()' to quit.
+
+>
+```
+The `>` symbol is the R prompt, indicating R is waiting for your input.
 
 ---
 
-### Slide 74: Basic Operations
+### Slide 74: Running Simple Commands
 **Content:**  
-- Perform basic arithmetic operations directly in the command line.  
-- Example: `2 + 3` returns `[1] 5`.
+Perform basic arithmetic calculations in the REPL:  
+- Addition: `> 5 + 3`  
+  Output: `[1] 8`  
+- Multiplication: `> 4 * 7`  
+  Output: `[1] 28`  
+- Exponentiation: `> 2^3`  
+  Output: `[1] 8`
 
 ---
 
-### Slide 75: Using the R Prompt Effectively
+### Slide 75: Using Variables in R
 **Content:**  
-- Assign values to variables using the `<-` operator.  
-- Example: `x <- 15` and `y <- 7` then `x + y` returns `[1] 22`.
+Assign values to variables using the assignment operator `<-`:  
+- Assign value: `> x <- 10`  
+  Output: `[1] 10`  
+- Perform calculations: `> y <- 5`  
+  `> result <- x + y`  
+  `> result`  
+  Output: `[1] 15`
 
 ---
 
-### Slide 76: Printing and Functions
+### Slide 76: Functions in the REPL
 **Content:**  
-- Use the `print()` function to display values.  
-- Example: `print(x)` prints `15`.  
-- Use functions like `sqrt()` to perform tasks. Example: `sqrt(16)` returns `4`.
+Use built-in functions interactively:  
+- Square root: `> sqrt(16)`  
+  Output: `[1] 4`  
+- Combine functions: `> sqrt(x^2 + y^2)`  
+  Output: `[1] 11.18034`
 
 ---
 
-### Slide 77: Editing and Re-running Code
+### Slide 77: Working with Data
 **Content:**  
-- Use arrow keys to navigate through command history.  
-- Up arrow: brings up the last command.  
-- Down arrow: moves forward in history.
+Create and manipulate data structures like vectors:  
+- Create vector: `> my_vector <- c(1, 2, 3, 4, 5)`  
+  Output: `[1] 1 2 3 4 5`  
+- Access elements: `> my_vector[3]`  
+  Output: `[1] 3`
 
 ---
 
-### Slide 78: Practical Examples
+### Slide 78: Help and Documentation
 **Content:**  
-- Create a vector: `numbers <- c(1, 2, 3, 4, 5)` and print it.  
-- Calculate the mean: `mean(numbers)` returns `[1] 3`.
+Access help for functions using `?` or `help()`:  
+- Example: `> ?sqrt` or `> help(sqrt)`  
+  Displays documentation explaining the function, usage, and arguments.
 
 ---
 
-### Slide 79: Creating Plots
+### Slide 79: Exiting the R REPL
 **Content:**  
-- Create a simple plot:  
-  ```R
-  x <- c(1, 2, 3, 4, 5)
-  y <- c(2, 4, 6, 8, 10)
-  plot(x, y)
-  ```
+Exit the REPL by typing `> q()`. R will ask if you want to save your workspace image. Choose to save or not based on your preference.
 
 ---
 
-### Slide 80: Exiting the R Command Line
+### Slide 80: Summary
 **Content:**  
-- Type `q()` to exit R.  
-- Choose to save your workspace image by typing `y` or `n`.
+The R interactive command line is a powerful tool for learning and experimenting with R code. It allows you to:  
+- Run commands and see results immediately.  
+- Assign values to variables for later use.  
+- Use functions to perform calculations and manipulate data.  
+- Work with different types of data, including vectors and data frames.  
+- Access documentation for functions when needed.
 
 ---
 
 
 ---
 
-### Slide 81: Introduction to Your First R Program
+### Slide 81: Introduction to R Programming
 **Content:**  
-- Writing your first R program is a milestone.  
-- This section will guide you through writing and running basic R programs.  
-- Don’t worry if you feel overwhelmed; you’ll gain confidence by the end.
+- Today, we start our journey with R by writing and running your first program: Hello, World!  
+- This simple program is the foundation for mastering R programming.
 
 ---
 
-### Slide 82: Writing Your First R Program: “Hello, World!”
+### Slide 82: Setting Up Your R Environment
 **Content:**  
-- The first program in any language is usually “Hello, World!”.  
-- It teaches syntax, interaction, and how to run a program.  
-- In R, use the `print()` function:  
+- Open your R environment:  
+  - Use the interactive R terminal by typing `R` in your terminal or command line interface.  
+  - Alternatively, open the R application on your local machine.  
+- You will work within an interactive shell where you can type commands and get immediate feedback.
+
+---
+
+### Slide 83: Writing Your First R Command
+**Content:**  
+- The first line of code you will write is:  
   ```R
   print("Hello, World!")
-  ```
-
----
-
-### Slide 83: Explaining the Code
-**Content:**  
-- `print()` is a function that displays text on the screen.  
-- `"Hello, World!"` is a string enclosed in quotes.  
-- `[1]` in the output indicates the first element of the result.
-
----
-
-### Slide 84: What Happens Behind the Scenes
-**Content:**  
-- The R interpreter recognizes `print()` as a function.  
-- It prepares the text inside the parentheses for display.  
-- Finally, it shows the text in the console window.
-
----
-
-### Slide 85: Running Programs with R Script Files
-**Content:**  
-- Use R script files (.R files) for longer programs.  
-- Create a script file using nano:  
-  ```bash
-  nano hello_world.R
   ```  
-- Write your code and save the file.
+- This command uses the `print()` function to display the string "Hello, World!" on the screen.
 
 ---
 
-### Slide 86: Writing Your First R Script
+### Slide 84: Understanding the Code
 **Content:**  
-- Open nano and create `hello_world.R`.  
-- Type the following code:  
+- `print()` is a basic function in R that outputs whatever is inside the parentheses.  
+- "Hello, World!" is a string—a sequence of characters surrounded by quotation marks.  
+- When you run this command, you should see the output:  
+  ```
+  [1] "Hello, World!"
+  ```  
+- The `[1]` indicates the first element in the output.
+
+---
+
+### Slide 85: The Significance of Hello, World!
+**Content:**  
+- Running Hello, World! confirms that your R environment is set up correctly.  
+- It demonstrates the importance of functions and syntax in programming.  
+- This simple program sets the foundation for more complex tasks in data analysis and machine learning.
+
+---
+
+### Slide 86: Saving Your Script
+**Content:**  
+- Open a text editor like RStudio or any other text editor.  
+- Type the command:  
   ```R
-  # This is my first R program
   print("Hello, World!")
   ```  
-- Save and exit the file.
+- Save the file as `hello_world.R` with the `.R` extension.
 
 ---
 
-### Slide 87: Running the Script
+### Slide 87: Running Your Script
 **Content:**  
-- Run your script from the terminal:  
-  ```bash
-  Rscript hello_world.R
+- Go back to your R console and type:  
+  ```R
+  source("hello_world.R")
   ```  
+- Hit Enter to run the script.  
 - You should see the output:  
   ```
   [1] "Hello, World!"
+  ```  
+- This method allows you to save and run scripts for future use.
+
+---
+
+### Slide 88: Importance of Saving Scripts
+**Content:**  
+- Saving scripts helps organize your code, especially for larger projects.  
+- It allows you to easily share your work with others or save it for later use.  
+- This practice is crucial as you progress in your R programming journey.
+
+---
+
+### Slide 89: Recap of Your First Program
+**Content:**  
+- You used the `print()` function to display a string.  
+- You executed code interactively and learned to save it in a script.  
+- These skills are essential for future lessons in data manipulation, statistical analysis, and machine learning.
+
+---
+
+### Slide 90: Looking Ahead
+**Content:**  
+- As you continue, you’ll explore more advanced functions, data structures, and machine learning algorithms.  
+- The ability to write and execute code confidently will provide a solid foundation for tackling more complex tasks.  
+- Stay curious and keep practicing!
+
+---
+
+
+---
+
+### Slide 91: Introduction to Scripting in R
+**Content:**  
+- Transition from interactive to script mode  
+- Importance of script files in real-world programming  
+- Overview of R interpreter and script mode  
+
+---
+
+### Slide 92: What is an Interpreter?
+**Content:**  
+- Definition: A program that reads and executes code line by line  
+- R interpreter in command-line interface  
+- Interactive vs. Script mode  
+
+---
+
+### Slide 93: R Script Mode
+**Content:**  
+- Writing programs in script mode  
+- .R files for organizing and saving code  
+- Adding comments for clarity  
+
+---
+
+### Slide 94: Creating an R Script File
+**Content:**  
+- Using a text editor (e.g., nano)  
+- Command: `nano my_script.R`  
+- Writing and saving the script  
+
+---
+
+### Slide 95: Writing Your First Script
+**Content:**  
+- Example script:
   ```
-
----
-
-### Slide 88: Advantages of Using Scripts
-**Content:**  
-- **Organization:** Keeps your code tidy as it grows.  
-- **Reusability:** Save and reuse code for future projects.  
-- **Debugging:** Easier to identify and fix errors.
-
----
-
-### Slide 89: Basic Syntax Review
-**Content:**  
-- **Functions:** Use function name followed by parentheses, e.g., `print()`.  
-- **Strings:** Enclosed in single or double quotes.  
-- **Comments:** Use `#` to add explanatory notes.  
-- **Running Scripts:** Use `Rscript` to run .R files.
-
----
-
-### Slide 90: More Practice
-**Content:**  
-- Write more programs to practice:  
-  - Add two numbers and print the result.  
-  - Print a list of your favorite colors.  
-- Practice is key to becoming comfortable with R.
-
----
-
-
----
-
-### Slide 91: Introduction to R's Interpreter and Script Mode
-**Content:**  
-- Understanding the R interpreter and script mode is crucial for efficient R usage.  
-- Interactive mode is for quick commands and testing.  
-- Script mode is for complex projects and organization.
-
----
-
-### Slide 92: What is the R Interpreter?
-**Content:**  
-- The R interpreter allows you to run individual lines of code directly in the console.  
-- It provides immediate feedback, ideal for testing small pieces of code.  
-- Example:  
-  ```
-  R version 4.2.0 (2022-04-22) -- "Vigorous Calisthenics"
-  Type 'q()' to quit R.
-  >
-  2 + 2
-  [1] 4
-  ```
-
----
-
-### Slide 93: Using the R Console
-**Content:**  
-- Interactive mode is perfect for quick tests and calculations.  
-- It becomes less practical as code complexity increases.  
-- Example:  
-  ```
+  # This is a simple R script
   print("Hello, World!")
-  result <- 2 + 2
-  print(result)
+  x <- 10
+  print(x)
   ```
+- Explanation of each line  
 
 ---
 
-### Slide 94: What is Script Mode?
+### Slide 96: Saving and Exiting Nano
 **Content:**  
-- Script mode involves writing multiple lines of code in a text file with a .R extension.  
-- It helps organize and manage larger projects.  
-- Example:  
-  ```
-  print("Hello, World!")
-  result <- 2 + 2
-  print(result)
-  ```
+- Saving the file in nano: Ctrl + O, Enter, Ctrl + X  
+- Importance of saving and exiting correctly  
 
 ---
 
-### Slide 95: How to Create and Run an R Script
+### Slide 97: Running the Script
 **Content:**  
-1. Create a script file using a text editor (e.g., nano).  
-2. Save the file with a .R extension (e.g., first_script.R).  
-3. Run the script using `Rscript first_script.R`.  
-- Example:  
+- Using the `source()` function  
+- Command: `source("my_script.R")`  
+- Expected output:
   ```
-  Rscript first_script.R
   [1] "Hello, World!"
-  [1] 4
-  ```
+  [1] 10
+  ```  
 
 ---
 
-### Slide 96: Differences Between Interactive and Script Mode
+### Slide 98: Why Use Script Mode?
 **Content:**  
-- **Interactive Mode:** Run commands one at a time, great for quick tests.  
-- **Script Mode:** Run multiple lines of code at once, ideal for complex projects.  
-- Example:  
-  ```
-  Interactive: 2 + 2
-  Script: print("Hello, World!")
-  ```
+- Organized code for complex programs  
+- Reusability and efficiency  
+- Easier debugging and collaboration  
 
 ---
 
-### Slide 97: Why Use R Scripts?
+### Slide 99: Script Workflow
 **Content:**  
-- **Organization:** Manage larger codebases more easily.  
-- **Reusability:** Save and reuse scripts without retyping.  
-- **Collaboration:** Share scripts with others.  
-- **Debugging:** Easier to find and fix errors.
+1. Write the code in a script file  
+2. Test parts interactively  
+3. Run the full script with `source()`  
+4. Iterate and improve  
 
 ---
 
-### Slide 98: Editing and Saving Scripts
+### Slide 100: Conclusion
 **Content:**  
-- Use comments (`#`) to document your code.  
-- Save scripts with a .R extension for clarity and ease of use.  
-- Example:  
-  ```
-  # This script prints a message and calculates 2 + 2
-  print("Hello, World!")
-  result <- 2 + 2
-  print(result)
-  ```
+- Recap of script mode benefits  
+- Encouragement to practice writing and running scripts  
+- Next steps in learning R programming  
 
 ---
-
-### Slide 99: Error Handling
-**Content:**  
-- R stops execution and shows an error message if something goes wrong.  
-- Common errors include syntax and logical errors.  
-- Example:  
-  ```
-  Error: unexpected symbol in "result <-"
-  ```
-
----
-
-### Slide 100: The Role of Scripts in Data Analysis
-**Content:**  
-- Scripts are essential for complex data analysis tasks.  
-- They help load data, perform analyses, and save results.  
-- Example:  
-  ```
-  Load data from file
-  Clean and manipulate data
-  Perform statistical analyses
-  Save results to new files
-  ```
 
 
 ---
 
-### Slide 101: Introduction to R Documentation
+### Slide 101: Importance of Documentation in R
 **Content:**  
-- R has extensive built-in documentation.  
-- Understanding it is crucial for efficient programming.  
-- Documentation helps explain functions, data structures, and error messages.
+- As you advance in R, understanding documentation is crucial.  
+- It helps with complex functions, libraries, and packages.  
+- Documentation provides detailed explanations and examples.
 
 ---
 
-### Slide 102: Why Documentation is Important
+### Slide 102: Accessing Documentation in the Console
 **Content:**  
-- Provides detailed explanations and examples.  
-- Helps beginners navigate the vast array of functions.  
-- Saves time and effort by providing quick access to information.
+- Use the `help()` function to access documentation.  
+- Example: `help(mean)` opens the help page for the `mean()` function.  
+- Documentation includes function description, arguments, return value, and examples.
 
 ---
 
-### Slide 103: Finding Documentation in R
+### Slide 103: Using the ? Shortcut
 **Content:**  
-- Use `help()` function for detailed information.  
-- Example: `help(mean)` to learn about the mean function.  
-- Output includes function description, arguments, and usage examples.
+- A quicker way to access documentation is using the `?` shortcut.  
+- Example: `?mean` does the same as `help(mean)`.  
+- This is especially useful for interactive work in the R console.
 
 ---
 
-### Slide 104: Using the ? Operator
+### Slide 104: Documentation for Specific Packages
 **Content:**  
-- `?` is a shorthand for `help()`.  
-- Example: `?mean` to access the mean function documentation.  
-- Quick and easy way to get information.
+- Access documentation for functions in specific packages using the `package::` prefix.  
+- Example: `?ggplot2::ggplot` for the `ggplot()` function in the `ggplot2` package.  
+- Use `help(package = "ggplot2")` to get an index of all functions in the package.
 
 ---
 
-### Slide 105: Documentation for Datasets
+### Slide 105: Getting Help with Errors
 **Content:**  
-- R has many built-in datasets.  
-- Use `?` to learn about them.  
-- Example: `?mtcars` to explore the mtcars dataset.
+- Understanding error messages is crucial.  
+- Use the `traceback()` function to see the sequence of function calls leading to an error.  
+- The `debug()` function helps step through a function to identify issues.
 
 ---
 
-### Slide 106: Using str() to Explore Objects
+### Slide 106: Using vignette() for Package Documentation
 **Content:**  
-- `str()` shows the structure of an object.  
-- Example: `str(mtcars)` to see the structure of the mtcars dataset.  
-- Useful for understanding data organization.
+- Vignettes are long-form guides that provide detailed tutorials and examples.  
+- Access a vignette using the `vignette()` function.  
+- Example: `vignette("ggplot2")` for detailed documentation on ggplot2.
 
 ---
 
-### Slide 107: Accessing Vignettes
+### Slide 107: Reading R Documentation Online
 **Content:**  
-- Vignettes are detailed guides for packages.  
-- Use `vignette()` to see available vignettes.  
-- Example: `vignette("ggplot2-specs")` for ggplot2.
+- Official R documentation is available on the R project’s website.  
+- Websites like Stack Overflow, R-bloggers, and RStudio Community offer additional resources.  
+- These sites provide examples, code snippets, and real-world use cases.
 
 ---
 
-### Slide 108: Online Documentation and R Manual
+### Slide 108: Searching for Functions and Topics with RSiteSearch()
 **Content:**  
-- Official online resources are comprehensive.  
-- Visit https://cran.r-project.org/manuals.html for detailed manuals.  
-- Useful for deeper dives into R.
+- Use `RSiteSearch()` to search for terms across R’s online documentation.  
+- Example: `RSiteSearch("lm")` returns resources related to the `lm()` function.  
+- This helps find specific use cases and solutions.
 
 ---
 
-### Slide 109: Making the Most of R Documentation
+### Slide 109: Combining Documentation and Learning Resources
 **Content:**  
-- Focus on function syntax.  
-- Work through examples provided.  
-- Use documentation to troubleshoot errors.  
-- Regularly refer to documentation.
+- Documentation is a valuable learning tool, not just for troubleshooting.  
+- Experiment with functions, read usage details, and find examples.  
+- Regularly referring to documentation enhances your understanding and confidence in R.
 
 ---
 
-### Slide 110: Conclusion
+### Slide 110: Active Use of Documentation
 **Content:**  
-- R’s built-in documentation is a powerful tool.  
-- Use `help()`, `?`, `str()`, and `vignette()` to access information.  
-- Becoming proficient with documentation will enhance your programming skills.
+- Actively using documentation helps you become more independent in R.  
+- Develop an intuitive understanding of R by regularly referring to documentation.  
+- This will help you analyze data, build models, and solve real-world problems effectively.
+
+---
 
 
 ---
 
-### Slide 111: Summary of Today’s Lesson
+### Slide 111: Recap and Moving Forward
 **Content:**  
-- Introduction to R and Linux  
-- Getting Started with Linux  
-- Basic R Setup  
-- R Script Mode vs. Interactive Mode  
-- Documentation in R  
+In this final segment, we’ll recap today’s session and discuss how to apply what you’ve learned. You’ve covered logging into the server, using the R console, managing files in Linux, and writing basic R programs. Let’s consolidate this knowledge and see how it fits together.
 
 ---
 
-### Slide 112: Introduction to R and Linux
+### Slide 112: Key Takeaways
 **Content:**  
-- Course structure and goals  
-- Dive deeper into R programming  
-- Understanding CentOS 7 and its differences from Windows or macOS  
+Today’s lesson laid the foundation for data analysis and machine learning in R. You learned to access and use a Linux server, work with files remotely, and start writing R programs. Understanding documentation and online resources is crucial for your continued learning.
 
 ---
 
-### Slide 113: Getting Started with Linux
+### Slide 113: Linux Environment
 **Content:**  
-- Logging into a Linux server using Termius  
-- File management in Linux using SFTP and Termius  
+Operating in the Linux environment is essential. You learned to use Termius to log in and interact with servers, a skill vital for real-world data analysis. This ability to run computations on remote machines is very useful for accessing powerful tools.
 
 ---
 
-### Slide 114: Basic R Setup
+### Slide 114: R’s Interactive Environment
 **Content:**  
-- Installing R on local computer (Windows/macOS/Linux)  
-- Starting R in the terminal  
-- Writing the “Hello, World!” program  
+You gained a basic understanding of R’s REPL, allowing you to experiment with code and see results instantly. Writing and running R scripts is key to developing more complex programs as you progress in the course.
 
 ---
 
-### Slide 115: R Script Mode vs. Interactive Mode
+### Slide 115: R Documentation
 **Content:**  
-- Using R’s REPL for testing small pieces of code  
-- Using script files (.R files) for longer programs  
+R’s documentation system is a valuable resource. Learning to read help files and vignettes will accelerate your transition from beginner to intermediate user. Use the help() function or ? shortcut to quickly look up functions and their documentation.
 
 ---
 
-### Slide 116: Documentation in R
+### Slide 116: Practical Steps
 **Content:**  
-- Using the help() function and ? operator  
-- Importance of documentation for understanding R functions  
+Practice logging into the server and navigating using the command line. Access different directories, create and edit files with nano, and run basic R code. Familiarity with these environments will make complex tasks easier later.
 
 ---
 
-### Slide 117: Looking Ahead
+### Slide 117: Using AI Models for Learning
 **Content:**  
-- Basic syntax of R (variables, data types, operators)  
-- Writing small scripts for basic calculations and data manipulation  
+AI models like ChatGPT can assist in explaining confusing concepts, providing additional examples, and understanding error messages. They can also suggest useful resources for deeper learning.
 
 ---
 
-### Slide 118: Next Task
+### Slide 118: Embracing Practice
 **Content:**  
-- Review today’s lesson  
-- Practice logging into the server  
-- Accessing the R environment  
-- Using the help() function to explore R documentation  
+Programming improves with practice. Experiment with writing short R scripts, working with variables, and performing basic arithmetic. The more time you spend in the R environment, the more confident you will become.
 
 ---
 
-### Slide 119: Resources for Learning
+### Slide 119: The Next Steps
 **Content:**  
-- Documentation  
-- Large language models (like ChatGPT)  
+Future lessons will delve deeper into R, covering functions, loops, conditional statements, data manipulation, and visualization. These skills are foundational for data analysis and machine learning. Continue practicing and reviewing material after each class.
 
 ---
 
-### Slide 120: Course Philosophy
+### Slide 120: Conclusion
 **Content:**  
-- Building skills step by step  
-- Take your time  
-- Ask questions if anything is unclear  
+Today’s session focused on building a strong foundation. By mastering the Linux server, R environment, and documentation, you’re set for success in the course. These initial skills will support your journey through advanced topics in data analysis and machine learning.
 
 ---
 
