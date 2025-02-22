@@ -12,7 +12,7 @@
 | **IP** | Programming 1 | 
 | **Port**| Data Analysis and Intro to ML |
 | **Username**| "s" + student ID (e.g., s2023000000) |
-| **Passwordd (default)**| student ID + "@biuh" (e.g. 2023000000@biuh) 
+| **Passwordd (default)**| student ID + "@biuh" (e.g. 2023000000@biuh) |
 
 
 &nbsp;&nbsp;
