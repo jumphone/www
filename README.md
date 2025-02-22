@@ -10,8 +10,8 @@
 
 | ID | NAME | LINK |
 |:---------------|:---------------|:---------------|
-| c01 | Programming 1 | [content & slides](https://www.bioinfo-lab.com/courses/c01/)|
-| c02 | Data Analysis and Intro to ML |  [content & slides](https://www.bioinfo-lab.com/courses/c02/)|
+| 01 | Programming 1 | [content & slides](https://www.bioinfo-lab.com/courses/c01/)|
+| 02 | Data Analysis and Intro to ML |  [content & slides](https://www.bioinfo-lab.com/courses/c02/)|
 
 &nbsp;&nbsp;
 
