@@ -3,1284 +3,1052 @@
 
 ### Slide 1: Course Overview
 **Content:**  
-- Designed for beginners with no prior experience in data analysis, R programming, or Linux servers.  
-- Covers R programming, data visualization, statistical analysis, and basic machine learning.  
+- Dive into data analysis and machine learning with R.  
+- Build foundational skills to understand and work with data.  
+- Focus on biomedical data applications.
 
 ---
 
-### Slide 2: Importance of Data Analysis
+### Slide 2: Course Structure
 **Content:**  
-- Data is ubiquitous in today’s world.  
-- Data analysis helps identify patterns, make informed decisions, and solve complex problems.  
-- Machine learning enhances data analysis by uncovering hidden insights.  
+- 13 lessons, each about 2 hours long.  
+- Step-by-step skill building.  
+- Progress from basics to advanced topics.
 
 ---
 
-### Slide 3: Course Curriculum
+### Slide 3: Learning R
 **Content:**  
-1. R Programming Basics  
-2. Data Visualization  
-3. Data Processing  
-4. Statistical Analysis  
-5. Machine Learning Basics  
-6. Real-World Applications  
+- Start with R syntax and basic operations.  
+- Move to machine learning models.  
+- Apply skills to real-world data.
 
 ---
 
-### Slide 4: What This Course is NOT About
+### Slide 4: Leveraging Large Language Models
 **Content:**  
-- No deep dive into advanced mathematics.  
-- Focus solely on R, not other languages like Python or SQL.  
-- No deep learning or AI model building.  
+- Use ChatGPT to guide through problems.  
+- Simplify complex concepts.  
+- Accelerate learning and improve skills.
 
 ---
 
-### Slide 5: Learning Approach
+### Slide 5: Self-Learning Skills
 **Content:**  
-- Structured, step-by-step lessons.  
-- Hands-on examples and guided exercises.  
-- Utilize AI tools for support and debugging.  
+- Emphasize self-study and troubleshooting.  
+- Utilize resources like ChatGPT and online forums.  
+- Develop independent problem-solving abilities.
 
 ---
 
-### Slide 6: Visualization in Data Analysis
+### Slide 6: Practical Application
 **Content:**  
-- Crucial skill for presenting findings.  
-- Effective visualization ensures clear communication of insights.  
-- Course emphasizes creating visually appealing charts.  
+- Learn to approach and break down problems.  
+- Use available tools to find solutions.  
+- Essential for data science and machine learning.
 
 ---
 
-### Slide 7: Real-World Applications
+### Slide 7: Building on Previous Lessons
 **Content:**  
-- Work-Integrated Learning sections.  
-- Analyze biomedical datasets.  
-- Apply skills to real-world scenarios.  
+- Each lesson builds on the last.  
+- Strong understanding of R by the end.  
+- Focus on both theory and practical skills.
 
 ---
 
-### Slide 8: Final Thoughts
+### Slide 8: Course Goals
 **Content:**  
-- Learn R programming from scratch.  
-- Develop data analysis and visualization skills.  
-- Get introduced to machine learning concepts.  
+- Not just learning R, but the process of learning.  
+- Tackle complex challenges.  
+- Apply knowledge across various fields.
 
 ---
 
-### Slide 9: Course Summary
+### Slide 9: Real-World Relevance
 **Content:**  
-- Gain foundational knowledge in data analysis and machine learning.  
-- Build confidence to work with data independently.  
-- Prepare for advanced topics in future courses.  
+- Skills applicable in data analysis and machine learning.  
+- Versatility in solving real-world problems.  
+- Prepare for a variety of professional fields.
 
 ---
 
-### Slide 10: What’s Next
+### Slide 10: Conclusion
 **Content:**  
-- Begin with R Programming Basics.  
-- Start your journey into data analysis and machine learning.  
-- Exciting opportunities await!  
+- Gain confidence in learning and problem-solving.  
+- Equip yourself with essential skills.  
+- Ready to take on complex challenges.
 
 ---
 
 
 ---
 
-### Slide 11: Introduction to Data Analysis and Machine Learning
+### Slide 11: Introduction to Linux
 **Content:**  
-- In this part of the lesson, we’ll explore two fundamental topics:  
-  1. What is data analysis, and why is it important?  
-  2. What is machine learning, and how does it fit into data analysis?  
-- By the end of this session, you’ll understand why these tools are powerful and how they can open up many opportunities.
+- In this section, we’ll discuss Linux and CentOS 7.  
+- Linux is an open-source operating system.  
+- It’s customizable and widely used for high performance tasks.
 
 ---
 
-### Slide 12: What is Data Analysis?
+### Slide 12: Why Linux?
 **Content:**  
-- Data analysis is the process of collecting, organizing, interpreting, and presenting data to find useful insights.  
-- It helps us make informed decisions based on facts rather than guesses.  
-- Examples:  
-  - Companies track sales numbers.  
-  - Social media platforms analyze user behavior.  
-  - Scientists study climate change.  
-  - Healthcare professionals analyze medical data.
+- Linux is used in programming, data analysis, and server management.  
+- CentOS 7 is stable, secure, and ideal for data processing.  
+- It’s a free version of Red Hat Enterprise Linux (RHEL).
 
 ---
 
-### Slide 13: Why is Data Analysis Important?
+### Slide 13: CentOS 7
 **Content:**  
-- Without data analysis, decision-making is guesswork.  
-- Example: Running an online store  
-  - Which products sell the most?  
-  - What time of day do most customers buy?  
-  - Are customers returning to buy again?  
-- Data helps find patterns and make better decisions.
+- CentOS stands for Community ENTerprise Operating System.  
+- Suitable for handling large datasets.  
+- Commonly used in server environments.
 
 ---
 
-### Slide 14: Examples of Data Analysis in Real Life
+### Slide 14: Importance of Learning Linux
 **Content:**  
-- Companies like Amazon, Netflix, and Google use data to improve their businesses.  
-- Data helps understand what is happening, why it is happening, and what actions to take next.  
-- Example:  
-  - If sales are highest in the evening, focus advertising efforts there.
+- Essential for large-scale data work.  
+- Used in machine learning and bioinformatics.  
+- Helps manage files and run programs smoothly.
 
 ---
 
-### Slide 15: What is Machine Learning?
+### Slide 15: Command-Line Interface
 **Content:**  
-- Machine learning (ML) is a branch of artificial intelligence (AI) that allows computers to learn from data without being explicitly programmed.  
-- Traditional programming: We write rules and tell the computer what to do.  
-- Machine learning: We give the computer data, and it finds patterns on its own.
+- Linux is command-line based.  
+- Interaction is through text-based commands.  
+- Efficient and powerful once you get used to it.
 
 ---
 
-### Slide 16: Examples of Machine Learning in Real Life
+### Slide 16: No GUI on CentOS 7
 **Content:**  
-- Spam Filters: Detect and move spam emails.  
-- Voice Assistants: Understand and respond to voice commands.  
-- Music & Movie Recommendations: Analyze history to recommend content.  
-- Self-Driving Cars: Recognize traffic signals and obstacles.  
-- Healthcare: Detect diseases by analyzing medical images.
+- CentOS 7 has no graphical user interface by default.  
+- Common in server environments to save resources.  
+- You’ll interact with the system through the terminal.
 
 ---
 
-### Slide 17: How Does Machine Learning Fit Into Data Analysis?
+### Slide 17: Power of the Command Line
 **Content:**  
-- Machine learning and data analysis are closely related.  
-- Traditional data analysis finds patterns in existing data.  
-- Machine learning makes predictions about future data.  
-- Example:  
-  - Traditional Data Analysis: “Last year, we had the most sales in December.”  
-  - Machine Learning Prediction: “Next December, sales are likely to increase by 20% based on past trends.”
+- Fast: Navigate and manage files quickly.  
+- Flexible: Write scripts to automate tasks.  
+- Combine programs and commands for complex tasks.
 
 ---
 
-### Slide 18: The Role of R in Data Analysis and Machine Learning
+### Slide 18: Stability and Security
 **Content:**  
-- In this course, we will use R, a powerful programming language for data analysis and machine learning.  
-- Why R?  
-  - Built-in functions for statistical analysis and visualization.  
-  - Powerful libraries like ggplot2 and caret.  
-  - Widely used in academia, research, and industries.
+- Linux is known for its stability and security.  
+- Open-source means constant improvements.  
+- Reliable for long-term, resource-heavy tasks.
 
 ---
 
-### Slide 19: Introduction to R
+### Slide 19: Practical Applications
 **Content:**  
-- R is versatile and easy to learn.  
-- It is widely used across many industries.  
-- In this course, we’ll guide you through using R step by step.  
-- You’ll learn to perform data analysis and explore basic machine learning concepts using R.
+- Learn to navigate Linux through the command line.  
+- Familiarize yourself with file management and text editors.  
+- Essential for working on R projects.
 
 ---
 
-### Slide 20: Final Thoughts
+### Slide 20: Future Skills
 **Content:**  
-- Summary:  
-  - Data analysis finds useful insights in data to make informed decisions.  
-  - Machine learning allows computers to learn from data and make predictions.  
-  - ML is used in many real-world applications.  
-  - In this course, we’ll use R to perform data analysis and explore basic ML concepts.
+- By the end of the course, you’ll be able to analyze data in R and navigate Linux.  
+- Manage projects and access remote servers.  
+- A valuable skill for your career in data science.
 
 ---
 
 
 ---
 
-### Slide 21: Course Overview
+### Slide 21: Logging into the Linux Server
 **Content:**  
-- This course will take you from zero experience to analyzing data and building machine learning models.  
-- We will cover R programming, data analysis, visualization, and machine learning basics.  
-- Real-world applications will be explored through Work-Integrated Learning (WIL) projects.
+- Focus on accessing the Linux server for the course.  
+- Introduction to the terminal and command line.  
+- Essential for interacting with CentOS 7.
 
 ---
 
-### Slide 22: Course Structure
+### Slide 22: Using a Remote Server
 **Content:**  
-- **Part 1: Getting Started (Lessons 1–5)**  
-  - Basics of R programming  
-  - Setting up tools and understanding data structures  
-- **Part 2: Data Visualization & Statistical Analysis (Lessons 6–8)**  
-  - Creating visualizations and performing basic data analysis  
-- **Part 3: Machine Learning Foundations (Lessons 9–10)**  
-  - Introduction to machine learning concepts and tools  
-- **Part 4: Real-World Applications (Lessons 11–13)**  
-  - Applying skills to real datasets and projects  
+- Access the server over the internet.  
+- Common in industry for large datasets and heavy computations.  
+- Allows use of powerful hardware and secure work environment.
 
 ---
 
-### Slide 23: Part 1: Getting Started
+### Slide 23: Connecting with Termius
 **Content:**  
-- **Lesson 1:** Course Introduction & Setting Up the Learning Environment  
-  - Accessing the Linux server  
-  - Installing and using R  
-- **Lesson 2:** Using AI for Learning & Problem-Solving  
-  - Using ChatGPT and reading R documentation  
-- **Lesson 3:** R Programming Basics  
-  - Variables, data types, and control structures  
-- **Lesson 4:** Functions and File Handling in R  
-  - Writing and using functions, reading/writing data files  
-- **Lesson 5:** Working with Matrices in R  
-  - Matrix operations and efficient computation  
+- Termius for secure connections to remote systems.  
+- Uses SSH (Secure Shell) protocol.  
+- Install Termius on Windows, macOS, or Linux.
 
 ---
 
-### Slide 24: Part 2: Data Visualization & Statistical Analysis
+### Slide 24: Setting Up Termius
 **Content:**  
-- **Lesson 6:** Basic Data Visualization in R  
-  - Creating scatter plots, bar charts, histograms, and box plots  
-- **Lesson 7:** Advanced Visualization with ComplexHeatmap  
-  - Creating high-quality heatmaps for large datasets  
-- **Lesson 8:** Basic Data Analysis Techniques  
-  - Statistical analysis and data transformation  
+- Need server’s IP address, username, and password or private key.  
+- Provided by John.  
+- Enter login details and click “Connect”.
 
 ---
 
-### Slide 25: Part 3: Machine Learning Foundations
+### Slide 25: Logging In
 **Content:**  
-- **Lesson 9:** Introduction to Machine Learning with R  
-  - Supervised and unsupervised learning  
-  - Introduction to caret and randomForest packages  
-- **Lesson 10:** Work-Integrated Learning (WIL) – Biomedical Data Analysis Basics  
-  - Understanding biomedical datasets and RNA sequencing data  
+- Prompted for password or private key.  
+- After authentication, you’re logged into the server.  
+- See the command line interface (CLI) or terminal.
 
 ---
 
-### Slide 26: Part 4: Real-World Applications
+### Slide 26: Introduction to the Terminal
 **Content:**  
-- **Lesson 11:** Bulk RNA Sequencing Analysis  
-  - Gene expression analysis and pattern identification  
-- **Lesson 12:** Single-Cell Data Analysis with Seurat  
-  - Introduction to single-cell RNA sequencing and advanced analysis  
-- **Lesson 13:** Documenting and Managing Analysis Pipelines  
-  - Organizing projects and writing reports  
+- Text-based interface for interacting with the server.  
+- No icons or windows, only text commands.  
+- Powerful tool for managing and running programs on Linux.
 
 ---
 
-### Slide 27: Learning Methodology
+### Slide 27: Basic Components of the Terminal
 **Content:**  
-- **Live Coding Demonstrations:** Follow along as code is written and explained.  
-- **Hands-On Practice:** Complete exercises to reinforce learning.  
-- **Project-Based Learning:** Apply skills to real-world datasets.  
-- **AI-Assisted Learning:** Use tools like ChatGPT for problem-solving.  
+- **Prompt:** [username@hostname ~]$  
+- **Commands:** Type commands to interact with the system.  
+- **Example:** `ls` to list files in the current directory.
 
 ---
 
-### Slide 28: Importance of Practical Application
+### Slide 28: Navigating Directories
 **Content:**  
-- Avoid the mistake of only reading about concepts.  
-- Run and modify code to see how changes affect output.  
-- Experiment with different datasets to build confidence.  
-- Learning by doing is the most effective approach.  
+- Use `pwd` to see current directory.  
+- Use `cd` to change directories.  
+- Example: `cd Documents` to move to the Documents directory.
 
 ---
 
-### Slide 29: Tips for Beginners
+### Slide 29: Running Programs
 **Content:**  
-- Focus on understanding the basics before moving to advanced topics.  
-- Ask questions whenever you need help.  
-- Use AI tools wisely for debugging and understanding concepts.  
-- Practice regularly to build confidence and proficiency.  
+- Execute programs by typing their names.  
+- Example: Type `R` to start the R interpreter.  
+- Terminal is primary interface for running programs on remote servers.
 
 ---
 
-### Slide 30: Recap
+### Slide 30: Exiting the Terminal
 **Content:**  
-- The course is divided into four main parts: R programming, data visualization, machine learning, and real-world applications.  
-- We will build knowledge step by step, starting with basics and moving to advanced topics.  
-- Hands-on practice is crucial for effective learning.  
+- Type `exit` to log out and close the terminal.  
+- Terminal is crucial for managing files, running programs, and processing data.  
+- Essential for tasks like data analysis and machine learning.
 
 ---
 
 
 ---
 
-### Slide 31: Introduction to CentOS 7
+### Slide 31: Introduction to Remote File Management
 **Content:**  
-- In this session, we will introduce CentOS 7, the server environment we will be using throughout the course.  
-- By the end of this session, you will understand:  
-  - What CentOS 7 is and why we are using it.  
-  - The difference between a server environment and a local environment.  
-  - How a server helps us work with data analysis and machine learning.  
+- Learn the basics of remote file management.  
+- Focus on managing files on CentOS 7 server using SFTP and Termius.  
+- Importance for creating, editing, and managing files remotely.
 
 ---
 
-### Slide 32: What is CentOS 7?
+### Slide 32: What is SFTP?
 **Content:**  
-- CentOS (Community ENTerprise Operating System) is a Linux-based operating system widely used for servers, cloud computing, and data analysis.  
-- Key features:  
-  - Stable: Designed for long-term use with fewer updates.  
-  - Secure: Built-in security features to protect against cyber threats.  
-  - Lightweight: Efficient for running data-intensive tasks.  
+- SFTP stands for Secure File Transfer Protocol.  
+- Securely transfers files between local computer and remote server.  
+- Uses encryption for secure data transmission.
 
 ---
 
-### Slide 33: Why Use a Server Instead of a Local Computer?
+### Slide 33: Using SFTP in Termius
 **Content:**  
-- **Local Environment (Your Own Computer):**  
-  - Pros: Easy to set up for small projects, works well for simple data analysis.  
-  - Cons: May run out of memory with large datasets, installation issues, harder to collaborate.  
-- **Server Environment (Remote Linux Server):**  
-  - Pros: Handles large datasets efficiently, avoids software compatibility issues, allows collaboration, more secure.  
-  - Cons: Requires learning how to connect and use the server, no graphical interface.  
+- Termius supports SFTP for file management.  
+- Connect to CentOS 7 server and transfer files easily.  
+- Interface allows managing files on both local and remote sides.
 
 ---
 
-### Slide 34: Accessing the Server
+### Slide 34: Opening the SFTP Window
 **Content:**  
-- We will use SSH (Secure Shell) to connect to the server.  
-- Termius is a simple tool for logging into remote servers.  
-- In the next part of this lesson, we will:  
-  - Install Termius.  
-  - Learn how to connect to the server using SSH.  
-  - Explore basic Linux commands.  
+- Access SFTP via “SFTP” tab or folder icon in Termius.  
+- Interface shows local and remote files on either side.  
+- Navigate directories by clicking on folders.
 
 ---
 
-### Slide 35: Differences Between Linux and Windows/macOS
+### Slide 35: Uploading and Downloading Files
 **Content:**  
-- **Interface:**  
-  - Windows/macOS: Graphical (click icons)  
-  - Linux (CentOS 7 Server): Text-based (type commands)  
-- **File System:**  
-  - Windows/macOS: Uses C: drive, folders  
-  - Linux: Uses /home, /var, /etc directories  
-- **Installing Software:**  
-  - Windows/macOS: Download from websites  
-  - Linux: Use package managers (yum install package)  
-- **Running Programs:**  
-  - Windows/macOS: Click to open  
-  - Linux: Run via terminal (./program)  
+- Upload files by dragging and dropping or right-clicking and selecting “Upload.”  
+- Download files by dragging and dropping or right-clicking and selecting “Download.”  
+- Secure file transfer ensures data safety.
 
 ---
 
-### Slide 36: Basic Linux Commands
+### Slide 36: Managing Directories and Files
 **Content:**  
-- **Navigating the File System:**  
-  - pwd: Show the current directory  
-  - ls: List files in the current directory  
-  - cd foldername: Change to a different directory  
-  - cd ..: Move up one level  
-- **Working with Files:**  
-  - touch filename: Create a new file  
-  - rm filename: Delete a file  
-  - mkdir foldername: Create a new folder  
-  - rmdir foldername: Delete an empty folder  
-  - cp file1 file2: Copy a file  
-  - mv file1 newlocation: Move or rename a file  
-- **Viewing and Editing Files:**  
-  - cat filename: Show file contents  
-  - nano filename: Edit a file using Nano  
+- Create, delete, and rename directories and files.  
+- Similar to using a file manager on your local computer.  
+- Helps in organizing project files and data.
 
 ---
 
-### Slide 37: Why Learning Linux is Valuable
+### Slide 37: File Permissions in Linux
 **Content:**  
-- Most data science tools run on Linux.  
-- Cloud computing services (AWS, Google Cloud, etc.) use Linux servers.  
-- Many machine learning frameworks are optimized for Linux.  
-- Knowing Linux will give you a big advantage in data science, artificial intelligence, and web development.  
+- Every file and directory has permissions in Linux.  
+- Permissions determine read, write, and execute access.  
+- Important for managing files and running scripts.
 
 ---
 
-### Slide 38: Summary
+### Slide 38: Importance of SFTP
 **Content:**  
-- CentOS 7 is a Linux-based operating system used for data analysis and machine learning.  
-- A server environment is better than a local computer for handling large datasets.  
-- We will connect to the server using SSH and Termius.  
-- Linux servers don’t have a graphical interface—we control everything through commands.  
-- Knowing Linux is a valuable skill for data science and beyond.  
+- Essential for managing files on the server.  
+- Useful for uploading large datasets and managing R scripts.  
+- Ensures efficient and secure file handling.
 
 ---
 
-### Slide 39: What’s Next
+### Slide 39: Termius Integrated File Explorer
 **Content:**  
-- In the next lesson, we will:  
-  - Install Termius.  
-  - Connect to the CentOS 7 server using SSH.  
-  - Practice basic Linux commands.  
-- Stay tuned for hands-on exercises and practical applications!  
+- Termius provides a graphical file explorer.  
+- Move, rename, and delete files directly on the server.  
+- Helps in organizing files and managing project versions.
 
 ---
 
-### Slide 40: Q&A
+### Slide 40: Conclusion
 **Content:**  
-- Any questions or concerns?  
-- Feel free to ask for clarification on any of the topics covered today.  
-- Let’s make sure you’re comfortable with the concepts before moving forward.  
+- Mastering file management is crucial.  
+- SFTP and Termius tools enhance efficiency.  
+- Essential for handling projects and organizing data.
 
 ---
 
 
 ---
 
-### Slide 41: Introduction to Termius
+### Slide 41: Introduction to Nano
 **Content:**  
-- This section is crucial for starting our programming and data analysis journey.  
-- Before diving into R or data analysis, we need to access the Linux server.  
-- By the end of this session, you will understand:  
-  - What Termius is and why we use it.  
-  - The advantages of SSH remote connection.  
-  - How Termius helps us manage and interact with the server efficiently.  
+- Learn to use nano, a simple text editor for server-based tasks.  
+- Essential for editing scripts and text files directly on the server.
 
 ---
 
-### Slide 42: What is Termius?
+### Slide 42: Why Nano?
 **Content:**  
-- **A Secure Tool for Remote Server Access**  
-  - Termius is a powerful and user-friendly SSH client.  
-  - It allows secure connections to remote Linux servers.  
-- **What is SSH?**  
-  - SSH stands for Secure Shell.  
-  - It enables secure, encrypted connections to a remote server.  
-- **How Termius Works**  
-  - Connects to CentOS 7 server from local machines (Windows, macOS, mobile).  
-  - Provides a command-line interface (CLI) for server interaction.  
-  - Includes SFTP for easy file transfers.  
+- Lightweight, terminal-based text editor.  
+- Runs in command line interface (CLI), not GUI.  
+- Ideal for servers without GUI, like CentOS 7.
 
 ---
 
-### Slide 43: Why Use Termius?
+### Slide 43: Basic Nano Commands
 **Content:**  
-- **Advantages Over Other SSH Clients**  
-  - Cross-platform compatibility (Windows, macOS, Linux, mobile).  
-  - Modern and clean user interface.  
-  - Synchronized settings across devices.  
-  - Built-in SFTP for file management.  
-- **Ideal for Beginners and Advanced Users**  
-  - Simplifies remote server management.  
+- Open nano from command line: `nano filename`  
+- Example: `nano example.txt`  
+- Nano will create the file if it doesn’t exist.
 
 ---
 
-### Slide 44: Why Remote Connection Tools?
+### Slide 44: Navigating in Nano
 **Content:**  
-- **Necessity of Remote Access**  
-  - Our Linux server is not physically accessible.  
-  - Termius bridges your local machine to the remote server.  
-- **Collaborative Benefits**  
-  - Ensures a consistent working environment.  
-  - Offloads heavy computational tasks to the server.  
-  - Centralizes data storage securely.  
+- Arrow keys: Move cursor around text.  
+- Page Up/Down: Scroll through long files.  
+- Ctrl + W: Open search prompt.
 
 ---
 
-### Slide 45: Key Features of Termius
+### Slide 45: Editing Text
 **Content:**  
-- **SSH Connection Management**  
-  - Save multiple server connections securely.  
-- **Command-Line Interface (CLI)**  
-  - Navigate directories, create files, install packages, and run scripts.  
-- **SFTP for File Transfers**  
-  - Securely transfer files between your computer and the server.  
-- **Cross-Device Access**  
-  - Access your server from any device using Termius’ mobile app.  
+- Move cursor to desired location and type.  
+- Delete characters with Backspace.  
+- Delete line: Position cursor at line start, press Ctrl + K.
 
 ---
 
-### Slide 46: Termius vs. Other SSH Clients
+### Slide 46: Copying and Pasting Text
 **Content:**  
-- **Comparison Table**  
-  - **Feature** | **Termius** | **PuTTY** | **Built-in Terminal (Mac/Linux)**  
-  - User Interface | Modern and clean | Outdated, minimal | Command-line only  
-  - Cross-Platform | ✅ Yes | ❌ Windows only | ✅ Yes  
-  - SFTP Support | ✅ Yes (built-in) | ❌ No | ❌ No  
-  - Saved Sessions | ✅ Yes | ✅ Yes | ❌ No (manual setup required)  
-  - Mobile App | ✅ Yes | ❌ No | ❌ No  
+- Set copy start point: Ctrl + Shift + 6.  
+- Move cursor to end of text, press Ctrl + K to cut.  
+- Paste: Ctrl + U.
 
 ---
 
-### Slide 47: Common Connection Issues
+### Slide 47: Saving Your Work
 **Content:**  
-- **“Connection Timed Out” Error**  
-  - Possible Causes: Server offline, unstable internet, firewall blocking SSH.  
-  - Solution: Ping server, switch networks, ensure SSH port 22 is open.  
-- **“Permission Denied” Error**  
-  - Possible Causes: Incorrect credentials, SSH key required.  
-  - Solution: Verify credentials, ensure SSH key is correctly added.  
-- **“Host Key Verification Failed” Error**  
-  - Possible Causes: Changed SSH key, wrong server.  
-  - Solution: Remove old SSH key, reconnect and accept new key.  
+- Save file: Press Ctrl + O.  
+- Confirm file name or type new name.  
+- Press Enter to save.
 
 ---
 
-### Slide 48: Detailed Troubleshooting
+### Slide 48: Exiting Nano
 **Content:**  
-- **“Connection Timed Out” Error**  
-  - Check server status: `ping [server-ip]`  
-  - Try different network, ensure SSH port 22 is open.  
-- **“Permission Denied” Error**  
-  - Double-check username/password.  
-  - Verify SSH key is correctly added to Termius.  
-- **“Host Key Verification Failed” Error**  
-  - Remove old SSH key: `ssh-keygen -R [server-ip]`  
-  - Reconnect and accept new key.  
+- Exit nano: Press Ctrl + X.  
+- If unsaved changes, choose to save or discard.
 
 ---
 
-### Slide 49: Summary
+### Slide 49: Practical Example
 **Content:**  
-- Termius is a user-friendly SSH client for secure remote server connections.  
-- SSH enables secure control of the CentOS 7 server for data analysis.  
-- Termius offers SSH management, SFTP file transfer, and cross-platform support.  
-- We covered common SSH connection problems and their solutions.  
+1. Open `script.R` with `nano script.R`.  
+2. Type R code: `print("Hello, world!")`.  
+3. Save with Ctrl + O, confirm name.  
+4. Exit with Ctrl + X.
 
 ---
 
-### Slide 50: What’s Next
+### Slide 50: Why Nano is Useful for This Course
 **Content:**  
-- In
+- Edit R scripts and text files directly on the server.  
+- Quick and easy for course tasks.  
+- Additional tips:  
+  - Undo last action: Ctrl + Z.  
+  - Help screen: Ctrl + G.
 
+---
+
+
+---
+
+### Slide 51: Introduction to R Installation
+**Content:**  
+- Today, we will install R 4.2.0 on your local machine.  
+- R is essential for our course.  
+- We will cover Windows, macOS, and Linux.
 
 ---
 
-### Slide 51: Course Objectives
+### Slide 52: Why Install R Locally?
 **Content:**  
-- Download and install Termius on Windows and macOS.  
-- Set up an SSH connection using Termius.  
-- Understand basic configuration options like authentication methods.  
-- Troubleshoot common installation and setup issues.
+- Run R code and scripts.  
+- Practice anytime, anywhere.  
+- Work offline without internet.
 
 ---
 
-### Slide 52: Downloading Termius on Windows
+### Slide 53: Installing R on Windows
 **Content:**  
-- Go to the Termius website: https://termius.com  
-- Click on the Download for Windows button.  
-- Double-click the downloaded .exe file to start the installation.  
-- Follow the installation wizard:  
-  - Accept the license agreement.  
-  - Choose an installation location (default is fine).  
-  - Click Install and wait for it to complete.  
-- Launch Termius from the Start menu.
+1. Download R from the R Project website.  
+2. Choose “Download R 4.2.0 for Windows.”  
+3. Run the installer and follow the wizard.  
+4. Verify installation by opening R Console and typing `version`.
 
 ---
 
-### Slide 53: Downloading Termius on macOS
+### Slide 54: Installing R on macOS
 **Content:**  
-- Go to the Termius website: https://termius.com  
-- Click on the Download for macOS button.  
-- Open the downloaded .dmg file.  
-- Drag and drop the Termius app into the Applications folder.  
-- Open Launchpad and click to open Termius.
+1. Download R from the R Project website.  
+2. Select the R-4.2.0.pkg file.  
+3. Run the installer from your Downloads folder.  
+4. Verify installation by opening Terminal and typing `R`.
 
 ---
 
-### Slide 54: Configuring an SSH Connection in Termius
+### Slide 55: Installing R on Linux (CentOS 7)
 **Content:**  
-- Open Termius and click on “New Host” (or the + button if using the mobile app).  
-- In the Label field, give the connection a name (e.g., “My Linux Server”).  
-- Enter the server’s IP address, username, password, and port (default is 22).  
-- If using a private key, choose Use SSH Key instead of entering a password.  
-- Click Save to store the connection settings.
+1. Install EPEL repository: `sudo yum install epel-release`.  
+2. Install R: `sudo yum install R`.  
+3. Verify installation by typing `R` and checking the version.
 
 ---
 
-### Slide 55: Connecting to the Server
+### Slide 56: Installing RStudio (Optional)
 **Content:**  
-- Select your new connection and click Connect.  
-- If prompted, click Yes to trust the host.  
-- You should see a black terminal window with a blinking cursor, indicating a successful connection to the CentOS 7 server.
+- RStudio enhances your coding experience.  
+- Provides syntax highlighting, built-in help, and file management.  
+- Download and install similarly to R.
 
 ---
 
-### Slide 56: Understanding Authentication Methods
+### Slide 57: Importance of Local Installation
 **Content:**  
-- **Password Authentication:**  
-  - Enter a username and password each time you connect.  
-  - Simple but less secure.  
-- **SSH Key Authentication:**  
-  - Uses a private and public key instead of a password.  
-  - More secure as passwords are not transmitted over the network.
+- Immediate hands-on practice.  
+- Write scripts, analyze data, visualize results.  
+- Develop a deeper understanding of R.
 
 ---
 
-### Slide 57: Common Issues and Troubleshooting
+### Slide 58: Summary
 **Content:**  
-- **Issue 1: “Connection Timed Out”**  
-  - Possible Cause: Server is down or firewall is blocking the connection.  
-  - Solution: Try pinging the server and check with the administrator.  
-- **Issue 2: “Permission Denied”**  
-  - Possible Cause: Incorrect username or password.  
-  - Solution: Double-check credentials and ensure SSH key is correctly added.
+- R is crucial for our course.  
+- Follow the steps for your OS.  
+- Verify installation to ensure it’s working.
 
 ---
 
-### Slide 58: More Troubleshooting
+### Slide 59: Next Steps
 **Content:**  
-- **Issue 3: “Host Key Verification Failed”**  
-  - Possible Cause: The server’s security key has changed.  
-  - Solution: Remove the old key using `ssh-keygen -R [server-ip]` and reconnect.  
+- Practice running R commands.  
+- Explore RStudio features.  
+- Prepare for the next lesson.
 
 ---
 
-### Slide 59: Summary
+### Slide 60: Q&A
 **Content:**  
-- Downloaded and installed Termius on Windows and macOS.  
-- Set up an SSH connection using an IP address, username, and password.  
-- Discussed authentication methods (password vs. SSH key).  
-- Troubleshot common connection issues.
+- Any questions about the installation process?  
+- Let’s troubleshoot any issues together.
+
+---
 
+
 ---
 
-### Slide 60: What’s Next
+### Slide 61: Introduction to R
 **Content:**  
-- Practice setting up SSH connections with different servers.  
-- Explore advanced configuration options in Termius.  
-- Prepare for the next session on advanced SSH topics.
+- R is a programming language for data analysis, statistics, and visualization.  
+- It is designed for data professionals like statisticians and researchers.  
+- Specialized in handling data, making it ideal for fields like biology, economics, and social sciences.
 
 ---
 
+### Slide 62: Why Learn R?
+**Content:**  
+- Built for data analysis from the ground up.  
+- Extensive community support with numerous free packages.  
+- Robust support for machine learning and predictive modeling.
 
 ---
 
-### Slide 61: Introduction to SSH
+### Slide 63: Key Features of R
 **Content:**  
-- **What is SSH?**  
-  SSH (Secure Shell) is a network protocol that allows you to securely connect to a remote server.  
-- **Why Use SSH?**  
-  - Secure tunnel between your computer and the server.  
-  - Manage files, run applications remotely.  
-  - Essential for server access in data science, cloud computing, and software development.
+- **Data Manipulation:** Import, clean, filter, and transform data.  
+- **Statistical Analysis:** Perform a wide range of statistical tests and methods.  
+- **Visualization:** Create clear, attractive visualizations with libraries like ggplot2.  
+- **Extensibility:** Rich ecosystem of libraries for various tasks.
 
 ---
 
-### Slide 62: Connecting to a Remote Server
+### Slide 64: R Environment
 **Content:**  
-- **Steps to Establish an SSH Connection in Termius**  
-  1. Open Termius and select your saved connection.  
-  2. Login using password or SSH key.  
-     - **Password:** Type your password (it won’t be visible).  
-     - **SSH Key:** Private key will authenticate automatically.  
-  3. Verify the connection with a welcome message.
+- **R Console:** Interactive part of R for executing commands.  
+- **RStudio:** Recommended IDE for easier coding, managing files, and viewing plots.  
+- **Script Editor:** Write and run scripts in RStudio.  
+- **Workspace:** Stores objects created during your session.
 
 ---
 
-### Slide 63: Common SSH Connection Issues
+### Slide 65: Basic Structure of R Code
 **Content:**  
-- **Issue 1: Connection Timed Out**  
-  - Possible Causes:  
-    - Server offline.  
-    - Unstable internet connection.  
-    - Firewall blocking SSH access.  
-  - Solutions:  
-    - Check server status with `ping [server-ip]`.  
-    - Switch networks.  
-    - Check firewall rules with `sudo firewall-cmd --list-ports`.
+- **Commands:** Execute tasks using functions like `print()`.  
+- **Variables:** Store values using assignment operators like `<-`.  
+- **Functions:** Perform specific tasks, e.g., `sum(3, 5)`.  
+- **Comments:** Add explanations using `#`.
 
 ---
 
-### Slide 64: Common SSH Connection Issues (Continued)
+### Slide 66: Data Types in R
 **Content:**  
-- **Issue 2: Permission Denied (Publickey, Password)**  
-  - Possible Causes:  
-    - Wrong username or password.  
-    - Missing or incorrect SSH key.  
-    - Server does not allow password authentication.  
-  - Solutions:  
-    - Double-check login details.  
-    - Ensure SSH key is correctly added in Termius.  
-    - Try password login if SSH key fails.
+- **Numeric:** Integers and floating-point numbers.  
+- **Character:** Text data.  
+- **Logical:** Boolean values (TRUE or FALSE).  
+- **Vectors:** Collections of elements of the same type.  
+- **Data Frames:** Tables with columns of different data types.
 
 ---
 
-### Slide 65: Common SSH Connection Issues (Continued)
+### Slide 67: Interactive Nature of R
 **Content:**  
-- **Issue 3: Host Key Verification Failed**  
-  - Possible Cause:  
-    - SSH fingerprint has changed (e.g., server reinstalled).  
-  - Solution:  
-    - Remove old SSH key entry with `ssh-keygen -R [server-ip]`.  
-    - Try connecting again and accept the new key.
+- Immediate feedback allows for step-by-step learning.  
+- Ideal for beginners to experiment and test logic.  
+- Facilitates quick understanding of code execution.
 
 ---
 
-### Slide 66: Common SSH Connection Issues (Continued)
+### Slide 68:8 Learning Path with R
 **Content:**  
-- **Issue 4: Too Many Authentication Failures**  
-  - Possible Causes:  
-    - Multiple failed login attempts.  
-    - Server temporarily blocked your IP.  
-  - Solutions:  
-    - Wait a few minutes and try again.  
-    - Use a different login method.  
-    - Connect from another network if IP is blocked.
+- Start with basic syntax and features.  
+- Progress to data manipulation, plotting, and statistical techniques.  
+- Apply knowledge to real-world data analysis and machine learning tasks.
 
 ---
 
-### Slide 67: Checking Server Access
+### Slide 69: Conclusion
 **Content:**  
-- **Basic Commands to Test Server Access**  
-  - `whoami`: Shows the logged-in user.  
-  - `hostname`: Displays the server’s hostname.  
-  - `ls`: Lists files in the current directory.  
-  - `pwd`: Shows the current directory path.  
-  - `uptime`: Displays how long the server has been running.
+- R is a powerful tool for data analysis.  
+- Understanding its core features and environment is crucial.  
+- Proficiency in R enables effective data analysis and machine learning.
 
 ---
 
-### Slide 68: Securing Your SSH Connection
+### Slide 70: Next Steps
 **Content:**  
-- **Best Practices for SSH Security**  
-  - Use SSH keys instead of passwords.  
-  - Disable root login.  
-  - Change the default SSH port from 22.  
-  - Use a firewall to restrict access to trusted networks.
+- Begin practicing with R code.  
+- Explore R packages and resources.  
+- Apply R to your data analysis projects.
 
 ---
 
-### Slide 69: Summary
+
+---
+
+### Slide 71: Introduction to R Command Line Interface
 **Content:**  
-- **What We Covered:**  
-  - Successfully connected to the server using Termius.  
-  - Explored different authentication methods (password vs. SSH keys).  
-  - Troubleshot common SSH connection issues.  
-  - Ran basic commands to confirm server access.
+- The R command line interface (REPL) is essential for testing code snippets and learning R interactively.  
+- It is beginner-friendly, quick, and flexible.
 
 ---
 
-### Slide 70: What’s Next
+### Slide 72: What is the R REPL?
 **Content:**  
-- **Next Steps:**  
-  - Continue exploring advanced SSH settings.  
-  - Learn more about server management and security.  
-  - Apply SSH knowledge to real-world scenarios.
+- REPL stands for Read, Evaluate, Print, Loop.  
+- It reads your input, evaluates it, prints the result, and waits for the next input.
 
 ---
 
+### Slide 73: Starting R in the Command Line
+**Content:**  
+- Open your terminal and type `R` to start the R command line.  
+- You will see the prompt `>` indicating R is ready for commands.
 
 ---
 
-### Slide 71: Introduction to SFTP
+### Slide 74: Basic Operations
 **Content:**  
-- When working with data analysis and machine learning, you often need to upload datasets and download results.  
-- SFTP (Secure File Transfer Protocol) is a secure method for transferring files between your local computer and a remote Linux server.  
-- By the end of this session, you will understand what SFTP is, how to use it with Termius, and basic Linux file management commands.
+- Perform basic arithmetic operations directly in the command line.  
+- Example: `2 + 3` returns `[1] 5`.
 
 ---
 
-### Slide 72: What is SFTP and Why Do We Need It?
+### Slide 75: Using the R Prompt Effectively
 **Content:**  
-- **What is SFTP?**  
-  SFTP is a secure method for transferring files between your local computer and a remote Linux server. It encrypts all file transfers, making it more secure than FTP.  
-- **Why Do We Need SFTP?**  
-  - Transfer datasets from your computer to the server for analysis.  
-  - Retrieve output files such as reports, graphs, or model results.  
-  - Organize files efficiently on the server.
+- Assign values to variables using the `<-` operator.  
+- Example: `x <- 15` and `y <- 7` then `x + y` returns `[1] 22`.
 
 ---
 
-### Slide 73: How to Use SFTP in Termius for File Transfers
+### Slide 76: Printing and Functions
 **Content:**  
-- **Step 1: Open Termius and Navigate to the SFTP Section**  
-  1. Open Termius on your computer.  
-  2. Click on your saved server connection (e.g., “My Linux Server”).  
-  3. Select SFTP (this might be a small folder icon).  
-  4. You should now see two panels:  
-     - Left side → Your local files (your computer).  
-     - Right side → Your server files (CentOS 7).
+- Use the `print()` function to display values.  
+- Example: `print(x)` prints `15`.  
+- Use functions like `sqrt()` to perform tasks. Example: `sqrt(16)` returns `4`.
 
 ---
 
-### Slide 74: Uploading Files to the Server
+### Slide 77: Editing and Re-running Code
 **Content:**  
-- **Step 2: Upload Files to the Server**  
-  1. Find the file on your local computer (left panel).  
-  2. Drag and drop it into the desired folder on the server (right panel).  
-  3. Wait for the upload to complete.  
-  4. Confirm the file is on the server by checking its directory using the command:  
-     ```
-     ls
-     ```
-- **Tip:** Ensure your internet connection is stable when transferring large datasets.
+- Use arrow keys to navigate through command history.  
+- Up arrow: brings up the last command.  
+- Down arrow: moves forward in history.
 
 ---
 
-### Slide 75: Downloading Files from the Server
+### Slide 78: Practical Examples
 **Content:**  
-- **Step 3: Download Files from the Server to Your Computer**  
-  1. Locate the file on the server in the right panel.  
-  2. Drag and drop it to your local directory (left panel).  
-  3. Wait for the download to complete.  
-  4. Open and analyze the file on your local machine.
+- Create a vector: `numbers <- c(1, 2, 3, 4, 5)` and print it.  
+- Calculate the mean: `mean(numbers)` returns `[1] 3`.
 
 ---
 
-### Slide 76: Moving and Organizing Files on the Server
+### Slide 79: Creating Plots
 **Content:**  
-- **Basic Linux Commands for File Management**  
-  - `ls` - List files in the current directory  
-  - `mkdir my_folder` - Create a new folder  
-  - `mv file.txt my_folder/` - Move a file to a folder  
-  - `rm file.txt` - Delete a file  
-  - `rmdir my_folder` - Delete an empty folder  
-- **Example:**  
-  ```
-  mkdir datasets
-  mv my_data.csv datasets/
+- Create a simple plot:  
+  ```R
+  x <- c(1, 2, 3, 4, 5)
+  y <- c(2, 4, 6, 8, 10)
+  plot(x, y)
   ```
 
 ---
 
-### Slide 77: Alternative File Transfer Methods
+### Slide 80: Exiting the R Command Line
 **Content:**  
-- **SCP (Secure Copy Protocol) – Command Line Method**  
-  - Uploading a File from Local to Server:  
-    ```
-    scp my_data.csv username@server-ip:/home/username/
-    ```  
-  - Downloading a File from Server to Local:  
-    ```
-    scp username@server-ip:/home/username/my_data.csv .
-    ```  
-- **FileZilla – Another SFTP Client**  
-  - FileZilla is another popular option for file transfers, providing extra customization options.
+- Type `q()` to exit R.  
+- Choose to save your workspace image by typing `y` or `n`.
 
 ---
-
-### Slide 78: Common File Transfer Issues and How to Fix Them
-**Content:**  
-- **Issue 1: “Permission Denied” When Uploading a File**  
-  - **Possible Cause:** You don’t have the correct permissions to write to a folder.  
-  - **Solution:** Try uploading the file to your home directory (`/home/your-username/`).  
-    ```
-    sudo mv my_data.csv /restricted-folder/
-    ```  
-- **Issue 2: File Transfer is Slow or Stalls**  
-  - **Possible Cause:** Internet connection is weak or unstable.  
-  - **Solution:** Compress the file before uploading:  
-    ```
-    tar -czf my_data.tar.gz my_data.csv
-    ```  
-- **Issue 3: File Doesn’t Appear After Uploading**  
-  - **Possible Cause:** You uploaded it to the wrong directory.  
-  - **Solution:** Run:  
-    ```
-    ls -lh
-    ```
-
----
-
-### Slide 79: Summary
-**Content:**  
-- In this session, we:  
-  - Explained what SFTP
 
 
 ---
 
-### Slide 80: Introduction to Nano
+### Slide 81: Introduction to Your First R Program
 **Content:**  
-- Understand what Nano is and why it’s useful.  
-- Learn how to open, edit, and save files using Nano.  
-- Compare Nano with other text editors like Vim and Emacs.  
-- Learn some basic Nano shortcuts to make editing faster.
+- Writing your first R program is a milestone.  
+- This section will guide you through writing and running basic R programs.  
+- Don’t worry if you feel overwhelmed; you’ll gain confidence by the end.
 
 ---
 
-### Slide 81: What is Nano and Why Do We Use It?
+### Slide 82: Writing Your First R Program: “Hello, World!”
 **Content:**  
-- Nano is a terminal-based text editor for Linux.  
-- It is simple and beginner-friendly.  
-- Use cases:  
-  - Edit configuration files.  
-  - Modify scripts.  
-  - Create and edit data files.  
-- Advantages:  
-  - Easy to use.  
-  - Pre-installed on most Linux distributions.  
-  - Simple keyboard shortcuts.
+- The first program in any language is usually “Hello, World!”.  
+- It teaches syntax, interaction, and how to run a program.  
+- In R, use the `print()` function:  
+  ```R
+  print("Hello, World!")
+  ```
 
 ---
 
-### Slide 82: Comparing Nano with Vim and Emacs
+### Slide 83: Explaining the Code
 **Content:**  
-| Feature | Nano | Vim | Emacs |
-|---------|------|-----|-------|
-| Ease of Use | Very easy | Steep learning curve | Complex for beginners |
-| Pre-installed | Yes | Yes | No (needs to be installed) |
-| Keyboard Shortcuts | Simple | Requires learning multiple modes | Complex but powerful |
-| Best For | Quick file edits | Advanced text editing | Programming and large projects |
+- `print()` is a function that displays text on the screen.  
+- `"Hello, World!"` is a string enclosed in quotes.  
+- `[1]` in the output indicates the first element of the result.
 
 ---
 
-### Slide 83: Opening and Editing Files with Nano
+### Slide 84: What Happens Behind the Scenes
 **Content:**  
-- Step 1: Open a File in Nano  
-  - Command: `nano filename.txt`  
-  - Example: `nano notes.txt`  
-- Step 2: Editing Text in Nano  
-  - Type text normally.  
-  - Use Backspace/Delete to remove text.  
-  - Move cursor with arrow keys.
+- The R interpreter recognizes `print()` as a function.  
+- It prepares the text inside the parentheses for display.  
+- Finally, it shows the text in the console window.
 
 ---
 
-### Slide 84: Saving and Exiting Nano
+### Slide 85: Running Programs with R Script Files
 **Content:**  
-- Saving a File:  
-  - Press `CTRL + O` (Write Out).  
-  - Press Enter to confirm.  
-  - Check the message: `[ Wrote X lines ]`.  
-- Exiting Nano:  
-  - Press `CTRL + X`.  
-  - If changes are unsaved, choose `Y` to save or `N` to exit without saving.
+- Use R script files (.R files) for longer programs.  
+- Create a script file using nano:  
+  ```bash
+  nano hello_world.R
+  ```  
+- Write your code and save the file.
 
 ---
 
-### Slide 85: Useful Nano Shortcuts
+### Slide 86: Writing Your First R Script
 **Content:**  
-- `CTRL + O`: Save the file (Write Out).  
-- `CTRL + X`: Exit Nano.  
-- `CTRL + K`: Cut a line of text.  
-- `CTRL + U`: Paste a line of text.  
-- `CTRL + W`: Search for text in the file.  
-- `CTRL + G`: Show Nano help menu.  
-- `CTRL + C`: Show current line and column number.  
-- `CTRL + _`: Move to a specific line number.
+- Open nano and create `hello_world.R`.  
+- Type the following code:  
+  ```R
+  # This is my first R program
+  print("Hello, World!")
+  ```  
+- Save and exit the file.
 
 ---
 
-### Slide 86: Editing Configuration Files in Nano
+### Slide 87: Running the Script
 **Content:**  
-- Common use case: Editing system configuration files.  
+- Run your script from the terminal:  
+  ```bash
+  Rscript hello_world.R
+  ```  
+- You should see the output:  
+  ```
+  [1] "Hello, World!"
+  ```
+
+---
+
+### Slide 88: Advantages of Using Scripts
+**Content:**  
+- **Organization:** Keeps your code tidy as it grows.  
+- **Reusability:** Save and reuse code for future projects.  
+- **Debugging:** Easier to identify and fix errors.
+
+---
+
+### Slide 89: Basic Syntax Review
+**Content:**  
+- **Functions:** Use function name followed by parentheses, e.g., `print()`.  
+- **Strings:** Enclosed in single or double quotes.  
+- **Comments:** Use `#` to add explanatory notes.  
+- **Running Scripts:** Use `Rscript` to run .R files.
+
+---
+
+### Slide 90: More Practice
+**Content:**  
+- Write more programs to practice:  
+  - Add two numbers and print the result.  
+  - Print a list of your favorite colors.  
+- Practice is key to becoming comfortable with R.
+
+---
+
+
+---
+
+### Slide 91: Introduction to R's Interpreter and Script Mode
+**Content:**  
+- Understanding the R interpreter and script mode is crucial for efficient R usage.  
+- Interactive mode is for quick commands and testing.  
+- Script mode is for complex projects and organization.
+
+---
+
+### Slide 92: What is the R Interpreter?
+**Content:**  
+- The R interpreter allows you to run individual lines of code directly in the console.  
+- It provides immediate feedback, ideal for testing small pieces of code.  
 - Example:  
-  - `nano /etc/network/interfaces`  
-  - `sudo nano /etc/hostname`  
-- Tip: Be cautious when editing system files to avoid issues.
+  ```
+  R version 4.2.0 (2022-04-22) -- "Vigorous Calisthenics"
+  Type 'q()' to quit R.
+  >
+  2 + 2
+  [1] 4
+  ```
 
 ---
 
-### Slide 87: Common Issues and Troubleshooting
+### Slide 93: Using the R Console
 **Content:**  
-- Issue 1: “Command not found” when running nano  
-  - Solution: Install Nano using `sudo yum install nano -y`.  
-- Issue 2: Cannot Save File (“Permission Denied”)  
-  - Solution: Use `sudo` to open the file with admin rights.  
-- Issue 3: Mistakenly Deleted Text in Nano  
-  - Solution: Press `CTRL + U` to undo the deletion.
+- Interactive mode is perfect for quick tests and calculations.  
+- It becomes less practical as code complexity increases.  
+- Example:  
+  ```
+  print("Hello, World!")
+  result <- 2 + 2
+  print(result)
+  ```
 
 ---
 
-### Slide 88: Summary of Nano
+### Slide 94: What is Script Mode?
 **Content:**  
-- Nano is a simple, beginner-friendly text editor for Linux.  
-- It is useful for quick file edits and is pre-installed on most distributions.  
-- Basic operations: Open, edit, save, and exit files.  
-- Useful shortcuts for efficient editing.  
-- Troubleshooting common issues.
+- Script mode involves writing multiple lines of code in a text file with a .R extension.  
+- It helps organize and manage larger projects.  
+- Example:  
+  ```
+  print("Hello, World!")
+  result <- 2 + 2
+  print(result)
+  ```
 
 ---
 
-### Slide 89: What’s Next?
+### Slide 95: How to Create and Run an R Script
 **Content:**  
-- Explore advanced features of Nano.  
-- Experiment with editing different types of files.  
-- Consider learning Vim or Emacs for more advanced needs.  
-- Practice and gain confidence in using Nano for various tasks.
+1. Create a script file using a text editor (e.g., nano).  
+2. Save the file with a .R extension (e.g., first_script.R).  
+3. Run the script using `Rscript first_script.R`.  
+- Example:  
+  ```
+  Rscript first_script.R
+  [1] "Hello, World!"
+  [1] 4
+  ```
 
 ---
 
-
----
-
-### Slide 90: Introduction to Nano
+### Slide 96: Differences Between Interactive and Script Mode
 **Content:**  
-- By the end of this session, you will:  
-  ✅ Know how to open, edit, save, and close files using Nano.  
-  ✅ Be able to copy, paste, search, and replace text in Nano.  
-  ✅ Understand how to navigate within a file using shortcuts.  
-  ✅ Be comfortable using Nano for editing scripts, configuration files, and logs.  
+- **Interactive Mode:** Run commands one at a time, great for quick tests.  
+- **Script Mode:** Run multiple lines of code at once, ideal for complex projects.  
+- Example:  
+  ```
+  Interactive: 2 + 2
+  Script: print("Hello, World!")
+  ```
 
 ---
 
-### Slide 91: Why Use Nano for Editing Files?
+### Slide 97: Why Use R Scripts?
 **Content:**  
-- Nano is one of the simplest command-line text editors available in Linux.  
-- It’s a great choice for beginners because:  
-  ✅ It’s easy to use—no complex commands required.  
-  ✅ It’s pre-installed on most Linux distributions, including CentOS 7.  
-  ✅ It uses simple keyboard shortcuts to perform common tasks.  
-- Unlike advanced editors like Vim and Emacs, Nano does not require learning special modes—you can start typing as soon as you open a file!  
+- **Organization:** Manage larger codebases more easily.  
+- **Reusability:** Save and reuse scripts without retyping.  
+- **Collaboration:** Share scripts with others.  
+- **Debugging:** Easier to find and fix errors.
 
 ---
 
-### Slide 92: Opening, Editing, and Saving Files in Nano
+### Slide 98: Editing and Saving Scripts
 **Content:**  
-- **Step 1: Open a File in Nano**  
-  To open an existing file or create a new file, use:  
-  `nano filename.txt`  
-  For example, to create or edit a file named notes.txt, type:  
-  `nano notes.txt`  
-- **Step 2: Editing Text in Nano**  
-  Once the file is open, you can:  
-  ✏ Start typing right away.  
-  🔙 Use Backspace/Delete to remove text.  
-  📜 Move the cursor using the arrow keys.  
-- **Step 3: Save Your Changes**  
-  To save a file in Nano:  
-  1. Press CTRL + O (Write Out).  
-  2. Nano will ask for the file name—press Enter to confirm.  
-  3. A message will appear: `[ Wrote X lines ]`  
-- **Step 4: Exit Nano**  
-  Once you have saved your changes, exit Nano by pressing:  
-  CTRL + X  
-  If you have unsaved changes, Nano will ask:  
-  `Save modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?`  
-  • Press Y to save.  
-  • Press N to exit without saving.  
+- Use comments (`#`) to document your code.  
+- Save scripts with a .R extension for clarity and ease of use.  
+- Example:  
+  ```
+  # This script prints a message and calculates 2 + 2
+  print("Hello, World!")
+  result <- 2 + 2
+  print(result)
+  ```
 
 ---
 
-### Slide 93: Navigating a File in Nano
+### Slide 99: Error Handling
 **Content:**  
-- If you are editing a long file, you need ways to move around quickly. Here are some useful navigation shortcuts:  
-  Shortcut | Action  
-  --- | ---  
-  CTRL + A | Move to the beginning of the line  
-  CTRL + E | Move to the end of the line  
-  CTRL + Y | Scroll up one page  
-  CTRL + V | Scroll down one page  
-  CTRL + _ | Move to a specific line number  
-  ALT + → | Move forward one word  
-  ALT + ← | Move backward one word  
-- **Tip:** If you are editing a large script or configuration file, use CTRL + _ to jump to a specific line number quickly.  
+- R stops execution and shows an error message if something goes wrong.  
+- Common errors include syntax and logical errors.  
+- Example:  
+  ```
+  Error: unexpected symbol in "result <-"
+  ```
 
 ---
 
-### Slide 94: Copying, Pasting, Searching, and Replacing Text in Nano
+### Slide 100: The Role of Scripts in Data Analysis
 **Content:**  
-- **Copy and Paste Text in Nano**  
-  Nano doesn’t use CTRL + C and CTRL + V for copy-paste like modern text editors. Instead, it has its own shortcuts:  
-  Action | Shortcut  
-  --- | ---  
-  Cut a line | CTRL + K  
-  Paste a line | CTRL + U  
-  Cut a specific selection | ALT + A, move cursor, CTRL + K  
-  Undo last action | ALT + U  
-  Redo last action | ALT + E  
-- **Tip:** Use CTRL + K to quickly cut multiple lines and then paste them elsewhere with CTRL + U.  
+- Scripts are essential for complex data analysis tasks.  
+- They help load data, perform analyses, and save results.  
+- Example:  
+  ```
+  Load data from file
+  Clean and manipulate data
+  Perform statistical analyses
+  Save results to new files
+  ```
+
 
 ---
 
-### Slide 95: Searching for Text in Nano
+### Slide 101: Introduction to R Documentation
 **Content:**  
-- If you are working with large files, you may need to find specific words.  
-- To search for a word:  
-  1. Press CTRL + W.  
-  2. Type the word you want to find.  
-  3. Press Enter.  
-- Nano will highlight the first occurrence of the word. To find the next occurrence, press CTRL + W again and hit Enter.  
+- R has extensive built-in documentation.  
+- Understanding it is crucial for efficient programming.  
+- Documentation helps explain functions, data structures, and error messages.
 
 ---
 
-### Slide 96: Replacing Text in Nano
+### Slide 102: Why Documentation is Important
 **Content:**  
-- To replace a word or phrase:  
-  1. Press CTRL + \ (backslash).  
-  2. Type the word you want to replace and press Enter.  
-  3. Type the new word and press Enter.  
-  4. Nano will ask: `Replace this instance? (y/n/a)`  
-  • Press Y to replace only this occurrence.  
-  • Press A to replace all occurrences in the file.
-
+- Provides detailed explanations and examples.  
+- Helps beginners navigate the vast array of functions.  
+- Saves time and effort by providing quick access to information.
 
 ---
 
-### Slide 97: Introduction to R
+### Slide 103: Finding Documentation in R
 **Content:**  
-- What R is and why we need it for data analysis  
-- How to install R on Windows, macOS, and Linux  
-- How to verify your installation and run basic commands in R  
-- Choosing the right IDE (RStudio or alternatives) for writing and running R code  
+- Use `help()` function for detailed information.  
+- Example: `help(mean)` to learn about the mean function.  
+- Output includes function description, arguments, and usage examples.
 
 ---
 
-### Slide 98: What is R and Why Do We Use It?
+### Slide 104: Using the ? Operator
 **Content:**  
-- R is a programming language specifically designed for statistical computing and data analysis  
-- Widely used in data science, scientific research, finance, and biostatistics  
-- Built for data analysis with strong support for statistics, visualization, and machine learning  
-- Powerful built-in statistical functions, amazing visualization tools, widely used in academia, and open-source  
+- `?` is a shorthand for `help()`.  
+- Example: `?mean` to access the mean function documentation.  
+- Quick and easy way to get information.
 
 ---
 
-### Slide 99: Installing R on Windows
+### Slide 105: Documentation for Datasets
 **Content:**  
-1. Go to the R Project website: https://cran.r-project.org  
-2. Download the latest R version for Windows  
-3. Run the installer and follow the installation wizard  
-4. Verify installation by opening R and typing `R.version.string`  
+- R has many built-in datasets.  
+- Use `?` to learn about them.  
+- Example: `?mtcars` to explore the mtcars dataset.
 
 ---
 
-### Slide 100: Installing R on macOS
+### Slide 106: Using str() to Explore Objects
 **Content:**  
-1. Go to the R Project website: https://cran.r-project.org  
-2. Download the macOS version  
-3. Install R by opening the .pkg file and following the instructions  
-4. Verify installation by opening Terminal and typing `R` and then `R.version.string`  
+- `str()` shows the structure of an object.  
+- Example: `str(mtcars)` to see the structure of the mtcars dataset.  
+- Useful for understanding data organization.
 
 ---
 
-### Slide 101: Installing R on Linux
+### Slide 107: Accessing Vignettes
 **Content:**  
-- For Ubuntu/Debian:  
-  ```bash
-  sudo apt update  
-  sudo apt install r-base -y  
-  ```  
-- For CentOS/RHEL:  
-  ```bash
-  sudo yum install epel-release -y  
-  sudo yum install R -y  
-  ```  
-- For Arch Linux:  
-  ```bash
-  sudo pacman -S r  
-  ```  
-- Verify installation by typing `R`  
+- Vignettes are detailed guides for packages.  
+- Use `vignette()` to see available vignettes.  
+- Example: `vignette("ggplot2-specs")` for ggplot2.
 
 ---
 
-### Slide 102: Choosing an IDE: RStudio
+### Slide 108: Online Documentation and R Manual
 **Content:**  
-- Why use RStudio?  
-  - Graphical interface for writing and running R code  
-  - Built-in tools for visualization and debugging  
-  - Easier project and dataset management  
-- Install RStudio from https://posit.co/download/rstudio-desktop/  
+- Official online resources are comprehensive.  
+- Visit https://cran.r-project.org/manuals.html for detailed manuals.  
+- Useful for deeper dives into R.
 
 ---
 
-### Slide 103: Installing RStudio
+### Slide 109: Making the Most of R Documentation
 **Content:**  
-1. Go to the RStudio website: https://posit.co/download/rstudio-desktop/  
-2. Download the installer for your operating system  
-3. Open the downloaded file and follow the installation instructions  
-4. Launch RStudio and check if it detects R  
+- Focus on function syntax.  
+- Work through examples provided.  
+- Use documentation to troubleshoot errors.  
+- Regularly refer to documentation.
 
 ---
 
-### Slide 104: Running Your First R Command
+### Slide 110: Conclusion
 **Content:**  
-1. Open R or RStudio  
-2. Type `print("Hello, R!")` and press Enter  
-3. If you see `[1] "Hello, R!"`, your setup is working!  
+- R’s built-in documentation is a powerful tool.  
+- Use `help()`, `?`, `str()`, and `vignette()` to access information.  
+- Becoming proficient with documentation will enhance your programming skills.
+
 
 ---
 
-### Slide 105: Common Installation Issues and Troubleshooting
+### Slide 111: Summary of Today’s Lesson
 **Content:**  
-- Issue 1: “R is not recognized as a command”  
-  - Possible Cause: R not added to system path  
-  - Solution: Restart computer or reinstall R with “Add R to system path” option  
-- Issue 2: RStudio does not detect R  
-  - Possible Cause: R installed after RStudio  
-  - Solution: Set R Installation Path manually in RStudio  
-- Issue 3: “Error: Unable to access CRAN mirror”  
-  - Possible Cause: Internet connection issues  
-  - Solution: Set a different mirror using `chooseCRANmirror()`  
+- Introduction to R and Linux  
+- Getting Started with Linux  
+- Basic R Setup  
+- R Script Mode vs. Interactive Mode  
+- Documentation in R  
 
 ---
 
-### Slide 106: Summary and What’s Next
+### Slide 112: Introduction to R and Linux
 **Content:**  
-- Learned what R is and why it’s useful  
-- Installed R on Windows, macOS, and Linux  
-- Installed and set up RStudio for writing R code  
-- Ran our first R command to verify installation  
-- Troubleshot common installation issues  
+- Course structure and goals  
+- Dive deeper into R programming  
+- Understanding CentOS 7 and its differences from Windows or macOS  
 
 ---
 
-
----
-
-### Slide 107: Introduction to Data Visualization
+### Slide 113: Getting Started with Linux
 **Content:**  
-- In this session, we will cover:  
-  ✅ Why data visualization is essential in data analysis.  
-  ✅ How visualizations help communicate insights effectively.  
-  ✅ Common types of data visualizations and when to use them.  
-  ✅ Best practices for creating clear and meaningful visualizations.  
-- By the end of this session, you will understand why presenting data visually is just as important as analyzing it, and you will be ready to explore R’s powerful visualization tools in future lessons.
+- Logging into a Linux server using Termius  
+- File management in Linux using SFTP and Termius  
 
 ---
 
-### Slide 108: Why is Data Visualization Important?
+### Slide 114: Basic R Setup
 **Content:**  
-- Data analysis is not just about numbers and statistics—it’s about finding patterns, making sense of data, and communicating results effectively. Visualization plays a key role in this process.  
-- Here’s why data visualization matters:  
-  ✅ Makes complex data easier to understand – Instead of reading raw numbers, people can see trends and patterns at a glance.  
-  ✅ Highlights important insights – Helps decision-makers focus on key takeaways.  
-  ✅ Improves communication – A well-designed graph is more effective than a long explanation.  
-  ✅ Supports storytelling – Every dataset has a story, and visualizations help tell it clearly.
+- Installing R on local computer (Windows/macOS/Linux)  
+- Starting R in the terminal  
+- Writing the “Hello, World!” program  
 
 ---
 
-### Slide 109: How Visualization Helps in Data Science and Machine Learning
+### Slide 115: R Script Mode vs. Interactive Mode
 **Content:**  
-- Visualization is not just for making reports—it plays a major role in the entire data science workflow:  
-  🔹 Exploratory Data Analysis (EDA)  
-    - Before building models, we visualize data to spot missing values, detect patterns, and identify outliers.  
-    - Example: Using a scatter plot to see the relationship between two variables.  
-  🔹 Model Performance Evaluation  
-    - In machine learning, we use confusion matrices, precision-recall curves, and feature importance plots to evaluate models.  
-  🔹 Presentation of Results  
-    - Whether you are working in business, healthcare, or research, your results must be communicated visually to be understood by non-technical audiences.
+- Using R’s REPL for testing small pieces of code  
+- Using script files (.R files) for longer programs  
 
 ---
 
-### Slide 110: Common Types of Data Visualizations
+### Slide 116: Documentation in R
 **Content:**  
-- Different types of data require different kinds of visual representation. Let’s go over some of the most common ones.  
-  📊 1. Bar Charts – Comparing Categories  
-    - Used for: Comparing values across categories (e.g., sales by region, number of customers by age group).  
-    - Example:  
-    - Question: Which product category had the highest sales last year?  
-    - Solution: A bar chart showing sales for each category.  
-  📈 2. Line Graphs – Showing Trends Over Time  
-    - Used for: Tracking changes over time (e.g., stock prices, temperature changes).  
-    - Example:  
-    - Question: How has website traffic changed in the past six months?  
-    - Solution: A line graph showing daily visitor counts.
+- Using the help() function and ? operator  
+- Importance of documentation for understanding R functions  
 
 ---
 
-### Slide 111: Common Types of Data Visualizations (Continued)
+### Slide 117: Looking Ahead
 **Content:**  
-  📉 3. Scatter Plots – Identifying Relationships  
-    - Used for: Understanding the relationship between two variables (e.g., height vs. weight, study time vs. exam scores).  
-    - Example:  
-    - Question: Is there a relationship between advertising spending and product sales?  
-    - Solution: A scatter plot showing ad spending vs. revenue.  
-  📊 4. Histograms – Understanding Distributions  
-    - Used for: Showing how data is distributed (e.g., exam scores, income levels).  
-    - Example:  
-    - Question: What is the distribution of student grades in an exam?  
-    - Solution: A histogram showing how many students got each grade.
+- Basic syntax of R (variables, data types, operators)  
+- Writing small scripts for basic calculations and data manipulation  
 
 ---
 
-### Slide 112: Common Types of Data Visualizations (Continued)
+### Slide 118: Next Task
 **Content:**  
-  📍 5. Heatmaps – Finding Patterns in Large Datasets  
-    - Used for: Showing correlations and patterns in big datasets (e.g., gene expression, website traffic analysis).  
-    - Example:  
-    - Question: How are different variables related in a dataset?  
-    - Solution: A heatmap showing correlation values between variables.
+- Review today’s lesson  
+- Practice logging into the server  
+- Accessing the R environment  
+- Using the help() function to explore R documentation  
 
 ---
 
-### Slide 113: Best Practices for Creating Effective Visualizations
+### Slide 119: Resources for Learning
 **Content:**  
-- A good visualization should be:  
-  ✅ Clear and simple – Avoid unnecessary elements that make the chart harder to read.  
-  ✅ Well-labeled – Axes, titles, and legends should be easy to understand.  
-  ✅ Accurate – The data should be represented correctly (e.g., avoiding misleading scales).  
-  ✅ Color-coded effectively – Use colors to highlight key differences but avoid overcomplicating the chart.  
-- Here are some common mistakes to avoid:  
-  ❌ Using too many colors or 3D effects that make the chart look cluttered.  
-  ❌ Making axes misleading (e.g., not starting at
+- Documentation  
+- Large language models (like ChatGPT)  
+
+---
+
+### Slide 120: Course Philosophy
+**Content:**  
+- Building skills step by step  
+- Take your time  
+- Ask questions if anything is unclear  
+
+---
 
