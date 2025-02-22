@@ -27,7 +27,7 @@ WIL: Work-Integrated Learning
 15. WIL: Processing Excel & Word with Python
 16. WIL: Environment Setup with Podman & Anaconda
 17. WIL: Local Deployment of Distilled DeepSeek
-18. Presentation | Large Language Models for Self-learning
+18. Presentation & Large Language Models for Self-learning
 
 ---------------
 
