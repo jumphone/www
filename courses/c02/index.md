@@ -23,7 +23,7 @@ WIL: Work-Integrated Learning
 10. WIL: Bulk RNA-Seq Analysis.
 11. WIL: Seurat for Single-Cell Analysis.
 12. WIL: Document Organization, Biomedical Paper Structure.
-13. Presentation | Large Language Models for Self-learning
+13. Presentation & Large Language Models for Self-learning
 
 ---------------
 
