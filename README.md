@@ -1,5 +1,5 @@
-<p style="text-align: center;">
-<img src="https://www.bioinfo-lab.com/img/road2ocean.jpg" width="90%" height="auto">
+<p style="text-align: left;">
+<img src="https://www.bioinfo-lab.com/img/road2ocean.jpg" width="95%" height="auto">
 </p>
 
 ---------------------------------------
