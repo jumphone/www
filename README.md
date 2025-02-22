@@ -1,4 +1,4 @@
-<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="50">
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="10">
 
 ---------------------------------------
 
