@@ -9,9 +9,9 @@
 ---------------------------------------
 
 | ID | NAME | LINK |
-|:---------------|:---------------|:---------------|
-| 01 | Programming 1 | [content & slides](https://github.com/jumphone/Courses/tree/main/c01)|
-| 02 | Data Analysis and Intro to ML |  [content & slides](https://github.com/jumphone/Courses/tree/main/c02)|
+|:------------------------------|:------------------------------|:------------------------------|
+| 01 | Programming 1 | [content](https://github.com/jumphone/Courses/tree/main/c01)|
+| 02 | Data Analysis and Intro to ML |  [content](https://github.com/jumphone/Courses/tree/main/c02)|
 
 &nbsp;&nbsp;
 
