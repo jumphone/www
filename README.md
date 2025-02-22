@@ -12,9 +12,9 @@
 
  * **Port**: 13579
 
- * **Username**: "s" + studentID (e.g., s2023000000)
+ * **Username**: "s" + student ID (e.g., s2023000000)
 
- * **Password (default)**: studentID + "@biuh" (e.g. 2023000000@biuh) 
+ * **Password (default)**: student ID + "@biuh" (e.g. 2023000000@biuh) 
 
 &nbsp;&nbsp;
 
