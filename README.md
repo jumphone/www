@@ -11,7 +11,7 @@
  **IP**                  | 222.65.137.33                                
  **Port**                | 13579                                        
  **Username**            | "s" + student ID (e.g., s2023000000)         
- **Passwordd (default)** | student ID + "@biuh" (e.g., 2023000000@biuh) 
+ **Passwordd (default)** | "s" + student ID + "@biuh" (e.g., s2023000000@biuh) 
 
 
 &nbsp;&nbsp;
