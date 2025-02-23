@@ -6,7 +6,7 @@
 
 ---------------------------------------
 
- **IP**                  | 222.67.161.143 (2025.02.24 updated)                               
+ **IP**                  | 222.67.161.143                              
  **Port**                | 13579                                        
  **Username**            | "s" + student ID (e.g., s2023000000)         
  **Passwordd (default)** | "s" + student ID + "@biuh" (e.g., s2023000000@biuh) 
