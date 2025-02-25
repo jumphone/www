@@ -11,9 +11,8 @@
  **Username**            | "s" + student ID (e.g., s2023000000)         
  **Passwordd (default)** | "s" + student ID + "@biuh" (e.g., s2023000000@biuh) 
 
-### Please use it between 10:00 and 22:00.
-
-### System will kill all tasks of students at 24:00. 
+* Please use it between 10:00 and 22:00.
+* System will kill all tasks of students at 24:00. 
 
 
 &nbsp;&nbsp;
