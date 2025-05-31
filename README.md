@@ -6,7 +6,7 @@
 
 ---------------------------------------
 
- **IP**                  | [click to get the latest IP address](https://www.biuh-dt.com/ip.txt)                   
+ **IP**                  | [click to get the latest IP address](https://labs.biuh-dt.com/ip.txt)                   
  **Port**                | 13579                                        
  **Username**            | "s" + student ID (e.g., s2023000000)         
  **Passwordd (default)** | "s" + student ID + "@biuh" (e.g., s2023000000@biuh) 
