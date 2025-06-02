@@ -22,7 +22,7 @@
 |:---------|:---------|:---------|
 | Linux Server Operation | Linux | [click](/courses/Linux_Server_Operation) |
 | Object-Oriented Programming | Python | [click](/courses/Object_Oriented_Programming) |
-| Data Minning | R | [click](/courses/Data_Minning) |
+| Data Mining | R | [click](/courses/Data_Mining) |
 | Bioinfo Seminar | Bioinfo | [click](/courses/Bioinfo_Seminar) |
 
 
