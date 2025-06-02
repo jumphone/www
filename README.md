@@ -1,5 +1,3 @@
-<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="1" width='500'>
-
 ---
 ## Server
 ---
@@ -30,6 +28,7 @@
 
 
 <br><br>
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="1">
 
 
 
