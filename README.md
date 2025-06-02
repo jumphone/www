@@ -2,7 +2,7 @@
 
 ---------------------------------------
 
-## ▸ Server:
+## Server
 
 ---------------------------------------
 
@@ -15,11 +15,11 @@
 * System will kill all tasks of students at 24:00. 
 
 
-&nbsp;&nbsp;
+<br><br>
 
 ---------------------------------------
 
-## ▸ Courses:
+## Courses
 
 ---------------------------------------
 
@@ -30,9 +30,10 @@
 | R | Data Minning |  [click](/courses/Data_Mining)|
 | Bioinfo | Bioinfo Seminar |  [click](/courses/Bioinfo_Seminar)|
 
-&nbsp;&nbsp;
-
 ---------------------------------------
+
+<br><br>
+
 
 
 
