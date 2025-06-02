@@ -25,10 +25,10 @@
 
 | Skill | NAME | LINK |
 |:---------|:---------|:---------|
-| Linux | Linux Server Operation | [content](/courses/Linux_Server_Operation)|
-| Python | Object-Oriented Programming | [content](/courses/Object_Oriented_Programming)|
-| R | Data Minning |  [content](/courses/Data_Mining)|
-| Bioinfo | Bioinfo Seminar |  [content](/courses/Bioinfo_Seminar)|
+| Linux | Linux Server Operation | [click](/courses/Linux_Server_Operation)|
+| Python | Object-Oriented Programming | [click](/courses/Object_Oriented_Programming)|
+| R | Data Minning |  [click](/courses/Data_Mining)|
+| Bioinfo | Bioinfo Seminar |  [click](/courses/Bioinfo_Seminar)|
 
 &nbsp;&nbsp;
 
