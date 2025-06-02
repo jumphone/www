@@ -1,7 +1,8 @@
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="1" width='500'>
 
+---
 ## Server
-
+---
 
  **IP**                  | [click to get the latest IP address](https://www.bioinfo-lab.com/ip.txt)                   
  **Port**                | 13579                                        
@@ -15,9 +16,9 @@
 <br><br>
 
 
-
+---
 ## Courses
-
+---
 
 | Name | Skill | Info |
 |:---------|:---------|:---------|
