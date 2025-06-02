@@ -10,7 +10,8 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
-
+    
+  <link rel="stylesheet" href="https://www.bioinfo-lab.com/assets/css/this_style.css?v=123456789">
 
 <script>
 var _hmt = _hmt || [];
@@ -24,7 +25,7 @@ var _hmt = _hmt || [];
 
 
   </head>
-  <body>
+  <body class="hidden-until-ready">
     <div class="wrapper">
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
@@ -56,8 +57,20 @@ var _hmt = _hmt || [];
       </header>
       <section>
 
-      {{ content }}
+      <div id="loading"><h2>Loading......<h2></div>
+        
+      <div id="password-form">
+           <h2>Password</h2>
+           <input type="password" id="password" placeholder="Password">
+            <button onclick="checkPassword()">submit</button>
+          <p id="message" style="color:red;"></p>
+      </div>
+      <div id="protected-content">
+        
+          {{ content }}
 
+      </div>
+        
       </section>
       <footer>
 
@@ -65,6 +78,7 @@ var _hmt = _hmt || [];
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    
+    <script src="https://www.bioinfo-lab.com/assets/this_main.js?v=123456789"></script>
+
   </body>
 </html>
