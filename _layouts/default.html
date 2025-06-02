@@ -28,7 +28,7 @@ var _hmt = _hmt || [];
   <body class="hidden-until-ready">
     <div class="wrapper">
       <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" width="300" />
@@ -40,7 +40,7 @@ var _hmt = _hmt || [];
         
         <p>
             <b>Introduction</b>:</br>
-            An <a href="https://www.bioinfo-lab.com/">online laboratory</a> at Hainan Bielefeld University of Applied Sciences (BiUH), 
+            An online laboratory at Hainan Bielefeld University of Applied Sciences (BiUH), 
             based on the <a href="https://www.biuh-dt.com/"> Digital Technologies (DT)</a> program, 
             developed to support training and collaborative research in the field of bioinformatics.
         </p>
