@@ -1,10 +1,9 @@
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="1" width='500'>
 
----------------------------------------
+<br><br>
 
 ## Server
 
----------------------------------------
 
  **IP**                  | [click to get the latest IP address](https://www.bioinfo-lab.com/ip.txt)                   
  **Port**                | 13579                                        
@@ -17,11 +16,10 @@
 
 <br><br>
 
----------------------------------------
+
 
 ## Courses
 
----------------------------------------
 
 | Skill | Name | Info |
 |:---------|:---------|:---------|
@@ -30,7 +28,7 @@
 | R | Data Minning |  [click](/courses/Data_Mining)|
 | Bioinfo | Bioinfo Seminar |  [click](/courses/Bioinfo_Seminar)|
 
----------------------------------------
+
 
 <br><br>
 
