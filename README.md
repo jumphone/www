@@ -21,12 +21,12 @@
 ## Courses
 
 
-| Skill | Name | Info |
+| Name | Skill | Info |
 |:---------|:---------|:---------|
-| Linux | Linux Server Operation | [click](/courses/Linux_Server_Operation)|
-| Python | Object-Oriented Programming | [click](/courses/Object_Oriented_Programming)|
-| R | Data Minning |  [click](/courses/Data_Mining)|
-| Bioinfo | Bioinfo Seminar |  [click](/courses/Bioinfo_Seminar)|
+| Linux Server Operation | Linux | [click](/courses/Linux_Server_Operation) |
+| Object-Oriented Programming | Python | [click](/courses/Object_Oriented_Programming) |
+| Data Minning | R | [click](/courses/Data_Mining) |
+| Bioinfo Seminar | Bioinfo | [click](/courses/Bioinfo_Seminar) |
 
 
 
