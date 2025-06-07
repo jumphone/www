@@ -1,18 +1,20 @@
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="1">
 
+---
 ## Introduction:
+---
 
 An online laboratory at Hainan Bielefeld University of Applied Sciences (BiUH), based on the Digital Technologies (DT) program, developed to support training and collaborative research in the field of bioinformatics.
 
 <br>
 
+---
 ## Interests:
+---
 
 - Bioinfo algorithms development;
 - Biological & medical data analysis;
 - Artificial intelligence applications.
-
-
 
 <br>
 
