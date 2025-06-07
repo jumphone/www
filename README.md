@@ -9,9 +9,7 @@ An online laboratory at Hainan Bielefeld University of Applied Sciences (BiUH), 
 ## Interests:
 
 - Bioinfo algorithms development;
-
 - Biological & medical data analysis;
-
 - Artificial intelligence applications.
 
 
