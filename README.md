@@ -43,7 +43,7 @@ An online laboratory at Hainan Bielefeld University of Applied Sciences (BiUH), 
 
 
 <br><br>
-<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="1">
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="500">
 
 
 
