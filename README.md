@@ -11,7 +11,7 @@ An online laboratory at Hainan Bielefeld University of Applied Sciences (BiUH), 
 - Biological & medical data analysis;
 - Artificial intelligence applications.
 
-<br>
+<br><br>
 
 ---
 ## Server
@@ -26,7 +26,7 @@ An online laboratory at Hainan Bielefeld University of Applied Sciences (BiUH), 
 * System will kill all tasks of students at 24:00. 
 
 
-<br>
+<br><br>
 
 
 ---
