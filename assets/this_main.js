@@ -1,4 +1,5 @@
 
+
 async function checkPassword() {
     const input = document.getElementById("password").value;
     const message = document.getElementById("message");
