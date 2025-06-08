@@ -1,7 +1,7 @@
 <br>
 
 ---
-## Server
+## Bioinfo-Server
 ---
 
  **IP**                  | [click to get the latest IP address](https://www.bioinfo-lab.com/ip.txt)                   
