@@ -25,9 +25,8 @@
 | Linux Server Operation | Linux | [click](/courses/Linux_Server_Operation) |
 | Object-Oriented Programming | Python | [click](/courses/Object_Oriented_Programming) |
 | Data Mining | R | [click](/courses/Data_Mining) |
-| Internship 001 | GZFEZX | [click](https://www.biuh-dt.com/intern_001_gzfezx/)
 | Bioinfo Seminar | Bioinfo | [click](/courses/Bioinfo_Seminar) |
-
+| Internship 001 | GZFEZX | [click](https://www.biuh-dt.com/intern_001_gzfezx/) |
 
 
 
