@@ -54,14 +54,14 @@ while True:
     sleep_time=float(open(time_file).read())
     this_sleep_time=randomTime(sleep_time)
     ###########################
-    this_ip=getIP()
-    this_date=getDate()
-    #this_stat=getStat()
-    this_info='\n'.join([this_ip,'\n',
+    try:
+        this_ip=getIP()
+        this_date=getDate()
+        #this_stat=getStat()
+        this_info='\n'.join([this_ip,'\n',
                'Last updated: '+this_date,'\n',
                'Next update: '+str(round(this_sleep_time,3))+'s',
                ])
-    try:
         #################
         sp.Popen(['git', 'pull','origin','main'],shell=False).wait()
         #######
