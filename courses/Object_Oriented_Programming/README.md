@@ -2,6 +2,8 @@
 
 ## Object_Oriented_Programming (Python)
 
+<br>
+
 [s01_Python_Basics](/s01_Python_Basics)
 
 [s02_Control_Flow](/s02_Control_Flow)
