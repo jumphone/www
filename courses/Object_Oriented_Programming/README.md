@@ -6,7 +6,7 @@
 
 ### Basic Sessions (from s01 to s04)
 
-[s01_Python_Basics](/s01_Python_Basics)
+[s01_Python_Basics](s01_Python_Basics)
 
 [s02_Control_Flow](/s02_Control_Flow)
 
