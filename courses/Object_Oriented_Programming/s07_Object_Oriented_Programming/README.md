@@ -788,7 +788,7 @@ my_account.check_balance()
 
 <br>
 
-## Question: Who can explian the usage of this class?
+## Question: Who can explain the usage of this class?
 
 <br>
 <br>
