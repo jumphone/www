@@ -4,6 +4,8 @@
 
 <br>
 
+### Basic Sessions (from s01 to s04)
+
 [s01_Python_Basics](/s01_Python_Basics)
 
 [s02_Control_Flow](/s02_Control_Flow)
@@ -11,6 +13,10 @@
 [s03_Function_Module](/s03_Function_Module)
 
 [s04_Data_Structure](/s04_Data_Structure)
+
+<br>
+
+### Advanced Sessions (from s05 to s10)
 
 [s05_File_Operations](/s05_File_Operations)
 
