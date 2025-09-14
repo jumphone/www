@@ -349,6 +349,7 @@ print(id(list1) == id(list2))  # Always False
 ## 1. Arithmetic Operators
 
 ### Core Operators Table
+
 | Operator | Description          | Example       | Result  |
 |----------|----------------------|---------------|---------|
 | `+`      | Addition             | `5 + 3`       | 8       |
@@ -386,6 +387,7 @@ print('10' < '2')          # True (character '1'(49) vs '2'(50))
 ## 3. Logical Operators
 
 ### Truth Table
+
 | X     | Y     | X and Y | X or Y | not X |
 |-------|-------|---------|--------|-------|
 | True  | True  | True    | True   | False |
@@ -588,6 +590,7 @@ print(f"Binary: {42:b}")  # '101010'
 ```
 
 #### Comparison Table
+
 | Method       | Readability | Performance | Features            |
 |--------------|-------------|-------------|---------------------|
 | %-formatting | Low         | Medium      | Basic types only    |
