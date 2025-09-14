@@ -32,7 +32,7 @@
 
 <br>
 
-### Suggestion: Make full use of LLMs (e.g., ChatGPT, DeepSeek, Kimi).
+### Suggestion: Make full use of LLMs (e.g., DeepSeek, Kimi).
 
 Final Goal:
 
