@@ -37,8 +37,11 @@
 Final Goal:
 
 There is an AI assistant on our server.
+
 The AI assistant is based on the API (Application Programming Interface) of Kimi.
+
 The location of AI assistant on our server: /home/toolkit/tools/ai/ai.py
+
 Use it, understand the code, and propose a way to improve it.
 
 
