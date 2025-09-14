@@ -34,7 +34,7 @@
 
 ### Suggestion: Make full use of LLMs (e.g., DeepSeek, Kimi).
 
-Final Goal:
+Final Goal of this course:
 
 There is an AI assistant on our server.
 
