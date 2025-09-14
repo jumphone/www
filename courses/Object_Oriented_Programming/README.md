@@ -1,6 +1,6 @@
 
 
-## Object_Oriented_Programming
+## Object_Oriented_Programming (Python)
 
 [s01_Python_Basics](/s01_Python_Basics)
 
@@ -22,7 +22,7 @@
 
 [s10_Concurrent_Programming](/s10_Concurrent_Programming)
 
-
+<br>
 
 ### Suggestion: Make full use of LLMs (e.g., ChatGPT, DeepSeek, Kimi).
 
