@@ -398,6 +398,7 @@ print(Dog.species)
 ---
 
 ### Method Type Comparison
+
 |               | Instance Method | Static Method | Class Method |
 |---------------|------------------|---------------|--------------|
 | Parameter     | `self`          | None          | `cls`        |
