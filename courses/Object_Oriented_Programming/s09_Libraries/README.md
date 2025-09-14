@@ -13,7 +13,7 @@
 
 <br>
 
-</br>
+<br>
 
 
 ## Section 1. Libraries, Package, Module ?
@@ -136,7 +136,12 @@ print("Your new password:", password)
 - Remember: Great programmers stand on the shoulders of giants 🏗
 
 
-</br></br></br>
+<br>
+
+<br>
+
+<br>
+
 
 ## Section 2. Standard Library
 
@@ -169,11 +174,19 @@ print("Date after 3 days:", future_date.date())
 
 ######
 
-</br></br></br>
+<br>
+
+<br>
+
+<br>
 
 ## Quesion: How to add "datetime" functions into the "ai.py"?
 
-</br></br></br>
+<br>
+
+<br>
+
+<br>
 
 ---
 
@@ -286,7 +299,11 @@ $ pip3 install requests==2.31.0
 
 ---
 
-</br></br></br>
+<br>
+
+<br>
+
+<br>
 
 ---
 
@@ -339,7 +356,11 @@ print(weather_report("NewYork"))
 ---
 
 
-</br></br></br>
+<br>
+
+<br>
+
+<br>
 
 ## Section 5. File Backup Helper
 **Goal:** Automate file copying
