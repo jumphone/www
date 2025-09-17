@@ -1,5 +1,8 @@
 
 ## Bioinfo_Seminar
 
-### Under construction
+
+PPT: [PDF](RNAseq.pdf)
+
+Demo Data & Code: /home/database/pipeline/RNAseq/RNAseq_code (Linux Server)
 
