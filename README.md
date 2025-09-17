@@ -24,6 +24,7 @@
 |:---------|:---------|:---------|
 | Object-Oriented Programming | Python | [click](/courses/Object_Oriented_Programming) |
 | Data Mining | R | [click](/courses/Data_Mining) |
+| Bioinfo Seminar | Linux Shell, R, Python | [click](/courses/Bioinfo_Seminar) |
 
 
 
