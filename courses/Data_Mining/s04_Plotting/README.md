@@ -413,7 +413,7 @@ boxplot(Petal.Length ~ Species,
 
 - Middle line = Median
 - Box edges = Q1 and Q3
-- Whiskers = Data range
+- Whiskers = Data range (Q1－1.5*IQR & Q3+1.5*IQR; IQR: Interquartile Range)
 - Points = Outliers
 
 ---
