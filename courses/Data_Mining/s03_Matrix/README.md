@@ -24,6 +24,7 @@ this_mat
 ## Matrix vs Vector vs List
 
 ### Key Differences
+
 | Type      | Dimensions | Data Types     |
 |-----------|------------|----------------|
 | Vector    | 1D         | Single type    |
@@ -527,6 +528,7 @@ Gene 2  0.87   -1.02    0.15
 ---
 
 # Summary Table
+
 | Function | Input      | Output     | Best For          |
 |----------|------------|------------|-------------------|
 | apply()  | Matrix     | Matrix      | 2D calculations |
