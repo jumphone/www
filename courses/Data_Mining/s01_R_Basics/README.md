@@ -83,6 +83,7 @@
   ```
 
 ### 2.3 Error Diagnosis Fundamentals
+
 | Error Type          | Examples                      | Quick Checks               |
 |---------------------|-------------------------------|----------------------------|
 | Syntax Errors       | Missing `)`, `}`              | Color highlighting in editor |
@@ -462,6 +463,7 @@ grep("\\d", colors, value=TRUE)  # "green2" "yellow3"
 ---
 
 ### Regular Expression Special Characters
+
 | Character | Meaning                | Example          |
 |-----------|------------------------|------------------|
 | `^`       | Start of string        | `^A` matches "Apple" not "aPple" |
