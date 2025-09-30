@@ -164,6 +164,7 @@ plot(mpg ~ wt, data = mtcars)
 
 ### Understanding the `type` Parameter
 Controls how points are displayed:
+
 | Code | Meaning      |
 |------|--------------|
 | "p"  | Points       |
