@@ -2,7 +2,7 @@
 # ComplexHeatmap
 
 
-(https://jokergoo.github.io/ComplexHeatmap-reference/book/)[https://jokergoo.github.io/ComplexHeatmap-reference/book/]
+[https://jokergoo.github.io/ComplexHeatmap-reference/book/](https://jokergoo.github.io/ComplexHeatmap-reference/book/)
 
 ---
 
