@@ -339,16 +339,35 @@ dev.off()
 
 # Part 2. Correlation & Regression
 
-Goal: Testing whether the “means” or “distributions” differ across groups.
+Goal: Describe the relationship between two vectors (x and y).
 
-| Scenario  | Normality | Equal-variance | Recommended test | R hint |
-|-----------|-----------|----------------|------------------|----------------------|
-| Two groups | Normal    | Yes  | Student’s t-test | t.test(..., var.equal = TRUE) |
-| Two groups | Normal    | No | Welch’s t-test | t.test(..., var.equal = FALSE) |
-| Two groups | Non-normal | No | Wilcoxon rank-sum | wilcox.test() |
-| ≥3 groups | Normal    | Yes | One-way ANOVA |  oneway.test(..., var.equal = TRUE) |
-| ≥3 groups | Normal    | No | Welch ANOVA | oneway.test(..., var.equal = FALSE) |
-| ≥3 groups | Non-normal | No | Kruskal–Wallis | kruskal.test() |
+| Normality | Prediction | Recommended Method | R hint |
+|-----------|----------------|------------------|----------------------|
+| Normal    | Yes |  Linear Regression | lm(...) |
+| Non-normal | Yes | Machine Learning | randomForest() |
+| Normal    | No | Pearson Correlation |  cor(..., method='pearson') |
+| Non-normal | No | Spearman Correlation | cor(..., method='spearman') |
+
+
+<br>
+
+### step01. Generate Random Data
+
+```r
+set.seed(123)
+x = rnorm(1000) # generate 1000 values following normal distribution
+y = runif(1000) # generate 1000 values following uniform distribution
+
+pdf('dm_s04_step01.pdf')
+hist(x)
+hist(y)
+dev.off()
+
+this_data=cbind(x,y)
+write.table(this_data, file='this_data.csv',sep=',',quote=FALSE,row.names=FALSE,col.names=TRUE)
+
+```
+
 
 <br>
 <br>
