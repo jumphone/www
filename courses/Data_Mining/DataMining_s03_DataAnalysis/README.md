@@ -1,4 +1,4 @@
-
+<img width="103" height="39" alt="image" src="https://github.com/user-attachments/assets/c885dacd-16c3-4d8f-bf92-41c8d365f9ef" /><img width="115" height="39" alt="image" src="https://github.com/user-attachments/assets/3f04d806-f659-4540-a303-e7a4b7f60835" />
 Part 1. Statistical Tests
 
 Part 2. Correlation & Regression
@@ -20,9 +20,20 @@ Learning Goal: Testing whether the “means” or “distributions” differ acr
 | ≥3 groups | Non-normal | No | Kruskal–Wallis | kruskal.test() |
 
 
-"null hypothesis": A default statement that there is no effect, no difference, or no association in the population; any apparent effect in the data is due to random variation.
+**Null Hypothesis (H0)**: A default statement that there is no effect, no difference, or no association in the population; any apparent effect in the data is due to random variation.
 
-"p-value": The probability of obtaining a sample result as extreme as, or more extreme than, the one observed, assuming the null hypothesis is true.
+**P-Value**: The probability of obtaining a sample result as extreme as, or more extreme than, the one observed, assuming the null hypothesis is true.
+
+**Normality**: Shapiro-Wilk test, shapiro.test()
+
+**Equal-variance**: Levene Test, leveneTest() #library(car)
+
+
+
+
+
+
+
 
 
 ## Part 2. Correlation & Regression
