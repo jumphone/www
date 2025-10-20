@@ -88,6 +88,13 @@ set.seed(321)
 x1=rnorm(1000)+2
 x2=rnorm(1000)*2
 
+print('var(x):')
+print(var(x))
+print('var(x1):')
+print(var(x1))
+print('var(x2):')
+print(var(x2))
+
 group1=as.factor( c( rep('x',length(x)), rep('x1',length(x1)) ) )
 x1_result = car::leveneTest( c(x,x1), group=group1 )
 
@@ -111,8 +118,91 @@ dev.off()
 
 <br>
 
-### step03. Student's t-test
+### step04. Student's t-test
 
+```r
+this_data=read.table('this_data.csv', sep=',', header=TRUE, row.names=NULL)
+print(head(this_data))
+
+x=this_data[,1]
+
+set.seed(321)
+x1=rnorm(1000)
+x2=rnorm(1000)+2
+
+x1_result=t.test(x,x1)
+x2_result=t.test(x,x2)
+
+print(x1_result)
+print(x1_result$p.value)
+
+print(x2_result)
+print(x2_result$p.value)
+
+pdf('dm_s04_step04.pdf',width=3,height=4)
+boxplot(x,x1,x2,names=c('x','x1','x2'),
+        col=c('grey','royalblue1','indianred3'),pch='+')
+dev.off()
+
+```
+
+<br>
+
+### step05. Student's t-test (non Equal-variance)
+
+```r
+this_data=read.table('this_data.csv', sep=',', header=TRUE, row.names=NULL)
+print(head(this_data))
+
+x=this_data[,1]
+
+set.seed(321)
+x1=rnorm(1000)*2
+x2=rnorm(1000)*2+2
+
+x1_result=t.test(x,x1,var.equal=FALSE)
+x2_result=t.test(x,x2,var.equal=FALSE)
+
+print(x1_result)
+print(x1_result$p.value)
+
+print(x2_result)
+print(x2_result$p.value)
+
+pdf('dm_s04_step05.pdf',width=3,height=4)
+boxplot(x,x1,x2,names=c('x','x1','x2'),
+        col=c('grey','royalblue1','indianred3'),pch='+')
+dev.off()
+
+```
+
+<br>
+
+### step06. Wilcoxon Test 
+
+```r
+this_data=read.table('this_data.csv', sep=',', header=TRUE, row.names=NULL)
+print(head(this_data))
+
+x=this_data[,1]
+y=this_data[,2]
+
+xy_result=wilcox.test(x,y)
+
+print(xy_result)
+print(xy_result$p.value)
+
+
+pdf('dm_s04_step06.pdf',width=3,height=4)
+plot(density(x),xlim=c(-4,4),ylim=c(0,1.5),lwd=3,col='black')
+points(density(y),lwd=3,col='red',type='l')
+dev.off()
+
+```
+
+<br>
+
+### step07. One-way ANOVA
 
 ```r
 this_data=read.table('this_data.csv', sep=',', header=TRUE, row.names=NULL)
@@ -122,31 +212,94 @@ x=this_data[,1]
 
 set.seed(321)
 x1=rnorm(1000)+2
-x2=rnorm(1000)*2
+x2=rnorm(1000)+4
 
-group1=as.factor( c( rep('x',length(x)), rep('x1',length(x1)) ) )
-x1_result = car::leveneTest( c(x,x1), group=group1 )
+this_input=c(x,x1,x2)
+group=c( rep('x',length(x)),
+         rep('x1',length(x1)),
+         rep('x2',length(x2))
+         )
 
-group2=as.factor( c( rep('x',length(x)), rep('x2',length(x2)) ) )
-x2_result = car::leveneTest( c(x,x2), group=group2 )
+this_result=oneway.test(this_input ~ group, var.equal = TRUE)
 
-print(x1_result)
-print(x1_result$'Pr(>F)'[1])
+print(this_result)
+print(this_result$p.value)
 
-print(x2_result)
-print(x2_result$'Pr(>F)'[1])
+pdf('dm_s04_step07.pdf',width=3,height=4)
+boxplot(x,x1,x2,names=c('x','x1','x2'),
+        col=c('grey','royalblue1','indianred3'),pch='+')
+dev.off()
 
+```
 
-pdf('dm_s04_step03.pdf')
-plot(density(x),xlim=c(-6,6),lwd=3,col='black')
+<br>
+
+### step08. One-way ANOVA (non Equal-variance)
+
+```r
+this_data=read.table('this_data.csv', sep=',', header=TRUE, row.names=NULL)
+print(head(this_data))
+
+x=this_data[,1]
+
+set.seed(321)
+x1=rnorm(1000)*2+2
+x2=rnorm(1000)*3+4
+
+this_input=c(x,x1,x2)
+group=c( rep('x',length(x)),
+         rep('x1',length(x1)),
+         rep('x2',length(x2))
+         )
+
+this_result=oneway.test(this_input ~ group, var.equal = FALSE)
+
+print(this_result)
+print(this_result$p.value)
+
+pdf('dm_s04_step08.pdf',width=3,height=4)
+boxplot(x,x1,x2,names=c('x','x1','x2'),
+        col=c('grey','royalblue1','indianred3'),pch='+')
+dev.off()
+
+```
+
+<br>
+
+### step09. Kruskal Test
+
+```r
+this_data=read.table('this_data.csv', sep=',', header=TRUE, row.names=NULL)
+print(head(this_data))
+
+x=this_data[,1]
+
+set.seed(321)
+x1=(runif(1000)-0.5)*6
+x2=(rbeta(1000,shape1=0.5,shape2=2)-0.5)*6
+
+this_input=c(x,x1,x2)
+group=c( rep('x',length(x)),
+         rep('x1',length(x1)),
+         rep('x2',length(x2))
+         )
+
+this_result=kruskal.test(this_input ~ group)
+
+print(this_result)
+print(this_result$p.value)
+
+pdf('dm_s04_step09.pdf')
+plot(density(x),xlim=c(-6,6),ylim=c(0,0.7),lwd=3,col='black')
 points(density(x1),lwd=3,col='red',type='l')
 points(density(x2),lwd=3,col='blue',type='l')
 dev.off()
 
 ```
 
-
-
+<br>
+<br>
+<br>
 
 
 ## Part 2. Correlation & Regression
