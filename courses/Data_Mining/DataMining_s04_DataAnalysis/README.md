@@ -1,8 +1,8 @@
 [Part 1. Statistical Tests](#part-1-statistical-tests)
 
-[Part 2. Correlation & Regression](#part-2-correlation-&-regression)
+[Part 2. Correlation & Regression](#part-2-correlation--regression)
 
-Part 3. Clustering & Dimension Reduction
+[Part 3. Clustering & Dimension Reduction](#part-3-clustering--dimension-reduction)
 
 
 <br>
