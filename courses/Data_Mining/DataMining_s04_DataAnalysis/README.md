@@ -22,7 +22,14 @@
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Part 1. Statistical Tests
 
@@ -315,9 +322,41 @@ dev.off()
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 ## Part 2. Correlation & Regression
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 ## Part 3. Clustering & Dimension Reduction
 
