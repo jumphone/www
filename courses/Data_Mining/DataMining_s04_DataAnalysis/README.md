@@ -389,29 +389,62 @@ dev.off()
 
 ### step02. Machine Learning (Random Forest)
 
+### What is a Confusion Matrix?
+- TP: True Positive  
+- TN: True Negative  
+- FP: False Positive  
+- FN: False Negative  
+
+Accuracy = ( TP + TN )/ ( TP + TN + FP + FN )
+
+Sensitivity = Recall = TP / (TP + FN)
+
+Specificity = TN / (TN + FP)
+
+Precision = TP / (TP + FP)
+
+F1 = 2 * Precision * Recall / (Precision + Recall)
+
+
+
 ```r
 set.seed(123)
-x = rnorm(1000) # generate 1000 values following normal distribution
-
+x = runif(2000) # generate 2000 values following uniform distribution
+nois = rnorm(2000)*0.2
+x_nois = x + nois 
 y = rep('yes',length(x))
-y[which()]
+y[which(x_nois<=(median(x_nois)))]='no'
+y = as.factor(y)
 
-this_lm = lm(y~x)
-print(this_lm）
+x_train = x[1:1500]
+y_train = y[1:1500]
 
-sum_this_lm=summary(this_lm)
-print(sum_this_lm)
+x_test = x[1501:2000]
+y_test = y[1501:2000]
 
-#y_predict=predict(this_lm)
-print(this_lm$coefficient)
-y_predict =   this_lm$coefficient[1] + this_lm$coefficient[2] * x
+this_train = data.frame(x=x_train, y =y_train)
+this_test =  data.frame(x=x_test, y=y_test)
 
-pdf('dm_s04p2_step01.pdf')
-plot(x,y,pch=16,col='grey50',cex=0.8)
-points(x,y_predict,type='l',lwd=2,col='red')
-dev.off()
+this_rf = randomForest::randomForest( y~x, data=this_train )
+
+###############
+table(this_rf$predicted, y_train)
+this_result_train = caret::confusionMatrix(this_rf$predicted, y_train, mode='everything',positive='yes')
+print(this_result_train)
+
+#############
+y_test_predicted = predict(this_rf, newdata=this_test )
+table(y_test_predicted, y_test)
+this_result_test = caret::confusionMatrix(y_test_predicted, y_test, mode='everything',positive='yes')
+print(this_result_test)
 
 ```
+
+
+
+
+
+
 <br>
 <br>
 <br>
