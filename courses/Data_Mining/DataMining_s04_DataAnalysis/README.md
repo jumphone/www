@@ -1,3 +1,12 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 [Part 1. Statistical Tests](#part-1-statistical-tests)
 
 [Part 2. Correlation & Regression](#part-2-correlation--regression)
