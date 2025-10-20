@@ -11,7 +11,7 @@ Part 3. Clustering & Dimension Reduction
 
 ## Part 1. Statistical Tests
 
-Learning Goal: Testing whether the “means” or “distributions” differ across groups**.
+Learning Goal: Testing whether the “means” or “distributions” differ across groups.
 
 | Scenario  | Normality | Equal-variance | Recommended test | R hint |
 |-----------|-----------|----------------|------------------|----------------------|
