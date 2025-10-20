@@ -31,7 +31,7 @@
 <br>
 <br>
 
-## Part 1. Statistical Tests
+# Part 1. Statistical Tests
 
 Learning Goal: Testing whether the “means” or “distributions” differ across groups.
 
