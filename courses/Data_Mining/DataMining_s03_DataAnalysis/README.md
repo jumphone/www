@@ -11,7 +11,7 @@ Part 3. Clustering & Dimension Reduction
 Learning Goal: Testing whether the “means” or “distributions” differ across groups**.
 
 | Scenario  | Normality | Equal-variance | Recommended test | R hint |
-|-----------|-----------|----------------|------------------|----------------------|--------|
+|-----------|-----------|----------------|------------------|----------------------|
 | Two groups | Normal    | Yes  | Student’s t-test | t.test(..., var.equal = TRUE) |
 | Two groups | Normal    | No | Welch’s t-test | t.test(..., var.equal = FALSE) |
 | Two groups | Non-normal | No | Wilcoxon rank-sum | wilcox.test() |
