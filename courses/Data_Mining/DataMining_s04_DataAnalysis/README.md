@@ -351,24 +351,67 @@ Goal: Describe the relationship between two vectors (x and y).
 
 <br>
 
-### step01. Generate Random Data
+### step01. Linear Regression
 
 ```r
 set.seed(123)
 x = rnorm(1000) # generate 1000 values following normal distribution
-y = runif(1000) # generate 1000 values following uniform distribution
+nois = rnorm(1000)*0.8
+y = x *2 + 3 + nois
 
-pdf('dm_s04_step01.pdf')
-hist(x)
-hist(y)
+this_lm = lm(y~x)
+print(this_lm）
+
+sum_this_lm=summary(this_lm)
+print(sum_this_lm)
+
+#y_predict=predict(this_lm)
+print(this_lm$coefficient)
+y_predict =   this_lm$coefficient[1] + this_lm$coefficient[2] * x
+
+pdf('dm_s04p2_step01_regression.pdf')
+plot(x,y,pch=16,col='grey50',cex=0.8)
+points(x,y_predict,type='l',lwd=2,col='red')
 dev.off()
 
-this_data=cbind(x,y)
-write.table(this_data, file='this_data.csv',sep=',',quote=FALSE,row.names=FALSE,col.names=TRUE)
+set.seed(321)
+new_x=rnorm(1000)+2
+new_data=data.frame(x=new_x)
+new_y=predict(this_lm, newdata= new_data)
 
+pdf('dm_s04p2_step01_predict.pdf')
+plot(x,y,pch=16,col='grey50',cex=0.8, xlim=c(min(x,new_x), max(x,new_x)), ylim=c(min(y,new_y), max(y,new_y)) )
+points(new_x, new_y, col='red',pch=16)
+dev.off()
 ```
 
+<br>
 
+### step02. Machine Learning (Random Forest)
+
+```r
+set.seed(123)
+x = rnorm(1000) # generate 1000 values following normal distribution
+
+y = rep('yes',length(x))
+y[which()]
+
+this_lm = lm(y~x)
+print(this_lm）
+
+sum_this_lm=summary(this_lm)
+print(sum_this_lm)
+
+#y_predict=predict(this_lm)
+print(this_lm$coefficient)
+y_predict =   this_lm$coefficient[1] + this_lm$coefficient[2] * x
+
+pdf('dm_s04p2_step01.pdf')
+plot(x,y,pch=16,col='grey50',cex=0.8)
+points(x,y_predict,type='l',lwd=2,col='red')
+dev.off()
+
+```
 <br>
 <br>
 <br>
