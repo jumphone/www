@@ -22,7 +22,7 @@
 
 | Name | Skill | Info |
 |:---------|:---------|:---------|
-| Object-Oriented Programming | Python | [click](/courses/Object_Oriented_Programming) |
+| Programming I | Python | [click](/courses/Programming_I) |
 | Data Mining | R | [click](/courses/Data_Mining) |
 | Bioinfo Seminar | Linux Shell, R, Python | [click](/courses/Bioinfo_Seminar) |
 
