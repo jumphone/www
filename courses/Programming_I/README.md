@@ -1,5 +1,6 @@
 ## Programming I (Python)
 
+<br>
 
 w01 Linux Basics
 
@@ -7,6 +8,7 @@ w02 Python Basics
 
 w03 Recitation I (Review+Quiz+QA)
 
+<br>
 
 w04 Control Flow
 
@@ -14,6 +16,7 @@ w05 Function Module
 
 w06 Recitation II (Review+Quiz+QA)
 
+<br>
 
 w07 Data Structure
 
