@@ -24,6 +24,7 @@ w08 File Operations
 
 w09 Recitation III (Review+Quiz+QA)
 
+<br>
 
 w10 Exception Handling
 
@@ -31,6 +32,7 @@ w11 Final Project Introduction (AI Assistant)
 
 w12 Recitation IV (Review+Quiz+QA)
 
+<br>
 
 w13 Intro to Libraries + Final Project Team Work
 
