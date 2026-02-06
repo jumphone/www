@@ -27,6 +27,14 @@
 | Bioinfo Seminar | Linux Shell, R, Python | [click](/courses/Bioinfo_Seminar) |
 
 
+<br><br>
+
+
+---
+## Students
+---
+
+[Practice-Integrated Student List](/student/)
 
 
 
@@ -34,8 +42,6 @@
 <br><br>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="1">
-
-
 
 
 
