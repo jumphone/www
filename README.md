@@ -1,12 +1,10 @@
 <br>
 
+* [Project Info](/projects/)
 
 * [Server Info](/server/)
 
-* [Project List](/projects/)
-
 * [Student List](/student/)
-
 
 <br><br>
 
