@@ -1,23 +1,35 @@
-
-
 <div style="padding: 16px; background: #f6f8fa; border-radius: 8px; margin: 20px 0;">
-  <form action="https://www.bioinfo-lab/projects/" method="get" target="_self">
-    <label for="folderName" style="font-weight: 600; color: #24292f; margin-right: 8px;">Project ID：</label>
-    <input 
-      type="text" 
-      id="folderName" 
-      name="path" 
-      placeholder="P20250001" 
-      style="padding: 6px 10px; width: 300px; border: 1px solid #d0d7de; border-radius: 6px; outline: none;"
-    >
-    <button 
-      type="submit" 
-      style="margin-left: 8px; padding: 6px 16px; background: #2da44e; color: #fff; border: none; border-radius: 6px; cursor: pointer; font-weight: 500;"
-    >
-      GO
-    </button>
-    <p style="margin: 8px 0 0; font-size: 12px; color: #57606a;">Tip: Enter the exact project ID (case-sensitive) to jump directly to the corresponding project.</p>
-  </form>
+  <label for="folderName" style="font-weight: 600; color: #24292f; margin-right: 8px;">Project ID：</label>
+  <input 
+    type="text" 
+    id="folderName" 
+    placeholder="P20250001" 
+    style="padding: 6px 10px; width: 300px; border: 1px solid #d0d7de; border-radius: 6px; outline: none;"
+  >
+  <button 
+    onclick="jumpToProject()"
+    style="margin-left: 8px; padding: 6px 16px; background: #2da44e; color: #fff; border: none; border-radius: 6px; cursor: pointer; font-weight: 500;"
+  >
+    GO
+  </button>
+  <p style="margin: 8px 0 0; font-size: 12px; color: #57606a;">Tip: Enter the exact project ID (case-sensitive) to jump directly to the corresponding project.</p>
+  <!-- 核心跳转JS：拼接路径，无?path=参数 -->
+  <script>
+    function jumpToProject() {
+      // 获取输入的项目ID（去除首尾空格，避免多余字符）
+      const projectId = document.getElementById('folderName').value.trim();
+      // 基础路径（固定不变）
+      const baseUrl = 'https://www.bioinfo-lab.com/projects/';
+      // 输入非空则跳转，否则提示
+      if (projectId) {
+        window.location.href = baseUrl + projectId;
+      } else {
+        alert('Please enter a valid Project ID!');
+      }
+    }
+    // 新增：支持按回车键跳转（和点击GO按钮效果一致，更友好）
+    document.getElementById('folderName').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') jumpToProject();
+    });
+  </script>
 </div>
-
-
