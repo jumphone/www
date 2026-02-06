@@ -1,29 +1,11 @@
 <br>
 
----
-## Projects
----
 
-[Project List](/projects/)
+* [Server Info](/server/)
 
+* [Project List](/projects/)
 
-<br><br>
-
----
-## Students
----
-
-[Practice-Integrated Study, Student List](/student/)
-
-
-<br><br>
-
----
-## Server
----
-
-[Server Info](/server/)
-
+* [Student List](/student/)
 
 
 <br><br>
