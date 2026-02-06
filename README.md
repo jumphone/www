@@ -15,7 +15,6 @@
 
 <br><br>
 
-
 ---
 ## Courses
 ---
@@ -29,12 +28,21 @@
 
 <br><br>
 
+---
+## Projects
+---
+
+[Projects](/projects/)
+
+
+<br><br>
 
 ---
 ## Students
 ---
 
 [Practice-Integrated Study, Student List](/student/)
+
 
 
 
