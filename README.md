@@ -34,7 +34,7 @@
 ## Students
 ---
 
-[Practice-Integrated Student List](/student/)
+[Practice-Integrated Study, Student List](/student/)
 
 
 
