@@ -1,15 +1,6 @@
 <br>
 
 ---
-## Server
----
-
-[Server Info](/server/)
-
-
-<br><br>
-
----
 ## Courses
 ---
 
@@ -38,6 +29,13 @@
 [Practice-Integrated Study, Student List](/student/)
 
 
+<br><br>
+
+---
+## Server
+---
+
+[Server Info](/server/)
 
 
 
