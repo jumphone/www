@@ -5,7 +5,7 @@
   <input 
     type="text" 
     id="folderName" 
-    placeholder="P202601DEMO" 
+    placeholder="" 
     style="padding: 6px 10px; width: 300px; border: 1px solid #d0d7de; border-radius: 6px; outline: none;"
   >
   <button 
