@@ -32,7 +32,7 @@
 ## Projects
 ---
 
-[Projects](/projects/)
+[Project List](/projects/)
 
 
 <br><br>
