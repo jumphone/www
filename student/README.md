@@ -6,7 +6,7 @@ For more information or relevant letters of recommendation for the students, ple
 <br>
 
 | Name | Cohort | City | Place | Date |
-|:---------|:---------|:---------|:---------|:---------|
+|:---------|:--------|:-------|:---------------------------|:---------|
 | YE Chenglin | DT2024 | Guangzhou | Guangzhou Women and Children's Medical Center, Molecular Medicine Center, Prof. LU Yulan | 2025.12.01-2026.02.06 |
 | XU Senwei | CS2024 | Guangzhou | Guangzhou Women and Children's Medical Center, Molecular Medicine Center, Prof. LU Yulan | 2025.12.01-2026.02.06 |
 | WU Siyi | DT2024 | Guangzhou | Guangzhou Women and Children's Medical Center, Molecular Medicine Center, Prof. LU Yulan | 2025.12.01-2026.02.06 |
