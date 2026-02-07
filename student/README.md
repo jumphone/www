@@ -27,8 +27,8 @@ For more information or relevant letters of recommendation for the students, ple
 | QIU Yuyue | CS2023 | Guangzhou | Guangzhou Women and Children's Medical Center, Molecular Medicine Center, Prof. LU Yulan | 2025.06.03-2025.07.25 |
 | CHEN Erjian | CS2023 | Guangzhou | Guangzhou Women and Children's Medical Center, Molecular Medicine Center, Prof. LU Yulan | 2025.06.03-2025.07.25 |
 | HE Yi | CS2023 | Guangzhou | Guangzhou Women and Children's Medical Center, Molecular Medicine Center, Prof. LU Yulan | 2025.06.03-2025.07.25 |
-| LI Xingzhi | CS2024 | Shanghai | Jiangnan Uni & Fudan Uni, Prof. LIU Yun | 2025.06.03-2025.07.25 |
-| QIAO Dengfeng | CS2023 | Shanghai | Jiangnan Uni & Fudan Uni, Prof. LIU Yun | 2025.06.03-2025.07.25 |
+| LI Xingzhi | CS2024 | Shanghai | Jiangnan University & Fudan University, Prof. LIU Yun | 2025.06.03-2025.07.25 |
+| QIAO Dengfeng | CS2023 | Shanghai | Jiangnan University & Fudan University, Prof. LIU Yun | 2025.06.03-2025.07.25 |
 | FU Anna | CS2023 | Shanghai | Shanghai Jiao Tong University School of Medicine, Prof. LI Lingjie | 2025.06.03-2025.07.25 |
 | CHEN Rui | CS2023 | Shanghai | Shanghai Jiao Tong University School of Medicine, Prof. LI Lingjie | 2025.06.03-2025.07.25 |
 | XIAO Guiqi | CS2023 | Shanghai | Shanghai Jiao Tong University School of Medicine, Prof. LI Lingjie | 2025.06.03-2025.07.25 |
