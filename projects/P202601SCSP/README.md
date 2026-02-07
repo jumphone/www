@@ -3,7 +3,7 @@
 
 ### 关键词：单细胞、空转、发育、疾病
 
-合作进行中，相关内容见：[百度网盘](https://pan.baidu.com/s/1jAii2-05YoUrU7HST-C3xQ?)，密码请咨询合作人员。
+项目进行中，相关内容见：[百度网盘](https://pan.baidu.com/s/1jAii2-05YoUrU7HST-C3xQ?)，密码请咨询项目参与者。
 
 公开发表以后，相关代码将公开于本网页。
 
