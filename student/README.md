@@ -1,5 +1,5 @@
 
-This webpage is used to verify that the following students were recommended to different places for <b> Practice-Integrated Study (bioinformatics) </b> by Prof. ZHANG Feng at BiUH. 
+This webpage is used to verify that the following students were recommended to different places for <b> Practice-Integrated Study (Bioinformatics) </b> by Prof. ZHANG Feng at BiUH. 
 
 For more information or relevant letters of recommendation for the students, please send an email to <b>feng.zhang@hainan-biuh.edu.cn</b> and copy (cc) <b>dt@hainan-biuh.edu.cn</b>
 
