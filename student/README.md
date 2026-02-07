@@ -18,7 +18,7 @@ For more information or relevant letters of recommendation for the students, ple
 | CUI Wenxi | CS2024 | Hangzhou | Zhejiang University, School of Pharmacy, Prof. WANG Jincheng | 2025.12.01-2026.02.06 |
 | LIU Yichen | DT2024 | Hangzhou | Zhejiang University, School of Pharmacy, Prof. WANG Jincheng | 2025.12.01-2026.02.06 |
 | ZHANG Yuchen | DT2024 | Hangzhou | Zhejiang University, Innovation Institute for Artificial Intelligence in Medicine, Prof. WANG Jiajia | 2025.12.01-2026.02.06 |
-| Lei Zizhuo | DT2024 | Hangzhou | Zhejiang University, Innovation Institute for Artificial Intelligence in Medicine, Prof. WANG Jiajia | 2025.12.01-2026.02.06 |
+| LEI Zizhuo | DT2024 | Hangzhou | Zhejiang University, Innovation Institute for Artificial Intelligence in Medicine, Prof. WANG Jiajia | 2025.12.01-2026.02.06 |
 | LI Keyang | DT2024 | Shanghai | Fudan University, School of Life Sciences, Prof. TIAN Weidong, Prof. QI ji, Prof. HUANG Qiang | 2025.12.01-2026.02.06 |
 | ZOU Yukang | DT2024 | Shanghai | Fudan University, School of Life Sciences, Prof. TIAN Weidong, Prof. QI ji, Prof. HUANG Qiang | 2025.12.01-2026.02.06 |
 | WANG Zishuo | CS2024 | Shanghai | Fudan University, School of Life Sciences, Prof. TIAN Weidong, Prof. QI ji, Prof. HUANG Qiang | 2025.12.01-2026.02.06 |
