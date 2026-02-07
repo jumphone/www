@@ -31,9 +31,11 @@ window.onload = function () {
     document.body.classList.remove("hidden-until-ready");
     
     const isAuthenticated = sessionStorage.getItem("authenticated") === "true";
-    const isProjectsPath = window.location.pathname.includes('/projects');
+    const isOpenPath = 
+          window.location.pathname.includes('/projects') ||
+          window.location.pathname.includes('/student') ;
     
-    if (isAuthenticated || isProjectsPath) {
+    if (isAuthenticated || isOpenPath) {
         showContent();
     } else {
         document.getElementById("password-form").style.display = "block";
