@@ -24,14 +24,23 @@ function showContent() {
     document.getElementById("loading").style.display = "none";
   }
 
+
 window.onload = function () {
-    //if (localStorage.getItem("authenticated") === "true") {
-    if (sessionStorage.getItem("authenticated") === "true") {
-      showContent();
-    }
+    
     document.getElementById("loading").style.display = "none";
     document.body.classList.remove("hidden-until-ready");
-  }
+    
+    const isAuthenticated = sessionStorage.getItem("authenticated") === "true";
+    const isProjectsPath = window.location.pathname.includes('/projects');
+    
+    if (isAuthenticated || isProjectsPath) {
+        showContent();
+    } else {
+        document.getElementById("password-form").style.display = "block";
+        document.getElementById("protected-content").style.display = "none";
+        }
+    };
+
 
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("password").addEventListener("keydown", function (event) {
