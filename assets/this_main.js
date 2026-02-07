@@ -26,20 +26,22 @@ function showContent() {
 
 
 window.onload = function () {
-    
+    // 隐藏加载动画、解锁页面
     document.getElementById("loading").style.display = "none";
     document.body.classList.remove("hidden-until-ready");
     
+    // 1. 判断是否已认证（会话内输入过正确密码）
     const isAuthenticated = sessionStorage.getItem("authenticated") === "true";
-    const isOpenPath = 
-          window.location.pathname.includes('/projects') ||
-          window.location.pathname.includes('/student') ;
+    // 2. 判断是否是需要拦截的路径 (KeyPath)
+    const isKeyPath = window.location.pathname.includes('/courses');
     
-    if (isAuthenticated || isOpenPath) {
-        showContent();
-    } else {
+    if (isKeyPath && !isAuthenticated) {
+        // 拦截：显示密码框，隐藏内容
         document.getElementById("password-form").style.display = "block";
         document.getElementById("protected-content").style.display = "none";
+    } else {
+        // 免密：显示内容，隐藏密码框（包括 /projects/student 路径、已认证的/courses路径）
+        showContent();
         }
     };
 
