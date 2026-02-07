@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    
+  <link rel="stylesheet" href="https://www.bioinfo-lab.com/assets/css/this_style.css?v=123456789">
+
+
+  </head>
+  <body class="hidden-until-ready">
+    <div class="wrapper">
+      <header>
+        
+        <h1>
+          <a href="{{ "/" | absolute_url }}">
+            <img src="{{ "https://www.bioinfo-lab.com/img/bioinfo_lab_logo_words.png" | absolute_url }}" alt="{{ site.title | default: site.github.repository_name }}" style="border: none; max-width: 200px;">
+          </a>
+        </h1>
+        
+        {% if site.logo %}
+          <!img src="{{site.logo | relative_url}}" alt="Logo" width="300" />
+        {% endif %}
+        <p> Bioinformatics Laboratory at Hainan Bielefeld University of Applied Sciences (BiUH). </p> 
+        <p> Core Values: Respect, Reflection, Communication, Commitment. </p> 
+        <p class="view">
+            <a onclick="document.getElementById('popup_contact').style.display='block'">Contact</a>
+        </p>
+        
+        </br>
+       
+      </header>
+      <section>
+
+      
+      <div id="loading"><h2>Loading......<h2></div>
+        
+      <div id="password-form">
+           <h2>Password</h2>
+           <input type="password" id="password" placeholder="Password">
+            <button onclick="checkPassword()">submit</button>
+          <p id="message" style="color:red;"></p>
+      </div>
+      <div id="protected-content">
+        
+          {{ content }}
+
+      </div>
+
+     
+        
+      </section>
+      <footer>  
+
+      <div id="popup_contact" class="modal">
+          <div class="modal-content">
+              <h3>Contact</h3>
+              <div style="text-align: left;">
+                  ZHANG Feng, PhD, Assoc Prof &nbsp;&nbsp;<a href='https://fzhang.bioinfo-lab.com/'>Info</a> <br>
+                  Program Lead of Digital Technologies    <br>
+                  Email: feng.zhang at hainan-biuh.edu.cn <br> 
+                  <br>
+              </div>
+              <button onclick="document.getElementById('popup_contact').style.display='none'">Close</button>
+          </div>
+      </div>
+        
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="https://www.bioinfo-lab.com/assets/this_main.js?v=123456789"></script>
+
+  </body>
+</html>
