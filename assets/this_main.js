@@ -33,7 +33,8 @@ window.onload = function () {
     // 1. 判断是否已认证（会话内输入过正确密码）
     const isAuthenticated = sessionStorage.getItem("authenticated") === "true";
     // 2. 判断是否是需要拦截的路径 (KeyPath)
-    const isKeyPath = window.location.pathname.includes('/courses');
+    const isKeyPath = window.location.pathname.includes('/courses') ||
+                      window.location.pathname.includes('/server') ;
     
     if (isKeyPath && !isAuthenticated) {
         // 拦截：显示密码框，隐藏内容
