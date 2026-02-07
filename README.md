@@ -1,5 +1,7 @@
 <br>
 
+* [Lab Members](/members/)
+
 * [Project Info](/projects/)
 
 * [Server Info](/server/)
