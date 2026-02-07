@@ -1,4 +1,3 @@
-<br>
 
 <img src="https://www.bioinfo-lab.com/img/bioinfo_lab_logo_words.png" style="width: 80%;" alt="Bioinfo Lab Logo">
 
