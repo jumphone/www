@@ -34,6 +34,7 @@ window.onload = function () {
     const isAuthenticated = sessionStorage.getItem("authenticated") === "true";
     // 2. 判断是否是需要拦截的路径 (KeyPath)
     const isKeyPath = window.location.pathname.includes('/courses') ||
+                      window.location.pathname.includes('/src') ||
                       window.location.pathname.includes('/server') ;
     
     if (isKeyPath && !isAuthenticated) {
