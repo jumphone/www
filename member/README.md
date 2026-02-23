@@ -10,7 +10,7 @@
 QIU Yuyue | ZHANG Yuchen | LIU Yichen |
 UG, CS2023 | UG, DT2024 | UG, DT2024 |
 LAB ASST | LAB ASST | LAB ASST |
-2026.02-Present | 2026.02-Present | 2026.02-Present |
+2026.02-PRES | 2026.02-PRES | 2026.02-PRES |
 
 <br>
 
@@ -19,7 +19,7 @@ LAB ASST | LAB ASST | LAB ASST |
 LI Keyang | WU Shangjun | ZHANG Feng |
 UG, DT2024 | UG, DT2024 | DR, ASSOC PROF |
 LAB ASST | LAB ASST | LAB HEAD |
-2026.02-Present | 2026.02-Present | 2026.02-Present |
+2026.02-PRES | 2026.02-PRES | 2026.02-PRES |
 
 <br>
 
