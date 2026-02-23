@@ -8,7 +8,7 @@
 QIU Yuyue | ZHANG Yuchen |
 BiUH, CS2023 | BiUH, DT2024 |
 
-<img src="https://www.bioinfo-lab.com/member/img/zhangfeng_biuh.jpg" height='150'/> |
+<img src="https://www.bioinfo-lab.com/member/img/zhangfeng_biuh.jpg" height='100'/> |
 :-------------------------:|
 ZHANG Feng, DR, ASSOC PROF |
 Email: feng.zhang@hainan-biuh.edu.cn |
