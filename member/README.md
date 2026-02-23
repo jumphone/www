@@ -12,7 +12,7 @@ BiUH, CS2023 | BiUH, DT2024 | BiUH, DT2024 |
 :-------------------------:|
 ZHANG Feng, DR, ASSOC PROF |
 Email: feng.zhang@hainan-biuh.edu.cn |
-Head of Bioinfo-Lab, Program Lead of Digital Technologies at BiUH |
+Head of Bioinfo-Lab <br> Program Lead of Digital Technologies at BiUH |
 
 <img src="https://www.bioinfo-lab.com/member/img/zhangfeng_biuh.jpg" height='150'/> |
 :-------------------------:|
