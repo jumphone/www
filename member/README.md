@@ -3,8 +3,6 @@
 # Lab Members
 -------------------------------
 
-<br>
-
 <img src="https://www.bioinfo-lab.com/member/img/qiuyuyue_cs2023.jpg" height='100'/> | <img src="https://www.bioinfo-lab.com/member/img/zhangyuchen_dt2024.jpg" height='100'/> | <img src="https://www.bioinfo-lab.com/member/img/liuyichen_dt2024.jpg" height='100'/> |
 :-------------------------:|:-------------------------:|:-------------------------:|
 QIU Yuyue | ZHANG Yuchen | LIU Yichen |
