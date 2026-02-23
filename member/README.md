@@ -3,20 +3,17 @@
 # Lab Members
 -------------------------------
 
-### Lab Assistant
-
 <img src="https://www.bioinfo-lab.com/member/img/qiuyuyue_cs2023.jpg" height='100'/> | <img src="https://www.bioinfo-lab.com/member/img/zhangyuchen_dt2024.jpg" height='100'/> | <img src="https://www.bioinfo-lab.com/member/img/liuyichen_dt2024.jpg" height='100'/> |
 :-------------------------:|:-------------------------:|:-------------------------:|
 QIU Yuyue | ZHANG Yuchen | LIU Yichen |
+Lab Assistant | Lab Assistant | Lab Assistant | 
 BiUH, CS2023 | BiUH, DT2024 | BiUH, DT2024 |
-
-### Lab Head
 
 <img src="https://www.bioinfo-lab.com/member/img/zhangfeng_biuh.jpg" height='100'/> |
 :-------------------------:|
 ZHANG Feng, DR, ASSOC PROF |
-Email: feng.zhang@hainan-biuh.edu.cn |
-Program Lead of Digital Technologies at BiUH |
+Head of Bioinfo-Lab |
+Program Lead of Digital Technologies at BiUH <br> Email: feng.zhang@hainan-biuh.edu.cn |
 
 <img src="https://www.bioinfo-lab.com/member/img/zhangfeng_biuh.jpg" height='150'/> |
 :-------------------------:|
