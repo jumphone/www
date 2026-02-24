@@ -6,7 +6,7 @@
 <img src="https://www.bioinfo-lab.com/member/img/huangjiacheng_adhoc.jpg" width='100'/> | <img src="https://www.bioinfo-lab.com/member/img/wangqilu_adhoc.jpg" width='100'/> | <img src="https://fzhang.bioinfo-lab.com/img/white.png" width="100"> |
 :-----:|:-----:|:-----:|
 HUANG Jiacheng | WANG Qilu | - |
-MA, SHSMU | MA, KI | - |
+MA, SJTU | MA, KI | - |
 AD HOC | AD HOC | - |
 2026.02-PRES | 2026.02-PRES | - |
 
