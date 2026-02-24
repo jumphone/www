@@ -3,7 +3,7 @@
 # Lab Members
 -------------------------------
 
-<img src="https://www.bioinfo-lab.com/member/img/huangjiacheng_adhoc.jpg" height='100'/> | <img src="https://www.bioinfo-lab.com/member/img/wangqilu_adhoc.jpg" height='100'/> | <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="1"> |
+<img src="https://www.bioinfo-lab.com/member/img/huangjiacheng_adhoc.jpg" width='100'/> | <img src="https://www.bioinfo-lab.com/member/img/wangqilu_adhoc.jpg" width='100'/> | <img src="https://fzhang.bioinfo-lab.com/img/white.png" width="100"> |
 :-----:|:-----:|:-----:|
 HUANG Jiacheng | WANG Qilu | ... |
 MA, SHSMU | MA, KI | ... |
@@ -12,7 +12,7 @@ AD HOC | AD HOC | ... |
 
 <br>
 
-<img src="https://www.bioinfo-lab.com/member/img/qiuyuyue_cs2023.jpg" height='100'/> | <img src="https://www.bioinfo-lab.com/member/img/zhangyuchen_dt2024.jpg" height='100'/> | <img src="https://www.bioinfo-lab.com/member/img/liuyichen_dt2024.jpg" height='100'/> |
+<img src="https://www.bioinfo-lab.com/member/img/qiuyuyue_cs2023.jpg" width='100'/> | <img src="https://www.bioinfo-lab.com/member/img/zhangyuchen_dt2024.jpg" width='100'/> | <img src="https://www.bioinfo-lab.com/member/img/liuyichen_dt2024.jpg" width='100'/> |
 :-----:|:-----:|:-----:|
 QIU Yuyue | ZHANG Yuchen | LIU Yichen |
 UG, CS2023 | UG, DT2024 | UG, DT2024 |
@@ -21,7 +21,7 @@ LAB ASST | LAB ASST | LAB ASST |
 
 <br>
 
-<img src="https://www.bioinfo-lab.com/member/img/likeyang_dt2024.jpg" height='100'/> | <img src="https://www.bioinfo-lab.com/member/img/wushangjun_dt2024.jpg" height='100'/> | <img src="https://www.bioinfo-lab.com/member/img/zhangfeng_biuh.jpg" height='100'/> |
+<img src="https://www.bioinfo-lab.com/member/img/likeyang_dt2024.jpg" width='100'/> | <img src="https://www.bioinfo-lab.com/member/img/wushangjun_dt2024.jpg" width='100'/> | <img src="https://www.bioinfo-lab.com/member/img/zhangfeng_biuh.jpg" width='100'/> |
 :-----:|:-----:|:-----:|
 LI Keyang | WU Shangjun | ZHANG Feng |
 UG, DT2024 | UG, DT2024 | DR, ASSOC PROF |
