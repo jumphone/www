@@ -7,7 +7,7 @@
 :-----:|:-----:|:-----:|
 HUANG Jiacheng | WANG Qilu | - |
 MA, SJTU | MA, KI | - |
-AD HOC MEMBER | AD HOC MEMBER | - |
+AD HOC | AD HOC | - |
 2026.02-PRES | 2026.02-PRES | - |
 
 <br>
