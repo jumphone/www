@@ -38,6 +38,8 @@
 
 <br>
 
+# Updates
+
 * YAP-TEAD regulates the super-enhancer network to control early surface ectoderm commitment, **Nucleic Acids Research**, 2026.01, [paper](https://doi.org/10.1093/nar/gkaf1285), co-corresponding author [ZHANG Feng]
 
 
