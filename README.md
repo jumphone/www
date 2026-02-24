@@ -9,9 +9,9 @@
 
 * [Student List](/student/)
 
-<br><br>
+<br><br><br>
 
-<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="1">
+
 
 
 
