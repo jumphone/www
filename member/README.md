@@ -3,6 +3,15 @@
 # Lab Members
 -------------------------------
 
+<img src="https://www.bioinfo-lab.com/member/img/huangjiacheng_adhoc.jpg" height='100'/> | <img src="https://www.bioinfo-lab.com/member/img/wangqilu_adhoc.jpg" height='100'/> |  |
+:-------------------------:|:-------------------------:|:-------------------------:|
+HUANG Jiacheng | WANG Qilu |  |
+MA, SHSMU | MA, KI |  |
+AD HOC | AD HOC |  |
+2026.02-PRES | 2026.02-PRES | |
+
+<br>
+
 <img src="https://www.bioinfo-lab.com/member/img/qiuyuyue_cs2023.jpg" height='100'/> | <img src="https://www.bioinfo-lab.com/member/img/zhangyuchen_dt2024.jpg" height='100'/> | <img src="https://www.bioinfo-lab.com/member/img/liuyichen_dt2024.jpg" height='100'/> |
 :-------------------------:|:-------------------------:|:-------------------------:|
 QIU Yuyue | ZHANG Yuchen | LIU Yichen |
