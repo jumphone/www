@@ -2,7 +2,7 @@
 
 <br>
 
-[w01 Linux Basics](/courses/programming_i/w01_Linux_Basics)
+[w01 Linux Basics](/courses/Programming_I/w01_Linux_Basics)
 
 w02 Python Basics
 
