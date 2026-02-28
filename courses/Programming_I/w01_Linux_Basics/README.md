@@ -1,15 +1,31 @@
 
-w01_Linux Basics:
+## Connect to Linux Server
 
-* Termius is the tool we use to connect to the Linux  server.
-* Four elements for creating a new host in Termius: IP address, Port, Username, Password
-* Termius offers SFTP for file management (upload/download)
+### Termius is the tool we use to connect to the Linux  server.
+Four elements for creating a new host in Termius: IP address, Port, Username, Password
+
+
+
+
+### Termius offers SFTP for file management (upload/download)
+
+
+## Basic Commands
+
+* In the Linux world, the two golden rules are: "Know where you are" (Positioning) and "Know what you want to do" (Intention)
+
+
+
+
 * “pwd” Print working directory
-* “ls” List files in the current directory
 
 ```Shell
 
+pwd 
+
 ```
+
+* “ls” List files in the current directory
 
 * “cd” Change directories.
 * “mkdir” Create directories.
