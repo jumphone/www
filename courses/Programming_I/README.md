@@ -2,39 +2,39 @@
 
 <br>
 
-[w01 Linux Basics](/courses/Programming_I/w01_Linux_Basics)
+* [w01 Linux Basics](/courses/Programming_I/w01_Linux_Basics)
 
-w02 Python Basics
+* w02 Python Basics
 
-w03 Recitation I (Review+Quiz+QA)
-
-
-w04 Control Flow
-
-w05 Function Module
-
-w06 Recitation II (Review+Quiz+QA)
+* w03 Recitation I (Review+Quiz+QA)
 
 
-w07 Data Structure
+* w04 Control Flow
 
-w08 File Operations
+* w05 Function Module
 
-w09 Recitation III (Review+Quiz+QA)
-
-
-w10 Exception Handling
-
-w11 LLM API in Python + Final Project Team Work
-
-w12 Recitation IV (Review+Quiz+QA)
+* w06 Recitation II (Review+Quiz+QA)
 
 
-w13 Intro to Libraries + Final Project Team Work
+* w07 Data Structure
 
-w14 Intro to Concurrent Programming + Final Project Team Work
+* w08 File Operations
 
-w15 Final Presentation
+* w09 Recitation III (Review+Quiz+QA)
+
+
+* w10 Exception Handling
+
+* w11 LLM API in Python + Final Project Team Work
+
+* w12 Recitation IV (Review+Quiz+QA)
+
+
+* w13 Intro to Libraries + Final Project Team Work
+
+* w14 Intro to Concurrent Programming + Final Project Team Work
+
+* w15 Final Presentation
 
 
 
