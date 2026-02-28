@@ -25,7 +25,7 @@ w09 Recitation III (Review+Quiz+QA)
 
 w10 Exception Handling
 
-w11 Final Project Introduction (AI Assistant for Linux)
+w11 LLM API in Python + Final Project Team Work
 
 w12 Recitation IV (Review+Quiz+QA)
 
