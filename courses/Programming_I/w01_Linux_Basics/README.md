@@ -6,6 +6,8 @@
   
 * Termius offers SFTP for file management (upload/download)
 
+<br>
+
 ### 1. Overview of Termius
 Termius is a cross-platform SSH client widely used for securely connecting to and managing remote Linux servers.
 It supports multiple connection protocols and provides a user-friendly interface for daily server operation, file transfer, and system maintenance.
