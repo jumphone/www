@@ -15,7 +15,7 @@ It supports multiple connection protocols and provides a user-friendly interface
 ### 2. Four Essential Elements for Creating a New Host in Termius
 To establish a connection to a Linux server in Termius, users must configure a new host profile with four mandatory parameters:
 
-#### 2.1 IP Address
+#### 2.1 IP Address (Host Name)
 - The **IP address** is the unique network identifier of the target Linux server.
 - It can be a public IP or a private internal IP address.
 - This address allows Termius to locate the server on the network.
