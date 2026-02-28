@@ -26,23 +26,19 @@ w09 Recitation III (Review+Quiz+QA)
 
 <br>
 
-w10 Holiday
+w10 Exception Handling
+
+w11 Final Project Introduction (AI Assistant for Linux)
+
+w12 Recitation IV (Review+Quiz+QA)
 
 <br>
 
-w11 Exception Handling
+w13 Intro to Libraries + Final Project Team Work
 
-w12 Final Project Introduction (AI Assistant for Linux)
+w14 Intro to Concurrent Programming + Final Project Team Work
 
-w13 Recitation IV (Review+Quiz+QA)
-
-<br>
-
-w14 Intro to Libraries + Final Project Team Work
-
-w15 Intro to Concurrent Programming + Final Project Team Work
-
-w16 Final Presentation
+w15 Final Presentation
 
 
 
