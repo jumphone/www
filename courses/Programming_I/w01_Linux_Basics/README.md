@@ -55,4 +55,5 @@
 ---
 
 * “tab” type the first few letters of a file name or command, then press the Tab key. Linux will automatically complete the rest for you.
+
 * “history” You can see all the commands you have run before.
