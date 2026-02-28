@@ -4,10 +4,16 @@ w01_Linux Basics:
 * Termius is the tool we use to connect to the Linux  server.
 * Four elements for creating a new host in Termius: IP address, Port, Username, Password
 * Termius offers SFTP for file management (upload/download)
-* “ls” List files in the current directory.
+* “pwd” Print working directory
+* “ls” List files in the current directory
+
+```Shell
+
+```
+
 * “cd” Change directories.
 * “mkdir” Create directories.
-* “pwd” Print working directory
+
 * “cd ..” change the current working directory to its parent directory
 * “cd ~” change the current working directory to your home directory
 * “cp original_file.txt copy_file.txt” copy the file named original_file.txt to a new file named copy_file.txt
