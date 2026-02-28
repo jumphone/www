@@ -1,59 +1,30 @@
-## Linux & Termius
+• Termius is the tool we use to connect to the Linux server.
+• Four elements for creating a new host in Termius: IP address, Port, Username, Password
+• Termius offers SFTP for file management (upload/download)
 
-* Termius is the tool we use to connect to the Linux server.
+• “pwd” Print working directory
+• “ls” List files in the current directory.
 
-* Four elements for creating a new host in Termius: IP address, Port, Username, Password
-  
-* Termius offers SFTP for file management (upload/download)
+• “cd” Change directories.
+• “cd ..” change the current working directory to its parent directory
+• “cd ~” change the current working directory to your home directory
 
-<br>
+• “mkdir” Create directories.
+• “touch new_file.txt” create an empty file named new_file.txt
 
-### 1. Overview of Termius
-Termius is a cross-platform SSH client widely used for securely connecting to and managing remote Linux servers.
-It supports multiple connection protocols and provides a user-friendly interface for daily server operation, file transfer, and system maintenance.
+• “less new_file.txt” view the contents of the file named new_file.txt
+• “cat new_file.txt” print out all contents of the file named new_file.txt
+• nano is a text editor that works in the linux terminal.
+• In nano, Ctrl + O is used to save your work
+• In nano, Ctrl + X is used to exit nano
 
-### 2. Four Essential Elements for Creating a New Host in Termius
-To establish a connection to a Linux server in Termius, users must configure a new host profile with four mandatory parameters:
+• “cp original_file.txt copy_file.txt” copy the file named original_file.txt to a new file named copy_file.txt
+• “cp -r original_folder copy_folder” copy the contents of the folder named original_folder to a new folder named copy_folder
+• “mv copy_file.txt move_file.txt” move the file named copy_file.txt to a new file named move_file.txt
+• “mv copy_folder move_folder” move the folder named copy_folder to a new folder named move_folder 
+• “rm tmp.txt” remove a file named tmp.txt
+• “rm -r tmp_folder” remove a folder named tmp_folder and all its contents recursively.
 
-#### 2.1 IP Address (Host Name)
-- The **IP address** is the unique network identifier of the target Linux server.
-- It can be a public IP or a private internal IP address.
-- This address allows Termius to locate the server on the network.
-
-#### 2.2 Port
-- The **port** specifies the communication endpoint for the SSH service.
-- The default SSH port is **22**.
-- In secure environments, administrators may change the SSH port to a custom value to reduce unauthorized access risks.
-
-#### 2.3 Username
-- The **username** is a valid system account on the Linux server.
-- Common examples include `root`, `ubuntu`, `centos`, or custom user accounts.
-- Permissions for server operations depend on the privileges assigned to this user.
-
-#### 2.4 Password
-- The **password** is the authentication credential associated with the username.
-- It verifies the identity of the user attempting to log in.
-- For enhanced security, public-key authentication can also be used as an alternative to password authentication.
-
-### 3. SFTP Functionality in Termius
-In addition to SSH terminal access, Termius integrates **SFTP (SSH File Transfer Protocol)** for secure file management between the local machine and the remote Linux server.
-
-#### 3.1 Core Functions
-- **File Upload**: Transfer files and directories from the local system to the remote server.
-- **File Download**: Retrieve files and directories from the remote server to the local system.
-- **File Management**: Support real-time file browsing, editing, renaming, moving, and deletion through a graphical interface.
-
-#### 3.2 Security Advantage
-All SFTP operations in Termius are encrypted via the SSH protocol, ensuring data confidentiality and integrity during transmission.
-
-### 4. Summary
-- Termius is a reliable tool for connecting to and administering Linux servers via SSH.
-- Creating a usable host configuration requires four key components: **IP address, port, username, and password**.
-- The built-in SFTP module enables secure and convenient file transfer and management between local and remote environments.
-
-<br>
-
-
-
-
+• “tab” type the first few letters of a file name or command, then press the Tab key. Linux will automatically complete the rest for you.
+• “history” You can see all the commands you have run before.
 
