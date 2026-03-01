@@ -1,6 +1,6 @@
 <br>
 
-### Intro to PR1 & Linux Basics
+### Intro to Programming I & Linux Basics
 
 <br>
 
