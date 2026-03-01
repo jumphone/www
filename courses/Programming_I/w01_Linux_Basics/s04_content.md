@@ -12,7 +12,7 @@
 #### Q: What are the important things when controlling a Windows computer?
 
 <details>
-<summary>🔍 Expand </summary>
+<summary>🔍</summary>
 <div style="padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-top: 8px;">
 <br>
 <p> When controlling a computer, the most important things are knowing: </p>
