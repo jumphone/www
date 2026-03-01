@@ -3,7 +3,9 @@
 
 #### Q2: How many of you have learned Linux before?
 
+<br>
 
+---
 * "GUI" stands for "Graphical User Interface"
 
 * "CLI" stands for "Command Line Interface"
@@ -12,6 +14,7 @@
 
 * Termius is a terminal application.
 
+<br>
 
 #### Q4: What are the advantages and disadvantages of GUI and CLI?
 
@@ -40,6 +43,10 @@ Windows: D:\download\test.txt
 Linux: /home/zhangfeng/download/test.txt
 
 Windows: D:\download\test.txt
+
+---
+
+<br>
 
 #### Q5: Why do we need "relative path"?
 
