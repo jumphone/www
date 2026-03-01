@@ -4,25 +4,25 @@
 
 * w02 Python Basics
 
-* w03 Recitation I (Review+Test+QA+Team Work)
+* w03 Recitation I (Review+Test+Team Work+QA)
 
 * w04 Control Flow
 
 * w05 Function Module
 
-* w06 Recitation II (Review+Test+QA)
+* w06 Recitation II (Review+Test+Team Work+QA)
 
 * w07 Data Structure
 
 * w08 File Operations
 
-* w09 Recitation III (Review+Test+QA)
+* w09 Recitation III (Review+Test+Team Work+QA)
 
 * w10 Exception Handling
 
 * w11 LLM API in Python
 
-* w12 Recitation IV (Review+Test+QA)
+* w12 Recitation IV (Review+Test+Team Work+QA)
 
 * w13 Intro to Libraries
 
@@ -41,7 +41,7 @@
 
 1. Lecture + Seminar + Examples: 90 mins
 
-2. Hands‑on Practice + 
+2. Hands‑on Practice + Q&A: 90 mins
 
 #### Recitation Weeks:
 
@@ -49,7 +49,7 @@
 
 2. Test: 45 mins
 
-3. Q&A + Team Project
+3. Team Project + Q&A: 90 mins
 
 
 <br>
