@@ -27,6 +27,8 @@
 
 * You can use Dou Bao (豆包) or Ji Meng (即梦) to generate the 10-second movie clips from your movie scripts.
 
+* You can use Jian Ying (剪映) to combine all movie clips.
+
 <br>
 
 -----------
@@ -51,13 +53,13 @@
 
 30 minutes presentation + 5 minutes QA
 
-* 1-minute mini-movie demo
+* Play the 1-minute mini-movie demo
 
 * Live demo: Generate 6 coherent movie-scripts from input within 20 words.
 
 * Code: Explain the code implementation details of the Movie-Scriptwriter program in detail, with a focus on how to use functions and loop syntax.
 
-* Movie making: show all the effort you have done when making the "1-minute mini-movie demo"
+* Movie making: Show all the efforts you have done when making the "1-minute mini-movie demo"
 
 
 
