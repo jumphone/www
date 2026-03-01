@@ -93,7 +93,9 @@ Published over 30 research papers.
 ### BiUH DT Learning Roadmap (Latest Version)
 
 <p float="left">
-<img src="https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/src/f01_roadmap.png" height="500">
+<a href='https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/src/f01_roadmap.png'>
+  <img src="https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/src/f01_roadmap.png" width="400">
+</a>
 </p>
 
 -----------
