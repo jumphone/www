@@ -9,6 +9,8 @@
 
 <br>
 
+---
+
 "GUI" stands for "Graphical User Interface"
 
 "CLI" stands for "Command Line Interface"
@@ -18,6 +20,8 @@ Terminal: A terminal is a text-based tool that lets you control a computer or se
 Termius is a terminal application.
 
 
+---
+
 <br>
 
 #### Q4: What are the advantages and disadvantages of GUI and CLI?
@@ -25,6 +29,7 @@ Termius is a terminal application.
 <br>
 
 
+---
 
 Termius is the tool we use to connect to the Linux server.
 
