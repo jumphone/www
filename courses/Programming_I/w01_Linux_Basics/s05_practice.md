@@ -137,8 +137,14 @@ ls
 cd ~
 nano new_nano_file.txt
 
+# write something into "new_nano_file.txt"
 # save: Ctrl + O
 # Exit: Ctrl + X
+
+ls
+
+# see the content of "new_nano_file.txt"
+cat new_nano_file.txt
 
 ```
 
