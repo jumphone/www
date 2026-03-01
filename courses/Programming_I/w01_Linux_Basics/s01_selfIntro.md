@@ -1,9 +1,11 @@
 
-Name: ZHANG Feng (张丰)
+### Name: ZHANG Feng (张丰)
 
 Research field: bioinformatics, computational biology, biomedical data analysis
 
-Education & Work experience: 
+-----------
+
+### Education & Work experience: 
 
 * **Associate Professor & Program Lead**, Digital Technologies, Hainan Bielefeld University of Applied Sciences, China, 2025.03-present
 
@@ -23,30 +25,33 @@ Education & Work experience:
 
 -----------
 
-Published over 30 research papers.
+### Published over 30 research papers.
 
+Selected Papers:
 
- * YAP-TEAD regulates the super-enhancer network to control early surface ectoderm commitment, **Nucleic Acids Research**, 2026.01, [paper](https://doi.org/10.1093/nar/gkaf1285), co-corresponding author
+* YAP-TEAD regulates the super-enhancer network to control early surface ectoderm commitment, **Nucleic Acids Research**, 2026.01, [paper](https://doi.org/10.1093/nar/gkaf1285), co-corresponding author
   
-  * Single-nucleus profiling of mouse inner ear aging uncovers cell type heterogeneity and hair cell subtype-specific age-related signatures, **Cell Reports**, 2025.06, [paper](https://doi.org/10.1016/j.celrep.2025.115781), co-first author
+* Single-nucleus profiling of mouse inner ear aging uncovers cell type heterogeneity and hair cell subtype-specific age-related signatures, **Cell Reports**, 2025.06, [paper](https://doi.org/10.1016/j.celrep.2025.115781), co-first author
   
-  * Analysis of transcriptome and chromatin accessibility changes during the differentiation of human embryonic stem cells into neural progenitor cells, **Journal of Shanghai Jiao Tong University (Medical Science)**, 2025.04, [paper](https://xuebao.shsmu.edu.cn/CN/10.3969/j.issn.1674-8115.2025.04.001), co-corresponding author
+* A Novel Prognostic Signature of Mitophagy-Related E3 Ubiquitin Ligases in Breast Cancer, **International Journal of Molecular Sciences**, 2025.02, [paper](https://doi.org/10.3390/ijms26041551), co-corresponding author
+
+* Feature-weight based measurement of cancerous transcriptome using cohort-wide and sample-specific information, **Cellular Oncology**, 2023.10, {[code](https://github.com/jumphone/FWP), [paper](https://doi.org/10.1007/s13402-023-00879-6), [full-text](https://rdcu.be/dn9I1)}, corresponding author
+
+* InferLoop: leveraging single-cell chromatin accessibility for the signal of chromatin loop, **Briefings in Bioinformatics**, 2023.05, {[code](https://github.com/jumphone/InferLoop), [paper](https://doi.org/10.1093/bib/bbad166)}, first & co-corresponding author
   
-  * A Novel Prognostic Signature of Mitophagy-Related E3 Ubiquitin Ligases in Breast Cancer, **International Journal of Molecular Sciences**, 2025.02, [paper](https://doi.org/10.3390/ijms26041551), co-corresponding author
+* FitDevo: accurate inference of single-cell developmental potential using sample-specific gene weight, **Briefings in Bioinformatics**, 2022.09, {[code](https://github.com/jumphone/FitDevo), [paper](https://doi.org/10.1093/bib/bbac293)}, first & co-corresponding author
 
-  * Ultrasmall Cu2I2 nanoclusters trigger metabolic-epigenetic reprogramming and endogenous antioxidant systems for alleviating osteoarthritis, **Chemical Engineering Journal**, 2024.10, [paper](https://doi.org/10.1016/j.cej.2024.154568)
-  
-  * ARID1A loss promotes RNA editing of CDK13 in an ADAR1-dependent manner, **BMC Biology**, 2024.06, [paper](https://doi.org/10.1186/s12915-024-01927-9)
+* scMAGIC: accurately annotating single cells using two rounds of reference-based classification, **Nucleic Acids Research**, 2022.05, {[code](https://github.com/TianLab-Bioinfo/scMAGIC), [paper](https://doi.org/10.1093/nar/gkab1275)}, co-first author
 
-  * Long-read sequencing reveals alternative splicing-driven, shared immunogenic neoepitopes regardless SF3B1 status in uveal melanoma, **Cancer Immunology Research**, 2023.12, [paper](https://doi.org/10.1158/2326-6066.cir-23-0083)
+* Unsupervised Inference of Developmental Directions for Single Cells Using VECTOR, **Cell Reports**, 2020.08, {[code](https://github.com/jumphone/Vector), [paper](https://doi.org/10.1016/j.celrep.2020.108069)}, first author
 
-  * Quantitative analysis of the developmental potential of cells and tissues based on evolutionary conservation of genes and regulatory regions, **Journal of Shanghai Jiao Tong University (Medical Science)**, 2023.11, [paper](https://xuebao.shsmu.edu.cn/CN/10.3969/j.issn.1674-8115.2023.11.006), co-corresponding author
+* A novel approach to remove the batch effect of single-cell data, **Cell Discovery**, 2019.09, {[code](https://github.com/jumphone/BEER), [paper](https://doi.org/10.1038/s41421-019-0114-x)}, first author
 
-  * Feature-weight based measurement of cancerous transcriptome using cohort-wide and sample-specific information, **Cellular Oncology**, 2023.10, {[code](https://github.com/jumphone/FWP), [paper](https://doi.org/10.1007/s13402-023-00879-6), [full-text](https://rdcu.be/dn9I1)}, corresponding author
-  
-  * Kinase-independent role of mTOR and on-/off-target effects of an mTOR kinase inhibitor, **Leukemia**, 2023.08, [paper](https://doi.org/10.1038/s41375-023-01987-w)
+* PhenoPro: a novel toolkit for assisting in the diagnosis of Mendelian disease, **Bioinformatics**, 2019.02, {[code](https://github.com/jumphone/PhenoPro), [paper](https://doi.org/10.1093/bioinformatics/btz100)}, co-first author
 
-  * InferLoop: leveraging single-cell chromatin accessibility for the signal of chromatin loop, **Briefings in Bioinformatics**, 2023.05, {[code](https://github.com/jumphone/InferLoop), [paper](https://doi.org/10.1093/bib/bbad166)}, first & co-corresponding author
+* SPRINT: an SNP-free toolkit for identifying RNA editing sites, **Bioinformatics**, 2017.07, {[code](https://github.com/jumphone/SPRINT), [paper](https://doi.org/10.1093/bioinformatics/btx473)}, first author
+    
+-----------
 
-...
+
 
