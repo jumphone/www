@@ -1,4 +1,4 @@
-
+<img width="787" height="171" alt="image" src="https://github.com/user-attachments/assets/4f8e6cb8-c740-4882-9df1-d9327276805b" />
 ### Name: ZHANG Feng (张丰)
 
 Research field: bioinformatics, computational biology, biomedical data analysis
@@ -53,21 +53,29 @@ Selected Papers:
     
 -----------
 
-### Sent 25 BiUH students to intern at various top universities and hospitals in Shanghai, Guangzhou, and Hangzhou.
-
-
-
 ### Bioinformatics Lab at BiUH
 
 Website: [https://www.bioinfo-lab.com/](https://www.bioinfo-lab.com/)
 
 Member List: [https://www.bioinfo-lab.com/member/](https://www.bioinfo-lab.com/member/)
 
+Sent 25 BiUH students to do practice-integrated learning (internship) at various top universities and hospitals in Shanghai, Guangzhou, and Hangzhou.
 
+Student List: [https://www.bioinfo-lab.com/student/](https://www.bioinfo-lab.com/student/)
 
+Bioinformatics courses => Review CV / Interview => Offer for practice-integrated learning
 
+If you are interested in the bioinformatics courses, please contact with QIU Yuyue (CS2023), WU Shangjun (DT2024), or DENG Zifeng (DT2024).
 
+-----------
 
+### More
+
+Office Room: Teaching Building B526
+
+Email: feng.zhang@hainan-biuh.edu.cn
+
+Available Office Hour: Monday Afternoon + Night, 12:00-20:00 (please send an email to me at least one day ahead)
 
 
 
