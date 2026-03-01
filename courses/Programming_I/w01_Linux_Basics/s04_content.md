@@ -17,8 +17,8 @@
     <br>
     <p>
     When controlling a computer, the most important things are knowing: <br>
-    Position: "where you are" <br>
-    Intention: "what you want to do".
+    &nbsp;&nbsp;&nbsp;&nbsp;Position: "where you are" <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Intention: "what you want to do".
     </p>
     <br>
   </div>
