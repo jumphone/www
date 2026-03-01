@@ -149,6 +149,13 @@ cat new_nano_file.txt
 
 ```
 
+#### SFTP
+
+```
+Use SFTP to upload and download some files.
+
+```
+
 #### Tips
 
 “tab” type the first few letters of a file name or command, then press the Tab key. Linux will automatically complete the rest for you.
@@ -156,7 +163,6 @@ cat new_nano_file.txt
 “history” You can see all the commands you have run before.
 
 Try "ai", "aiw", and "aid"
-
 
 
 <br>
