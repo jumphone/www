@@ -152,7 +152,7 @@ cat new_nano_file.txt
 #### SFTP
 
 ```
-Use SFTP to upload and download some files.
+# Use SFTP to upload and download some files.
 
 ```
 
