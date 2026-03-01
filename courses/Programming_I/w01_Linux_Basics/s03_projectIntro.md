@@ -51,11 +51,13 @@
 
 30 minutes presentation + 5 minutes QA
 
-* 1-minute mini-movie
+* 1-minute mini-movie demo
 
 * Live demo: Generate 6 coherent movie-scripts from input within 20 words.
 
-* Slides: Explain the code implementation details of the Movie-Scriptwriter program in detail, with a focus on how to use functions and loop syntax.
+* Code: Explain the code implementation details of the Movie-Scriptwriter program in detail, with a focus on how to use functions and loop syntax.
+
+* Movie making: show all the effort you have done when making the "1-minute mini-movie demo"
 
 
 
