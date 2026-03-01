@@ -118,11 +118,15 @@ rm demo_mv.txt
 ls
 
 # copy a folder
-cp -r new_folder copy_new_folder
+cp -r new_folder copy_folder
+ls
+
+# move a folder
+mv new_folder move_folder
 ls
 
 # remove a folder
-rm -rf copy_new_folder
+rm -rf copy_folder
 ls
 
 ```
