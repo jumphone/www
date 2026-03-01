@@ -35,7 +35,11 @@ Termius is the tool we use to connect to the Linux server.
 
 Four elements for creating a new host in Termius: IP address, Port, Username, Password
 
-Termius offers SFTP (Secure File Transfer Protocol) for file management (upload/download)
+Termius offers SFTP for file management (upload/download)
+
+SSH: Secure Shell (SSH) is a cryptographic network protocol used to securely access, manage, and transfer files between computers over unsecured networks
+
+SFTP: SSH File Transfer Protocol, also known as Secure File Transfer Protocol 
 
 ---
 
