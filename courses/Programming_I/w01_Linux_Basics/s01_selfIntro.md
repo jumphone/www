@@ -57,13 +57,13 @@ Selected Papers:
 
 ### Bioinformatics Lab at BiUH
 
-Website: [https://www.bioinfo-lab.com/](https://www.bioinfo-lab.com/)
+* Website: [https://www.bioinfo-lab.com/](https://www.bioinfo-lab.com/)
 
-Member List: [https://www.bioinfo-lab.com/member/](https://www.bioinfo-lab.com/member/)
+* Member List: [https://www.bioinfo-lab.com/member/](https://www.bioinfo-lab.com/member/)
+
+* Student List: [https://www.bioinfo-lab.com/student/](https://www.bioinfo-lab.com/student/)
 
 Sent 25 BiUH students to do practice-integrated learning (internship) at various top universities and hospitals in Shanghai, Guangzhou, and Hangzhou.
-
-Student List: [https://www.bioinfo-lab.com/student/](https://www.bioinfo-lab.com/student/)
 
 #### Bioinformatics courses => Review CV / Interview => Offer for practice-integrated learning
 
@@ -79,11 +79,11 @@ DENG Zifeng (DT2024): zifeng.deng.24@stu.hainan-biuh.edu.cn
 
 ### More
 
-Office Room: Teaching Building B526
+* Office Room: Teaching Building B526
 
-Email: feng.zhang@hainan-biuh.edu.cn
+* Email: feng.zhang@hainan-biuh.edu.cn
 
-Available Office Hour: Monday Afternoon + Night, 12:00-20:00 (please send an email to me at least one day ahead)
+* Available Office Hour: Monday, 12:00-20:00 (please schedule a time with me by email at least one day in advance)
 
 
 
