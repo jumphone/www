@@ -85,6 +85,16 @@ Relative Path: The path from your current working directory to a file or folder.
 
 #### Q: Why do we need "relative path"?
 
+<details>
+<summary> More </summary>
+<div style="padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-top: 8px;">
+<br>
+<p> &nbsp;&nbsp;&nbsp;&nbsp; Relative paths are shorter and faster to type than absolute paths. </p>
+<p> &nbsp;&nbsp;&nbsp;&nbsp; They are portable (work when folders are moved/copied). They make teamwork and navigation easier, without relying on fixed root locations. </p>
+<br>
+</div>
+</details>
+
 <br>
 
 ---
