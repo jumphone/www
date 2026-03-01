@@ -7,4 +7,4 @@
 
 [Key Points: Linux Basics](/courses/Programming_I/w01_Linux_Basics/s04_keyPoints)
 
-[Key Points: Linux Basics](/courses/Programming_I/w01_Linux_Basics/s05_practice)
+[Hands‑on Practice](/courses/Programming_I/w01_Linux_Basics/s05_practice)
