@@ -67,10 +67,6 @@ Published over 30 research papers.
  
 * Informal Member: Students who take the bioinformatics interest courses (Contact: QIU Yuyue, WU Shangjun, DENG Zifeng)
 
-<p float="left">
-<img src="https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/src/f02_students.png" height="500">
-</p>
-
 -----------
 
 ### Bioinformatics Practice-Integrated Learning (Internship)
@@ -92,7 +88,7 @@ Published over 30 research papers.
 ### BiUH DT Learning Roadmap (Latest Version)
 
 <p float="left">
-<img src="https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/src/f01_roadmap.png" height="150">
+<img src="https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/src/f01_roadmap.png" height="500">
 </p>
 
 -----------
