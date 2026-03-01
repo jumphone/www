@@ -37,7 +37,7 @@ Four elements for creating a new host in Termius: IP address, Port, Username, Pa
 
 Termius offers SFTP for file management (upload/download)
 
-SSH: Secure Shell (SSH) is a cryptographic network protocol used to securely access, manage, and transfer files between computers over unsecured networks
+SSH: Secure Shell (SSH) is an encrypted network protocol used to securely access, manage, and transfer files between computers over unsecured networks
 
 SFTP: SSH File Transfer Protocol, also known as Secure File Transfer Protocol 
 
