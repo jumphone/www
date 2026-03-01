@@ -40,17 +40,13 @@
 #### Non-Recitation Weeks:
 
 1. Lecture + Seminar + Examples: 90 mins
-
 2. Hands‑on Practice + Q&A: 90 mins
 
 #### Recitation Weeks:
 
 1. Review: 45 mins
-
 2. Test: 45 mins
-
-3. Team Project + Q&A: 90 mins
-
+3. Team Work + Q&A: 90 mins
 
 <br>
 
