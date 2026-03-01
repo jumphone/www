@@ -57,6 +57,7 @@ Password: dt + Student ID + @biuh2025 (e.g. dt2023000001@biuh2025)
 
 ```
 # show the path of your home directory
+cd ~
 pwd
 
 # changes the current working directory to its immediate parent directory
