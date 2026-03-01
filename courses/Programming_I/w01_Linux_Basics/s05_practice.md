@@ -29,7 +29,7 @@ This is an important part of your "General Performance". Please ensure timely su
 
 ### 2. Register a Termius account.
 
-<b> Do NOT subscribe; use the free version directly. </b>
+<b> Termius is FREE! Do NOT subscribe! Use the free version directly. </b>
 
 <br>
 
