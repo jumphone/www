@@ -6,6 +6,7 @@
 Research field: bioinformatics, computational biology, biomedical data analysis
 
 <br>
+
 -----------
 
 ### Education & Work experience: 
@@ -27,6 +28,7 @@ Research field: bioinformatics, computational biology, biomedical data analysis
 * **BSc**, Information Security, School of Mathmatics, Shandong University, China, 2011.09-2015.06 
 
 <br>
+
 -----------
 
 ### Selected Papers:
@@ -56,6 +58,7 @@ Published over 30 research papers.
 * SPRINT: an SNP-free toolkit for identifying RNA editing sites, **Bioinformatics**, 2017.07, {[code](https://github.com/jumphone/SPRINT), [paper](https://doi.org/10.1093/bioinformatics/btx473)}, first author
     
 <br>
+
 -----------
 
 ### Bioinformatics Lab at BiUH
@@ -87,8 +90,9 @@ Published over 30 research papers.
 
 * DENG Zifeng (DT2024): zifeng.deng.24@stu.hainan-biuh.edu.cn
 
------------
 <br>
+
+-----------
 
 ### BiUH DT Learning Roadmap (Latest Version)
 
@@ -99,6 +103,7 @@ Published over 30 research papers.
 </p>
 
 <br>
+
 -----------
 
 ### More
