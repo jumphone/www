@@ -57,4 +57,20 @@ Selected Papers:
 
 
 
+### Bioinformatics Lab at BiUH
+
+Website: [https://www.bioinfo-lab.com/](https://www.bioinfo-lab.com/)
+
+Member List: [https://www.bioinfo-lab.com/member/](https://www.bioinfo-lab.com/member/)
+
+
+
+
+
+
+
+
+
+
+
 
