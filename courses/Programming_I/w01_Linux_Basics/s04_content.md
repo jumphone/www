@@ -1,11 +1,15 @@
 
 <br>
 
-#### Q1: How many of you have learned Python before?
+#### Q: How many of you have learned Python before?
 
 <br>
 
-#### Q2: How many of you have learned Linux before?
+#### Q: How many of you have learned Linux before?
+
+<br>
+
+#### Q: What are the important things when controlling a Windows computer?
 
 <br>
 
@@ -24,7 +28,7 @@ Termius is a terminal application.
 
 <br>
 
-#### Q4: What are the advantages and disadvantages of GUI and CLI?
+#### Q: What are the advantages and disadvantages of GUI and CLI?
 
 <br>
 
@@ -59,7 +63,7 @@ Relative Path: The path from your current working directory to a file or folder.
 
 <br>
 
-#### Q5: Why do we need "relative path"?
+#### Q: Why do we need "relative path"?
 
 <br>
 
@@ -107,7 +111,7 @@ Relative Path: The path from your current working directory to a file or folder.
 
 <br>
 
-#### Q6: What differences do you feel between using Windows GUI and Linux CLI?
+#### Q: What differences do you feel between using Windows GUI and Linux CLI?
 
 <br>
 
