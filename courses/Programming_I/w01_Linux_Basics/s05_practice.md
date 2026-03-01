@@ -35,7 +35,7 @@ This is an important part of your "General Performance". Please ensure timely su
 
 ---------------------
 
-### 3. Log into your account.
+### 3. Log into the remote Linux Server.
 
 Linux Server:
 
@@ -50,6 +50,8 @@ Password: dt + Student ID + @biuh2025 (e.g. dt2023000001@biuh2025)
 <br>
 
 ---------------------
+
+### 4. Linux Basics
 
 ### pwd, cd, ls
 
@@ -154,6 +156,6 @@ nano new_nano_file.txt
 Try "ai", "aiw", and "aid"
 
 
-
+### End
 
 
