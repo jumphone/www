@@ -1,3 +1,4 @@
+
 * Termius is the tool we use to connect to the Linux server.
 
 * Four elements for creating a new host in Termius: IP address, Port, Username, Password
@@ -55,4 +56,5 @@
 ---
 
 * “tab” type the first few letters of a file name or command, then press the Tab key. Linux will automatically complete the rest for you.
+
 * “history” You can see all the commands you have run before.
