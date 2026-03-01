@@ -58,8 +58,6 @@ Relative Path: The path from your current working directory to a file or folder.
 
 “ls” List files in the current directory.
 
-<br>
-
 ---
 
 “cd” Change directories.
@@ -96,6 +94,14 @@ Relative Path: The path from your current working directory to a file or folder.
 
 ---
 
+<br>
+
+#### Q6: What differences do you feel between using Windows GUI and Linux CLI?
+
+<br>
+
+---
+
 nano is a text editor that works in the linux terminal.
 
 In nano, Ctrl + O is used to save your work
@@ -107,7 +113,6 @@ In nano, Ctrl + X is used to exit nano
 “tab” type the first few letters of a file name or command, then press the Tab key. Linux will automatically complete the rest for you.
 
 “history” You can see all the commands you have run before.
-
 
 
 <br>
