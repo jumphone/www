@@ -53,5 +53,8 @@ Selected Papers:
     
 -----------
 
+### Sent 25 BiUH students to intern at various top universities and hospitals in Shanghai, Guangzhou, and Hangzhou.
+
+
 
 
