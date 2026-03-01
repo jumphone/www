@@ -69,7 +69,7 @@ Published over 30 research papers.
 
 * Sent 25 BiUH students to do practice-integrated learning (internship) at various top universities and hospitals in Shanghai, Guangzhou, and Hangzhou.
 
-* Bioinformatics courses => Review CV / Interview => Offer for practice-integrated learning
+* Bioinformatics courses -> Review CV / Interview -> Offer for practice-integrated learning
 
 * If you are interested in the bioinformatics courses & practice-integrated learning, please contact with:
 
