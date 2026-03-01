@@ -27,9 +27,9 @@ Research field: bioinformatics, computational biology, biomedical data analysis
 
 -----------
 
-### Published over 30 research papers
+#### Selected Papers:
 
-Selected Papers:
+Published over 30 research papers.
 
 * YAP-TEAD regulates the super-enhancer network to control early surface ectoderm commitment, **Nucleic Acids Research**, 2026.01, [paper](https://doi.org/10.1093/nar/gkaf1285), co-corresponding author
   
@@ -62,18 +62,22 @@ Selected Papers:
 * Member List: [https://www.bioinfo-lab.com/member/](https://www.bioinfo-lab.com/member/)
 
 * Student List: [https://www.bioinfo-lab.com/student/](https://www.bioinfo-lab.com/student/)
+  
+-----------
 
-Sent 25 BiUH students to do practice-integrated learning (internship) at various top universities and hospitals in Shanghai, Guangzhou, and Hangzhou.
+### Bioinformatics practice-integrated learning (internship)
 
-#### Bioinformatics courses => Review CV / Interview => Offer for practice-integrated learning
+* Sent 25 BiUH students to do practice-integrated learning (internship) at various top universities and hospitals in Shanghai, Guangzhou, and Hangzhou.
 
-If you are interested in the bioinformatics courses, please contact with:
+* Bioinformatics courses => Review CV / Interview => Offer for practice-integrated learning
 
-QIU Yuyue (CS2023): yuyue.qiu.23@stu.hainan-biuh.edu.cn
+* If you are interested in the bioinformatics courses, please contact with:
 
-WU Shangjun (DT2024): shangjun.wu.24@stu.hainan-biuh.edu.cn
+* QIU Yuyue (CS2023): yuyue.qiu.23@stu.hainan-biuh.edu.cn
 
-DENG Zifeng (DT2024): zifeng.deng.24@stu.hainan-biuh.edu.cn
+* WU Shangjun (DT2024): shangjun.wu.24@stu.hainan-biuh.edu.cn
+
+* DENG Zifeng (DT2024): zifeng.deng.24@stu.hainan-biuh.edu.cn
 
 -----------
 
