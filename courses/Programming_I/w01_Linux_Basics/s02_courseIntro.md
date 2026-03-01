@@ -74,8 +74,13 @@ else if AQ < 0.2 and Total Test Score < Passing Line:
 # Note: "AQmax" refers to the actual highest AQ value among all students in the cohort.
 ```
 
+<br>
 
+---------------------------
 
+### In Programming I, please make full use of LLM and AI tools !
+
+<br>
 
 
 
