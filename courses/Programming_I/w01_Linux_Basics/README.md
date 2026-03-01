@@ -10,6 +10,6 @@
 
 [Introduction to the Final Project](https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/s03_projectIntro)
 
-[Lecture & Seminar & Examples](https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/s04_keyPoints)
+[Lecture & Seminar & Examples](https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/s04_content)
 
 [Hands‑on Practice (Weekly Report)](https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/s05_practice)
