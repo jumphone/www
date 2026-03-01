@@ -62,7 +62,15 @@ Published over 30 research papers.
 * Member List: [https://www.bioinfo-lab.com/member/](https://www.bioinfo-lab.com/member/)
 
 * Student List: [https://www.bioinfo-lab.com/student/](https://www.bioinfo-lab.com/student/)
-  
+
+* Formal Member: Lab Assistant, Ad-hoc Member, Trainee (Contact: ZHANG Feng)
+ 
+* Informal Member: Students who take the bioinformatics interest courses (Contact: QIU Yuyue, WU Shangjun, DENG Zifeng)
+
+<p float="left">
+<img src="https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/src/f02_students.png" height="60">
+</p>
+
 -----------
 
 ### Bioinformatics Practice-Integrated Learning (Internship)
@@ -78,6 +86,14 @@ Published over 30 research papers.
 * WU Shangjun (DT2024): shangjun.wu.24@stu.hainan-biuh.edu.cn
 
 * DENG Zifeng (DT2024): zifeng.deng.24@stu.hainan-biuh.edu.cn
+
+-----------
+
+### BiUH DT Learning Roadmap (Latest Version)
+
+<p float="left">
+<img src="https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/src/f01_roadmap.png" height="60">
+</p>
 
 -----------
 
