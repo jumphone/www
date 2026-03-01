@@ -37,13 +37,13 @@
 
 ### Weekly Plan
 
-* Non-Recitation Weeks:
+#### Non-Recitation Weeks:
 
 1. Lecture + Seminar + Examples: 90 mins
 
 2. Hands‑on Practice + 
 
-* Recitation Weeks:
+#### Recitation Weeks:
 
 1. Review: 45 mins
 
@@ -53,12 +53,16 @@
 
 ---------------------------
 
-###  Team Arrangement
+### Team Arrangement
 
 1. In total, we have 5 teams (5-7 members per team).
+
 2. We have multiple rounds of member selection.
+
 3. In each round, each Team Lead will provide one offer to one member (you can reject the offer, and then the lead should turn to another one). 
+
 4. For the final project, the maximum grade is 30 (final presentation). Team Lead can get 3 bonus points (10%).
+
 5. If more than 5 people want to be the team lead, let’s vote for it. If less than 5 people want to be the lead, I will randomly assign the remaining team lead.
 
 <br>
