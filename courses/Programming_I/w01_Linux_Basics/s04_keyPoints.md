@@ -33,14 +33,6 @@
 
 ---
 
-* nano is a text editor that works in the linux terminal.
-
-* In nano, Ctrl + O is used to save your work
-
-* In nano, Ctrl + X is used to exit nano
-
----
-
 * “cp original_file.txt copy_file.txt” copy the file named original_file.txt to a new file named copy_file.txt
 
 * “cp -r original_folder copy_folder” copy the contents of the folder named original_folder to a new folder named copy_folder
@@ -52,6 +44,14 @@
 * “rm tmp.txt” remove a file named tmp.txt
 
 * “rm -r tmp_folder” remove a folder named tmp_folder and all its contents recursively.
+
+---
+
+* nano is a text editor that works in the linux terminal.
+
+* In nano, Ctrl + O is used to save your work
+
+* In nano, Ctrl + X is used to exit nano
 
 ---
 
