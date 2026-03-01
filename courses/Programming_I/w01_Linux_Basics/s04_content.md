@@ -12,12 +12,11 @@
 #### Q: What are the important things when controlling a Windows computer?
 
 <details>
-  <summary>🔍 点击查看弹窗内容</summary>
+  <summary>🔍 Expand </summary>
   <div style="padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-top: 8px;">
-    <h4>这是弹窗里的内容</h4>
-    <p>可以放文本、代码、图片等任意 Markdown 内容：</p>
-    <pre><code>print("Hello GitHub!")</code></pre>
-    <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" width="40">
+    <p>
+    When controlling a computer, the most important things are knowing "where you are" (position) and "what you want to do"(intention).
+    </p>
   </div>
 </details>
 
