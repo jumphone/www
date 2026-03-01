@@ -65,9 +65,15 @@ Sent 25 BiUH students to do practice-integrated learning (internship) at various
 
 Student List: [https://www.bioinfo-lab.com/student/](https://www.bioinfo-lab.com/student/)
 
-Bioinformatics courses => Review CV / Interview => Offer for practice-integrated learning
+#### Bioinformatics courses => Review CV / Interview => Offer for practice-integrated learning
 
-If you are interested in the bioinformatics courses, please contact with QIU Yuyue (CS2023), WU Shangjun (DT2024), or DENG Zifeng (DT2024).
+If you are interested in the bioinformatics courses, please contact with:
+
+QIU Yuyue (CS2023): yuyue.qiu.23@stu.hainan-biuh.edu.cn
+
+WU Shangjun (DT2024): shangjun.wu.24@stu.hainan-biuh.edu.cn
+
+DENG Zifeng (DT2024): zifeng.deng.24@stu.hainan-biuh.edu.cn
 
 -----------
 
