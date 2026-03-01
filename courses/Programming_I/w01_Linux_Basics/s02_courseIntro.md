@@ -4,25 +4,25 @@
 
 * w02 Python Basics
 
-* w03 Recitation I (Review+Quiz+QA)
+* w03 Recitation I (Review+Test+QA)
 
 * w04 Control Flow
 
 * w05 Function Module
 
-* w06 Recitation II (Review+Quiz+QA)
+* w06 Recitation II (Review+Test+QA)
 
 * w07 Data Structure
 
 * w08 File Operations
 
-* w09 Recitation III (Review+Quiz+QA)
+* w09 Recitation III (Review+Test+QA)
 
 * w10 Exception Handling
 
 * w11 LLM API in Python + Final Project Team Work
 
-* w12 Recitation IV (Review+Quiz+QA)
+* w12 Recitation IV (Review+Test+QA)
 
 * w13 Intro to Libraries + Final Project Team Work
 
@@ -37,16 +37,32 @@
 
 ###  Team Arrangement
 
-1. In total, we have 10 teams.
+1. In total, we have 5 teams (5-7 members per team).
 
 2. We have multiple rounds of member selection.
 
 3. In each round, each Team Lead will provide one offer to one member (you can reject the offer, and then the lead should turn to another one). 
 
-4. For each team work, the grade is ranging from 1 to 5. Team Lead can get 1 bonus point.
+4. For the final project, the maximum grade is 30 (final presentation). Team Lead can get 3 bonus points (10%).
 
-5. If more than 10 people want to be the team lead, let’s vote for it. If less than 10 people want to be the lead, I will randomly assign the remaining team lead.
-![Uploading image.png…]()
+5. If more than 5 people want to be the team lead, let’s vote for it. If less than 5 people want to be the lead, I will randomly assign the remaining team lead.
+
+<br>
+
+---------------------------
+
+### Final Grade
+
+* We use a quantile-based evaluation method to calculate the final grade (ranging from 0 to 100), which consists of three components: 1. General Performance, 2. Final Project, and 3. Total Test Scores (recitation sessions). For each component, a student’s quantile within the entire cohort is calculated. The Average Quantile (AQ) is then computed across all three components. If a student’s AQ is below 0.2, they will receive a “FAIL” grade. In addition, if the AQ is lower than 0.2 but the Actual Score (AS) on the Total Test Scores exceeds passing line, the final grade will be marked as 60 (passed with a low final grade).
+
+    if AQ ≥ 0.2:
+        Passed, Final Grade = (AQ – 0.2) / (AQmax – 0.2) × 40 + 60
+    else if AQ < 0.2 and Final Exam Score ≥ Passing Line:
+        Passed, Final Grade = 60
+    else if AQ < 0.2 and Final Exam Score < Passing Line:
+        Failed, Final Grade = AQ / 0.2 × 60
+
+
 
 
 
