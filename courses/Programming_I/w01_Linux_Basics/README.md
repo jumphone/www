@@ -1,10 +1,10 @@
 
-[Introduction to the Lecturer](/courses/Programming_I/w01_Linux_Basics/s01_selfIntro)
+[Introduction to the Lecturer](https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/s01_selfIntro)
 
-[Introduction to the Course](/courses/Programming_I/w01_Linux_Basics/s02_courseIntro)
+[Introduction to the Course](https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/s02_courseIntro)
 
-[Introduction to the Final Project](/courses/Programming_I/w01_Linux_Basics/s03_projectIntro)
+[Introduction to the Final Project](https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/s03_projectIntro)
 
-[Lecture & Seminar & Examples](/courses/Programming_I/w01_Linux_Basics/s04_keyPoints)
+[Lecture & Seminar & Examples](https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/s04_keyPoints)
 
-[Hands‑on Practice (Weekly Report)](/courses/Programming_I/w01_Linux_Basics/s05_practice)
+[Hands‑on Practice (Weekly Report)](https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/s05_practice)
