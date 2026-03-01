@@ -40,3 +40,42 @@ This is an important part of your "General Performance". Please ensure timely su
 Linux Server:
 
 IP: [click](https://www.bioinfo-lab.com/ip.txt)
+
+Port: 13579
+
+User Name: dt + Student ID (e.g. dt2023000001)
+
+Password: dt + Student ID + @biuh2025 (e.g. dt2023000001@biuh2025)
+
+<br>
+
+---------------------
+
+### pwd, cd, ls
+
+```
+# Show the path of your home directory
+pwd
+
+# Changes the current working directory to its immediate parent directory
+cd ..
+pwd
+
+# Show the files and folders under current working directory
+ls
+
+# Changes the current working directory to your home directory
+cd ~
+pwd
+```
+
+<br>
+
+---------------------
+
+### Change Directory
+
+
+
+
+
