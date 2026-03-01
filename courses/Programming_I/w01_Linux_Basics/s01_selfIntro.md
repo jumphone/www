@@ -71,7 +71,7 @@ Published over 30 research papers.
 
 * Bioinformatics courses => Review CV / Interview => Offer for practice-integrated learning
 
-* If you are interested in the bioinformatics courses, please contact with:
+* If you are interested in the bioinformatics courses & practice-integrated learning, please contact with:
 
 * QIU Yuyue (CS2023): yuyue.qiu.23@stu.hainan-biuh.edu.cn
 
