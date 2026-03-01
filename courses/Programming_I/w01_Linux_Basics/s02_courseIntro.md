@@ -29,9 +29,9 @@
 
 #### Recitation Weeks:
 
-1. Review: 45 mins
-2. Test: 90 mins
-3. Team Work + Q&A: 45 mins
+1. Review: 45~90 mins
+2. Test: 45~90 mins
+3. Team Work + Q&A: the remaining time
 
 <br>
 
