@@ -5,6 +5,6 @@
 
 [Introduction to the Final Project](/courses/Programming_I/w01_Linux_Basics/s03_projectIntro)
 
-[Key Points: Linux Basics](/courses/Programming_I/w01_Linux_Basics/s04_keyPoints)
+[Lecture & Seminar](/courses/Programming_I/w01_Linux_Basics/s04_keyPoints)
 
 [Hands‑on Practice (Weekly Report)](/courses/Programming_I/w01_Linux_Basics/s05_practice)
