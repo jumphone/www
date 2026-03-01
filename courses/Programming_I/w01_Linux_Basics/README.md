@@ -1,6 +1,6 @@
 <br>
 
-### w01 Linux Basics
+### Linux Basics
 
 <br>
 
