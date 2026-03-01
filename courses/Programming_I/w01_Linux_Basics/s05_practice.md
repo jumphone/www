@@ -39,4 +39,4 @@ This is an important part of your "General Performance". Please ensure timely su
 
 Linux Server:
 
-IP: 
+IP: [click](https://www.bioinfo-lab.com/ip.txt)
