@@ -47,9 +47,9 @@ Absolute Path: The full path from the root directory to a file or folder.
 
 Relative Path: The path from your current working directory to a file or folder.
 
-* Linux: /home/zhangfeng/download/test.txt
+* Linux: ../download/test.txt
 
-* Windows: D:\download\test.txt
+* Windows: ..\test.txt
 
 ---
 
