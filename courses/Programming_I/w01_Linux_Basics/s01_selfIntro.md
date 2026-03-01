@@ -27,7 +27,7 @@ Research field: bioinformatics, computational biology, biomedical data analysis
 
 -----------
 
-### Published over 30 research papers.
+### Published over 30 research papers
 
 Selected Papers:
 
