@@ -7,15 +7,13 @@
 
 <br>
 
+"GUI" stands for "Graphical User Interface"
 
----
-* "GUI" stands for "Graphical User Interface"
+"CLI" stands for "Command Line Interface"
 
-* "CLI" stands for "Command Line Interface"
+Terminal: A terminal is a text-based tool that lets you control a computer or server by typing commands instead of clicking icons. It is a typical CLI.
 
-* Terminal: A terminal is a text-based tool that lets you control a computer or server by typing commands instead of clicking icons. It is a typical CLI.
-
-* Termius is a terminal application.
+Termius is a terminal application.
 
 
 <br>
@@ -26,25 +24,25 @@
 
 
 ---
-* Termius is the tool we use to connect to the Linux server.
+Termius is the tool we use to connect to the Linux server.
 
-* Four elements for creating a new host in Termius: IP address, Port, Username, Password
+Four elements for creating a new host in Termius: IP address, Port, Username, Password
 
-* Termius offers SFTP for file management (upload/download)
+Termius offers SFTP for file management (upload/download)
 
 ---
 
-* Absolute Path: The full path from the root directory to a file or folder.
+Absolute Path: The full path from the root directory to a file or folder.
 
-Linux: /home/zhangfeng/download/test.txt
+* Linux: /home/zhangfeng/download/test.txt
 
-Windows: D:\download\test.txt
+* Windows: D:\download\test.txt
 
-* Relative Path: The path from your current working directory to a file or folder.
+Relative Path: The path from your current working directory to a file or folder.
 
-Linux: /home/zhangfeng/download/test.txt
+* Linux: /home/zhangfeng/download/test.txt
 
-Windows: D:\download\test.txt
+* Windows: D:\download\test.txt
 
 ---
 
@@ -56,81 +54,59 @@ Windows: D:\download\test.txt
 
 ---
 
-* “pwd” Print working directory
+“pwd” Print working directory
 
-* “ls” List files in the current directory.
-
-<br>
-
----
-
-
-* “cd” Change directories.
-
-* “cd ..” change the current working directory to its parent directory
-
-* “cd ~” change the current working directory to your home directory
-
-
-
+“ls” List files in the current directory.
 
 <br>
 
 ---
 
-* “mkdir” Create directories.
+“cd” Change directories.
 
-* “touch new_file.txt” create an empty file named new_file.txt
+“cd ..” change the current working directory to its parent directory
 
-
-
-<br>
+“cd ~” change the current working directory to your home directory
 
 ---
 
+“mkdir” Create directories.
 
-* “less new_file.txt” view the contents of the file named new_file.txt
-
-* “cat new_file.txt” print out all contents of the file named new_file.txt
-
-
-<br>
+“touch new_file.txt” create an empty file named new_file.txt
 
 ---
 
-* “cp original_file.txt copy_file.txt” copy the file named original_file.txt to a new file named copy_file.txt
+“less new_file.txt” view the contents of the file named new_file.txt
 
-* “cp -r original_folder copy_folder” copy the contents of the folder named original_folder to a new folder named copy_folder
-
-* “mv copy_file.txt move_file.txt” move the file named copy_file.txt to a new file named move_file.txt
-
-* “mv copy_folder move_folder” move the folder named copy_folder to a new folder named move_folder 
-
-* “rm tmp.txt” remove a file named tmp.txt
-
-* “rm -r tmp_folder” remove a folder named tmp_folder and all its contents recursively.
-
-
-
-<br>
+“cat new_file.txt” print out all contents of the file named new_file.txt
 
 ---
 
-* nano is a text editor that works in the linux terminal.
+“cp original_file.txt copy_file.txt” copy the file named original_file.txt to a new file named copy_file.txt
 
-* In nano, Ctrl + O is used to save your work
+“cp -r original_folder copy_folder” copy the contents of the folder named original_folder to a new folder named copy_folder
 
-* In nano, Ctrl + X is used to exit nano
+“mv copy_file.txt move_file.txt” move the file named copy_file.txt to a new file named move_file.txt
 
+“mv copy_folder move_folder” move the folder named copy_folder to a new folder named move_folder 
 
+“rm tmp.txt” remove a file named tmp.txt
 
-<br>
+“rm -r tmp_folder” remove a folder named tmp_folder and all its contents recursively.
 
 ---
 
-* “tab” type the first few letters of a file name or command, then press the Tab key. Linux will automatically complete the rest for you.
+nano is a text editor that works in the linux terminal.
 
-* “history” You can see all the commands you have run before.
+In nano, Ctrl + O is used to save your work
+
+In nano, Ctrl + X is used to exit nano
+
+---
+
+“tab” type the first few letters of a file name or command, then press the Tab key. Linux will automatically complete the rest for you.
+
+“history” You can see all the commands you have run before.
 
 
 
