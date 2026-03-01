@@ -53,7 +53,7 @@ Password: dt + Student ID + @biuh2025 (e.g. dt2023000001@biuh2025)
 
 ### 4. Linux Basics
 
-### pwd, cd, ls
+#### pwd, cd, ls
 
 ```
 # show the path of your home directory
@@ -71,15 +71,12 @@ cd ~
 pwd
 ```
 
-<br>
-
----------------------
-
-### mkdir, touch
+#### mkdir, touch
 
 ```
-# make sure that you are in your home directory
 cd ~
+
+# make sure that you are in your home directory
 pwd
 
 # create a new folder named "new_folder"
@@ -92,24 +89,7 @@ touch new_file.txt
 ls
 ```
 
-### mkdir, touch
-
-```
-# make sure that you are in your home directory
-cd ~
-pwd
-
-# create a new folder named "new_folder"
-mkdir new_folder
-
-# create a new empty file named "new_file.txt"
-touch new_file.txt
-
-# show all the files and folders under current working directory
-ls
-```
-
-### less, cat
+#### less, cat
 
 ```
 # use less to check the content of a demo file. press "q" to quit
@@ -120,12 +100,13 @@ cat /home/students/dt2025/resource/demo.txt
 
 ```
 
-### cp, mv rm
+#### cp, mv rm
 
 ```
+cd ~
+
 # copy the demo.txt to your home directory
 cp /home/students/dt2025/resource/demo.txt ~/demo.txt
-cd ~
 ls
 
 # move the your demo.txt to demo_mv.txt
@@ -134,9 +115,19 @@ ls
 
 # remove the demo_mv.txt
 rm demo_mv.txt
+ls
+
+# copy a folder
+cp -r new_folder copy_new_folder
+ls
+
+# remove a folder
+rm -rf copy_new_folder
+ls
+
 ```
 
-### nano
+#### nano
 
 ```
 cd ~
@@ -147,7 +138,7 @@ nano new_nano_file.txt
 
 ```
 
-### Tips
+#### Tips
 
 “tab” type the first few letters of a file name or command, then press the Tab key. Linux will automatically complete the rest for you.
 
@@ -155,6 +146,11 @@ nano new_nano_file.txt
 
 Try "ai", "aiw", and "aid"
 
+
+
+<br>
+
+---------------------
 
 ### End
 
