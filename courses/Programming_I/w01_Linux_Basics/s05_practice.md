@@ -4,6 +4,7 @@ Note: Please create a new PPT file, document every subsequent step you take with
 </b>
 
 <br>
+
 ---------------------
 
 1. Download & Install Termius
@@ -20,6 +21,7 @@ Note: Please create a new PPT file, document every subsequent step you take with
 
 
 <br>
+
 ---------------------
 
 2. Register a Termius account.
@@ -27,6 +29,7 @@ Note: Please create a new PPT file, document every subsequent step you take with
 <b> Do NOT subscribe; use the free version directly. </b>
 
 <br>
+
 ---------------------
 
 3. Log into your account.
