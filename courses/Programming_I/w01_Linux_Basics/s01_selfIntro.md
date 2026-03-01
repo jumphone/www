@@ -1,4 +1,6 @@
-<img width="787" height="171" alt="image" src="https://github.com/user-attachments/assets/4f8e6cb8-c740-4882-9df1-d9327276805b" />
+
+<br>
+
 ### Name: ZHANG Feng (张丰)
 
 Research field: bioinformatics, computational biology, biomedical data analysis
