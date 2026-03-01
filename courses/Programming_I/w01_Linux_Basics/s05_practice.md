@@ -1,7 +1,9 @@
 
 ### Important
 
-Please create a new PPT file, document every subsequent step you take with screenshots, save it as a PDF upon completion of all steps, and submit it to the "Weekly Report Assignment" on Moodle by 23:59 this Sunday. This is a crucial part of your "General Performance". Please ensure timely submission!!!
+Please create a new PPT file, document every subsequent step you take with screenshots, save it as a PDF upon completion of all steps, and submit it to the "Weekly Report Assignment" on Moodle by 23:59 this Sunday. 
+
+This is an important part of your "General Performance". Please ensure timely submission!!!
 
 
 <br>
