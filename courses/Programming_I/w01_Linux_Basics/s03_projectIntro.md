@@ -33,6 +33,8 @@
 
 ### Requirements
 
+* Your program must run on Linux.
+
 * Your code must be modified based on the "/home/toolkit/tools/ai/ai.py".
 
 * Prompts for the movie’s six clips must be generated iteratively: each clip’s prompt is based on the previous one, implemented with Python loop syntax.
