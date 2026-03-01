@@ -1,9 +1,12 @@
 
 #### Q1: How many of you have learned Python before?
 
+<br>
+
 #### Q2: How many of you have learned Linux before?
 
 <br>
+
 
 ---
 * "GUI" stands for "Graphical User Interface"
@@ -14,11 +17,13 @@
 
 * Termius is a terminal application.
 
+
 <br>
 
 #### Q4: What are the advantages and disadvantages of GUI and CLI?
 
 <br>
+
 
 ---
 * Termius is the tool we use to connect to the Linux server.
@@ -26,9 +31,6 @@
 * Four elements for creating a new host in Termius: IP address, Port, Username, Password
 
 * Termius offers SFTP for file management (upload/download)
-
-
-<br>
 
 ---
 
