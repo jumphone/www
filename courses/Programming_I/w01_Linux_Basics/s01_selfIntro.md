@@ -99,7 +99,7 @@ Published over 30 research papers.
 
 <p float="left">
 <a href='https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/src/f01_roadmap.png'>
-  <img src="https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/src/f01_roadmap.png" width="400">
+  <img src="https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/src/f01_roadmap.png" width="500">
 </a>
 </p>
 
