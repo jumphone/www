@@ -1,4 +1,10 @@
 
+[Back](https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/)
+
+<br>
+
+---------------------
+
 ### Important
 
 Please create a new PPT file, document every subsequent step you take with screenshots, save it as a PDF upon completion of all steps, and submit it to the "Weekly Report Assignment" on Moodle by 23:59 this Sunday. 
