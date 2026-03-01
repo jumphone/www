@@ -4,7 +4,7 @@
 
 * w02 Python Basics
 
-* w03 Recitation I (Review+Test+QA)
+* w03 Recitation I (Review+Test+QA+Team Work)
 
 * w04 Control Flow
 
@@ -20,13 +20,13 @@
 
 * w10 Exception Handling
 
-* w11 LLM API in Python + Final Project Team Work
+* w11 LLM API in Python
 
 * w12 Recitation IV (Review+Test+QA)
 
-* w13 Intro to Libraries + Final Project Team Work
+* w13 Intro to Libraries
 
-* w14 Intro to Concurrent Programming + Final Project Team Work
+* w14 Intro to Concurrent Programming
 
 * w15 Final Presentation
 
@@ -47,6 +47,9 @@
 
 1. Review: 45 mins
 
+2. Test: 45 mins
+
+3. Q&A + Team Project
 
 
 <br>
