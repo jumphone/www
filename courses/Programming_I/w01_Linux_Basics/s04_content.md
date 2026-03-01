@@ -1,10 +1,19 @@
 
+#### Q1: How many of you have learned Python before?
+
+#### Q2: How many of you have learned Linux before?
+
+
 * "GUI" stands for "Graphical User Interface"
 
 * "CLI" stands for "Command Line Interface"
 
+* Terminal: A terminal is a text-based tool that lets you control a computer or server by typing commands instead of clicking icons. It is a typical CLI.
+
+* Termius is a terminal application.
 
 
+#### Q4: What are the advantages and disadvantages of GUI and CLI?
 
 <br>
 
@@ -16,8 +25,23 @@
 * Termius offers SFTP for file management (upload/download)
 
 
+<br>
 
+---
 
+* Absolute Path: The full path from the root directory to a file or folder.
+
+Linux: /home/zhangfeng/download/test.txt
+
+Windows: D:\download\test.txt
+
+* Relative Path: The path from your current working directory to a file or folder.
+
+Linux: /home/zhangfeng/download/test.txt
+
+Windows: D:\download\test.txt
+
+#### Q5: Why do we need "relative path"?
 
 <br>
 
@@ -26,9 +50,6 @@
 * “pwd” Print working directory
 
 * “ls” List files in the current directory.
-
-
-
 
 <br>
 
@@ -64,8 +85,6 @@
 * “cat new_file.txt” print out all contents of the file named new_file.txt
 
 
-
-
 <br>
 
 ---
@@ -84,7 +103,6 @@
 
 
 
-
 <br>
 
 ---
@@ -94,8 +112,6 @@
 * In nano, Ctrl + O is used to save your work
 
 * In nano, Ctrl + X is used to exit nano
-
-
 
 
 
