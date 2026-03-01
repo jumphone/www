@@ -60,13 +60,13 @@
 
 ### Final Grade
 
-* We use a quantile-based evaluation method to calculate the final grade (ranging from 0 to 100), which consists of three components:
+We use a quantile-based evaluation method to calculate the final grade (ranging from 0 to 100), which consists of three components:
 
 1. General Performance (weekly reports in non-recitation weeks)
 2. Final Project (final presentation + slides)
 3. Total Test Score (recitation sessions)
 
-* For each component, a student’s quantile within the entire cohort is calculated. Quantiles are calculated as percentiles (0 = lowest, 1.0 = highest) within the entire cohort. The Average Quantile (AQ) is then computed across all three components. If a student’s AQ is below 0.2, they will receive a “FAIL” grade. In addition, if the AQ is lower than 0.2 but the Actual Score (AS) on the Total Test Score exceeds passing line, the final grade will be marked as 60 (passed with a low final grade).
+For each component, a student’s quantile within the entire cohort is calculated. Quantiles are calculated as percentiles (0 = lowest, 1.0 = highest) within the entire cohort. The Average Quantile (AQ) is then computed across all three components. If a student’s AQ is below 0.2, they will receive a “FAIL” grade. In addition, if the AQ is lower than 0.2 but the Actual Score (AS) on the Total Test Score exceeds passing line, the final grade will be marked as 60 (passed with a low final grade).
 
 ```
 if AQ ≥ 0.2:
