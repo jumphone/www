@@ -54,17 +54,17 @@ Password: dt + Student ID + @biuh2025 (e.g. dt2023000001@biuh2025)
 ### pwd, cd, ls
 
 ```
-# Show the path of your home directory
+# show the path of your home directory
 pwd
 
-# Changes the current working directory to its immediate parent directory
+# changes the current working directory to its immediate parent directory
 cd ..
 pwd
 
-# Show the files and folders under current working directory
+# show all the files and folders under current working directory
 ls
 
-# Changes the current working directory to your home directory
+# changes the current working directory to your home directory
 cd ~
 pwd
 ```
@@ -73,7 +73,85 @@ pwd
 
 ---------------------
 
-### Change Directory
+### mkdir, touch
+
+```
+# make sure that you are in your home directory
+cd ~
+pwd
+
+# create a new folder named "new_folder"
+mkdir new_folder
+
+# create a new empty file named "new_file.txt"
+touch new_file.txt
+
+# show all the files and folders under current working directory
+ls
+```
+
+### mkdir, touch
+
+```
+# make sure that you are in your home directory
+cd ~
+pwd
+
+# create a new folder named "new_folder"
+mkdir new_folder
+
+# create a new empty file named "new_file.txt"
+touch new_file.txt
+
+# show all the files and folders under current working directory
+ls
+```
+
+### less, cat
+
+```
+# use less to check the content of a demo file. press "q" to quit
+less /home/students/dt2025/resource/demo.txt
+
+# use cat to show the entire content of a demo file.
+cat /home/students/dt2025/resource/demo.txt
+
+```
+
+### cp, mv rm
+
+```
+# copy the demo.txt to your home directory
+cp /home/students/dt2025/resource/demo.txt ~/demo.txt
+cd ~
+ls
+
+# move the your demo.txt to demo_mv.txt
+mv demo.txt demo_mv.txt
+ls
+
+# remove the demo_mv.txt
+rm demo_mv.txt
+```
+
+### nano
+
+```
+cd ~
+nano new_nano_file.txt
+
+# save: Ctrl + O
+# Exit: Ctrl + X
+
+```
+
+### Tips
+
+“tab” type the first few letters of a file name or command, then press the Tab key. Linux will automatically complete the rest for you.
+
+“history” You can see all the commands you have run before.
+
+Try "ai", "aiw", and "aid"
 
 
 
