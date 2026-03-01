@@ -74,6 +74,7 @@ Published over 30 research papers.
 * Informal Member: Students who take the bioinformatics interest courses (Contact: QIU Yuyue, WU Shangjun, DENG Zifeng)
 
 <br>
+
 -----------
 
 ### Bioinformatics Practice-Integrated Learning (Internship)
