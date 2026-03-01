@@ -5,8 +5,8 @@
 
 Research field: bioinformatics, computational biology, biomedical data analysis
 
------------
 <br>
+-----------
 
 ### Education & Work experience: 
 
@@ -26,8 +26,8 @@ Research field: bioinformatics, computational biology, biomedical data analysis
 
 * **BSc**, Information Security, School of Mathmatics, Shandong University, China, 2011.09-2015.06 
 
------------
 <br>
+-----------
 
 ### Selected Papers:
 
@@ -55,8 +55,8 @@ Published over 30 research papers.
 
 * SPRINT: an SNP-free toolkit for identifying RNA editing sites, **Bioinformatics**, 2017.07, {[code](https://github.com/jumphone/SPRINT), [paper](https://doi.org/10.1093/bioinformatics/btx473)}, first author
     
------------
 <br>
+-----------
 
 ### Bioinformatics Lab at BiUH
 
@@ -70,8 +70,8 @@ Published over 30 research papers.
  
 * Informal Member: Students who take the bioinformatics interest courses (Contact: QIU Yuyue, WU Shangjun, DENG Zifeng)
 
------------
 <br>
+-----------
 
 ### Bioinformatics Practice-Integrated Learning (Internship)
 
@@ -98,8 +98,8 @@ Published over 30 research papers.
 </a>
 </p>
 
------------
 <br>
+-----------
 
 ### More
 
