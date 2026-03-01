@@ -41,6 +41,16 @@ Termius is a terminal application.
 
 #### Q: What are the advantages and disadvantages of GUI and CLI?
 
+<details>
+<summary> More </summary>
+<div style="padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-top: 8px;">
+<br>
+<p> &nbsp;&nbsp;&nbsp;&nbsp; GUI: Easy, visual, slow for complex work. </p>
+<p> &nbsp;&nbsp;&nbsp;&nbsp; CLI: Fast, powerful, hard for beginners. </p>
+<br>
+</div>
+</details>
+
 <br>
 
 
