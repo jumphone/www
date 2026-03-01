@@ -16,7 +16,7 @@
   <div style="padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-top: 8px;">
     <br>
     
-    <p>When controlling a computer, the most important things are knowing: </p>
+    <p> When controlling a computer, the most important things are knowing: </p>
     <p> &nbsp;&nbsp;&nbsp;&nbsp;Position: "where you are" </p>
     <p> &nbsp;&nbsp;&nbsp;&nbsp;Intention: "what you want to do"</p>
     
