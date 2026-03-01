@@ -3,23 +3,18 @@
 * w01 Linux Basics
 * w02 Python Basics
 * w03 Recitation I (Review+Test+Team Work+QA)
-
 * w04 Control Flow
 * w05 Function Module
 * w06 Recitation II (Review+Test+Team Work+QA)
-
 * w07 Data Structure
 * w08 File Operations
 * w09 Recitation III (Review+Test+Team Work+QA)
-
 * w10 Exception Handling
 * w11 LLM API in Python
 * w12 Recitation IV (Review+Test+Team Work+QA)
-
 * w13 Intro to Libraries
 * w14 Intro to Concurrent Programming
 * w15 Final Presentation
-
 
 <br>
 
