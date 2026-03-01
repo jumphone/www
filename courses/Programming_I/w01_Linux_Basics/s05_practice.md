@@ -12,6 +12,15 @@ Please create a new PPT file, document every subsequent step you take with scree
 This is an important part of your "General Performance". Please ensure timely submission!!!
 
 
+#### Tips
+
+“tab” type the first few letters of a file name or command, then press the Tab key. Linux will automatically complete the rest for you.
+
+“history” You can see all the commands you have run before.
+
+Try "ai", "aiw", and "aid"
+
+
 <br>
 
 ---------------------
@@ -161,15 +170,6 @@ cat new_nano_file.txt
 # Use SFTP to upload and download some files.
 
 ```
-
-#### Tips
-
-“tab” type the first few letters of a file name or command, then press the Tab key. Linux will automatically complete the rest for you.
-
-“history” You can see all the commands you have run before.
-
-Try "ai", "aiw", and "aid"
-
 
 <br>
 
