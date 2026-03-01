@@ -27,7 +27,7 @@ Research field: bioinformatics, computational biology, biomedical data analysis
 
 -----------
 
-#### Selected Papers:
+### Selected Papers:
 
 Published over 30 research papers.
 
@@ -65,7 +65,7 @@ Published over 30 research papers.
   
 -----------
 
-### Bioinformatics practice-integrated learning (internship)
+### Bioinformatics Practice-Integrated Learning (Internship)
 
 * Sent 25 BiUH students to do practice-integrated learning (internship) at various top universities and hospitals in Shanghai, Guangzhou, and Hangzhou.
 
