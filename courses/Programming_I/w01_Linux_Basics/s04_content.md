@@ -14,9 +14,11 @@
 <details>
   <summary>🔍 Expand </summary>
   <div style="padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-top: 8px;">
+    <br>
     <p>
     When controlling a computer, the most important things are knowing "where you are" (position) and "what you want to do"(intention).
     </p>
+    <br>
   </div>
 </details>
 
