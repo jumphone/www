@@ -25,6 +25,21 @@
 
 <br>
 
+#### Q: What are the two components closest to users in a computer?
+
+<details>
+<summary> More </summary>
+<div style="padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-top: 8px;">
+<br>
+<p> &nbsp;&nbsp;&nbsp;&nbsp;File systems </p>
+<p> &nbsp;&nbsp;&nbsp;&nbsp;Application systems </p>
+<br>
+</div>
+</details>
+
+<br>
+
+
 ---
 
 "GUI" stands for "Graphical User Interface"
