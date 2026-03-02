@@ -53,6 +53,8 @@ SFTP: SSH File Transfer Protocol, also known as Secure File Transfer Protocol
 
 ---
 
+<br>
+
 #### Q: What are the important things when controlling a computer?
 
 <details>
