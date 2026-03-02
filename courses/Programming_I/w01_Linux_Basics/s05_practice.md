@@ -179,8 +179,6 @@ cat new_nano_file.txt
 
 ---------------------
 
-<br>
-
 End
 
 
