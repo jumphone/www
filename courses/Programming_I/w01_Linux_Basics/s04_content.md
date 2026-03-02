@@ -11,35 +11,6 @@
 
 <br>
 
-#### Q: What are the important things when controlling a Windows computer?
-
-<details>
-<summary> More </summary>
-<div style="padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-top: 8px;">
-<br>
-<p> &nbsp;&nbsp;&nbsp;&nbsp;Position: "where you are" </p>
-<p> &nbsp;&nbsp;&nbsp;&nbsp;Intention: "what you want to do" </p>
-<br>
-</div>
-</details>
-
-<br>
-
-#### Q: What are the two components closest to users in a computer?
-
-<details>
-<summary> More </summary>
-<div style="padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-top: 8px;">
-<br>
-<p> &nbsp;&nbsp;&nbsp;&nbsp;File systems </p>
-<p> &nbsp;&nbsp;&nbsp;&nbsp;Application systems </p>
-<br>
-</div>
-</details>
-
-<br>
-
-
 ---
 
 "GUI" stands for "Graphical User Interface"
@@ -50,12 +21,11 @@ Terminal: A terminal is a text-based tool that lets you control a computer or se
 
 Termius is a terminal application.
 
-
 ---
 
 <br>
 
-#### Q: What are the advantages and disadvantages of GUI and CLI?
+#### Q: What's your intuitive guess about the advantages and disadvantages of GUI and CLI?
 
 <details>
 <summary> More </summary>
@@ -69,7 +39,6 @@ Termius is a terminal application.
 
 <br>
 
-
 ---
 
 Termius is the tool we use to connect to the Linux server.
@@ -81,6 +50,37 @@ Termius offers SFTP for file management (upload/download)
 SSH: Secure Shell (SSH) is an encrypted network protocol used to securely access, manage, and transfer files between computers over unsecured networks
 
 SFTP: SSH File Transfer Protocol, also known as Secure File Transfer Protocol 
+
+---
+
+#### Q: What are the important things when controlling a computer?
+
+<details>
+<summary> More </summary>
+<div style="padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-top: 8px;">
+<br>
+<p> &nbsp;&nbsp;&nbsp;&nbsp;Position: "where you are" </p>
+<p> &nbsp;&nbsp;&nbsp;&nbsp;Intention: "what you want to do" </p>
+<br>
+</div>
+</details>
+
+<br>
+
+
+#### Q: What are the two software components closest to users in a computer?
+
+<details>
+<summary> More </summary>
+<div style="padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-top: 8px;">
+<br>
+<p> &nbsp;&nbsp;&nbsp;&nbsp;File systems </p>
+<p> &nbsp;&nbsp;&nbsp;&nbsp;Application systems </p>
+<br>
+</div>
+</details>
+
+<br>
 
 ---
 
