@@ -1,13 +1,6 @@
 
 # Section 1. Python Basic Syntax Fundamentals
 
-## 1. Objectives
-- Understand Python execution modes
-- Master basic syntax rules
-- Recognize reserved keywords
-- Write first Python program
-- Handle common syntax errors
-
 ---
 
 ## 1. Python Execution Modes (Interactive vs Script)
@@ -33,6 +26,10 @@ $ python3 hello.py
 - Save code permanently
 - Better for complex programs
 - Use text editor (nano/vim)
+
+---
+
+<br>
 
 ---
 
@@ -67,11 +64,15 @@ def calculate():
 # Use semicolon ";". Valid but not recommended
 x=1; y=2; print(x+y)
 
-# Preferred
+# Preferred (line break)
 x = 1
 y = 2
 print(x + y)
 ```
+
+---
+
+<br>
 
 ---
 
@@ -88,6 +89,10 @@ print(x + y)
 | return   | try     | while  | with    | yield   |
 
 **Important**: These cannot be used as variable/function names!
+
+---
+
+<br>
 
 ---
 
@@ -127,6 +132,10 @@ print('Hello World!')
 
 ---
 
+<br>
+
+---
+
 ## 5. Common Errors & Debugging
 
 ### Error Types
@@ -156,7 +165,11 @@ print("Missing indent")
 
 ---
 
-## Best Practices Checklist
+<br>
+
+---
+
+## Checklist
 - Always use 4-space indentation
 - Write full comments
 - Avoid semicolons ";" for multiple statements
@@ -166,18 +179,18 @@ print("Missing indent")
 ---
 
 
-
-
+<br>
+<br>
+<br>
 
 # Section 2. Variables & Data Types
-
 
 ---
 
 ## 1. The Nature of Variables
 ### Variable
 ```python
-# Think of variables as labeled boxes in warehouse (memory in the computer)
+# Think of variables as labeled boxes in warehouse
 box_label = "item_count"  # Variable name
 box_content = 17          # Stored value
 ```
@@ -190,6 +203,10 @@ box_content = 17          # Stored value
   x = 10    # Create object 10, bind to x
   x = "cat" # Create new object, rebind x
   ```
+
+---
+
+<br>
 
 ---
 
@@ -219,6 +236,10 @@ studentname → student_name
 tmpf → temporary_file
 calcVal → calculate_value
 ```
+
+---
+
+<br>
 
 ---
 
@@ -258,8 +279,15 @@ print(number)
 
 ---
 
+<br>
+
+---
+
 ## 4. Core Data Types
 ### Integer Representations
+
+different number systems （different bases）
+
 ```python
 binary_num = 0b1010     # 10 (binary representation)
 octal_num = 0o177       # 127 (octal)
@@ -285,6 +313,10 @@ s2 = "Double quotes"
 s3 = '''Triple quotes preserve
 line breaks and "both" quote types'''
 ```
+
+---
+
+<br>
 
 ---
 
@@ -316,36 +348,15 @@ True + 10       # bool treated as int(1)
 
 ---
 
-## 6. Memory Visualization with id
-### Address Tracing Demo
-```python
-a = 256
-b = 256
-print(id(a) == id(b))  # True (small int caching)
-
-x = 257
-y = 257
-print(id(x) == id(y))  # False (non-cached)
-
-list1 = [1,2]
-list2 = [1,2]
-print(id(list1) == id(list2))  # Always False
-```
+<br>
 
 ---
 
 
 # Section 3. Python Operator System
 
-
 ---
-## Today's Learning Objectives
-1. Master 6 types of operators in Python
-2. Understand operator precedence rules
-3. Learn practical coding techniques
-4. Develop error-avoidance strategies
 
----
 ## 1. Arithmetic Operators
 
 ### Core Operators Table
@@ -362,6 +373,11 @@ print(id(list1) == id(list2))  # Always False
 
 
 ---
+
+<br>
+
+---
+
 ## 2. Comparison Operators
 
 ### Numeric Comparisons
@@ -384,6 +400,11 @@ print('10' < '2')          # True (character '1'(49) vs '2'(50))
 ```
 
 ---
+
+<br>
+
+---
+
 ## 3. Logical Operators
 
 ### Truth Table
@@ -441,6 +462,11 @@ Full list:
 
 
 ---
+
+<br>
+
+---
+
 ## 4. Assignment Operators
 
 ### Chained Assignment
@@ -463,8 +489,12 @@ list1.append(5)
 print(list2)  # [5] (both reference same list)
 ```
 
+---
+
+<br>
 
 ---
+
 ## 5. Precedence Practice
 
 ### Challenge Exercise
@@ -481,20 +511,19 @@ result = 5 + 3 * 2 ** 2 // (4 % 3) - 1
 
 
 ### AI-Assisted Learning
-"Ask Kimi/ChatGPT to explain why `0.1 + 0.2 != 0.3` in Python and how to properly compare floats."
+"Ask Kimi/DouBao to explain why `0.1 + 0.2 != 0.3` in Python and how to properly compare floats."
 
 ---
 
-
-
-
+<br>
+<br>
+<br>
 
 # Section 4. Advanced String Operations
 
-
 ---
 
-### 1. String Interning Mechanism 
+## 1. String Interning Mechanism 
 - **What**: Python's memory optimization for identical strings
 - **How it works**:
   ```python
@@ -516,7 +545,11 @@ result = 5 + 3 * 2 ** 2 // (4 % 3) - 1
 
 ---
 
-### 2. Indexing & Slicing
+<br>
+
+---
+
+## 2. Indexing & Slicing
 #### Index Types
 - Positive Index: `0` to `len(str)-1`
 - Negative Index: `-1` (last char) to `-len(str)`
@@ -537,7 +570,11 @@ print(text[::2])    # 'pormig' (step=2)
 
 ---
 
-### 3. String Methods Library
+<br>
+
+---
+
+## 3. String Methods Library
 #### Split & Join
 ```python
 csv = "apple,banana,cherry"
@@ -569,7 +606,11 @@ print("title case".title()) # 'Title Case'
 
 ---
 
-### 4. Formatting Methods
+<br>
+
+---
+
+## 4. Formatting Methods
 #### %-formatting
 ```python
 name = "Alice"
@@ -608,7 +649,11 @@ print("Hello, "+name+"! You have "+ str(number) +" messages.")
 
 ---
 
-### 5. Escape Characters & Raw Strings
+<br>
+
+---
+
+## 5. Escape Characters & Raw Strings
 #### Common Escapes
 - `\n` Newline
 - `\t` Tab
@@ -628,7 +673,11 @@ print(regex)
 
 ---
 
-### 6. Multi-line Strings
+<br>
+
+---
+
+## 6. Multi-line Strings
 #### Triple-quoted Strings
 ```python
 long_text = """First line
