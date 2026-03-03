@@ -1,7 +1,7 @@
 
 # Section 1. Python Basic Syntax Fundamentals
 
-## 1. Objectives
+## Objectives
 - Understand Python execution modes
 - Master basic syntax rules
 - Recognize reserved keywords
@@ -10,7 +10,11 @@
 
 ---
 
-## 1. Python Execution Modes (Interactive vs Script)
+<br>
+
+---
+
+## Python Execution Modes (Interactive vs Script)
 
 ### Interactive Mode
 ```python
@@ -36,7 +40,7 @@ $ python3 hello.py
 
 ---
 
-## 2. Core Syntax Rules
+## Core Syntax Rules
 
 ### Indentation Rules (4-space principle)
 ```python
@@ -67,7 +71,7 @@ def calculate():
 # Use semicolon ";". Valid but not recommended
 x=1; y=2; print(x+y)
 
-# Preferred
+# Preferred (line break)
 x = 1
 y = 2
 print(x + y)
