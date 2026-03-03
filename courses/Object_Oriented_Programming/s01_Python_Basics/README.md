@@ -260,6 +260,9 @@ print(number)
 
 ## 4. Core Data Types
 ### Integer Representations
+
+different number systems （different bases）
+
 ```python
 binary_num = 0b1010     # 10 (binary representation)
 octal_num = 0o177       # 127 (octal)
