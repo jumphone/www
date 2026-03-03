@@ -2,10 +2,6 @@
 
 <br>
 
-#### Q: How many of you have written Python code before?
-
-<br>
-
 #### Q: How many of you have run a Python script before?
 
 <br>
