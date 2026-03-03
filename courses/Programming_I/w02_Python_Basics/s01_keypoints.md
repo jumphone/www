@@ -2,7 +2,7 @@
 
 ---
 
-•  Python has two execution modes: interactive mode and script mode. Interactive mode is good for quick testing, while script mode is suitable for complex programs.
+* Python has two execution modes: interactive mode and script mode. Interactive mode is good for quick testing, while script mode is suitable for complex programs.
 •  In interactive mode, “exit()” is used to exit python3
 •  In script mode, “python3” is used to run python3 script
 •  Python syntax emphasizes indentation, typically using 4 spaces as the standard.
