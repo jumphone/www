@@ -70,7 +70,7 @@ def calculate():
     """Docstring comments for functions"""
 ```
 
-### 3. Statement Separation
+### Statement Separation
 ```python
 # Use semicolon ";". Valid but not recommended
 x=1; y=2; print(x+y)
@@ -87,7 +87,7 @@ print(x + y)
 
 ---
 
-## 4. Reserved Keywords (35 in Python 3.7)
+## 3. Reserved Keywords (35 in Python 3.7)
 
 |          |         |        |         |         |
 |----------|---------|--------|---------|---------|
@@ -107,7 +107,7 @@ print(x + y)
 
 ---
 
-## 5. First Python Program
+## 4. First Python Program
 
 ### Interactive Version
 ```python
@@ -147,7 +147,7 @@ print('Hello World!')
 
 ---
 
-## 6. Common Errors & Debugging
+## 5. Common Errors & Debugging
 
 ### Error Types
 1. **SyntaxError**: 
