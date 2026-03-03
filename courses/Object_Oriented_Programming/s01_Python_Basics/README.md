@@ -14,7 +14,7 @@
 
 ---
 
-## Python Execution Modes (Interactive vs Script)
+## 1. Python Execution Modes (Interactive vs Script)
 
 ### Interactive Mode
 ```python
@@ -40,7 +40,11 @@ $ python3 hello.py
 
 ---
 
-## Core Syntax Rules
+<br>
+
+---
+
+## 2. Core Syntax Rules
 
 ### Indentation Rules (4-space principle)
 ```python
@@ -66,7 +70,7 @@ def calculate():
     """Docstring comments for functions"""
 ```
 
-### Statement Separation
+### 3. Statement Separation
 ```python
 # Use semicolon ";". Valid but not recommended
 x=1; y=2; print(x+y)
@@ -79,7 +83,11 @@ print(x + y)
 
 ---
 
-## 3. Reserved Keywords (35 in Python 3.7)
+<br>
+
+---
+
+## 4. Reserved Keywords (35 in Python 3.7)
 
 |          |         |        |         |         |
 |----------|---------|--------|---------|---------|
@@ -95,7 +103,11 @@ print(x + y)
 
 ---
 
-## 4. First Python Program
+<br>
+
+---
+
+## 5. First Python Program
 
 ### Interactive Version
 ```python
@@ -131,7 +143,11 @@ print('Hello World!')
 
 ---
 
-## 5. Common Errors & Debugging
+<br>
+
+---
+
+## 6. Common Errors & Debugging
 
 ### Error Types
 1. **SyntaxError**: 
@@ -160,7 +176,11 @@ print("Missing indent")
 
 ---
 
-## Best Practices Checklist
+<br>
+
+---
+
+## Checklist
 - Always use 4-space indentation
 - Write full comments
 - Avoid semicolons ";" for multiple statements
@@ -170,8 +190,9 @@ print("Missing indent")
 ---
 
 
-
-
+<br>
+<br>
+<br>
 
 # Section 2. Variables & Data Types
 
