@@ -1,8 +1,14 @@
 [Back](https://www.bioinfo-lab.com/courses/Programming_I/w02_Python_Basics/)
 
-Q: How many of you have written Python code before?
+<br>
 
-Q: How many of you have run a Python script before?
+#### Q: How many of you have written Python code before?
+
+<br>
+
+#### Q: How many of you have run a Python script before?
+
+<br>
 
 ---
 
@@ -16,7 +22,21 @@ IDLE is a simple integrated development environment for Python.
 
 ---
 
-Q: What's your intuitive guess about the advantages and disadvantages of interactive mode and script mode?
+<br>
+
+#### Q: What's your intuitive guess about the advantages and disadvantages of interactive mode and script mode?
+
+<details>
+<summary> More </summary>
+<div style="padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-top: 8px;">
+<br>
+<p> &nbsp;&nbsp;&nbsp;&nbsp; Interactive Mode: Good for quick testing and experimentation, immediate feedback, but code is not saved. </p>
+<p> &nbsp;&nbsp;&nbsp;&nbsp; Script Mode: Suitable for complex programs, reusable, shareable, but requires file management. </p>
+<br>
+</div>
+</details>
+
+<br>
 
 ---
 
@@ -32,9 +52,35 @@ Reserved keywords (such as `if`, `else`, `while`) cannot be used as variable nam
 
 ---
 
-Q: What are the important things when writing Python code?
+<br>
 
-Q: What are the two most common types of errors in Python?
+#### Q: What are the important things when writing Python code?
+
+<details>
+<summary> More </summary>
+<div style="padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-top: 8px;">
+<br>
+<p> &nbsp;&nbsp;&nbsp;&nbsp;Syntax: Correct structure and spelling of code. </p>
+<p> &nbsp;&nbsp;&nbsp;&nbsp;Logic: The flow and correctness of your program's operations. </p>
+<br>
+</div>
+</details>
+
+<br>
+
+#### Q: What are the two most common types of errors in Python?
+
+<details>
+<summary> More </summary>
+<div style="padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-top: 8px;">
+<br>
+<p> &nbsp;&nbsp;&nbsp;&nbsp;Syntax Errors: Mistakes in code structure (e.g., `SyntaxError`, `IndentationError`). </p>
+<p> &nbsp;&nbsp;&nbsp;&nbsp;Runtime Errors: Mistakes that occur during execution (e.g., `TypeError`, `NameError`). </p>
+<br>
+</div>
+</details>
+
+<br>
 
 ---
 
@@ -50,18 +96,32 @@ Type conversion functions: `int()`, `float()`, `str()`.
 
 ---
 
-Q: Why do we need different data types in Python?
+<br>
+
+#### Q: Why do we need different data types in Python?
+
+<details>
+<summary> More </summary>
+<div style="padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-top: 8px;">
+<br>
+<p> &nbsp;&nbsp;&nbsp;&nbsp; Different data types allow us to represent and manipulate different kinds of information appropriately. </p>
+<p> &nbsp;&nbsp;&nbsp;&nbsp; They help Python allocate memory efficiently and perform operations correctly. </p>
+<br>
+</div>
+</details>
+
+<br>
 
 ---
 
 Six types of operators in Python:
 
-1. Arithmetic operators: `+`, `-`, `*`, `/`, `//`, `%`, `**`
-2. Comparison operators: `>`, `<`, `==`, `!=`, `>=`, `<=`
-3. Logical operators: `and`, `or`, `not`
-4. Assignment operators: `=`, `+=`, `-=`, `*=`, `/=`
-5. Identity operators: `is`, `is not`
-6. Membership operators: `in`, `not in`
+1. **Arithmetic operators**: `+`, `-`, `*`, `/`, `//`, `%`, `**`
+2. **Comparison operators**: `>`, `<`, `==`, `!=`, `>=`, `<=`
+3. **Logical operators**: `and`, `or`, `not`
+4. **Assignment operators**: `=`, `+=`, `-=`, `*=`, `/=`
+5. **Identity operators**: `is`, `is not`
+6. **Membership operators**: `in`, `not in`
 
 Operator precedence determines evaluation order; parentheses can change precedence.
 
@@ -73,7 +133,11 @@ Escape characters: `\n` (newline), `\t` (tab)
 
 ---
 
-Q: What differences do you feel between writing Python code and using Linux commands?
+<br>
+
+#### Q: What differences do you feel between writing Python code and using Linux commands?
+
+<br>
 
 ---
 
@@ -96,6 +160,8 @@ Common string methods:
 `tab` type the first few letters of a variable name or function, then press the Tab key. Python will suggest completions.
 
 `history` In interactive mode, you can use the up arrow key to see previously entered commands.
+
+<br>
 
 ---
 
