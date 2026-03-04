@@ -1,7 +1,5 @@
 <a id="all"></a>
 
-# Python Basics
-
 ### Content:
 
 [Section 1. Python Basic Syntax Fundamentals](#s1.0)
