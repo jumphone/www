@@ -497,7 +497,7 @@ print(a == b+2)# True
 
 ```python
 print('Apple' < 'Banana')  # True (A(65) < B(66))
-print('cat1' > 'cat')       # True (lowercase > uppercase)
+print('cat1' > 'cat')       # True (longer > shorter)
 print('cat' > 'CAT')       # True (lowercase > uppercase)
 print('10' < '2')          # True (character '1'(49) vs '2'(50))
 ```
