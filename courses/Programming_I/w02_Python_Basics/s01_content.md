@@ -1,7 +1,7 @@
 
 ### Today's Content:
 
-Section 1. Python Basic Syntax Fundamentals
+[Section 1. Python Basic Syntax Fundamentals](#s1)
 
 Section 2. Variables & Data Types
 
