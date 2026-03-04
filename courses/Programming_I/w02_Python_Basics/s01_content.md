@@ -11,7 +11,7 @@
 [Section 4. String Operations](#s4.0)
 
 
-<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
+<div style="height: 2000;"></div>
 
 <a id="s1.0"></a>
 # Section 1. Python Basic Syntax Fundamentals
