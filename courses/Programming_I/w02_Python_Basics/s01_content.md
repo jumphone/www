@@ -10,7 +10,7 @@ Section 3. Python Operator System
 Section 4. String Operations
 
 
-<img src=“https://fzhang.bioinfo-lab.com/img/white.png” height=“1000”/>
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="1000"/>
 
 
 # Section 1. Python Basic Syntax Fundamentals
