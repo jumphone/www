@@ -472,7 +472,6 @@ Full list:
 ### Chained Assignment
 ```python
 x = y = z = 0  # All variables point to same 0
-print(id(x), id(y))  # Same memory address
 ```
 
 ### Compound Operators
