@@ -3,7 +3,7 @@
 # Lab Members
 -------------------------------
 
-<img src="https://www.bioinfo-lab.com/member/img/huangjiacheng_adhoc.jpg" width='100'/> | <img src="https://www.bioinfo-lab.com/member/img/wangqilu_adhoc.jpg" width='100'/> | <img src="https://www.bioinfo-lab.com/member/img/dengzifeng_dt2024.jpg" width="100"> |
+<img src="https://www.bioinfo-lab.com/member/img/huangjiacheng_adhoc.jpg" width='100'/> | <img src="https://www.bioinfo-lab.com/member/img/wangqilu_adhoc.jpg" width='100'/> | <img src="https://www.bioinfo-lab.com/member/img/dengzifeng_dt2024.jpg" width="100"/> |
 :-----:|:-----:|:-----:|
 HUANG Jiacheng | WANG Qilu | DENG Zifeng |
 MA, SJTU | MA, KI | UG, BiUH |
