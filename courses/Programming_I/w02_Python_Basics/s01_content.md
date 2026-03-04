@@ -3,20 +3,20 @@
 
 [Section 1. Python Basic Syntax Fundamentals](#s1)
 
-Section 2. Variables & Data Types
+[Section 2. Variables & Data Types](#s2)
 
-Section 3. Python Operator System
+[Section 3. Python Operator System](#s3)
 
-Section 4. String Operations
+[Section 4. String Operations](#s4)
 
 
-<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="500">
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
 
 <a id="s1"></a>
 # Section 1. Python Basic Syntax Fundamentals
 
 
-<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="200">
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
 
 
 <a id="s1.1"></a>
