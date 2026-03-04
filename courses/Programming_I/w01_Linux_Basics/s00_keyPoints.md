@@ -5,13 +5,9 @@
 
 * Termius offers SFTP for file management (upload/download)
 
----
-
 * “pwd” Print working directory
 
 * “ls” List files in the current directory.
-
----
 
 * “cd” Change directories.
 
@@ -19,19 +15,13 @@
 
 * “cd ~” change the current working directory to your home directory
 
----
-
 * “mkdir” Create directories.
 
 * “touch new_file.txt” create an empty file named new_file.txt
 
----
-
 * “less new_file.txt” view the contents of the file named new_file.txt
 
 * “cat new_file.txt” print out all contents of the file named new_file.txt
-
----
 
 * “cp original_file.txt copy_file.txt” copy the file named original_file.txt to a new file named copy_file.txt
 
@@ -45,15 +35,11 @@
 
 * “rm -r tmp_folder” remove a folder named tmp_folder and all its contents recursively.
 
----
-
 * nano is a text editor that works in the linux terminal.
 
 * In nano, Ctrl + O is used to save your work
 
 * In nano, Ctrl + X is used to exit nano
-
----
 
 * “tab” type the first few letters of a file name or command, then press the Tab key. Linux will automatically complete the rest for you.
 
