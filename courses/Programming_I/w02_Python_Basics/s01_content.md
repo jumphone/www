@@ -10,14 +10,12 @@ Section 3. Python Operator System
 Section 4. String Operations
 
 
-<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="1000">
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="500">
 
 
 # Section 1. Python Basic Syntax Fundamentals
 
-<br>
-<br>
-<br>
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="200">
 
 ---
 
@@ -47,9 +45,7 @@ $ python3 hello.py
 
 ---
 
-<br>
-<br>
-<br>
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="200">
 
 ---
 
@@ -92,9 +88,7 @@ print(x + y)
 
 ---
 
-<br>
-<br>
-<br>
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="200">
 
 ---
 
@@ -115,9 +109,7 @@ print(x + y)
 
 ---
 
-<br>
-<br>
-<br>
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="200">
 
 ---
 
@@ -158,9 +150,7 @@ print('Hello World!')
 
 ---
 
-<br>
-<br>
-<br>
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="200">
 
 ---
 
@@ -193,12 +183,7 @@ print("Missing indent")
 
 ---
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="500">
 
 
 # Section 2. Variables & Data Types
