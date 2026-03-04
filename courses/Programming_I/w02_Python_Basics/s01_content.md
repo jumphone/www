@@ -3,6 +3,12 @@
 
 ---
 
+<br>
+<br>
+<br>
+
+---
+
 ## 1. Python Execution Modes (Interactive vs Script)
 
 ### Interactive Mode
