@@ -11,7 +11,7 @@
 [Section 4. String Operations](#s4.0)
 
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s1.0"></a>
 # Section 1. Python Basic Syntax Fundamentals
@@ -20,7 +20,7 @@
   <a href="#all">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.1"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 
 <a id="s1.1"></a>
@@ -57,7 +57,7 @@ $ python3 hello.py
   <a href="#s1.0">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s1.2"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s1.2"></a>
 
@@ -106,7 +106,7 @@ print(x + y)
   <a href="#s1.1">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s1.3"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s1.3"></a>
 
@@ -133,7 +133,7 @@ print(x + y)
   <a href="#s1.2">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s1.4"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s1.4"></a>
 
@@ -180,7 +180,7 @@ print('Hello World!')
   <a href="#s1.3">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s1.5"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s1.5"></a>
 
@@ -220,7 +220,7 @@ print("Missing indent")
   <a href="#s1.4">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.0"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s2.0"></a>
 
@@ -233,7 +233,7 @@ print("Missing indent")
   <a href="#s1.5">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.1"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s2.1"></a>
 
@@ -262,7 +262,7 @@ box_content = 17          # Stored value
   <a href="#s2.0">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.2"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s2.2"></a>
 
@@ -302,7 +302,7 @@ calcVal → calculate_value
   <a href="#s2.1">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.3"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s2.3"></a>
 
@@ -350,7 +350,7 @@ print(number)
   <a href="#s2.2">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.4"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s2.4"></a>
 
@@ -394,7 +394,7 @@ line breaks and "both" quote types'''
   <a href="#s2.3">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.5"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s2.5"></a>
 
@@ -433,7 +433,7 @@ True + 10       # bool treated as int(1)
   <a href="#s2.4">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.0"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s3.0"></a>
 
@@ -446,7 +446,7 @@ True + 10       # bool treated as int(1)
   <a href="#s2.5">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.1"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s3.1"></a>
 
@@ -473,7 +473,7 @@ True + 10       # bool treated as int(1)
   <a href="#s3.0">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s3.2"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s3.2"></a>
 
@@ -508,7 +508,7 @@ print('10' < '2')          # True (character '1'(49) vs '2'(50))
   <a href="#s3.1">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.3"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s3.3"></a>
 
@@ -577,7 +577,7 @@ Full list:
   <a href="#s3.2">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s3.4"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s3.4"></a>
 
@@ -611,7 +611,7 @@ print(list2)  # [5] (both reference same list)
   <a href="#s3.3">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s3.5"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s3.5"></a>
 
@@ -642,7 +642,7 @@ result = 5 + 3 * 2 ** 2 // (4 % 3) - 1
   <a href="#s3.4">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.0"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s4.0"></a>
 
@@ -654,7 +654,7 @@ result = 5 + 3 * 2 ** 2 // (4 % 3) - 1
   <a href="#s3.5">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.1"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s4.1"></a>
 
@@ -685,7 +685,7 @@ print(text[::2])    # 'pormig' (step=2)
   <a href="#s4.0">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.2"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s4.2"></a>
 
@@ -727,7 +727,7 @@ print("title case".title()) # 'Title Case'
   <a href="#s4.1">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.3"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s4.3"></a>
 
@@ -776,7 +776,7 @@ print("Hello, "+name+"! You have "+ str(number) +" messages.")
   <a href="#s4.2">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.4"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s4.4"></a>
 
@@ -806,7 +806,7 @@ print(regex)
   <a href="#s4.3">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.5"> Next →</a>
 </div>
 
-<div style="height: 2000px;">&nbsp;</div>
+<div style="height: 1000px;">&nbsp;</div>
 
 <a id="s4.5"></a>
 
