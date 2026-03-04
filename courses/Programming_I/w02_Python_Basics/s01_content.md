@@ -1,5 +1,5 @@
 
-### Content:
+### Today's Content:
 
 Section 1. Python Basic Syntax Fundamentals
 
