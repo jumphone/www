@@ -45,7 +45,7 @@ Password: dt + Student ID + @biuh2025 (e.g. dt2023000001@biuh2025)
 
 ---
 
-1. Open Python Interactive Mode
+### 2. Open Python Interactive Mode
 
 Open your terminal (Termius or local terminal)
 
@@ -57,7 +57,7 @@ You should see the Python version and the `>>>` prompt
 
 ---
 
-2. Basic Python Commands in Interactive Mode
+### 3. Basic Python Commands in Interactive Mode
 
 ```
 # Check Python version
@@ -78,7 +78,7 @@ exit()
 
 ---
 
-3. Create and Run Your First Python Script
+### 4. Create and Run Your First Python Script
 
 ```
 # Create a new Python script file
@@ -101,7 +101,7 @@ python3 hello.py
 
 ---
 
-4. Variables and Data Types
+### 5. Variables and Data Types
 
 ```
 # Create a new script file
@@ -138,7 +138,7 @@ python3 variables.py
 
 ---
 
-5. Operators Practice
+### 6. Operators Practice
 
 ```
 # Create a new script file
@@ -177,7 +177,7 @@ python3 operators.py
 
 ---
 
-6. String Operations
+### 7. String Operations
 
 ```
 # Create a new script file
@@ -230,7 +230,7 @@ python3 strings.py
 
 ---
 
-7. Comments and Indentation
+### 8. Comments and Indentation
 
 ```
 # Create a new script file
@@ -267,7 +267,7 @@ python3 structure.py
 
 ---
 
-8. Escape Characters and String Formatting
+### 9. Escape Characters and String Formatting
 
 ```
 # Create a new script file
