@@ -17,7 +17,7 @@
 # Section 1. Python Basic Syntax Fundamentals
 
 <div align="left">
-  <a href="#all">← Prev </a> | <a href="#s1.1"> Next →</a>
+  <a href="#all">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.1"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -54,7 +54,7 @@ $ python3 hello.py
 ---
 
 <div align="left">
-  <a href="#s1.0">← Prev </a> | <a href="#s1.2"> Next →</a>
+  <a href="#s1.0">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s1.2"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -103,7 +103,7 @@ print(x + y)
 ---
 
 <div align="left">
-  <a href="#s1.1">← Prev </a> | <a href="#s1.3"> Next →</a>
+  <a href="#s1.1">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s1.3"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -130,7 +130,7 @@ print(x + y)
 ---
 
 <div align="left">
-  <a href="#s1.2">← Prev </a> | <a href="#s1.4"> Next →</a>
+  <a href="#s1.2">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s1.4"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -177,7 +177,7 @@ print('Hello World!')
 ---
 
 <div align="left">
-  <a href="#s1.3">← Prev </a> | <a href="#s1.5"> Next →</a>
+  <a href="#s1.3">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s1.5"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -217,7 +217,7 @@ print("Missing indent")
 
 
 <div align="left">
-  <a href="#s1.4">← Prev </a> | <a href="#s2.0"> Next →</a>
+  <a href="#s1.4">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.0"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -230,7 +230,7 @@ print("Missing indent")
 
 
 <div align="left">
-  <a href="#s1.5">← Prev </a> | <a href="#s2.1"> Next →</a>
+  <a href="#s1.5">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.1"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -259,7 +259,7 @@ box_content = 17          # Stored value
 ---
 
 <div align="left">
-  <a href="#s2.0">← Prev </a> | <a href="#s2.2"> Next →</a>
+  <a href="#s2.0">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.2"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -299,7 +299,7 @@ calcVal → calculate_value
 ---
 
 <div align="left">
-  <a href="#s2.1">← Prev </a> | <a href="#s2.3"> Next →</a>
+  <a href="#s2.1">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.3"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -347,7 +347,7 @@ print(number)
 ---
 
 <div align="left">
-  <a href="#s2.2">← Prev </a> | <a href="#s2.4"> Next →</a>
+  <a href="#s2.2">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.4"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -391,7 +391,7 @@ line breaks and "both" quote types'''
 ---
 
 <div align="left">
-  <a href="#s2.3">← Prev </a> | <a href="#s2.5"> Next →</a>
+  <a href="#s2.3">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.5"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -430,7 +430,7 @@ True + 10       # bool treated as int(1)
 ---
 
 <div align="left">
-  <a href="#s2.4">← Prev </a> | <a href="#s3.0"> Next →</a>
+  <a href="#s2.4">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.0"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -443,7 +443,7 @@ True + 10       # bool treated as int(1)
 
 
 <div align="left">
-  <a href="#s2.5">← Prev </a> | <a href="#s3.1"> Next →</a>
+  <a href="#s2.5">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.1"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -470,7 +470,7 @@ True + 10       # bool treated as int(1)
 ---
 
 <div align="left">
-  <a href="#s3.0">← Prev </a> | <a href="#s3.2"> Next →</a>
+  <a href="#s3.0">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s3.2"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -504,7 +504,7 @@ print('10' < '2')          # True (character '1'(49) vs '2'(50))
 ---
 
 <div align="left">
-  <a href="#s3.1">← Prev </a> | <a href="#s3.3"> Next →</a>
+  <a href="#s3.1">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.3"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -573,7 +573,7 @@ Full list:
 ---
 
 <div align="left">
-  <a href="#s3.2">← Prev </a> | <a href="#s3.4"> Next →</a>
+  <a href="#s3.2">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s3.4"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -607,7 +607,7 @@ print(list2)  # [5] (both reference same list)
 ---
 
 <div align="left">
-  <a href="#s3.3">← Prev </a> | <a href="#s3.5"> Next →</a>
+  <a href="#s3.3">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s3.5"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -638,7 +638,7 @@ result = 5 + 3 * 2 ** 2 // (4 % 3) - 1
 ---
 
 <div align="left">
-  <a href="#s3.4">← Prev </a> | <a href="#s4.0"> Next →</a>
+  <a href="#s3.4">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.0"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -650,7 +650,7 @@ result = 5 + 3 * 2 ** 2 // (4 % 3) - 1
 
 
 <div align="left">
-  <a href="#s3.5">← Prev </a> | <a href="#s4.1"> Next →</a>
+  <a href="#s3.5">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.1"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -681,7 +681,7 @@ print(text[::2])    # 'pormig' (step=2)
 ---
 
 <div align="left">
-  <a href="#s4.0">← Prev </a> | <a href="#s4.2"> Next →</a>
+  <a href="#s4.0">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.2"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -723,7 +723,7 @@ print("title case".title()) # 'Title Case'
 ---
 
 <div align="left">
-  <a href="#s4.1">← Prev </a> | <a href="#s4.3"> Next →</a>
+  <a href="#s4.1">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.3"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -772,7 +772,7 @@ print("Hello, "+name+"! You have "+ str(number) +" messages.")
 ---
 
 <div align="left">
-  <a href="#s4.2">← Prev </a> | <a href="#s4.4"> Next →</a>
+  <a href="#s4.2">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.4"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -802,7 +802,7 @@ print(regex)
 ---
 
 <div align="left">
-  <a href="#s4.3">← Prev </a> | <a href="#s4.5"> Next →</a>
+  <a href="#s4.3">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.5"> Next →</a>
 </div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
@@ -823,7 +823,9 @@ Third line"""
 
 End
 
-
+<div align="left">
+  <a href="#s4.4">← Prev </a> |  <a href="#all"> Home </a> 
+</div>
 
 
 
