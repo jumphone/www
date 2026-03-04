@@ -1,13 +1,13 @@
 
 
 
-[Section 1. Python Basic Syntax Fundamentals]()
+Section 1. Python Basic Syntax Fundamentals
 
-[Section 2. Variables & Data Types]
+Section 2. Variables & Data Types
 
-[Section 3. Python Operator System]
+Section 3. Python Operator System
 
-[Section 4. Advanced String Operations]
+Section 4. String Operations
 
 
 
@@ -211,6 +211,12 @@ print("Missing indent")
 
 ---
 
+<br>
+<br>
+<br>
+
+---
+
 ## 1. The Nature of Variables
 ### Variable
 ```python
@@ -396,6 +402,12 @@ True + 10       # bool treated as int(1)
 
 ---
 
+<br>
+<br>
+<br>
+
+---
+
 ## 1. Arithmetic Operators
 
 ### Core Operators Table
@@ -571,29 +583,7 @@ result = 5 + 3 * 2 ** 2 // (4 % 3) - 1
 
 ---
 
-# Section 4. Advanced String Operations
-
----
-
-## 1. String Interning Mechanism 
-- **What**: Python's memory optimization for identical strings
-- **How it works**:
-  ```python
-  a = "python"
-  b = "python"
-  print(a is b)  # Output: True (when string meets interning conditions)
-  print(id(a))
-  print(id(b))
-  a = "a"*10000
-  b = "a"*10000
-  print(id(a))
-  print(id(b))
-  ```
-- **Rules**:
-  - Automatically interns:
-    - Empty strings
-    - Identifier-like strings
-    - Short Strings
+# Section 4. String Operations
 
 ---
 
@@ -603,7 +593,7 @@ result = 5 + 3 * 2 ** 2 // (4 % 3) - 1
 
 ---
 
-## 2. Indexing & Slicing
+## 1. Indexing & Slicing
 #### Index Types
 - Positive Index: `0` to `len(str)-1`
 - Negative Index: `-1` (last char) to `-len(str)`
@@ -630,7 +620,7 @@ print(text[::2])    # 'pormig' (step=2)
 
 ---
 
-## 3. String Methods Library
+## 2. String Methods Library
 #### Split & Join
 ```python
 csv = "apple,banana,cherry"
@@ -668,7 +658,7 @@ print("title case".title()) # 'Title Case'
 
 ---
 
-## 4. Formatting Methods
+## 3. Formatting Methods
 #### %-formatting
 ```python
 name = "Alice"
@@ -713,7 +703,7 @@ print("Hello, "+name+"! You have "+ str(number) +" messages.")
 
 ---
 
-## 5. Escape Characters & Raw Strings
+## 4. Escape Characters & Raw Strings
 #### Common Escapes
 - `\n` Newline
 - `\t` Tab
@@ -739,7 +729,7 @@ print(regex)
 
 ---
 
-## 6. Multi-line Strings
+## 5. Multi-line Strings
 #### Triple-quoted Strings
 ```python
 long_text = """First line
