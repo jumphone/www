@@ -187,23 +187,6 @@ print("Missing indent")
 
 ---
 
-
-## Checklist
-- Always use 4-space indentation
-- Write full comments
-- Avoid semicolons ";" for multiple statements
-- Check for reserved keywords
-- Test code frequently
-
----
-
-<br>
-<br>
-<br>
-
----
-
-
 # Section 2. Variables & Data Types
 
 ---
