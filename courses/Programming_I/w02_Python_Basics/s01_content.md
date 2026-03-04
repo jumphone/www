@@ -566,6 +566,8 @@ result = 5 + 3 * 2 ** 2 // (4 % 3) - 1
 <br>
 <br>
 
+---
+
 # Section 4. Advanced String Operations
 
 ---
@@ -593,6 +595,8 @@ result = 5 + 3 * 2 ** 2 // (4 % 3) - 1
 ---
 
 <br>
+<br>
+<br>
 
 ---
 
@@ -617,6 +621,8 @@ print(text[::2])    # 'pormig' (step=2)
 
 ---
 
+<br>
+<br>
 <br>
 
 ---
@@ -653,6 +659,8 @@ print("title case".title()) # 'Title Case'
 
 ---
 
+<br>
+<br>
 <br>
 
 ---
@@ -697,6 +705,8 @@ print("Hello, "+name+"! You have "+ str(number) +" messages.")
 ---
 
 <br>
+<br>
+<br>
 
 ---
 
@@ -721,6 +731,8 @@ print(regex)
 ---
 
 <br>
+<br>
+<br>
 
 ---
 
@@ -731,6 +743,13 @@ long_text = """First line
 Second line
 Third line"""
 ```
+
+---
+
+End
+
+
+
 
 
 
