@@ -14,7 +14,9 @@
 
 <a id="s1"></a>
 # Section 1. Python Basic Syntax Fundamentals
-
+<div align="center">
+  <a href="#section1">← Prev </a> | <a href="#section2"> Next →</a>
+</div>
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
 
