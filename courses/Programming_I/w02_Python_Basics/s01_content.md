@@ -1,6 +1,8 @@
 <a id="all"></a>
 
-### Today's Content:
+# Python Basics
+
+### Content:
 
 [Section 1. Python Basic Syntax Fundamentals](#s1.0)
 
