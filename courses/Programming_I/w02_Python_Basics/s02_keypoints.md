@@ -8,7 +8,7 @@
 * Python syntax emphasizes indentation, typically using 4 spaces as the standard.
 * Python supports single-line comments (`#`).
 * Reserved keywords in Python (such as `if`, `else`, `while`) cannot be used as variable names or function names.
-* Common Python syntax errors include `SyntaxError`, `IndentationError`, and `TypeError`. 
+* Common Python syntax errors include `NameError`, `IndentationError`, and `TypeError`. 
 * Variable naming rules: Cannot start with a number, can only contain letters, numbers, and underscores. 
 * Python is a dynamically typed language, allowing variables to be rebound to objects of different types at runtime.
 * Core data types in Python include integers, floating-point numbers, and strings.
