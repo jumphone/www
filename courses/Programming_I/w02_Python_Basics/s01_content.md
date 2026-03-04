@@ -17,11 +17,8 @@ Section 4. String Operations
 <br>
 <br>
 
----
 
 # Section 1. Python Basic Syntax Fundamentals
-
----
 
 <br>
 <br>
