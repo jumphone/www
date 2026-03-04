@@ -2,18 +2,18 @@
 
 ### Today's Content:
 
-[Section 1. Python Basic Syntax Fundamentals](#s1)
+[Section 1. Python Basic Syntax Fundamentals](#s1.0)
 
-[Section 2. Variables & Data Types](#s2)
+[Section 2. Variables & Data Types](#s2.0)
 
-[Section 3. Python Operator System](#s3)
+[Section 3. Python Operator System](#s3.0)
 
-[Section 4. String Operations](#s4)
+[Section 4. String Operations](#s4.0)
 
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
 
-<a id="s1"></a>
+<a id="s1.0"></a>
 # Section 1. Python Basic Syntax Fundamentals
 
 <div align="left">
@@ -53,7 +53,13 @@ $ python3 hello.py
 
 ---
 
-<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="200">
+<div align="left">
+  <a href="#s1.0">← Prev </a> | <a href="#s1.2"> Next →</a>
+</div>
+
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
+
+<a id="s1.2"></a>
 
 ---
 
@@ -96,7 +102,13 @@ print(x + y)
 
 ---
 
-<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="200">
+<div align="left">
+  <a href="#s1.1">← Prev </a> | <a href="#s1.3"> Next →</a>
+</div>
+
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
+
+<a id="s1.3"></a>
 
 ---
 
@@ -117,7 +129,13 @@ print(x + y)
 
 ---
 
-<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="200">
+<div align="left">
+  <a href="#s1.2">← Prev </a> | <a href="#s1.4"> Next →</a>
+</div>
+
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
+
+<a id="s1.4"></a>
 
 ---
 
@@ -158,7 +176,13 @@ print('Hello World!')
 
 ---
 
-<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="200">
+<div align="left">
+  <a href="#s1.3">← Prev </a> | <a href="#s1.5"> Next →</a>
+</div>
+
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
+
+<a id="s1.5"></a>
 
 ---
 
@@ -191,7 +215,15 @@ print("Missing indent")
 
 ---
 
-<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="500">
+
+<div align="left">
+  <a href="#s1.4">← Prev </a> | <a href="#s2.0"> Next →</a>
+</div>
+
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
+
+<a id="s2.0"></a>
+
 
 
 # Section 2. Variables & Data Types
