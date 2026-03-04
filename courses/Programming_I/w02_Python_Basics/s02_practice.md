@@ -3,7 +3,7 @@
 
 <br>
 
----------------------
+---
 
 ### Important
 
@@ -14,7 +14,7 @@ This is an important part of your "General Performance". Please ensure timely su
 
 <br>
 
----------------------
+---
 
 ### Tips
 
@@ -27,7 +27,7 @@ Try "ai", "aiw", and "aid"
 
 <br>
 
----------------------
+---
 
 ### 1. Log into the remote Linux Server.
 
@@ -43,33 +43,13 @@ Password: dt + Student ID + @biuh2025 (e.g. dt2023000001@biuh2025)
 
 <br>
 
----------------------
 
-#### nano
-
-```
-cd ~
-nano new_nano_file.txt
-
-# write something into "new_nano_file.txt"
-# save: Ctrl + O
-# Exit: Ctrl + X
-
-ls
-
-# see the content of "new_nano_file.txt"
-cat new_nano_file.txt
-
-```
-
-<br>
-
-------------------------------------------
+---
 
 ### 2. Write Your First Python Script.
 
 
----------------------
+---
 
 #### nano
 
@@ -94,7 +74,7 @@ python3 first_script.py
 
 <br>
 
----------------------
+---
 
 End
 
