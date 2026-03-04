@@ -29,7 +29,7 @@ Section 4. String Operations
 
 ---
 
-## 1. Python Execution Modes (Interactive vs Script)
+## 1.1. Python Execution Modes (Interactive vs Script)
 
 ### Interactive Mode
 ```python
@@ -61,7 +61,7 @@ $ python3 hello.py
 
 ---
 
-## 2. Core Syntax Rules
+## 1.2. Core Syntax Rules
 
 ### Indentation Rules (4-space principle)
 ```python
@@ -107,7 +107,7 @@ print(x + y)
 ---
 
 
-## 3. Reserved Keywords (35 in Python 3.7)
+## 1.3. Reserved Keywords (35 in Python 3.7)
 
 |          |         |        |         |         |
 |----------|---------|--------|---------|---------|
@@ -130,7 +130,7 @@ print(x + y)
 ---
 
 
-## 4. First Python Program
+## 1.4. First Python Program
 
 ### Interactive Version
 ```python
@@ -172,7 +172,7 @@ print('Hello World!')
 
 ---
 
-## 5. Common Errors & Debugging
+## 1.5. Common Errors & Debugging
 
 ### Error Types
 1. **SyntaxError**: 
@@ -217,7 +217,7 @@ print("Missing indent")
 
 ---
 
-## 1. The Nature of Variables
+## 2.1. The Nature of Variables
 ### Variable
 ```python
 # Think of variables as labeled boxes in warehouse
@@ -243,7 +243,7 @@ box_content = 17          # Stored value
 ---
 
 
-## 2. Variable Naming Deep Dive
+## 2.2. Variable Naming Deep Dive
 ### Rule Enforcement Demo
 ```python
 # Number('123'), underline ('_'), characters ('abcABC')
@@ -279,7 +279,7 @@ calcVal → calculate_value
 ---
 
 
-## 3. Dynamic Typing in Action
+## 2.3. Dynamic Typing in Action
 ### Demo
 ```python
 dynamic_var = 100          # int
@@ -322,7 +322,7 @@ print(number)
 ---
 
 
-## 4. Core Data Types
+## 2.4. Core Data Types
 ### Integer Representations
 
 different number systems （different bases）
@@ -362,7 +362,7 @@ line breaks and "both" quote types'''
 ---
 
 
-## 5. Type Conversions
+## 2.5. Type Conversions
 ### Conversion Examples
 ```python
 # String to number
@@ -408,7 +408,7 @@ True + 10       # bool treated as int(1)
 
 ---
 
-## 1. Arithmetic Operators
+## 3.1. Arithmetic Operators
 
 ### Core Operators Table
 
@@ -432,7 +432,7 @@ True + 10       # bool treated as int(1)
 ---
 
 
-## 2. Comparison Operators
+## 3.2. Comparison Operators
 
 ### Numeric Comparisons
 ```python
@@ -462,7 +462,7 @@ print('10' < '2')          # True (character '1'(49) vs '2'(50))
 ---
 
 
-## 3. Logical Operators
+## 3.3. Logical Operators
 
 ### Truth Table
 
@@ -527,7 +527,7 @@ Full list:
 ---
 
 
-## 4. Assignment Operators
+## 3.4. Assignment Operators
 
 ### Chained Assignment
 ```python
@@ -557,7 +557,7 @@ print(list2)  # [5] (both reference same list)
 ---
 
 
-## 5. Precedence Practice
+## 3.5. Precedence Practice
 
 ### Challenge Exercise
 ```python
@@ -593,7 +593,7 @@ result = 5 + 3 * 2 ** 2 // (4 % 3) - 1
 
 ---
 
-## 1. Indexing & Slicing
+## 4.1. Indexing & Slicing
 #### Index Types
 - Positive Index: `0` to `len(str)-1`
 - Negative Index: `-1` (last char) to `-len(str)`
@@ -620,7 +620,7 @@ print(text[::2])    # 'pormig' (step=2)
 
 ---
 
-## 2. String Methods Library
+## 4.2. String Methods Library
 #### Split & Join
 ```python
 csv = "apple,banana,cherry"
@@ -658,7 +658,7 @@ print("title case".title()) # 'Title Case'
 
 ---
 
-## 3. Formatting Methods
+## 4.3. Formatting Methods
 #### %-formatting
 ```python
 name = "Alice"
@@ -703,7 +703,7 @@ print("Hello, "+name+"! You have "+ str(number) +" messages.")
 
 ---
 
-## 4. Escape Characters & Raw Strings
+## 4.4. Escape Characters & Raw Strings
 #### Common Escapes
 - `\n` Newline
 - `\t` Tab
@@ -729,7 +729,7 @@ print(regex)
 
 ---
 
-## 5. Multi-line Strings
+## 4.5. Multi-line Strings
 #### Triple-quoted Strings
 ```python
 long_text = """First line
