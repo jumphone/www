@@ -796,10 +796,12 @@ print("Hello, "+name+"! You have "+ str(number) +" messages.")
 
 r"" is raw string.
 
-path = r"C:\new_folder\test.txt"
-regex = r"\d+\.\d+"
-print(path)  # Shows literal backslashes
-print(regex)
+path = "C:\new_folder\test.txt"
+path_raw = r"C:\new_folder\test.txt"
+
+print(path)
+print(path_raw)  # Shows literal backslashes
+
 ```
 
 ---
