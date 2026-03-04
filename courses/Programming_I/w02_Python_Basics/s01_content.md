@@ -12,10 +12,14 @@ Section 4. String Operations
 
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="500">
 
-
+<a id="s1"></a>
 # Section 1. Python Basic Syntax Fundamentals
 
+
 <img src="https://fzhang.bioinfo-lab.com/img/white.png" height="200">
+
+
+<a id="s1.1"></a>
 
 ---
 
