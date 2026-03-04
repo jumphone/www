@@ -1,11 +1,13 @@
 
-Section 1. Python Basic Syntax Fundamentals
 
-Section 2. Variables & Data Types
 
-Section 3. Python Operator System
+[Section 1. Python Basic Syntax Fundamentals]()
 
-Section 4. Advanced String Operations
+[Section 2. Variables & Data Types]
+
+[Section 3. Python Operator System]
+
+[Section 4. Advanced String Operations]
 
 
 
