@@ -10,15 +10,7 @@ Section 3. Python Operator System
 Section 4. String Operations
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<img src='https://fzhang.bioinfo-lab.com/img/white.png' height='100'>
 
 
 # Section 1. Python Basic Syntax Fundamentals
