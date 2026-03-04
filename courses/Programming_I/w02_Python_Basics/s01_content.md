@@ -20,7 +20,7 @@
   <a href="#all">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.1"> Next →</a>
 </div>
 
-<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="2000">
+<div style="height: 2000;">&nbsp;</div>
 
 
 <a id="s1.1"></a>
