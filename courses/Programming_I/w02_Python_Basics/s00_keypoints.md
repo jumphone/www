@@ -1,4 +1,6 @@
 
+# Python Basics
+
 * Python has two execution modes: interactive mode and script mode. Interactive mode is good for quick testing, while script mode is suitable for complex programs.
 
 * In interactive mode, “exit()” is used to exit python3
