@@ -189,7 +189,7 @@ print('Hello World!')
 ## 1.5. Common Errors & Debugging
 
 ### Error Types
-1. **SyntaxError**: 
+1. **NameError**: 
 ```python
 prin("Missing t")  # NameError
 ```
