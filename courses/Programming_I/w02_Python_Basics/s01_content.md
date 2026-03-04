@@ -16,6 +16,9 @@ Section 4. String Operations
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
 
 # Section 1. Python Basic Syntax Fundamentals
@@ -201,12 +204,13 @@ print("Missing indent")
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
----
 
 # Section 2. Variables & Data Types
 
----
 
 <br>
 <br>
@@ -390,14 +394,14 @@ True + 10       # bool treated as int(1)
 <br>
 <br>
 <br>
-
----
-
+<br>
+<br>
+<br>
 
 
 # Section 3. Python Operator System
 
----
+
 
 <br>
 <br>
@@ -577,12 +581,13 @@ result = 5 + 3 * 2 ** 2 // (4 % 3) - 1
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
----
 
 # Section 4. String Operations
 
----
 
 <br>
 <br>
