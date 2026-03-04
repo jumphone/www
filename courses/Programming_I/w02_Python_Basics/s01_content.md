@@ -81,8 +81,11 @@ print(x + y)
 ---
 
 <br>
+<br>
+<br>
 
 ---
+
 
 ## 3. Reserved Keywords (35 in Python 3.7)
 
@@ -101,8 +104,11 @@ print(x + y)
 ---
 
 <br>
+<br>
+<br>
 
 ---
+
 
 ## 4. First Python Program
 
@@ -141,6 +147,8 @@ print('Hello World!')
 ---
 
 <br>
+<br>
+<br>
 
 ---
 
@@ -174,8 +182,11 @@ print("Missing indent")
 ---
 
 <br>
+<br>
+<br>
 
 ---
+
 
 ## Checklist
 - Always use 4-space indentation
@@ -186,10 +197,12 @@ print("Missing indent")
 
 ---
 
+<br>
+<br>
+<br>
 
-<br>
-<br>
-<br>
+---
+
 
 # Section 2. Variables & Data Types
 
@@ -215,8 +228,11 @@ box_content = 17          # Stored value
 ---
 
 <br>
+<br>
+<br>
 
 ---
+
 
 ## 2. Variable Naming Deep Dive
 ### Rule Enforcement Demo
@@ -248,8 +264,11 @@ calcVal → calculate_value
 ---
 
 <br>
+<br>
+<br>
 
 ---
+
 
 ## 3. Dynamic Typing in Action
 ### Demo
@@ -288,8 +307,11 @@ print(number)
 ---
 
 <br>
+<br>
+<br>
 
 ---
+
 
 ## 4. Core Data Types
 ### Integer Representations
@@ -325,8 +347,11 @@ line breaks and "both" quote types'''
 ---
 
 <br>
+<br>
+<br>
 
 ---
+
 
 ## 5. Type Conversions
 ### Conversion Examples
@@ -357,8 +382,11 @@ True + 10       # bool treated as int(1)
 ---
 
 <br>
+<br>
+<br>
 
 ---
+
 
 
 # Section 3. Python Operator System
@@ -369,22 +397,25 @@ True + 10       # bool treated as int(1)
 
 ### Core Operators Table
 
-| Operator | Description          | Example       | Result  |
-|----------|----------------------|---------------|---------|
-| `+`      | Addition             | `5 + 3`       | 8       |
-| `-`      | Subtraction          | `7 - 2`       | 5       |
-| `*`      | Multiplication       | `3 * 4`       | 12      |
-| `/`      | True Division        | `10 / 3`      | 3.333...|
-| `//`     | Floor Division       | `10 // 3`     | 3       |
-| `%`      | Modulus              | `10 % 3`      | 1       |
-| `**`     | Exponentiation       | `2 ** 3`      | 8       |
+| Operator | Description             | Example       | Result  |
+|----------|-------------------------|---------------|---------|
+| `+`      | Addition                | `5 + 3`       | 8       |
+| `-`      | Subtraction             | `7 - 2`       | 5       |
+| `*`      | Multiplication          | `3 * 4`       | 12      |
+| `/`      | True Division           | `10 / 3`      | 3.333...|
+| `//`     | Floor Division          | `10 // 3`     | 3       |
+| `%`      | Modulus (get remainder) | `10 % 3`      | 1       |
+| `**`     | Exponentiation          | `2 ** 3`      | 8       |
 
 
 ---
 
 <br>
+<br>
+<br>
 
 ---
+
 
 ## 2. Comparison Operators
 
@@ -410,8 +441,11 @@ print('10' < '2')          # True (character '1'(49) vs '2'(50))
 ---
 
 <br>
+<br>
+<br>
 
 ---
+
 
 ## 3. Logical Operators
 
@@ -472,8 +506,11 @@ Full list:
 ---
 
 <br>
+<br>
+<br>
 
 ---
+
 
 ## 4. Assignment Operators
 
@@ -499,8 +536,11 @@ print(list2)  # [5] (both reference same list)
 ---
 
 <br>
+<br>
+<br>
 
 ---
+
 
 ## 5. Precedence Practice
 
