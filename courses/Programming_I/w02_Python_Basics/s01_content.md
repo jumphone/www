@@ -97,6 +97,8 @@ def calculate():
     """Docstring comments for functions"""
 ```
 
+### Q: Why do we need "Code Comments"?
+
 ### Statement Separation
 ```python
 # Use semicolon ";". Valid but not recommended
@@ -330,6 +332,8 @@ print(type(dynamic_var))   # <class 'str'>
 dynamic_var = [1, 2, 3]    # list
 print(type(dynamic_var))   # <class 'list'>
 ```
+
+### Q: "Insufficient Computing Power" V.S. "Computing Power Redundancy" ?
 
 ### Variable Type: Static (c++) vs Dynamic (python)
 
