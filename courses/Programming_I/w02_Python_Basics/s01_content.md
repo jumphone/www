@@ -81,6 +81,9 @@ if True:
 print("This will cause IndentationError")
 ```
 
+### Q: Why do we need "4-space principle"?
+
+
 ### Code Comments
 ```python
 # Single-line comment
@@ -339,7 +342,7 @@ int main() {
    number = "text";
    std::cout << "The number is: " << number << std::endl;
 }
-// g++ type_error -o type_error
+// g++ type_error.cpp -o type_error
 ```
 
 ```python
