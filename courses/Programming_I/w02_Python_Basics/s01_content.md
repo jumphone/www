@@ -81,8 +81,11 @@ if True:
 print("This will cause IndentationError")
 ```
 
+<br>
+
 ### Q: Why do we need "4-space principle"?
 
+<br>
 
 ### Code Comments
 ```python
@@ -97,7 +100,11 @@ def calculate():
     """Docstring comments for functions"""
 ```
 
+<br>
+
 ### Q: Why do we need "Code Comments"?
+
+<br>
 
 ### Statement Separation
 ```python
@@ -333,8 +340,6 @@ dynamic_var = [1, 2, 3]    # list
 print(type(dynamic_var))   # <class 'list'>
 ```
 
-### Q: "Insufficient Computing Power" V.S. "Computing Power Redundancy" ?
-
 ### Variable Type: Static (c++) vs Dynamic (python)
 
 ```c++
@@ -355,6 +360,12 @@ number = 5           # int
 number = "text"      # Valid
 print(number)
 ```
+
+<br>
+
+### Q: "Insufficient Computing Power" V.S. "Computing Power Redundancy" ?
+
+<br>
 
 ---
 
