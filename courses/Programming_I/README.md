@@ -4,9 +4,9 @@
 
 * [w01 Linux Basics](/courses/Programming_I/w01_Linux_Basics)
 
-* [w02 Python Basics]((/courses/Programming_I/w02_Python_Basics))
+* [w02 Python Basics](/courses/Programming_I/w02_Python_Basics)
 
-* [w03 Recitation I (Review+Quiz+QA)]((/courses/Programming_I/w03_Recitation_I))
+* [w03 Recitation I (Review+Quiz+QA)](/courses/Programming_I/w03_Recitation_I)
 
 
 * w04 Control Flow
