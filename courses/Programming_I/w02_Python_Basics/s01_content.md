@@ -16,6 +16,13 @@
 [Section 4. String Operations](#s4.0)
 
 
+<br>
+
+### Q: What would a good programming language look like in your opinion?
+
+<br>
+
+
 <div style="height: 1000px;">&nbsp;</div>
 
 <a id="s1.0"></a>
