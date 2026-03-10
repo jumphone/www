@@ -31,4 +31,4 @@
 
 * Python provides a rich set of string methods, such as `split()` (to split strings), `join()` (to concatenate strings), `strip()` (to remove leading and trailing whitespace), `find()` (to search for substrings), `index()` (to search for substrings, raises an exception if not found), `lower()` (to convert to lowercase), `upper()` (to convert to uppercase), `title()` (to capitalize the first letter of each word), etc.
 
-* There are multiple ways to format strings. Use “aaa”+”bbb” to get “aaabbb”.
+* There are multiple ways to format strings. For beginners, use “aaa”+”bbb” to get “aaabbb”.
