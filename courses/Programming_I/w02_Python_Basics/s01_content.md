@@ -761,6 +761,13 @@ print("world".upper())    # 'WORLD'
 print("title case".title()) # 'Title Case'
 ```
 
+<br>
+
+### Q: What are the real-world applications of string operations?
+
+<br>
+
+
 ---
 
 <div align="left">
@@ -802,7 +809,7 @@ print(f"Binary: {42:b}")  # '101010'
 | f-strings    | High        | Best        | Expressions, inline |
 
 
-#### My suggestion for beginner
+#### Suggestion for beginner
 
 ```python
 name = 'John'
