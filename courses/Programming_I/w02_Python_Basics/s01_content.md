@@ -386,6 +386,9 @@ print(number)
 
 
 ## 2.4. Core Data Types
+
+### Integer, Float Number, String, Boolean 
+
 ### Integer Representations
 
 different number systems （different bases）
@@ -414,6 +417,15 @@ s1 = 'Single quotes'
 s2 = "Double quotes"
 s3 = '''Triple quotes preserve
 line breaks and "both" quote types'''
+```
+
+### Boolean Variable
+
+```python
+A = True
+B = False
+print(A and B)
+print(A or B)
 ```
 
 ---
