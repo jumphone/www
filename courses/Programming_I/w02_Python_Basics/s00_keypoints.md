@@ -19,7 +19,7 @@
 
 * Python is a dynamically typed language, allowing variables to be rebound to objects of different types at runtime.
 
-* Core data types in Python include integers, floating-point numbers, and strings.
+* Core data types in Python include integers, floating-point numbers, strings, and booleans.
 
 * Use the `type()` function to check the type of a variable, and functions like `int()`, `float()`, `str()` for type conversions.
 
