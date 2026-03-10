@@ -17,7 +17,7 @@
 
 <br>
 
-### Q: What would a good programming language look like in your opinion?
+### Q: What makes a good programming language?
 
 <br>
 
