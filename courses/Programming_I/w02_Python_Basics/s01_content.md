@@ -387,7 +387,7 @@ print(number)
 
 ## 2.4. Core Data Types
 
-### Four Core Data Types: Integer, Float Number, String, Boolean 
+### Four Core Data Types: Integer, Float, String, Boolean 
 
 ### Integer Representations
 
