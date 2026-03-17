@@ -809,7 +809,7 @@ print(f"Binary: {42:b}")  # '101010'
 | f-strings    | High        | Best        | Expressions, inline |
 
 
-#### Suggestion for beginner
+#### Suggested string combination method for beginner
 
 ```python
 name = 'John'
