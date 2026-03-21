@@ -1,5 +1,14 @@
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
+<script>
+mermaid.initialize({
+  startOnLoad: true,
+  flowchart: {
+    useMaxWidth: true,
+    nodeSpacing: 100,
+    rankSpacing: 50
+  }
+});
+</script>
 
 [Back](https://www.bioinfo-lab.com/courses/Programming_I/w04_Control_Flow/)
 
@@ -69,9 +78,9 @@ else:
 <div class="mermaid">
 graph TD
     A[Start] --> B{Light Color?}
-    B -->|Red| C[Stop]
-    B -->|Yellow| D[Slow Down]
-    B -->|Green| E[Go]
+    B --> |Red| C[Stop]
+    B --> |Yellow| D[Slow Down]
+    B --> |Green| E[Go]
     C --> F[End]
     D --> F
     E --> F
