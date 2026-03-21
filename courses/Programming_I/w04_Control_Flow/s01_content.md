@@ -1,11 +1,13 @@
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11.13.0/dist/mermaid.min.js"></script>
 <script>
 mermaid.initialize({
   startOnLoad: true,
+  securityLevel: 'loose', 
   flowchart: {
-    useMaxWidth: true,
-    nodeSpacing: 100,
-    rankSpacing: 50
+    defaultRenderer: 'svg',
+    nodeSpacing: 80,
+    rankSpacing: 40
   }
 });
 </script>
