@@ -1,4 +1,3 @@
-```
 [Back](https://www.bioinfo-lab.com/courses/Programming_I/w04_Control_Flow/)
 
 <br>
@@ -1520,4 +1519,4 @@ while attempt < max_retries:
 
 End
 
-```
+
