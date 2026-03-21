@@ -939,7 +939,7 @@ while True:
         break
         
     # Grade logic here
-    print(f"Grade: {grade}")
+    print("Grade: " + grade)
 ```
 
 ```mermaid
@@ -1033,9 +1033,9 @@ if attempts == 5:
 ### Final Conditions
 ```python
 if guess == target:
-    print(f"Victory in {attempts} tries!")
+    print("Victory in " + str(attempts) + " tries!")
 else:
-    print(f"Failed! Number was {target}")
+    print("Failed! Number was " + str(target))
 ```
 
 ---
@@ -1203,7 +1203,7 @@ if is_positive_even and within_limit and valid_user:
 ```python
 counter = 0
 while counter < 3:
-    print(f"DEBUG: Current counter - {counter}")  # Debug line
+    print("DEBUG: Current counter - " + str(counter))  # Debug line
     counter += 1
 ```
 
@@ -1338,7 +1338,7 @@ max_retries = 3
 attempt = 0
 
 while attempt < max_retries:
-    print(f"Attempt {attempt+1}")
+    print("Attempt " + str(attempt+1))
     # Your code here
     attempt = attempt + 1
 ```
