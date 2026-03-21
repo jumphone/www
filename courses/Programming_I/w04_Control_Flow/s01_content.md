@@ -63,7 +63,11 @@ else:
 
 ## 1.2. Flowchart - Decision Making
 
-```mermaid
+```markdown
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+<div class="mermaid">
 graph TD
     A[Start] --> B{Light Color?}
     B -->|Red| C[Stop]
@@ -72,6 +76,7 @@ graph TD
     C --> F[End]
     D --> F
     E --> F
+</div>
 ```
 
 ---
@@ -113,13 +118,19 @@ print("All runs finished!")
 
 ## 1.4. Flowchart - Loop Execution
 
-```mermaid
+```markdown
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+<div class="mermaid">
 graph TD
     A[Start] --> B{Runs Left?}
     B -->|Yes| C[Run]
     C --> D[Reduce Count]
     D --> B
     B -->|No| E[End]
+</div>
+
 ```
 
 ---
@@ -609,12 +620,17 @@ for item in groceries:
     print("Don't forget to buy:", item)
 ```
 
-```mermaid
+```markdown
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+<div class="mermaid">
 flowchart TD
     A[Start] --> B{Items left?}
     B -->|Yes| C[Process item]
     C --> B
     B -->|No| D[End]
+</div>
 ```
 
 ---
@@ -904,7 +920,11 @@ else:
     print("Grade D")
 ```
 
-```mermaid
+```markdown
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+<div class="mermaid">
 flowchart TD
     A[Start] --> B[Input Score]
     B --> C{Score >=90?}
@@ -914,6 +934,7 @@ flowchart TD
     E -->|No| G{Score >=70?}
     G -->|Yes| H[Grade C]
     G -->|No| I[Grade D]
+</div>
 ```
 
 ---
@@ -932,12 +953,17 @@ while True:
     print(f"Grade: {grade}")
 ```
 
-```mermaid
+```markdown
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+<div class="mermaid">
 flowchart TD
     A[Start] --> B{Input Score}
     B -->|q| C[Exit]
     B -->|Number| D[Process Grade]
     D --> B
+</div>
 ```
 
 ---
@@ -971,7 +997,11 @@ while True:
         print("Too low")
 ```
 
-```mermaid
+```markdown
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+<div class="mermaid">
 flowchart TD
     A[Generate Random Number] --> B{Guess?}
     B -->|Correct| C[Win]
@@ -979,6 +1009,7 @@ flowchart TD
     B -->|Low| E[Prompt Higher]
     D --> B
     E --> B
+</div>
 ```
 
 ---
@@ -1099,11 +1130,16 @@ if (temperature > 100
     print("Heat warning!")
 ```
 
-```mermaid
+```markdown
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+<div class="mermaid">
 flowchart TD
     A[Check Conditions] --> B{All True?}
     B -->|Yes| C[Execute Code]
     B -->|No| D[Skip Block]
+</div>
 ```
 
 ---
@@ -1153,7 +1189,11 @@ while counter < 3:
     counter += 1
 ```
 
-```mermaid
+```markdown
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+<div class="mermaid">
 flowchart TD
     S[Start] --> I[counter=0]
     I --> C{counter < 3?}
@@ -1161,6 +1201,7 @@ flowchart TD
     P --> U[counter +=1]
     U --> C
     C -->|No| E[End]
+</div>
 ```
 
 ---
@@ -1289,7 +1330,11 @@ while attempt < max_retries:
     attempt = attempt + 1
 ```
 
-```mermaid
+```markdown
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+<div class="mermaid">
 flowchart TD
     S[Start] --> I[attempt=0]
     I --> C{attempt < 3?}
@@ -1297,6 +1342,7 @@ flowchart TD
     L --> U[attempt +=1]
     U --> C
     C -->|No| E[End]
+</div>
 ```
 
 ---
