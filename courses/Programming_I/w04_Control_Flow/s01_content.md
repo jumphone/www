@@ -18,6 +18,10 @@
 
 <br>
 
+### Q: Why is control flow fundamental to programming?
+
+<br>
+
 <div style="height: 1000px;">&nbsp;</div>
 
 <a id="s1.0"></a>
@@ -35,7 +39,7 @@
 
 ## 1.1. Conditional Statements
 
-Like traffic lights control vehicles:
+### Traffic Light Example
 ```python
 light_color = input("Traffic light color: ")
 
@@ -52,7 +56,7 @@ else:
 ---
 
 <div align="left">
-  <a href="#s1.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.2"> Next →</a>
+  <a href="#s1.0">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s1.2"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -63,38 +67,16 @@ else:
 
 ## 1.2. Flowchart - Decision Making
 
+```mermaid
+graph TD
+    A[Start] --> B{Light Color?}
+    B -->|Red| C[Stop]
+    B -->|Yellow| D[Slow Down]
+    B -->|Green| E[Go]
+    C --> F[End]
+    D --> F
+    E --> F
 ```
-         +---------+
-         |  Start  |
-         +----+----+
-              |
-              v
-         +----+----+
-         | Light   |
-         | Color?  |
-         +----+----+
-              |
-    +---------+---------+
-    |         |         |
-    v         v         v
-+---+---+ +---+---+ +---+---+
-|  Red  | | Yellow| | Green |
-+---+---+ +---+---+ +---+---+
-   |         |         |
-   v         v         v
-+---+---+ +---+---+ +---+---+
-| Stop  | | Slow  | |  Go   |
-|       | | Down  | |       |
-+---+---+ +---+---+ +---+---+
-   |         |         |
-   +---------+---------+
-              |
-              v
-         +----+----+
-         |  End    |
-         +---------+
-```
-
 
 ---
 
@@ -110,7 +92,7 @@ else:
 
 ## 1.3. While Loops
 
-Like repeating morning runs:
+### Morning Run Example
 ```python
 import time
 runs_remaining = 3
@@ -124,7 +106,7 @@ print("All runs finished!")
 ---
 
 <div align="left">
-  <a href="#s1.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.4"> Next →</a>
+  <a href="#s1.2">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s1.4"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -135,42 +117,19 @@ print("All runs finished!")
 
 ## 1.4. Flowchart - Loop Execution
 
-
+```mermaid
+graph TD
+    A[Start] --> B{Runs Left?}
+    B -->|Yes| C[Run]
+    C --> D[Reduce Count]
+    D --> B
+    B -->|No| E[End]
 ```
-         +---------+
-         |  Start  |
-         +----+----+
-              |
-              v
-         +----+----+
-         | Runs    |
-         | Left?   |
-         +----+----+
-              |
-        +-----+-----+
-        |           |
-    Yes |           | No
-        v           v
-    +---+---+     +---+---+
-    |  Run  |     |  End  |
-    +---+---+     +---+---+
-        |
-        v
-    +---+---+
-    | Reduce|
-    | Count |
-    +---+---+
-        |
-        +----------> [Loop back]
-```
-
-
-
 
 ---
 
 <div align="left">
-  <a href="#s1.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.5"> Next →</a>
+  <a href="#s1.3">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s1.5"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -186,9 +145,8 @@ print("All runs finished!")
 3. Repeat tasks efficiently
 4. Makes code adaptable
 
-Example: Automatic door control
+### Automatic Door Control Example
 ```python
-
 # since we don't have a sensor, we just pretend to be a sensor.
 
 import time
@@ -222,13 +180,12 @@ while sensor_active:
         keep_open()
     else:
         close_door()
-
 ```
 
 ---
 
 <div align="left">
-  <a href="#s1.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.6"> Next →</a>
+  <a href="#s1.4">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s1.6"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -239,7 +196,6 @@ while sensor_active:
 
 ## 1.6. Vending Machine Example
 
-Let's code a drink machine:
 ```python
 coins = 0
 while coins < 5:
@@ -249,20 +205,13 @@ while coins < 5:
 print("Here's your drink!")
 ```
 
-<br>
-
-### Q: how can we limit the number of inserted coins each time
-
-<br>
-
-### Q: how can we get the extra coins
-
-<br>
+### Question: how can we limit the number of inserted coins each time
+### Question: how can we get the extra coins
 
 ---
 
 <div align="left">
-  <a href="#s1.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.7"> Next →</a>
+  <a href="#s1.5">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s1.7"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -271,9 +220,9 @@ print("Here's your drink!")
 
 ---
 
-## 1.7. Common Loop Patterns
+## 1.7. Common Patterns
 
-1. Flag-controlled loops
+### Flag-controlled loops
 ```python
 running = True
 while running:
@@ -282,7 +231,7 @@ while running:
         running = False
 ```
 
-2. Counter-controlled loops
+### Counter-controlled loops
 ```python
 attempts = 3
 while attempts > 0:
@@ -298,7 +247,7 @@ while attempts < 10:
 ---
 
 <div align="left">
-  <a href="#s1.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.8"> Next →</a>
+  <a href="#s1.6">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s1.8"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -307,13 +256,14 @@ while attempts < 10:
 
 ---
 
-## 1.8. Take-home Message
+## 1.8. Take-home message
 
 1. `if-elif-else` for decisions
 2. `while` for repeating tasks
 3. Condition evaluation (True/False)
 4. Loop control variables (i, counter)
 5. Avoid infinite loops!
+
 ```python
 # Always update condition!
 i = 0
@@ -325,16 +275,20 @@ while i < 10:
 ---
 
 <div align="left">
-  <a href="#s1.7">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.0"> Next →</a>
+  <a href="#s1.7">← Prev </a> | <a href="#all"> Home </a> |  <a href="#s2.0"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
 
 <a id="s2.0"></a>
+
+
+
 # Section 2. Conditionals in Python
 
+
 <div align="left">
-  <a href="#s1.8">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.1"> Next →</a>
+  <a href="#s1.8">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.1"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -359,7 +313,7 @@ if age >= 18:
 ---
 
 <div align="left">
-  <a href="#s2.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.2"> Next →</a>
+  <a href="#s2.0">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.2"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -382,7 +336,7 @@ print("Wrong")     # ← No indentation
 ---
 
 <div align="left">
-  <a href="#s2.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.3"> Next →</a>
+  <a href="#s2.1">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.3"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -408,7 +362,7 @@ if luggage_height > bus_height_limit:
 ---
 
 <div align="left">
-  <a href="#s2.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.4"> Next →</a>
+  <a href="#s2.2">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.4"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -437,7 +391,7 @@ else:
 ---
 
 <div align="left">
-  <a href="#s2.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.5"> Next →</a>
+  <a href="#s2.3">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.5"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -464,7 +418,7 @@ if temperature == 30:
 ---
 
 <div align="left">
-  <a href="#s2.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.6"> Next →</a>
+  <a href="#s2.4">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.6"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -489,7 +443,7 @@ else:
 ---
 
 <div align="left">
-  <a href="#s2.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.7"> Next →</a>
+  <a href="#s2.5">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.7"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -519,7 +473,7 @@ else:
 ---
 
 <div align="left">
-  <a href="#s2.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.8"> Next →</a>
+  <a href="#s2.6">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.8"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -528,7 +482,7 @@ else:
 
 ---
 
-## 2.8. Ticket System Example
+## 2.8. Ticket System Flowchart
 
 ```python
 # Full example
@@ -548,24 +502,14 @@ else:
     print("Regular ticket")
 ```
 
-<br>
-
-### Q: what if you are a 19 years old student without membership.
-
-<br>
-
-### Q: what if you are a 19 years old student with membership.
-
-<br>
-
-### Q: how can we get both the Student discount and the Membership discount
-
-<br>
+### Question: what if you are a 19 years old student without membership.
+### Question: what if you are a 19 years old student with membership.
+### Question: how can we get both the Student discount and the Membership discount
 
 ---
 
 <div align="left">
-  <a href="#s2.7">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.9"> Next →</a>
+  <a href="#s2.7">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.9"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -592,7 +536,7 @@ if not name:
 ---
 
 <div align="left">
-  <a href="#s2.8">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.10"> Next →</a>
+  <a href="#s2.8">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s2.10"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -601,7 +545,7 @@ if not name:
 
 ---
 
-## 2.10. Short-form Conditional Expression
+## 2.10. Short-form Conditional Expression (not recommended)
 
 ```python
 # Short form
@@ -625,16 +569,21 @@ print(message)
 ---
 
 <div align="left">
-  <a href="#s2.9">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.0"> Next →</a>
+  <a href="#s2.9">← Prev </a> |  <a href="#all"> Home </a> |  <a href="#s3.0"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
 
 <a id="s3.0"></a>
+
+
+
 # Section 3. Loop Structures in Python
 
+
+
 <div align="left">
-  <a href="#s2.10">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.1"> Next →</a>
+  <a href="#s2.10">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.1"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -652,36 +601,18 @@ for item in groceries:
     print("Don't forget to buy:", item)
 ```
 
+```mermaid
+flowchart TD
+    A[Start] --> B{Items left?}
+    B -->|Yes| C[Process item]
+    C --> B
+    B -->|No| D[End]
 ```
-         +---------+
-         |  Start  |
-         +----+----+
-              |
-              v
-         +----+----+
-         | Items   |
-         | Left?   |
-         +----+----+
-              |
-        +-----+-----+
-        |           |
-    Yes |           | No
-        v           v
-    +---+---+     +---+---+
-    | Process |   |  End  |
-    |  Item   |   +-------+
-    +---+---+
-        |
-        +----------> [Loop back]
-```
-
-
-
 
 ---
 
 <div align="left">
-  <a href="#s3.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.2"> Next →</a>
+  <a href="#s3.0">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.2"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -710,7 +641,7 @@ for num in range(0, 10, 2):
 ---
 
 <div align="left">
-  <a href="#s3.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.3"> Next →</a>
+  <a href="#s3.1">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.3"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -736,7 +667,7 @@ Character at position 1: e
 ---
 
 <div align="left">
-  <a href="#s3.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.4"> Next →</a>
+  <a href="#s3.2">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.4"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -759,7 +690,7 @@ print("Go!")
 ---
 
 <div align="left">
-  <a href="#s3.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.5"> Next →</a>
+  <a href="#s3.3">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.5"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -781,7 +712,7 @@ print("Go!")
 ---
 
 <div align="left">
-  <a href="#s3.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.6"> Next →</a>
+  <a href="#s3.4">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.6"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -807,7 +738,7 @@ while counter < MAX_ATTEMPTS:
 ---
 
 <div align="left">
-  <a href="#s3.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.7"> Next →</a>
+  <a href="#s3.5">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.7"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -831,7 +762,7 @@ for pwd in passwords:
 ---
 
 <div align="left">
-  <a href="#s3.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.8"> Next →</a>
+  <a href="#s3.6">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.8"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -853,7 +784,7 @@ for num in range(10):
 ---
 
 <div align="left">
-  <a href="#s3.7">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.9"> Next →</a>
+  <a href="#s3.7">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.9"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -877,7 +808,7 @@ else:
 ---
 
 <div align="left">
-  <a href="#s3.8">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.10"> Next →</a>
+  <a href="#s3.8">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.10"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -904,7 +835,7 @@ Output:
 ---
 
 <div align="left">
-  <a href="#s3.9">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.11"> Next →</a>
+  <a href="#s3.9">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s3.11"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -930,16 +861,21 @@ for x in range(2):
 ---
 
 <div align="left">
-  <a href="#s3.10">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.0"> Next →</a>
+  <a href="#s3.10">← Prev </a> |  <a href="#all"> Home </a> |  <a href="#s4.0"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
 
 <a id="s4.0"></a>
+
+
+
 # Section 4. Control Flow - Practical Examples
 
+
+
 <div align="left">
-  <a href="#s3.11">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.1"> Next →</a>
+  <a href="#s3.11">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.1"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -964,57 +900,31 @@ else:
     print("Grade D")
 ```
 
-```
-    +-----------+
-    |   Start   |
-    +-----+-----+
-          |
-          v
-    +-----+-----+
-    | Input     |
-    | Score     |
-    +-----+-----+
-          |
-          v
-    +-----+-----+
-    | Score>=90?|
-    +-----+-----+
-          |
-    +-----+-----+
-    |           |
-    v           v
-+---+---+     +-----+-----+
-|Grade A|     | Score>=80?|
-+---+---+     +-----+-----+
-   |                |
-   |            +---+---+
-   |            |       |
-   |        Yes |       | No
-   |            v       v
-   |        +---+---+ +-----+-----+
-   |        |Grade B| | Score>=70?|
-   |        +---+---+ +-----+-----+
-   |            |            |
-   |            |        +---+---+
-   |            |        |       |
-   |            |    Yes |       | No
-   |            |        v       v
-   |            |    +---+---+ +---+---+
-   |            |    |Grade C| |Grade D|
-   |            |    +---+---+ +---+---+
-   |            |        |         |
-   +------------+--------+---------+
-                        |
-                        v
-                   +----+----+
-                   |         |
-                   +---------+
+```mermaid
+flowchart TD
+    A[Start] --> B[Input Score]
+    B --> C{Score >=90?}
+    C -->|Yes| D[Grade A]
+    C -->|No| E{Score >=80?}
+    E -->|Yes| F[Grade B]
+    E -->|No| G{Score >=70?}
+    G -->|Yes| H[Grade C]
+    G -->|No| I[Grade D]
 ```
 
+---
 
+<div align="left">
+  <a href="#s4.0">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.2"> Next →</a>
+</div>
 
+<div style="height: 1000px;">&nbsp;</div>
 
-### Adding Loop for Multiple Inputs
+<a id="s4.2"></a>
+
+---
+
+## 4.2. Adding Loop for Multiple Inputs
 
 ### Continuous Processing
 ```python
@@ -1028,46 +938,27 @@ while True:
     print(f"Grade: {grade}")
 ```
 
-
-
+```mermaid
+flowchart TD
+    A[Start] --> B{Input Score}
+    B -->|q| C[Exit]
+    B -->|Number| D[Process Grade]
+    D --> B
 ```
-    +-----------+
-    |   Start   |
-    +-----+-----+
-          |
-          v
-    +-----+-----+
-    | Input     |
-    | Score     |
-    +-----+-----+
-          |
-    +-----+-----+
-    |           |
-    v           v
-+-------+     +-----------+
-| Exit  |     | Process   |
-+-------+     | Grade     |
-              +-----+-----+
-                    |
-                    +--> [Loop back]
-```
-
-
-
 
 ---
 
 <div align="left">
-  <a href="#s4.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.2"> Next →</a>
+  <a href="#s4.1">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.3"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
 
-<a id="s4.2"></a>
+<a id="s4.3"></a>
 
 ---
 
-## 4.2. Number Guessing Game
+## 4.3. Number Guessing Game
 
 ### Core Game Loop
 ```python
@@ -1086,42 +977,29 @@ while True:
         print("Too low")
 ```
 
-```
-    +-------------------+
-    | Generate Random   |
-    |     Number        |
-    +---------+---------+
-              |
-              v
-    +-------------------+
-    |      Guess?       |
-    +---------+---------+
-              |
-    +---------+---------+---------+
-    |         |         |         |
-    v         v         v         v
-+---+---+ +---+---+ +---+---+ +---+
-|Correct| |  High | |  Low  |     |
-+---+---+ +---+---+ +---+---+ +---+
-   |         |         |         |
-   v         v         v         v
-+---+---+ +---+---+ +---+---+ +---+
-|  Win  | |Prompt | |Prompt |     |
-|       | | Lower | | Higher|     |
-+---+---+ +---+---+ +---+---+ +---+
-   |         |         |         |
-   +---------+---------+---------+
-              |
-              v
-        +-----+-----+
-        |           |
-        +-----------+
+```mermaid
+flowchart TD
+    A[Generate Random Number] --> B{Guess?}
+    B -->|Correct| C[Win]
+    B -->|High| D[Prompt Lower]
+    B -->|Low| E[Prompt Higher]
+    D --> B
+    E --> B
 ```
 
+---
 
+<div align="left">
+  <a href="#s4.2">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.4"> Next →</a>
+</div>
 
+<div style="height: 1000px;">&nbsp;</div>
 
-### Tracking Attempts
+<a id="s4.4"></a>
+
+---
+
+## 4.4. Tracking Attempts
 
 ### Counter Implementation
 ```python
@@ -1136,7 +1014,17 @@ if attempts == 5:
 
 ---
 
-### Victory/Failure Branches
+<div align="left">
+  <a href="#s4.3">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.5"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s4.5"></a>
+
+---
+
+## 4.5. Victory/Failure Branches
 
 ### Final Conditions
 ```python
@@ -1148,7 +1036,17 @@ else:
 
 ---
 
-### Key Concepts Summary
+<div align="left">
+  <a href="#s4.4">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.6"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s4.6"></a>
+
+---
+
+## 4.6. Key Concepts Summary
 
 1. `if-elif-else` for decision making
 2. `while` loops for repeated actions
@@ -1158,7 +1056,17 @@ else:
 
 ---
 
-### Final Complete Code Demo
+<div align="left">
+  <a href="#s4.5">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s4.7"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s4.7"></a>
+
+---
+
+## 4.7. Final Complete Code Demo
 
 ### Grade System
 ```python
@@ -1208,16 +1116,21 @@ else:
 ---
 
 <div align="left">
-  <a href="#s4.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.0"> Next →</a>
+  <a href="#s4.6">← Prev </a> |  <a href="#all"> Home </a> |  <a href="#s5.0"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
 
 <a id="s5.0"></a>
+
+
+
 # Section 5. Special Considerations
 
+
+
 <div align="left">
-  <a href="#s4.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.1"> Next →</a>
+  <a href="#s4.7">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s5.1"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -1236,34 +1149,17 @@ if (temperature > 100
     print("Heat warning!")
 ```
 
-
+```mermaid
+flowchart TD
+    A[Check Conditions] --> B{All True?}
+    B -->|Yes| C[Execute Code]
+    B -->|No| D[Skip Block]
 ```
-    +-------------------+
-    |  Check Conditions |
-    +---------+---------+
-              |
-              v
-    +-------------------+
-    |    All True?      |
-    +---------+---------+
-              |
-        +-----+-----+
-        |           |
-    Yes |           | No
-        v           v
-    +-------+     +-------+
-    |Execute|     | Skip  |
-    | Code  |     | Block |
-    +-------+     +-------+
-```
-
-
-
 
 ---
 
 <div align="left">
-  <a href="#s5.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.2"> Next →</a>
+  <a href="#s5.0">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s5.2"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -1289,7 +1185,7 @@ if is_positive_even and within_limit and valid_user:
 ---
 
 <div align="left">
-  <a href="#s5.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.3"> Next →</a>
+  <a href="#s5.1">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s5.3"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -1307,48 +1203,20 @@ while counter < 3:
     counter += 1
 ```
 
-
-
+```mermaid
+flowchart TD
+    S[Start] --> I[counter=0]
+    I --> C{counter < 3?}
+    C -->|Yes| P[Print counter]
+    P --> U[counter +=1]
+    U --> C
+    C -->|No| E[End]
 ```
-    +-------------------+
-    |       Start       |
-    +---------+---------+
-              |
-              v
-    +-------------------+
-    |   counter = 0     |
-    +---------+---------+
-              |
-              v
-    +-------------------+
-    |   counter < 3?    |
-    +---------+---------+
-              |
-        +-----+-----+
-        |           |
-    Yes |           | No
-        v           v
-    +-------+     +-------+
-    | Print |     |  End  |
-    |counter|     +-------+
-    +---+---+
-        |
-        v
-    +-------+
-    |counter|
-    | += 1  |
-    +---+---+
-        |
-        +--> [Loop back]
-```
-
-
-
 
 ---
 
 <div align="left">
-  <a href="#s5.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.4"> Next →</a>
+  <a href="#s5.2">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s5.4"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -1369,7 +1237,7 @@ def calculate_discount(price):
 ---
 
 <div align="left">
-  <a href="#s5.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.5"> Next →</a>
+  <a href="#s5.3">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s5.5"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -1395,7 +1263,7 @@ while x < 5:
 ---
 
 <div align="left">
-  <a href="#s5.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.6"> Next →</a>
+  <a href="#s5.4">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s5.6"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -1408,7 +1276,7 @@ while x < 5:
 
 ```python
 # Wrong mixing of spaces/tabs
-def count_down(n):
+def test():
 while n > 0:  # Missing indentation
 print(n)      # Wrong level
     n -= 1
@@ -1423,7 +1291,7 @@ def count_down(n):
 ---
 
 <div align="left">
-  <a href="#s5.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.7"> Next →</a>
+  <a href="#s5.5">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s5.7"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -1449,7 +1317,7 @@ if abs(result - 0.3) < tolerance:
 ---
 
 <div align="left">
-  <a href="#s5.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.8"> Next →</a>
+  <a href="#s5.6">← Prev </a> |  <a href="#all"> Home </a> | <a href="#s5.8"> Next →</a>
 </div>
 
 <div style="height: 1000px;">&nbsp;</div>
@@ -1471,52 +1339,22 @@ while attempt < max_retries:
     attempt = attempt + 1
 ```
 
-
-
+```mermaid
+flowchart TD
+    S[Start] --> I[attempt=0]
+    I --> C{attempt < 3?}
+    C -->|Yes| L[Execute loop]
+    L --> U[attempt +=1]
+    U --> C
+    C -->|No| E[End]
 ```
-    +-------------------+
-    |       Start       |
-    +---------+---------+
-              |
-              v
-    +-------------------+
-    |   attempt = 0     |
-    +---------+---------+
-              |
-              v
-    +-------------------+
-    |   attempt < 3?    |
-    +---------+---------+
-              |
-        +-----+-----+
-        |           |
-    Yes |           | No
-        v           v
-    +-------+     +-------+
-    |Execute|     |  End  |
-    | loop  |     +-------+
-    +---+---+
-        |
-        v
-    +-------+
-    |attempt|
-    | += 1  |
-    +---+---+
-        |
-        +--> [Loop back]
-```
-
-
-
 
 ---
 
 <div align="left">
-  <a href="#s5.7">← Prev </a> | <a href="#all"> Home </a> 
+  <a href="#s5.7">← Prev </a> |  <a href="#all"> Home </a> 
 </div>
 
 <br>
 
 End
-
-
