@@ -1,40 +1,9 @@
-[Back](https://www.bioinfo-lab.com/courses/Programming_I/w04_Control_Flow/)
 
-<br>
-
-<a id="all"></a>
-
-### Content:
-
-[Section 1. Control Flow](#s1.0)
-
-[Section 2. Conditionals in Python](#s2.0)
-
-[Section 3. Loop Structures in Python](#s3.0)
-
-[Section 4. Control Flow - Practical Examples](#s4.0)
-
-[Section 5. Special Considerations](#s5.0)
-
-<br>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s1.0"></a>
 # Section 1. Control Flow
-
-<div align="left">
-  <a href="#all">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.1"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s1.1"></a>
 
 ---
 
-## 1.1. Conditional Statements
-
+# Conditional Statements
 Like traffic lights control vehicles:
 ```python
 light_color = input("Traffic light color: ")
@@ -51,18 +20,7 @@ else:
 
 ---
 
-<div align="left">
-  <a href="#s1.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.2"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s1.2"></a>
-
----
-
-## 1.2. Flowchart - Decision Making
-
+# Flowchart - Decision Making
 ```mermaid
 graph TD
     A[Start] --> B{Light Color?}
@@ -76,18 +34,7 @@ graph TD
 
 ---
 
-<div align="left">
-  <a href="#s1.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.3"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s1.3"></a>
-
----
-
-## 1.3. While Loops
-
+# While Loops
 Like repeating morning runs:
 ```python
 import time
@@ -101,18 +48,7 @@ print("All runs finished!")
 
 ---
 
-<div align="left">
-  <a href="#s1.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.4"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s1.4"></a>
-
----
-
-## 1.4. Flowchart - Loop Execution
-
+# Flowchart - Loop Execution
 ```mermaid
 graph TD
     A[Start] --> B{Runs Left?}
@@ -124,18 +60,7 @@ graph TD
 
 ---
 
-<div align="left">
-  <a href="#s1.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.5"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s1.5"></a>
-
----
-
-## 1.5. Why Control Flow Matters
-
+# Why Control Flow Matters
 1. Programs need to make decisions
 2. Handle different situations
 3. Repeat tasks efficiently
@@ -182,17 +107,7 @@ while sensor_active:
 
 ---
 
-<div align="left">
-  <a href="#s1.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.6"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s1.6"></a>
-
----
-
-## 1.6. Vending Machine Example
+# Vending machine
 
 Let's code a drink machine:
 ```python
@@ -204,30 +119,12 @@ while coins < 5:
 print("Here's your drink!")
 ```
 
-<br>
-
-### Q: how can we limit the number of inserted coins each time
-
-<br>
-
-### Q: how can we get the extra coins
-
-<br>
+### Question: how can we limit the number of inserted coins each time
+### Question: how can we get the extra coins
 
 ---
 
-<div align="left">
-  <a href="#s1.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.7"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s1.7"></a>
-
----
-
-## 1.7. Common Loop Patterns
-
+# Common Patterns
 1. Flag-controlled loops
 ```python
 running = True
@@ -252,18 +149,7 @@ while attempts < 10:
 
 ---
 
-<div align="left">
-  <a href="#s1.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.8"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s1.8"></a>
-
----
-
-## 1.8. Take-home Message
-
+# Take-home message
 1. `if-elif-else` for decisions
 2. `while` for repeating tasks
 3. Condition evaluation (True/False)
@@ -277,30 +163,13 @@ while i < 10:
     i = i+1  # Don't forget this!
 ```
 
----
 
-<div align="left">
-  <a href="#s1.7">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.0"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s2.0"></a>
 
 # Section 2. Conditionals in Python
 
-<div align="left">
-  <a href="#s1.8">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.1"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s2.1"></a>
-
 ---
 
-## 2.1. `if` Statement Basics
-
+### 1. `if` Statement Basics
 ```python
 # Basic structure
 age = 18
@@ -314,18 +183,7 @@ if age >= 18:
 
 ---
 
-<div align="left">
-  <a href="#s2.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.2"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s2.2"></a>
-
----
-
-## 2.2. Indentation Demo
-
+### 2. Indentation Demo
 ```python
 # Correct vs Wrong
 if True:
@@ -337,18 +195,7 @@ print("Wrong")     # ← No indentation
 
 ---
 
-<div align="left">
-  <a href="#s2.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.3"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s2.3"></a>
-
----
-
-## 2.3. Comparison Operators
-
+### 3. Comparison Operators
 ```python
 height = 175
 print(height > 160)  # True
@@ -363,18 +210,7 @@ if luggage_height > bus_height_limit:
 
 ---
 
-<div align="left">
-  <a href="#s2.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.4"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s2.4"></a>
-
----
-
-## 2.4. Logical Operators
-
+### 4. Logical Operators
 ```python
 # Weather check
 is_raining = True
@@ -392,18 +228,7 @@ else:
 
 ---
 
-<div align="left">
-  <a href="#s2.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.5"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s2.5"></a>
-
----
-
-## 2.5. Common Mistake Fix
-
+### 5. Common Mistake Fix
 ```python
 # Wrong
 if temperature = 30:
@@ -419,18 +244,7 @@ if temperature == 30:
 
 ---
 
-<div align="left">
-  <a href="#s2.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.6"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s2.6"></a>
-
----
-
-## 2.6. Multi-Condition Flow
-
+### 6. Multi-Condition Flow
 ```python
 age = 15
 
@@ -444,18 +258,7 @@ else:
 
 ---
 
-<div align="left">
-  <a href="#s2.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.7"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s2.7"></a>
-
----
-
-## 2.7. Nested Conditions
-
+### 7. Nested Conditions
 ```python
 age = 20
 is_student = True
@@ -474,17 +277,7 @@ else:
 
 ---
 
-<div align="left">
-  <a href="#s2.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.8"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s2.8"></a>
-
----
-
-## 2.8. Ticket System Example
+### 8. Ticket System Flowchart
 
 ```python
 # Full example
@@ -504,34 +297,12 @@ else:
     print("Regular ticket")
 ```
 
-<br>
-
-### Q: what if you are a 19 years old student without membership.
-
-<br>
-
-### Q: what if you are a 19 years old student with membership.
-
-<br>
-
-### Q: how can we get both the Student discount and the Membership discount
-
-<br>
-
+### Question: what if you are a 19 years old student without membership.
+### Question: what if you are a 19 years old student with membership.
+### Question: how can we get both the Student discount and the Membership discount
 ---
 
-<div align="left">
-  <a href="#s2.7">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.9"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s2.9"></a>
-
----
-
-## 2.9. Truth Value Testing
-
+### 9. Truth Value Testing
 ```python
 # Common False values:
 - False
@@ -547,18 +318,7 @@ if not name:
 
 ---
 
-<div align="left">
-  <a href="#s2.8">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.10"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s2.10"></a>
-
----
-
-## 2.10. Short-form Conditional Expression
-
+### 10. Short-form Conditional Expression (not recommended)
 ```python
 # Short form
 temperature = 28
@@ -578,30 +338,13 @@ print(message)
 - Use for simple two-way choices
 - Not recommended for complex logic
 
----
 
-<div align="left">
-  <a href="#s2.9">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.0"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s3.0"></a>
 
 # Section 3. Loop Structures in Python
 
-<div align="left">
-  <a href="#s2.10">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.1"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s3.1"></a>
-
 ---
 
-## 3.1. For Loop Basics
-
+### 1. For Loop Basics
 ```python
 # Like checking a shopping list
 groceries = ["apple", "milk", "bread"]
@@ -619,18 +362,7 @@ flowchart TD
 
 ---
 
-<div align="left">
-  <a href="#s3.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.2"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s3.2"></a>
-
----
-
-## 3.2. The range() Function
-
+### 2. The range() Function
 **Three usages:**
 ```python
 # Single argument
@@ -648,18 +380,7 @@ for num in range(0, 10, 2):
 
 ---
 
-<div align="left">
-  <a href="#s3.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.3"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s3.3"></a>
-
----
-
-## 3.3. String Traversal with Index
-
+### 3. String Traversal with Index
 ```python
 word = "hello"
 for index, letter in enumerate(word):
@@ -674,18 +395,7 @@ Character at position 1: e
 
 ---
 
-<div align="left">
-  <a href="#s3.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.4"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s3.4"></a>
-
----
-
-## 3.4. While Loop Mechanics
-
+### 4. While Loop Mechanics
 ```python
 # Like a persistent alarm clock
 countdown = 3
@@ -697,18 +407,7 @@ print("Go!")
 
 ---
 
-<div align="left">
-  <a href="#s3.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.5"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s3.5"></a>
-
----
-
-## 3.5. Termination Condition Design
-
+### 5. Termination Condition Design
 ```python
 # Dangerous version (for demonstration)
 # temperature = 25
@@ -719,18 +418,7 @@ print("Go!")
 
 ---
 
-<div align="left">
-  <a href="#s3.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.6"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s3.6"></a>
-
----
-
-## 3.6. Safe Loop Writing Technique
-
+### 6. Safe Loop Writing Technique
 **Always write termination first:**
 ```python
 # 1. Set initial value
@@ -745,18 +433,7 @@ while counter < MAX_ATTEMPTS:
 
 ---
 
-<div align="left">
-  <a href="#s3.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.7"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s3.7"></a>
-
----
-
-## 3.7. Break Statement
-
+### 7. Break Statement
 ```python
 # Emergency exit example
 passwords = ["123", "admin", "letmein"]
@@ -769,18 +446,7 @@ for pwd in passwords:
 
 ---
 
-<div align="left">
-  <a href="#s3.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.8"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s3.8"></a>
-
----
-
-## 3.8. Continue Statement
-
+### 8. Continue Statement
 ```python
 # Skip odd numbers
 for num in range(10):
@@ -791,18 +457,7 @@ for num in range(10):
 
 ---
 
-<div align="left">
-  <a href="#s3.7">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.9"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s3.9"></a>
-
----
-
-## 3.9. Else Clause in Loops
-
+### 9. Else Clause in Loops
 ```python
 # Only executes if loop completes normally
 numbers = [2, 4, 6]
@@ -815,18 +470,7 @@ else:
 
 ---
 
-<div align="left">
-  <a href="#s3.8">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.10"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s3.10"></a>
-
----
-
-## 3.10. Nested Loops: Multiplication Table
-
+### 10. Nested Loops: Multiplication Table
 ```python
 for i in range(1, 4):  # Rows
     for j in range(1, 4):  # Columns
@@ -842,18 +486,7 @@ Output:
 
 ---
 
-<div align="left">
-  <a href="#s3.9">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.11"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s3.11"></a>
-
----
-
-## 3.11. Understanding Indentation Levels
-
+### 11. Understanding Indentation Levels
 ```python
 # Outer loop (level 1)
 for x in range(2):
@@ -866,29 +499,13 @@ for x in range(2):
     print("----")
 ```
 
----
 
-<div align="left">
-  <a href="#s3.10">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.0"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s4.0"></a>
 
 # Section 4. Control Flow - Practical Examples
 
-<div align="left">
-  <a href="#s3.11">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.1"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s4.1"></a>
-
 ---
 
-## 4.1. Smart Grade Rating System
+## Case 1: Smart Grade Rating System
 
 ### Basic Structure
 ```python
@@ -918,7 +535,7 @@ flowchart TD
 
 ---
 
-### Adding Loop for Multiple Inputs
+## Adding Loop for Multiple Inputs
 
 ### Continuous Processing
 ```python
@@ -942,17 +559,7 @@ flowchart TD
 
 ---
 
-<div align="left">
-  <a href="#s4.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.2"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s4.2"></a>
-
----
-
-## 4.2. Number Guessing Game
+## Case 2: Number Guessing Game
 
 ### Core Game Loop
 ```python
@@ -983,7 +590,7 @@ flowchart TD
 
 ---
 
-### Tracking Attempts
+## Tracking Attempts
 
 ### Counter Implementation
 ```python
@@ -998,7 +605,7 @@ if attempts == 5:
 
 ---
 
-### Victory/Failure Branches
+## Victory/Failure Branches
 
 ### Final Conditions
 ```python
@@ -1010,7 +617,7 @@ else:
 
 ---
 
-### Key Concepts Summary
+## Key Concepts Summary
 
 1. `if-elif-else` for decision making
 2. `while` loops for repeated actions
@@ -1020,7 +627,7 @@ else:
 
 ---
 
-### Final Complete Code Demo
+## Final Complete Code Demo
 
 ### Grade System
 ```python
@@ -1067,30 +674,16 @@ else:
 
 ```
 
----
 
-<div align="left">
-  <a href="#s4.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.0"> Next →</a>
-</div>
 
-<div style="height: 1000px;">&nbsp;</div>
 
-<a id="s5.0"></a>
+
 
 # Section 5. Special Considerations
 
-<div align="left">
-  <a href="#s4.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.1"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s5.1"></a>
-
 ---
 
-## 5.1. Multi-line Conditional Statements
-
+### 1. Multi-line Conditional Statements
 ```python
 # Recommended style
 if (temperature > 100 
@@ -1108,18 +701,7 @@ flowchart TD
 
 ---
 
-<div align="left">
-  <a href="#s5.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.2"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s5.2"></a>
-
----
-
-## 5.2. Splitting Long Logical Expressions
-
+### 2. Splitting Long Logical Expressions
 ```python
 # Before
 if (num > 0 and num%2 == 0 and num < 100 and name != "admin"):
@@ -1134,18 +716,7 @@ if is_positive_even and within_limit and valid_user:
 
 ---
 
-<div align="left">
-  <a href="#s5.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.3"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s5.3"></a>
-
----
-
-## 5.3. Debugging with Print Statements
-
+### 3. Debugging with Print Statements
 ```python
 counter = 0
 while counter < 3:
@@ -1165,18 +736,7 @@ flowchart TD
 
 ---
 
-<div align="left">
-  <a href="#s5.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.4"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s5.4"></a>
-
----
-
-## 5.4. Using TODO Comments
-
+### 4. Using TODO Comments
 ```python
 def calculate_discount(price):
     # TODO: Add seasonal discount logic
@@ -1186,18 +746,7 @@ def calculate_discount(price):
 
 ---
 
-<div align="left">
-  <a href="#s5.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.5"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s5.5"></a>
-
----
-
-## 5.5. Missing Colon Error
-
+### 5. Missing Colon Error
 ```python
 # Incorrect
 while x < 5
@@ -1212,18 +761,7 @@ while x < 5:
 
 ---
 
-<div align="left">
-  <a href="#s5.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.6"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s5.6"></a>
-
----
-
-## 5.6. Indentation Error Examples
-
+### 6. Indentation Error Examples
 ```python
 # Wrong mixing of spaces/tabs
 def count_down(n):
@@ -1240,18 +778,7 @@ def count_down(n):
 
 ---
 
-<div align="left">
-  <a href="#s5.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.7"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s5.7"></a>
-
----
-
-## 5.7. Floating Point Comparison
-
+### 7. Floating Point Comparison
 ```python
 # Unreliable
 result = 0.1 + 0.2
@@ -1266,18 +793,7 @@ if abs(result - 0.3) < tolerance:
 
 ---
 
-<div align="left">
-  <a href="#s5.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.8"> Next →</a>
-</div>
-
-<div style="height: 1000px;">&nbsp;</div>
-
-<a id="s5.8"></a>
-
----
-
-## 5.8. While Loop Flow Control
-
+### 8. While Loop Flow Control
 ```python
 # Safe loop pattern
 max_retries = 3
@@ -1298,14 +814,3 @@ flowchart TD
     U --> C
     C -->|No| E[End]
 ```
-
----
-
-<div align="left">
-  <a href="#s5.7">← Prev </a> | <a href="#all"> Home </a> 
-</div>
-
-<br>
-
-End
-
