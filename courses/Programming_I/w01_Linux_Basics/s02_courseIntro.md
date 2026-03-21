@@ -15,9 +15,9 @@
 * w08 File Operations
 * w09 Recitation III (Review+Test+Team Work+QA)
 * w10 Exception Handling
-* w11 LLM API in Python
+* w11 Library
 * w12 Recitation IV (Review+Test+Team Work+QA)
-* w13 Intro to Libraries
+* w13 Intro to LLM API
 * w14 Intro to Multi-Tasking
 * w15 Final Presentation
 
