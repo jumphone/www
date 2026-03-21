@@ -25,12 +25,12 @@
 
 * [w10 Exception Handling](courses/Programming_I/w10_Exception_Handling)
 
-* [w11 LLM API in Python](courses/Programming_I/w11_LLM_API)
+* [w11 Library](courses/Programming_I/w11_Library)
 
 * [w12 Recitation IV (Review+Quiz+QA)](courses/Programming_I/w12_Recitation_IV)
 
 
-* [w13 Intro to Libraries](courses/Programming_I/w13_Intro_Library)
+* [w13 Intro to LLM API](courses/Programming_I/w13_Intro_LLM_API)
 
 * [w14 Intro to Multi-Tasking](courses/Programming_I/w14_Intro_Multi_Tasking)
 
