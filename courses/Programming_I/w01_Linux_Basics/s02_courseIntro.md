@@ -18,7 +18,7 @@
 * w11 LLM API in Python
 * w12 Recitation IV (Review+Test+Team Work+QA)
 * w13 Intro to Libraries
-* w14 Intro to Concurrent Programming
+* w14 Intro to Multi-Tasking
 * w15 Final Presentation
 
 <br>
