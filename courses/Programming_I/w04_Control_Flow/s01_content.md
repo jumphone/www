@@ -1,7 +1,4 @@
-
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
-
+```
 [Back](https://www.bioinfo-lab.com/courses/Programming_I/w04_Control_Flow/)
 
 <br>
@@ -67,16 +64,37 @@ else:
 
 ## 1.2. Flowchart - Decision Making
 
-<div class="mermaid">
-graph TD
-    A[Start] --> B{Light Color?}
-    B --> |Red| C[Stop]
-    B --> |Yellow| D[Slow Down]
-    B --> |Green| E[Go]
-    C --> F[End]
-    D --> F
-    E --> F
-</div>
+```
+         +---------+
+         |  Start  |
+         +----+----+
+              |
+              v
+         +----+----+
+         | Light   |
+         | Color?  |
+         +----+----+
+              |
+    +---------+---------+
+    |         |         |
+    v         v         v
++---+---+ +---+---+ +---+---+
+|  Red  | | Yellow| | Green |
++---+---+ +---+---+ +---+---+
+   |         |         |
+   v         v         v
++---+---+ +---+---+ +---+---+
+| Stop  | | Slow  | |  Go   |
+|       | | Down  | |       |
++---+---+ +---+---+ +---+---+
+   |         |         |
+   +---------+---------+
+              |
+              v
+         +----+----+
+         |  End    |
+         +---------+
+```
 
 
 ---
@@ -119,14 +137,35 @@ print("All runs finished!")
 ## 1.4. Flowchart - Loop Execution
 
 
-<div class="mermaid">
-graph TD
-    A[Start] --> B{Runs Left?}
-    B -->|Yes| C[Run]
-    C --> D[Reduce Count]
-    D --> B
-    B -->|No| E[End]
-</div>
+```
+         +---------+
+         |  Start  |
+         +----+----+
+              |
+              v
+         +----+----+
+         | Runs    |
+         | Left?   |
+         +----+----+
+              |
+        +-----+-----+
+        |           |
+    Yes |           | No
+        v           v
+    +---+---+     +---+---+
+    |  Run  |     |  End  |
+    +---+---+     +---+---+
+        |
+        v
+    +---+---+
+    | Reduce|
+    | Count |
+    +---+---+
+        |
+        +----------> [Loop back]
+```
+
+
 
 
 ---
@@ -293,7 +332,6 @@ while i < 10:
 <div style="height: 1000px;">&nbsp;</div>
 
 <a id="s2.0"></a>
-
 # Section 2. Conditionals in Python
 
 <div align="left">
@@ -594,7 +632,6 @@ print(message)
 <div style="height: 1000px;">&nbsp;</div>
 
 <a id="s3.0"></a>
-
 # Section 3. Loop Structures in Python
 
 <div align="left">
@@ -616,13 +653,30 @@ for item in groceries:
     print("Don't forget to buy:", item)
 ```
 
-<div class="mermaid">
-flowchart TD
-    A[Start] --> B{Items left?}
-    B -->|Yes| C[Process item]
-    C --> B
-    B -->|No| D[End]
-</div>
+```
+         +---------+
+         |  Start  |
+         +----+----+
+              |
+              v
+         +----+----+
+         | Items   |
+         | Left?   |
+         +----+----+
+              |
+        +-----+-----+
+        |           |
+    Yes |           | No
+        v           v
+    +---+---+     +---+---+
+    | Process |   |  End  |
+    |  Item   |   +-------+
+    +---+---+
+        |
+        +----------> [Loop back]
+```
+
+
 
 
 ---
@@ -883,7 +937,6 @@ for x in range(2):
 <div style="height: 1000px;">&nbsp;</div>
 
 <a id="s4.0"></a>
-
 # Section 4. Control Flow - Practical Examples
 
 <div align="left">
@@ -912,20 +965,55 @@ else:
     print("Grade D")
 ```
 
-<div class="mermaid">
-flowchart TD
-    A[Start] --> B[Input Score]
-    B --> C{Score >=90?}
-    C -->|Yes| D[Grade A]
-    C -->|No| E{Score >=80?}
-    E -->|Yes| F[Grade B]
-    E -->|No| G{Score >=70?}
-    G -->|Yes| H[Grade C]
-    G -->|No| I[Grade D]
-</div>
+```
+    +-----------+
+    |   Start   |
+    +-----+-----+
+          |
+          v
+    +-----+-----+
+    | Input     |
+    | Score     |
+    +-----+-----+
+          |
+          v
+    +-----+-----+
+    | Score>=90?|
+    +-----+-----+
+          |
+    +-----+-----+
+    |           |
+    v           v
++---+---+     +-----+-----+
+|Grade A|     | Score>=80?|
++---+---+     +-----+-----+
+   |                |
+   |            +---+---+
+   |            |       |
+   |        Yes |       | No
+   |            v       v
+   |        +---+---+ +-----+-----+
+   |        |Grade B| | Score>=70?|
+   |        +---+---+ +-----+-----+
+   |            |            |
+   |            |        +---+---+
+   |            |        |       |
+   |            |    Yes |       | No
+   |            |        v       v
+   |            |    +---+---+ +---+---+
+   |            |    |Grade C| |Grade D|
+   |            |    +---+---+ +---+---+
+   |            |        |         |
+   +------------+--------+---------+
+                        |
+                        v
+                   +----+----+
+                   |         |
+                   +---------+
+```
 
 
----
+
 
 ### Adding Loop for Multiple Inputs
 
@@ -943,13 +1031,29 @@ while True:
 
 
 
-<div class="mermaid">
-flowchart TD
-    A[Start] --> B{Input Score}
-    B -->|q| C[Exit]
-    B -->|Number| D[Process Grade]
-    D --> B
-</div>
+```
+    +-----------+
+    |   Start   |
+    +-----+-----+
+          |
+          v
+    +-----+-----+
+    | Input     |
+    | Score     |
+    +-----+-----+
+          |
+    +-----+-----+
+    |           |
+    v           v
++-------+     +-----------+
+| Exit  |     | Process   |
++-------+     | Grade     |
+              +-----+-----+
+                    |
+                    +--> [Loop back]
+```
+
+
 
 
 ---
@@ -983,18 +1087,40 @@ while True:
         print("Too low")
 ```
 
-<div class="mermaid">
-flowchart TD
-    A[Generate Random Number] --> B{Guess?}
-    B -->|Correct| C[Win]
-    B -->|High| D[Prompt Lower]
-    B -->|Low| E[Prompt Higher]
-    D --> B
-    E --> B
-</div>
+```
+    +-------------------+
+    | Generate Random   |
+    |     Number        |
+    +---------+---------+
+              |
+              v
+    +-------------------+
+    |      Guess?       |
+    +---------+---------+
+              |
+    +---------+---------+---------+
+    |         |         |         |
+    v         v         v         v
++---+---+ +---+---+ +---+---+ +---+
+|Correct| |  High | |  Low  |     |
++---+---+ +---+---+ +---+---+ +---+
+   |         |         |         |
+   v         v         v         v
++---+---+ +---+---+ +---+---+ +---+
+|  Win  | |Prompt | |Prompt |     |
+|       | | Lower | | Higher|     |
++---+---+ +---+---+ +---+---+ +---+
+   |         |         |         |
+   +---------+---------+---------+
+              |
+              v
+        +-----+-----+
+        |           |
+        +-----------+
+```
 
 
----
+
 
 ### Tracking Attempts
 
@@ -1089,7 +1215,6 @@ else:
 <div style="height: 1000px;">&nbsp;</div>
 
 <a id="s5.0"></a>
-
 # Section 5. Special Considerations
 
 <div align="left">
@@ -1113,12 +1238,27 @@ if (temperature > 100
 ```
 
 
-<div class="mermaid">
-flowchart TD
-    A[Check Conditions] --> B{All True?}
-    B -->|Yes| C[Execute Code]
-    B -->|No| D[Skip Block]
-</div>
+```
+    +-------------------+
+    |  Check Conditions |
+    +---------+---------+
+              |
+              v
+    +-------------------+
+    |    All True?      |
+    +---------+---------+
+              |
+        +-----+-----+
+        |           |
+    Yes |           | No
+        v           v
+    +-------+     +-------+
+    |Execute|     | Skip  |
+    | Code  |     | Block |
+    +-------+     +-------+
+```
+
+
 
 
 ---
@@ -1170,15 +1310,40 @@ while counter < 3:
 
 
 
-<div class="mermaid">
-flowchart TD
-    S[Start] --> I[counter=0]
-    I --> C{counter < 3?}
-    C -->|Yes| P[Print counter]
-    P --> U[counter +=1]
-    U --> C
-    C -->|No| E[End]
-</div>
+```
+    +-------------------+
+    |       Start       |
+    +---------+---------+
+              |
+              v
+    +-------------------+
+    |   counter = 0     |
+    +---------+---------+
+              |
+              v
+    +-------------------+
+    |   counter < 3?    |
+    +---------+---------+
+              |
+        +-----+-----+
+        |           |
+    Yes |           | No
+        v           v
+    +-------+     +-------+
+    | Print |     |  End  |
+    |counter|     +-------+
+    +---+---+
+        |
+        v
+    +-------+
+    |counter|
+    | += 1  |
+    +---+---+
+        |
+        +--> [Loop back]
+```
+
+
 
 
 ---
@@ -1309,15 +1474,40 @@ while attempt < max_retries:
 
 
 
-<div class="mermaid">
-flowchart TD
-    S[Start] --> I[attempt=0]
-    I --> C{attempt < 3?}
-    C -->|Yes| L[Execute loop]
-    L --> U[attempt +=1]
-    U --> C
-    C -->|No| E[End]
-</div>
+```
+    +-------------------+
+    |       Start       |
+    +---------+---------+
+              |
+              v
+    +-------------------+
+    |   attempt = 0     |
+    +---------+---------+
+              |
+              v
+    +-------------------+
+    |   attempt < 3?    |
+    +---------+---------+
+              |
+        +-----+-----+
+        |           |
+    Yes |           | No
+        v           v
+    +-------+     +-------+
+    |Execute|     |  End  |
+    | loop  |     +-------+
+    +---+---+
+        |
+        v
+    +-------+
+    |attempt|
+    | += 1  |
+    +---+---+
+        |
+        +--> [Loop back]
+```
+
+
 
 
 ---
@@ -1330,3 +1520,4 @@ flowchart TD
 
 End
 
+```
