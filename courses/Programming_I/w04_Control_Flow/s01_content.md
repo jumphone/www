@@ -103,7 +103,7 @@ runs_remaining = 3
 while runs_remaining > 0:
     time.sleep(1) # suppose you are a superman, 400m in 1 second 
     print("Morning run #"+str(4 - runs_remaining)+" completed!")
-    runs_remaining -= 1
+    runs_remaining = runs_remaining - 1
 print("All runs finished!")
 ```
 
