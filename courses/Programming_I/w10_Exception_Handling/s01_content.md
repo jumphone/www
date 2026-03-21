@@ -1,9 +1,40 @@
+[Back](https://www.bioinfo-lab.com/courses/Programming_I/w10_Exception_Handling/)
 
-## Section 1. Errors in Python
+<br>
+
+<a id="all"></a>
+
+### Content:
+
+[Section 1. Errors in Python](#e1.0)
+
+[Section 2. Exception Handling in Python](#e2.0)
+
+[Section 3. Handling Multiple Exceptions](#e3.0)
+
+[Section 4. Exception Handling - finally and else](#e4.0)
+
+[Section 5. Exception Handling in Action](#e5.0)
+
+<br>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e1.0"></a>
+# Section 1. Errors in Python
+
+<div align="left">
+  <a href="#all">← Prev </a> | <a href="#all"> Home </a> | <a href="#e1.1"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e1.1"></a>
 
 ---
 
 ## When Coding Meets Real Life
+
 ### Example 1: The Missing Classroom
 ```python
 open("non_existent_file.txt") 
@@ -12,7 +43,6 @@ open("non_existent_file.txt")
 
 ---
 
-## When Coding Meets Real Life 
 ### Example 2: Zero Division Drama
 ```python
 total_people = 0
@@ -22,35 +52,41 @@ cake_slices = 8 / total_people
 
 ---
 
+<div align="left">
+  <a href="#e1.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#e1.2"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e1.2"></a>
+
+---
+
 ## Meet Python's Error Messages
+
 ### The 5 Most Common Errors
 
-1. SyntaxError
-
+1. **SyntaxError**
 ```python
 while True
 ```
 
-2. NameError
-
+2. **NameError**
 ```python
 print(new_variable)
 ```
 
-3. TypeError
-
+3. **TypeError**
 ```python
 1+'a'
 ```
 
-4. FileNotFoundError
-
+4. **FileNotFoundError**
 ```python
 fi=open('okokokokok.txt','r')
 ```
 
-5. IndentationError
-
+5. **IndentationError**
 ```python
 while True:
 print('yes')
@@ -58,10 +94,22 @@ print('yes')
 
 ---
 
-## Let's Read Error Messages Together! 
-### Sample Error Stack
+<div align="left">
+  <a href="#e1.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#e1.3"> Next →</a>
+</div>
 
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e1.3"></a>
+
+---
+
+## Let's Read Error Messages Together!
+
+### Sample Error Stack
+```bash
 python3 demo.py
+```
 
 ```python
 Traceback (most recent call last):
@@ -72,13 +120,34 @@ NameError: name 'undefined_var' is not defined
 
 ---
 
-## Error Message Breakdown 
+<div align="left">
+  <a href="#e1.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#e1.4"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e1.4"></a>
+
+---
+
+## Error Message Breakdown
+
 ### What Each Part Means:
 1. **Traceback**: Error roadmap
 2. **File demo.py**: Where error happened
 3. **Line 3**: Exact line number  
 4. **NameError**: Error type
 5. **undefined_var**: variable leading to error
+
+---
+
+<div align="left">
+  <a href="#e1.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#e1.5"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e1.5"></a>
 
 ---
 
@@ -98,10 +167,29 @@ age = "20"
 years_to_drive = age - 16
 ```
 
-
 ---
 
-## Section 2. Exception Handling in Python
+<div align="left">
+  <a href="#e1.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#e2.0"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e2.0"></a>
+
+
+
+# Section 2. Exception Handling in Python
+
+
+
+<div align="left">
+  <a href="#e1.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#e2.1"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e2.1"></a>
 
 ---
 
@@ -119,7 +207,18 @@ except ZeroDivisionError:
 
 ---
 
-## Case: Let's Break a Calculator! 
+<div align="left">
+  <a href="#e2.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#e2.2"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e2.2"></a>
+
+---
+
+## Case: Let's Break a Calculator!
+
 What if someone tries to calculate BMI with zero height?
 ```python
 try:
@@ -134,7 +233,18 @@ except ZeroDivisionError:
 
 ---
 
+<div align="left">
+  <a href="#e2.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#e2.3"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e2.3"></a>
+
+---
+
 ## Case: File Detective Game
+
 What if student list file is missing?
 ```python
 try:
@@ -148,7 +258,18 @@ except FileNotFoundError:
 
 ---
 
+<div align="left">
+  <a href="#e2.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#e2.4"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e2.4"></a>
+
+---
+
 ## The Safety Net (Catch-All)
+
 When you're not sure what might go wrong:
 ```python
 try:
@@ -161,7 +282,18 @@ except Exception as e:
 
 ---
 
+<div align="left">
+  <a href="#e2.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#e2.5"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e2.5"></a>
+
+---
+
 ## Friendly Error Messages when building software
+
 Make technical errors human-friendly:
 ```python
 try:
@@ -171,6 +303,16 @@ except ValueError:
 ```
 - Converts confusing errors
 - Helps users understand mistakes
+
+---
+
+<div align="left">
+  <a href="#e2.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#e2.6"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e2.6"></a>
 
 ---
 
@@ -191,8 +333,29 @@ except Exception as e:
 
 ---
 
-## Section 3. Handling Multiple Exceptions
+<div align="left">
+  <a href="#e2.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#e3.0"> Next →</a>
+</div>
 
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e3.0"></a>
+
+
+
+# Section 3. Handling Multiple Exceptions
+
+
+
+<div align="left">
+  <a href="#e2.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#e3.1"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e3.1"></a>
+
+---
 
 ## Basic Exception Handling
 ```python
@@ -204,7 +367,18 @@ except ValueError:
 
 ---
 
+<div align="left">
+  <a href="#e3.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#e3.2"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e3.2"></a>
+
+---
+
 ## Handling Different Error Types
+
 ### Multiple except Blocks
 ```python
 try:
@@ -215,7 +389,19 @@ except ValueError:
 except ZeroDivisionError:
     print("Age can't be zero!") 
 ```
-## Question: What will happen if we input 0 ? string ? 4 ? 
+
+### Question: What will happen if we input 0 ? string ? 4 ? 
+
+---
+
+<div align="left">
+  <a href="#e3.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#e3.3"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e3.3"></a>
+
 ---
 
 ### How It Works
@@ -225,7 +411,18 @@ except ZeroDivisionError:
 
 ---
 
+<div align="left">
+  <a href="#e3.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#e3.4"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e3.4"></a>
+
+---
+
 ## Handling Cases Together
+
 ### Tuple-style Catching
 ```python
 try:
@@ -236,6 +433,16 @@ except (FileNotFoundError, PermissionError):
     print("- File exists")
     print("- You have access")
 ```
+
+---
+
+<div align="left">
+  <a href="#e3.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#e3.5"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e3.5"></a>
 
 ---
 
@@ -251,7 +458,17 @@ except ZeroDivisionError:
     print("Total can't be zero!")
 ```
 
-## Question: Change it into Tuple-style ? 
+### Question: Change it into Tuple-style ? 
+
+---
+
+<div align="left">
+  <a href="#e3.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#e3.6"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e3.6"></a>
 
 ---
 
@@ -260,20 +477,43 @@ except ZeroDivisionError:
 try:
     human_years = int(input("Dog's age: "))
     dog_years = human_years * 7
-    print(f"Dog age: {dog_years}")
+    print("Dog age: " + str(dog_years))
 except ValueError:
     print("Enter whole number!")
 except Exception:
     print("Something unexpected happened!")
 ```
-## Question: Change it into Tuple-style ? Do we really need to do that?
+
+### Question: Change it into Tuple-style ? Do we really need to do that?
+
+---
+
+<div align="left">
+  <a href="#e3.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#e4.0"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e4.0"></a>
+
 
 
 # Section 4: Exception Handling - finally and else
 
+
+
+<div align="left">
+  <a href="#e3.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#e4.1"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e4.1"></a>
+
 ---
 
 ## finally
+
 ### Always Executes!
 - Runs **whether exceptions occur or not**
 - Perfect for cleanup operations
@@ -284,9 +524,19 @@ except Exception:
 
 ---
 
+<div align="left">
+  <a href="#e4.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#e4.2"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e4.2"></a>
+
+---
+
 ## File Handling with `finally`
 
-## Guess: What will happen?
+### Guess: What will happen?
 ```python
 try:
     file = open("diary.txt", "r")
@@ -300,7 +550,18 @@ finally:
 
 ---
 
+<div align="left">
+  <a href="#e4.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#e4.3"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e4.3"></a>
+
+---
+
 ## The Special `else` Clause
+
 ### Runs Only When...
 - No exceptions occurred in `try` block
 - Useful for separating success logic
@@ -310,8 +571,18 @@ try:
 except ZeroDivisionError:
     print("Can't divide by zero!")
 else:
-    print(f"Result is {result}")  # Only if successful
+    print("Result is " + str(result))  # Only if successful
 ```
+
+---
+
+<div align="left">
+  <a href="#e4.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#e4.4"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e4.4"></a>
 
 ---
 
@@ -337,7 +608,19 @@ else:
 ```
 
 ---
+
+<div align="left">
+  <a href="#e4.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#e4.5"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e4.5"></a>
+
+---
+
 ## Question: who can explain the following program?
+
 ## Real-World Example: Safe Config Loader
 ```python
 config_file = False
@@ -356,7 +639,18 @@ finally:
 
 ---
 
+<div align="left">
+  <a href="#e4.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#e4.6"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e4.6"></a>
+
+---
+
 ## Common Patterns
+
 ### Resource Management Trio
 1. `try`: Attempt risky operation
 2. `except`: Handle known errors
@@ -364,6 +658,17 @@ finally:
 4. `finally`: Cleanup resources
 
 ---
+
+<div align="left">
+  <a href="#e4.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#e4.7"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e4.7"></a>
+
+---
+
 ## Question: who can explain the following function?
 ```python
 def safe_divide(a, b):
@@ -372,7 +677,7 @@ def safe_divide(a, b):
     except ZeroDivisionError:
         print("Division by zero!")
     else:
-        print(f"Result is {result}")
+        print("Result is " + str(result))
     finally:
         print("Operation complete")
 
@@ -382,8 +687,29 @@ safe_divide(5, 0)
 
 ---
 
+<div align="left">
+  <a href="#e4.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#e5.0"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e5.0"></a>
+
+
+
 # Section 5. Exception Handling in Action
 
+
+
+<div align="left">
+  <a href="#e4.7">← Prev </a> | <a href="#all"> Home </a> | <a href="#e5.1"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e5.1"></a>
+
+---
 
 ## 1 Network Requests: Connection Timeout
 ```python
@@ -392,11 +718,22 @@ try:
     response = requests.get("https://www.google.com", timeout=3)
 except requests.exceptions.ConnectTimeout:
     print("Oops! Connection took too long!")
-
 ```
+
 **What happens:**
 - Waits 3 seconds for connection
 - Shows message if server doesn't respond
+
+---
+
+<div align="left">
+  <a href="#e5.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#e5.2"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e5.2"></a>
+
 ---
 
 ## 2 Retry
@@ -409,13 +746,24 @@ for attempt in range(3):
         requests.get("https://www.google.com",timeout=3)
         break
     except Exception:
-        print(f"Attempt {attempt+1} failed")
+        print("Attempt " + str(attempt+1) + " failed")
         time.sleep(wait_time)
 ```
-## Question: How can we dynamically change the wait-time? 
+
+### Question: How can we dynamically change the wait-time? 
 First time: 3s
 Second time: 2s
 Third time: 1s
+
+---
+
+<div align="left">
+  <a href="#e5.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#e5.3"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e5.3"></a>
 
 ---
 
@@ -431,7 +779,17 @@ except ValueError as e:
     print(e)
 ```
 
-## Question: How can we use while-loop to add multiple users? 
+### Question: How can we use while-loop to add multiple users? 
+
+---
+
+<div align="left">
+  <a href="#e5.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#e5.4"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e5.4"></a>
 
 ---
 
@@ -452,7 +810,13 @@ except Exception as e:
 
 ---
 
+<div align="left">
+  <a href="#e5.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#e5.5"> Next →</a>
+</div>
 
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e5.5"></a>
 
 ---
 
@@ -464,10 +828,20 @@ except ValueError:
     print("Numbers only please!")
 else:
     celsius = (fahr - 32) * 5/9
-    print(f"{fahr}F = {celsius:.1f}C")
+    print(str(fahr) + "F = " + str(round(celsius, 1)) + "C")
 ```
 
-## Question: celsius to fahrenheit? 
+### Question: celsius to fahrenheit? 
+
+---
+
+<div align="left">
+  <a href="#e5.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#e5.6"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="e5.6"></a>
 
 ---
 
@@ -478,10 +852,19 @@ try:
     if not (-100 <= temp <= 212):
         raise ValueError("Unrealistic temperature!")
 except ValueError as e:
-    print(f"Invalid input: {e}")
+    print("Invalid input: " + str(e))
 ```
 
 ---
-## Question: put "Range Check" into the "Fahrenheit-to-Celsius"? 
 
+### Question: put "Range Check" into the "Fahrenheit-to-Celsius"? 
 
+---
+
+<div align="left">
+  <a href="#e5.5">← Prev </a> | <a href="#all"> Home </a> 
+</div>
+
+<br>
+
+End
