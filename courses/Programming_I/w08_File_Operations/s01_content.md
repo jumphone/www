@@ -1,5 +1,38 @@
+[Back](https://www.bioinfo-lab.com/courses/Programming_I/w08_File_Operations/)
 
-## Section 1. File Operations Basics
+<br>
+
+
+<a id="all"></a>
+
+### Content:
+
+[Section 1. File Operations Basics](#s1.0)
+
+[Section 2. The Magic of `with` Statement](#s2.0)
+
+[Section 3. File System Operations](#s3.0)
+
+[Section 4. Encoding in Python](#s4.0)
+
+[Section 5. Practical Applications](#s5.0)
+
+<br>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s1.0"></a>
+# Section 1. File Operations Basics
+
+<div align="left">
+  <a href="#all">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.1"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s1.1"></a>
+
+---
 
 ## 1. What is a File?
 - Data container stored on disk
@@ -7,6 +40,14 @@
 - Two main types:
   - Text files: Human-readable (`.txt`, `.csv`)
   - Binary files: Special formats (`.jpg`, `.docx`)
+
+<div align="left">
+  <a href="#s1.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.2"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s1.2"></a>
 
 ---
 
@@ -20,6 +61,14 @@
 ```
 - Think of paths like home addresses for files
 
+<div align="left">
+  <a href="#s1.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.3"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s1.3"></a>
+
 ---
 
 ## 3. Opening Files: The open() Function
@@ -31,6 +80,14 @@ f = open("log.txt", "a")    # Append
 f = open("log.txt", "a+")    # Append (create if not exist)
 f = open("data.txt", "r+")  # Read+Write
 ```
+
+<div align="left">
+  <a href="#s1.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.4"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s1.4"></a>
 
 ---
 
@@ -44,6 +101,14 @@ print(file.readline())   # Read first line
 print(file.readlines())  # Read all lines as list
 file.close()
 ```
+
+<div align="left">
+  <a href="#s1.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.5"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s1.5"></a>
 
 ---
 
@@ -62,6 +127,14 @@ file.writelines(items)
 file.close()
 ```
 
+<div align="left">
+  <a href="#s1.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.6"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s1.6"></a>
+
 ---
 
 ## 6. Case 1: Read Class List
@@ -76,7 +149,7 @@ students = file.readlines()
 file.close()
 
 for student in students:
-    print(f"Hello {student.strip()}!")
+    print("Hello " + student.strip() + "!")
 ```
 Output:
 ```
@@ -84,6 +157,14 @@ Hello Alice!
 Hello Bob!
 Hello Charlie!
 ```
+
+<div align="left">
+  <a href="#s1.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.7"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s1.7"></a>
 
 ---
 
@@ -102,6 +183,14 @@ Shopping List:
 - Bread
 ```
 
+<div align="left">
+  <a href="#s1.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.8"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s1.8"></a>
+
 ---
 
 ## 8. Case 3: Append to Diary
@@ -119,6 +208,14 @@ Updated file:
 2024-06-01: Learned file operations!
 ```
 
+<div align="left">
+  <a href="#s1.7">← Prev </a> | <a href="#all"> Home </a> | <a href="#s1.9"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s1.9"></a>
+
 ---
 
 ## 9. Important Reminders
@@ -127,13 +224,22 @@ Updated file:
 3. Use relative paths for portability
 4. Test with small files first
 
-<br>
-<br>
-<br>
-<br>
-<br>
+<div align="left">
+  <a href="#s1.8">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.0"> Next →</a>
+</div>
 
-## Section 2. The Magic of `with` Statement
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s2.0"></a>
+# Section 2. The Magic of `with` Statement
+
+<div align="left">
+  <a href="#s1.9">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.1"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s2.1"></a>
 
 ---
 
@@ -141,6 +247,14 @@ Updated file:
 - Special syntax for resource management
 - Makes code cleaner and safer
 - Automatically handles cleanup
+
+<div align="left">
+  <a href="#s2.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.2"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s2.2"></a>
 
 ---
 
@@ -154,6 +268,14 @@ content = f.read()
 ```
 File remains open if exception occurs!
 
+<div align="left">
+  <a href="#s2.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.3"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s2.3"></a>
+
 ---
 
 ## Why Use `with`? (2/2)
@@ -165,6 +287,14 @@ with open('diary.txt', 'r') as f:
 ```
 Guaranteed cleanup  
 Safer code
+
+<div align="left">
+  <a href="#s2.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.4"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s2.4"></a>
 
 ---
 
@@ -179,6 +309,14 @@ with open('secrets.txt', 'r') as secret_file:
     print(secret_file.read())
 ```
 
+<div align="left">
+  <a href="#s2.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.5"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s2.5"></a>
+
 ---
 
 ## Handling Multiple Files
@@ -189,6 +327,14 @@ with open('original.txt', 'r') as src:
         dst.write(src.read())
 ```
 Two files managed at once!
+
+<div align="left">
+  <a href="#s2.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.6"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s2.6"></a>
 
 ---
 
@@ -202,6 +348,14 @@ print("Server timeout:", settings[0])
 print("Max users:", settings[1])
 ```
 
+<div align="left">
+  <a href="#s2.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.7"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s2.7"></a>
+
 ---
 
 ## Case 2: Safe File Copy
@@ -211,6 +365,14 @@ with open('cat.jpg', 'rb') as source_cat:
     with open('cat_backup.jpg', 'wb') as backup_cat:
         backup_cat.write(source_cat.read())
 ```
+
+<div align="left">
+  <a href="#s2.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.8"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s2.8"></a>
 
 ---
 
@@ -224,6 +386,14 @@ with open('app.log', 'a') as log_file:
 ```
 📝 Logs always get saved!
 
+<div align="left">
+  <a href="#s2.7">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.9"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s2.9"></a>
+
 ---
 
 ## `with` Superpowers
@@ -231,6 +401,14 @@ with open('app.log', 'a') as log_file:
 2. Error-safe operations
 3. Cleaner code
 4. Multiple resource handling
+
+<div align="left">
+  <a href="#s2.8">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.10"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s2.10"></a>
 
 ---
 
@@ -240,6 +418,14 @@ with open('app.log', 'a') as log_file:
 - Network resources
 - Any operation needing cleanup
 
+<div align="left">
+  <a href="#s2.9">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.11"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s2.11"></a>
+
 ---
 
 ## Final Demo: Recipe Reader
@@ -247,18 +433,29 @@ with open('app.log', 'a') as log_file:
 with open('recipe.txt', 'r') as recipe:
     print("Today's Recipe:")
     for line in recipe:
-        print(f"{line.strip()}")
+        print(line.strip())
 
 ```
 File closed automatically!
 
-<br>
-<br>
-<br>
-<br>
-<br>
+<div align="left">
+  <a href="#s2.10">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.0"> Next →</a>
+</div>
 
-## Section 3. File System Operations
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s3.0"></a>
+# Section 3. File System Operations
+
+<div align="left">
+  <a href="#s2.11">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.1"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s3.1"></a>
+
+---
 
 ## 01. Path Operations with `os.path`
 - **Why check paths?**
@@ -275,17 +472,35 @@ File closed automatically!
   print(os.path.isdir("photos/"))     # Output: True
   ```
 
+<div align="left">
+  <a href="#s3.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.2"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s3.2"></a>
+
 ---
+
 ## 02. Get File Size
 - **Measure file content**:
   ```python
   size = os.path.getsize("secrets.txt")
-  print(f"File size: {size} bytes") 
+  print("File size: " + str(size) + " bytes") 
   # Output: File size: 8 bytes
   ```
 - **Note**: 1024 bytes = 1KB
 
+<div align="left">
+  <a href="#s3.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.3"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s3.3"></a>
+
 ---
+
 ## 03. Create Directories
 - **Make new folders**:
   ```python
@@ -294,7 +509,16 @@ File closed automatically!
   ```
 - **Pro tip**: Use `os.makedirs()` for nested folders
 
+<div align="left">
+  <a href="#s3.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.4"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s3.4"></a>
+
 ---
+
 ## 04. List Directory Contents
 - **See what's inside**:
   ```python
@@ -304,7 +528,16 @@ File closed automatically!
   ```
 - **Remember**: Returns names only, not full paths
 
+<div align="left">
+  <a href="#s3.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.5"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s3.5"></a>
+
 ---
+
 ## 05. Rename Files
 - **Change names safely**:
   ```python
@@ -315,7 +548,16 @@ File closed automatically!
   os.rename("temp/", "backup/")
   ```
 
+<div align="left">
+  <a href="#s3.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.6"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s3.6"></a>
+
 ---
+
 ## Case 1: Auto-create Daily Folder
 - **Problem**: Need date-based organization
 - **Solution**:
@@ -323,12 +565,21 @@ File closed automatically!
   from datetime import datetime
   
   today = datetime.now().strftime("%Y%m%d")
-  os.mkdir(f"lab_{today}")
-  print(f"Created: lab_{today}")
+  os.mkdir("lab_" + today)
+  print("Created: lab_" + today)
   
   ```
 
+<div align="left">
+  <a href="#s3.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.7"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s3.7"></a>
+
 ---
+
 ## Case 2: Batch Rename Photos
 
 **"replace" function of String**
@@ -345,10 +596,19 @@ File closed automatically!
   for file in os.listdir("photos/"):
     if file.startswith("photo"):
       new_name = file.replace("photo", "vacation")
-      os.rename(f"photos/{file}", f"photos/{new_name}")
+      os.rename("photos/" + file, "photos/" + new_name)
   ```
 
+<div align="left">
+  <a href="#s3.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#s3.8"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s3.8"></a>
+
 ---
+
 ## Case 3: Find All Text Files
 - **Goal**: Locate .txt files in directory
   ```python
@@ -362,16 +622,22 @@ File closed automatically!
   # Output: Found text files: ['notes.txt', 'todo.txt']
   ```
 
----
+<div align="left">
+  <a href="#s3.7">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.0"> Next →</a>
+</div>
 
+<div style="height: 1000px;">&nbsp;</div>
 
-<br>
-<br>
-<br>
-<br>
-<br>
+<a id="s4.0"></a>
+# Section 4. Encoding in Python
 
-## Section 4. Encoding in Python
+<div align="left">
+  <a href="#s3.8">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.1"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s4.1"></a>
 
 ---
 
@@ -379,6 +645,14 @@ File closed automatically!
 - Computers only understand 0s and 1s
 - Encoding = Dictionary for text ↔ numbers conversion
 - Common encodings: ASCII, UTF-8, GBK
+
+<div align="left">
+  <a href="#s4.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.2"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s4.2"></a>
 
 ---
 
@@ -390,6 +664,14 @@ File closed automatically!
 print(ord('A'))  # Output: 65
 print(chr(65))   # Output: 'A'
 ```
+
+<div align="left">
+  <a href="#s4.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.3"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s4.3"></a>
 
 ---
 
@@ -403,6 +685,14 @@ print(chr(65))   # Output: 'A'
 print(len(汉字.encode('utf-8')))  # Output: 6 (3 bytes per character)
 ```
 
+<div align="left">
+  <a href="#s4.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.4"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s4.4"></a>
+
 ---
 
 ## GBK: Chinese Legacy Encoding
@@ -413,6 +703,14 @@ print(len(汉字.encode('utf-8')))  # Output: 6 (3 bytes per character)
 # Same text in GBK
 print(len("中文".encode('gbk')))  # Output: 4 (2 bytes per character)
 ```
+
+<div align="left">
+  <a href="#s4.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.5"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s4.5"></a>
 
 ---
 
@@ -429,6 +727,14 @@ Common error types:
 - `UnicodeDecodeError`: Can't decode bytes
 - `UnicodeEncodeError`: Can't encode characters
 
+<div align="left">
+  <a href="#s4.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.6"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s4.6"></a>
+
 ---
 
 ## Handling Encoding Errors
@@ -440,6 +746,14 @@ file = open('data.txt', 'r', encoding='utf-8', errors='ignore')
 # Replace errors with ?
 file = open('data.txt', 'r', encoding='utf-8', errors='replace')
 ```
+
+<div align="left">
+  <a href="#s4.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.7"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s4.7"></a>
 
 ---
 
@@ -457,6 +771,14 @@ target.write(content)
 target.close()
 ```
 
+<div align="left">
+  <a href="#s4.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.8"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s4.8"></a>
+
 ---
 
 ## Case 2: Reading Chinese CSV
@@ -470,15 +792,23 @@ Handle common data formats:
 file = open('data.csv', 'r', encoding='gbk')
 for line in file:
     name, age = line.strip().split(',')
-    print(f"Name: {name}, Age: {age}")
+    print("Name: " + name + ", Age: " + age)
 file.close()
 
 file = open('data.csv', 'r', encoding='utf-8')
 for line in file:
     name, age = line.strip().split(',')
-    print(f"Name: {name}, Age: {age}")
+    print("Name: " + name + ", Age: " + age)
 file.close()
 ```
+
+<div align="left">
+  <a href="#s4.7">← Prev </a> | <a href="#all"> Home </a> | <a href="#s4.9"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s4.9"></a>
 
 ---
 
@@ -494,13 +824,22 @@ result = chardet.detect(rawdata)
 print(result['encoding'])
 ```
 
-<br>
-<br>
-<br>
-<br>
-<br>
+<div align="left">
+  <a href="#s4.8">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.0"> Next →</a>
+</div>
 
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s5.0"></a>
 # Section 5. Practical Applications
+
+<div align="left">
+  <a href="#s4.9">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.1"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s5.1"></a>
 
 ---
 
@@ -519,7 +858,13 @@ def count_404(log_file):
 print("Total 404 errors:", count_404('nginx.log'))
 ```
 
-## Qustion: what it the output according to the content of "nginx.log"?
+<div align="left">
+  <a href="#s5.0">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.2"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s5.2"></a>
 
 ---
 
@@ -537,8 +882,16 @@ def filter_by_time(log_file, start_time, end_time):
 
 # Example usage
 matches = filter_by_time('nginx.log', '01/Jan/2023:12:00', '01/Jan/2023:12:30')
-print(f"Found {len(matches)} entries in time range")
+print("Found " + str(len(matches)) + " entries in time range")
 ```
+
+<div align="left">
+  <a href="#s5.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.3"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s5.3"></a>
 
 ---
 
@@ -549,16 +902,21 @@ from datetime import datetime
 
 def simple_backup(source_dir):
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
-    backup_name = f"backups/{source_dir}_backup_{timestamp}"
+    backup_name = "backups/" + source_dir + "_backup_" + timestamp
     shutil.copytree(source_dir, backup_name)
-    print(f"Backup created: {backup_name}")
+    print("Backup created: " + backup_name)
 
 # Usage
 simple_backup('important_files')
 ```
 
-## Qustion: what it the output according to the content of "nginx.log"?
+<div align="left">
+  <a href="#s5.2">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.4"> Next →</a>
+</div>
 
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s5.4"></a>
 
 ---
 
@@ -582,8 +940,13 @@ def verify_backup(source, backup):
 verify_backup('nginx.log','nginx_bac.log')
 ```
 
-## Qustion: what if we only want to check the first 3 lines of "nginx.log" and "nginx_bac.log"?
+<div align="left">
+  <a href="#s5.3">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.5"> Next →</a>
+</div>
 
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s5.5"></a>
 
 ---
 
@@ -600,6 +963,14 @@ secret = caesar_encrypt("Hello Students!")
 print("Encrypted:", secret)
 ```
 
+<div align="left">
+  <a href="#s5.4">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.6"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s5.6"></a>
+
 ---
 
 ## 6. Text Decryption: Caesar Cipher
@@ -613,6 +984,14 @@ def caesar_decrypt(ciphertext, shift=3):
 # Test decryption
 print("Decrypted:", caesar_decrypt(secret))
 ```
+
+<div align="left">
+  <a href="#s5.5">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.7"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s5.7"></a>
 
 ---
 
@@ -633,6 +1012,14 @@ def encrypt_file(input_file, output_file):
 encrypt_file('nginx.log', 'nginx.log.enc')
 ```
 
+<div align="left">
+  <a href="#s5.6">← Prev </a> | <a href="#all"> Home </a> | <a href="#s5.8"> Next →</a>
+</div>
+
+<div style="height: 1000px;">&nbsp;</div>
+
+<a id="s5.8"></a>
+
 ---
 
 ## 8. File Decryption Wrapper
@@ -652,10 +1039,10 @@ def decrypt_file(input_file, output_file):
 decrypt_file('nginx.log.enc', 'nginx.log.enc.dec')
 ```
 
-## Qustion: How can we deal with the "\n"?
+<div align="left">
+  <a href="#s5.7">← Prev </a> | <a href="#all"> Home </a> 
+</div>
 
----
+<br>
 
-
-
-
+End
