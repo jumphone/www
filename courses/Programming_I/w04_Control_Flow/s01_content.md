@@ -1,16 +1,6 @@
 
-<script src="https://cdn.jsdelivr.net/npm/mermaid@11.13.0/dist/mermaid.min.js"></script>
-<script>
-mermaid.initialize({
-  startOnLoad: true,
-  securityLevel: 'loose', 
-  flowchart: {
-    defaultRenderer: 'svg',
-    nodeSpacing: 80,
-    rankSpacing: 40
-  }
-});
-</script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
 
 [Back](https://www.bioinfo-lab.com/courses/Programming_I/w04_Control_Flow/)
 
