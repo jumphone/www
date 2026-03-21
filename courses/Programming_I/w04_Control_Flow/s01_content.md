@@ -549,7 +549,7 @@ if not name:
 
 ---
 
-## 2.10. Short-form Conditional Expression (not recommended)
+## 2.10. Short-form Conditional Expression (not recommended for beginners)
 
 ```python
 # Short form
@@ -1076,7 +1076,7 @@ else:
 ```python
 while True:
     # quit
-    score = input("Enter score (q to quit): ")    
+    score = input("Enter q to quit: ")    
     if score.lower() == 'q':
         break
     # grade 
