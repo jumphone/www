@@ -675,4 +675,3 @@
 
 ## End of Lecture Notes
 
-**Next Week Preview:** Functions and Error Handling (try-except)
