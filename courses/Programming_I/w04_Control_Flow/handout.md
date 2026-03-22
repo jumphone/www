@@ -149,11 +149,11 @@ print("Go!")
 ```mermaid
 graph TD
     A[Start] --> F[Initialize countdown]
-    F --> B{countdown > 0?}
-    B -->|Yes| C[Print countdown]
-    C --> D[countdown -= 1]
+    F --> B{Is countdown greater than 0?}
+    B -- Yes --> C[Print countdown]
+    C --> D[Decrease countdown by 1]
     D --> B
-    B -->|No| E[Print "Go!"]
+    B -- No --> E[Print "Go!"]
 ```
 
 
