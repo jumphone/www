@@ -16,6 +16,11 @@
 
 [Section 5. Special Considerations](#s5.0)
 
+
+<br>
+
+Control flow determines which code statements run first, which run next, whether to repeat them, and whether to skip them.
+
 <br>
 
 ### Q: Why is control flow fundamental to programming?
