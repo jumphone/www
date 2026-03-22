@@ -148,12 +148,13 @@ print("Go!")
 **Flowchart:**
 ```mermaid
 graph TD
-    A[Start] --> F[Initialize countdown]
-    F --> B{Is countdown greater than 0?}
-    B -- Yes --> C[Print countdown]
-    C --> D[Decrease countdown by 1]
+    A[Start]
+    A --> F[Initialize countdown]
+    F --> B{countdown>0?}
+    B --Yes--> C[Print countdown]
+    C --> D[countdown=countdown-1]
     D --> B
-    B -- No --> E[Print "Go!"]
+    B --No--> E[Print Go!]
 ```
 
 
