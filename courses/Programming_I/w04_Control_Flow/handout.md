@@ -148,12 +148,15 @@ print("Go!")
 **Flowchart:**
 ```mermaid
 graph TD
-    A[Start] --> B{countdown > 0?}
+    A[Start] --> F[Initialize countdown (e.g., set to 10)]
+    F --> B{countdown > 0?}
     B -->|Yes| C[Print countdown]
     C --> D[countdown -= 1]
     D --> B
     B -->|No| E[Print "Go!"]
 ```
+
+
 
 ### 2.2 Common `while` Loop Patterns
 
