@@ -32,7 +32,7 @@
 - Control flow is about *choice* - programs don't just run top-to-bottom
 - The traffic light is a classic finite state machine example
 - Emphasize: only ONE branch executes (first True condition)
-- Ask students: "What happens if we check 'green' before 'red'?" (Answer: logic error, but no syntax error - dangerous!)
+- Ask students: "What happens if we switch 'green' and 'red'?" (Answer: logic error, but no syntax error - dangerous!)
 
 **Common Pitfall:** Students may think all `elif` blocks run. Stress the mutual exclusivity.
 
@@ -47,8 +47,6 @@
 - Show how the diamond's arrows branch based on conditions
 - Mention: real programs have many nested diamonds
 
-**Interactive:** Have students draw a flowchart for "Should I bring an umbrella?" on paper.
-
 ---
 
 ### Slide s1.3: While Loops - Morning Run
@@ -56,12 +54,9 @@
 **Key Concepts:** Repetition, loop variable, termination condition
 
 **Talking Points:**
-- `while` loops are for *indefinite* repetition (don't know exact iterations upfront)
 - The loop variable `runs_remaining` must change inside the loop
 - Without `runs_remaining = runs_remaining - 1`, it's an infinite loop
 - The `time.sleep(1)` simulates work; in real code this could be sensor reading, file processing, etc.
-
-**Demonstration Tip:** Run this code live and show how the counter decrements. Then comment out the decrement line to show an infinite loop (but have Ctrl+C ready!).
 
 ---
 
@@ -87,7 +82,6 @@
 - Emphasize: the loop runs "forever" until external shutdown
 - Ask: "What if we forget the `else: close_door()`?" (Answer: door stays open - security issue!)
 
-**Career Connection:** This pattern is used in self-driving cars, smart home devices, industrial automation.
 
 ---
 
