@@ -496,7 +496,7 @@ Normal BMI range: 18.5 - 24.9
 
 ### Question: BMI and weight => height
 
-### Question: "x**1/2" vs. "x**(1/2)"
+### Question: "x^1/2" vs. "x^(1/2)"
 
 ### Question: How can we check the correctness of "BMI and weight => height"?
 
