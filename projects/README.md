@@ -1,4 +1,3 @@
-<img width="1322" height="532" alt="image" src="https://github.com/user-attachments/assets/df1cde00-9140-41b3-b173-c56294f79304" />
 <div style="padding: 16px; background: #f6f8fa; border-radius: 8px; margin: 20px 0;">
   <label for="folderName" style="font-weight: 600; color: #24292f; margin-right: 8px;">Project ID：</label>
   <input 
