@@ -1,4 +1,4 @@
-
+<img width="1322" height="532" alt="image" src="https://github.com/user-attachments/assets/df1cde00-9140-41b3-b173-c56294f79304" />
 <div style="padding: 16px; background: #f6f8fa; border-radius: 8px; margin: 20px 0;">
   <label for="folderName" style="font-weight: 600; color: #24292f; margin-right: 8px;">Project ID：</label>
   <input 
@@ -39,6 +39,10 @@
 <br>
 
 ### Updates:
+
+* Single-cell ATAC-seq analysis of human embryoid bodies reveals crucial transcription factor networks involved in early germ layer specification, **Cell & Bioscience**, 2026.03, [paper](https://doi.org/10.1186/s13578-026-01561-8), co-first & co-corresponding author [ZF]
+
+<div align="center"><img src="https://www.bioinfo-lab.com/projects/img/cb_202603.png" width='300'/></div><br>
 
 * YAP-TEAD regulates the super-enhancer network to control early surface ectoderm commitment, **Nucleic Acids Research**, 2026.01, [paper](https://doi.org/10.1093/nar/gkaf1285), co-corresponding author [ZF]
 
