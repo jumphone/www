@@ -39,15 +39,15 @@
 
 ### Updates:
 
-* Single-cell ATAC-seq analysis of human embryoid bodies reveals crucial transcription factor networks involved in early germ layer specification, **Cell & Bioscience**, 2026.03, [paper](https://doi.org/10.1186/s13578-026-01561-8), co-first & co-corresponding author [ZF]
+* Single-cell ATAC-seq analysis of human embryoid bodies reveals crucial transcription factor networks involved in early germ layer specification, **Cell & Bioscience**, 2026.03, [paper](https://doi.org/10.1186/s13578-026-01561-8), co-first & co-corresponding author
 
 <div align="center"><img src="https://www.bioinfo-lab.com/projects/img/cb_202603.png" width='300'/></div><br>
 
-* YAP-TEAD regulates the super-enhancer network to control early surface ectoderm commitment, **Nucleic Acids Research**, 2026.01, [paper](https://doi.org/10.1093/nar/gkaf1285), co-corresponding author [ZF]
+* YAP-TEAD regulates the super-enhancer network to control early surface ectoderm commitment, **Nucleic Acids Research**, 2026.01, [paper](https://doi.org/10.1093/nar/gkaf1285), co-corresponding author
 
 <div align="center"><img src="https://www.bioinfo-lab.com/projects/img/nar_202601.jpeg" width='300'/></div><br>
 
-* Single-nucleus profiling of mouse inner ear aging uncovers cell type heterogeneity and hair cell subtype-specific age-related signatures, **Cell Reports**, 2025.06, [paper](https://doi.org/10.1016/j.celrep.2025.115781), co-first author [ZF]
+* Single-nucleus profiling of mouse inner ear aging uncovers cell type heterogeneity and hair cell subtype-specific age-related signatures, **Cell Reports**, 2025.06, [paper](https://doi.org/10.1016/j.celrep.2025.115781), co-first author
 
 <div align="center"><img src="https://www.bioinfo-lab.com/projects/img/cellreports_202506.jpg" width='300'/></div><br>
 
