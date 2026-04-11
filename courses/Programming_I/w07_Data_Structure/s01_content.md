@@ -1134,6 +1134,15 @@ print(a)
 ```python
 a=0
 def add():
+    print(a)
+
+add()
+print(a)
+```
+
+```python
+a=0
+def add():
     a=a+1
 
 add()
