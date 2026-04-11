@@ -1154,6 +1154,12 @@ print(a)
 ### Q: What happended here ?
 ### mutable variable: list, dict, set
 
+### Variable "assignment" and "modifying its contents" (mutable) are two different things!
+### Assignment = replacing the box → requires global
+### Modifying contents = changing what’s inside the box → no global needed
+
+
+
 <br>
 
 ---
