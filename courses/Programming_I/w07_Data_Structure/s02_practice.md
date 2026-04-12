@@ -10,7 +10,7 @@ Please create a new PPT file, document every subsequent step you take with scree
 
 This is an important part of your "General Performance". Please ensure timely submission!!!
 
-### 2、3、4、5、6、8、14、15、18、22
+### Recommended: 2、3、4、5、6、8、14、15、18、22
 
 
 <br>
