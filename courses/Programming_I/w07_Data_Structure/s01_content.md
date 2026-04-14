@@ -1053,6 +1053,8 @@ print("Updated friends: " + str(alice_friends))
 | `clear()`   | `s.clear()`                 | Empty the set               |
 | `copy()`    | `new_set = s.copy()`        | Create duplicate            |
 
+## List also has "clear()" and "copy()"
+
 ---
 
 <div align="left">
