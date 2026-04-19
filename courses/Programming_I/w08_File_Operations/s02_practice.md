@@ -8,18 +8,22 @@
 
 <br>
 
+#### Recommended: 3, 4, 5, 10, 12, 15, 17, 19, 23, 33, 35 
+
+<br>
+
 ---
 
 ### Section 1: File Operations Basics
 
-#### Practice 1.1: Understanding File Types
+#### 1: Understanding File Types
 ```python
 # Text files vs Binary files
 # Text files: .txt, .csv, .py (human-readable)
 # Binary files: .jpg, .docx, .exe (special format)
 ```
 
-#### Practice 1.2: Working with File Paths
+#### 2: Working with File Paths
 ```python
 # Absolute path (full address)
 absolute_path = "/home/student/documents/diary.txt"
@@ -32,7 +36,7 @@ import os
 print(os.getcwd())
 ```
 
-#### Practice 1.3: Opening Files in Different Modes
+#### 3: Opening Files in Different Modes
 ```python
 # Create a test file first
 with open("test.txt", "w") as f:
@@ -54,15 +58,9 @@ f = open("test.txt", "a")
 f.write("\nAppended line")
 f.close()
 
-# Read+Write mode
-f = open("test.txt", "r+")
-f.write("Modified")
-f.seek(0)
-print("r+ mode:", f.read())
-f.close()
 ```
 
-#### Practice 1.4: Reading Files with read(), readline(), readlines()
+#### 4: Reading Files with read(), readline(), readlines()
 ```python
 # Create test file
 with open("classlist.txt", "w") as f:
@@ -92,7 +90,7 @@ for student in file.readlines():
 file.close()
 ```
 
-#### Practice 1.5: Writing Files with write() vs writelines()
+#### 5: Writing Files with write() vs writelines()
 ```python
 # Using write()
 file = open("groceries.txt", "w")
@@ -114,7 +112,7 @@ with open("shopping.txt", "r") as f:
     print("shopping.txt:\n", f.read())
 ```
 
-#### Practice 1.6: Complete Case - Read Class List
+#### 6: Complete Case - Read Class List
 ```python
 # Create the file
 with open("classlist.txt", "w") as f:
@@ -134,7 +132,7 @@ for student in students:
 # Hello Charlie!
 ```
 
-#### Practice 1.7: Complete Case - Create Shopping List
+#### 7: Complete Case - Create Shopping List
 ```python
 # Create shopping list
 file = open("groceries.txt", "w")
@@ -153,7 +151,7 @@ with open("groceries.txt", "r") as f:
 # - Bread
 ```
 
-#### Practice 1.8: Complete Case - Append to Diary
+#### 8: Complete Case - Append to Diary
 ```python
 # Create initial diary entry
 with open("diary.txt", "w") as f:
@@ -173,7 +171,7 @@ with open("diary.txt", "r") as f:
 # 2024-06-01: Learned file operations!
 ```
 
-#### Practice 1.9: Important Reminders
+#### 9: Important Reminders
 ```python
 # 1. Always close files!
 f = open("test.txt", "w")
@@ -201,7 +199,7 @@ f.close()  # Don't forget!
 
 ### Section 2: The Magic of `with` Statement
 
-#### Practice 2.1: Understanding `with` Syntax
+#### 10: Understanding `with` Syntax
 ```python
 # Basic syntax
 with open('test.txt', 'w') as f:
@@ -212,7 +210,7 @@ with open('test.txt', 'w') as f:
 print("File closed?", f.closed)
 ```
 
-#### Practice 2.2: Compare with/without `with`
+#### 11: Compare with/without `with`
 ```python
 # Without with (problematic)
 f = open('test.txt', 'r')
@@ -226,7 +224,7 @@ with open('test.txt', 'r') as f:
 # File automatically closes, even with exceptions
 ```
 
-#### Practice 2.3: Handling Multiple Files
+#### 12: Handling Multiple Files
 ```python
 # Create source file
 with open('original.txt', 'w') as f:
@@ -245,7 +243,7 @@ with open('backup.txt', 'r') as f:
     print("Backup:", f.read())
 ```
 
-#### Practice 2.4: Complete Case - Read Config File
+#### 13: Complete Case - Read Config File
 ```python
 # Create config file
 with open('config.cfg', 'w') as f:
@@ -259,7 +257,7 @@ print("Server timeout:", settings[0].strip())
 print("Max users:", settings[1].strip())
 ```
 
-#### Practice 2.5: Complete Case - Safe File Copy (Binary)
+#### 14: Complete Case - Safe File Copy (Binary)
 ```python
 # Create a binary file (simulate image)
 with open('cat.jpg', 'wb') as f:
@@ -276,7 +274,7 @@ print("Original size:", os.path.getsize('cat.jpg'))
 print("Backup size:", os.path.getsize('cat_backup.jpg'))
 ```
 
-#### Practice 2.6: Complete Case - Program Logging
+#### 15: Complete Case - Program Logging
 ```python
 # Log program activity
 with open('app.log', 'a') as log_file:
@@ -290,7 +288,7 @@ with open('app.log', 'r') as log_file:
     print("Log contents:\n", log_file.read())
 ```
 
-#### Practice 2.7: Recipe Reader Demo
+#### 16: Recipe Reader Demo
 ```python
 # Create recipe file
 with open('recipe.txt', 'w') as f:
@@ -315,7 +313,7 @@ with open('recipe.txt', 'r') as recipe:
 
 ### Section 3: File System Operations
 
-#### Practice 3.1: Path Operations with `os.path`
+#### 17: Path Operations with `os.path`
 ```python
 import os
 
@@ -330,7 +328,7 @@ print("Is current directory a dir?", os.path.isdir("."))
 print("Absolute path:", os.path.abspath("test.txt"))
 ```
 
-#### Practice 3.2: Get File Size
+#### 18: Get File Size
 ```python
 import os
 
@@ -345,7 +343,7 @@ print(f"File size: {size} bytes")
 # Note: 1024 bytes = 1KB, 1024KB = 1MB
 ```
 
-#### Practice 3.3: Create Directories
+#### 19: Create Directories
 ```python
 import os
 
@@ -364,7 +362,7 @@ os.makedirs("projects/2024", exist_ok=True)
 print("Created: projects/2024")
 ```
 
-#### Practice 3.4: List Directory Contents
+#### 20: List Directory Contents
 ```python
 import os
 
@@ -382,7 +380,7 @@ for item in files:
     print(f"Item: {item}, Full path: {os.path.join('.', item)}")
 ```
 
-#### Practice 3.5: Rename Files and Directories
+#### 21: Rename Files and Directories
 ```python
 import os
 
@@ -399,7 +397,7 @@ os.rename("temp", "backup")
 print("Renamed: temp/ -> backup/")
 ```
 
-#### Practice 3.6: Complete Case - Auto-create Daily Folder
+#### 22: Complete Case - Auto-create Daily Folder
 ```python
 from datetime import datetime
 import os
@@ -416,7 +414,7 @@ else:
     print(f"Folder {folder_name} already exists")
 ```
 
-#### Practice 3.7: Complete Case - Batch Rename Photos
+#### 23: Complete Case - Batch Rename Photos
 ```python
 import os
 
@@ -436,7 +434,7 @@ for file in os.listdir("photos/"):
 print("After rename:", os.listdir("photos/"))
 ```
 
-#### Practice 3.8: Complete Case - Find All Text Files
+#### 24: Complete Case - Find All Text Files
 ```python
 import os
 
@@ -470,7 +468,7 @@ print("Using glob:", text_files_glob)
 
 ### Section 4: Encoding in Python
 
-#### Practice 4.1: Understanding ASCII Encoding
+#### 25: Understanding ASCII Encoding
 ```python
 # ASCII: 128 characters (English letters, numbers, symbols)
 print("ASCII code for 'A':", ord('A'))  # Output: 65
@@ -481,7 +479,7 @@ print("ASCII for '0':", ord('0'))  # 48
 print("ASCII for 'a':", ord('a'))  # 97
 ```
 
-#### Practice 4.2: Understanding UTF-8 Encoding
+#### 26: Understanding UTF-8 Encoding
 ```python
 # UTF-8: Global standard, supports all languages
 # Variable-length: 1-4 bytes per character
@@ -498,7 +496,7 @@ print(f"Length in bytes: {len(utf8_bytes)}")  # 6 (3 bytes per char)
 # Python 3's default encoding is UTF-8
 ```
 
-#### Practice 4.3: Understanding GBK Encoding
+#### 27: Understanding GBK Encoding
 ```python
 # GBK: Chinese legacy encoding, fixed 2 bytes per Chinese char
 chinese_text = "中文"
@@ -509,7 +507,7 @@ print(f"Length in bytes: {len(gbk_bytes)}")  # 4 (2 bytes per char)
 # GBK is common in older Chinese systems
 ```
 
-#### Practice 4.4: Setting Encoding Parameters
+#### 28: Setting Encoding Parameters
 ```python
 # Always specify encoding when opening files!
 
@@ -530,7 +528,7 @@ except UnicodeDecodeError as e:
     print("UnicodeDecodeError:", e)
 ```
 
-#### Practice 4.5: Handling Encoding Errors
+#### 29: Handling Encoding Errors
 ```python
 # Create file with mixed content
 with open('mixed.txt', 'wb') as f:
@@ -552,7 +550,7 @@ with open('mixed.txt', 'r', encoding='utf-8', errors='replace') as f:
     print("Replace errors:", f.read())
 ```
 
-#### Practice 4.6: Complete Case - GBK to UTF-8 Conversion
+#### 30: Complete Case - GBK to UTF-8 Conversion
 ```python
 # Step 1: Create a GBK file
 gbk_content = "姓名,年龄\n张三,25"
@@ -576,7 +574,7 @@ with open('new_data.txt', 'r', encoding='utf-8') as f:
     print(f.read())
 ```
 
-#### Practice 4.7: Complete Case - Reading Chinese CSV
+#### 31: Complete Case - Reading Chinese CSV
 ```python
 # Create CSV file in GBK
 csv_content = "姓名,年龄\n张三,25\n李四,30"
@@ -595,7 +593,7 @@ with open('data.csv', 'r', encoding='gbk') as file:
 #     ...
 ```
 
-#### Practice 4.8: Detecting File Encoding
+#### 32: Detecting File Encoding
 ```python
 # Install chardet first: pip install chardet
 import chardet
@@ -623,7 +621,7 @@ with open('data.csv', 'r', encoding=encoding) as f:
 
 ### Section 5: Practical Applications
 
-#### Practice 5.1: Log Analyzer - Count 404 Errors
+#### 33: Log Analyzer - Count 404 Errors
 ```python
 # Create a sample log file
 log_content = """192.168.1.1 - - [01/Jan/2023:12:00:01] "GET /page1" 200
@@ -649,7 +647,7 @@ print("Total 404 errors:", total_404)
 # Expected output: Total 404 errors: 2
 ```
 
-#### Practice 5.2: Log Analyzer - Time Filter
+#### 34: Log Analyzer - Time Filter
 ```python
 def filter_by_time(log_file, start_time, end_time):
     results = []
@@ -668,7 +666,7 @@ for match in matches:
     print(match.strip())
 ```
 
-#### Practice 5.3: Backup Tool - Basic File Copy
+#### 35: Backup Tool - Basic File Copy
 ```python
 import shutil
 from datetime import datetime
@@ -685,7 +683,7 @@ with open('important.txt', 'w') as f:
 simple_backup('important.txt')
 ```
 
-#### Practice 5.4: Backup Tool - Validate Backup
+#### 36: Backup Tool - Validate Backup
 ```python
 def verify_backup(source, backup):
     with open(source, 'r') as f1, open(backup, 'r') as f2:
@@ -706,7 +704,7 @@ with open('nginx.log', 'r') as src:
 verify_backup('nginx.log', 'nginx_bac.log')
 ```
 
-#### Practice 5.5: Validate First 3 Lines Only
+#### 37: Validate First 3 Lines Only
 ```python
 def verify_backup_first3(source, backup):
     with open(source, 'r') as f1, open(backup, 'r') as f2:
@@ -725,7 +723,7 @@ def verify_backup_first3(source, backup):
 verify_backup_first3('nginx.log', 'nginx_bac.log')
 ```
 
-#### Practice 5.6: Text Encryption - Caesar Cipher
+#### 38: Text Encryption - Caesar Cipher
 ```python
 def caesar_encrypt(text, shift=3):
     encrypted = []
@@ -742,7 +740,7 @@ print("Encrypted:", secret)
 # Expected: Khoor#VwxghqwV$
 ```
 
-#### Practice 5.7: Text Decryption - Caesar Cipher
+#### 39: Text Decryption - Caesar Cipher
 ```python
 def caesar_decrypt(ciphertext, shift=3):
     decrypted = []
@@ -758,7 +756,7 @@ print("Decrypted:", caesar_decrypt("Khoor#VwxghqwV$"))
 # Expected: Hello Students!
 ```
 
-#### Practice 5.8: File Encryption Wrapper
+#### 40: File Encryption Wrapper
 ```python
 def encrypt_file(input_file, output_file):
     with open(input_file, 'r') as f_in, open(output_file, 'w') as f_out:
@@ -771,7 +769,7 @@ encrypt_file('nginx.log', 'nginx.log.enc')
 print("Encrypted file created")
 ```
 
-#### Practice 5.9: File Decryption Wrapper
+#### 41: File Decryption Wrapper
 ```python
 def decrypt_file(input_file, output_file):
     with open(input_file, 'r') as f_in, open(output_file, 'w') as f_out:
@@ -790,7 +788,7 @@ with open('nginx.log', 'r') as original:
             print("Encryption/Decryption: SUCCESS")
 ```
 
-#### Practice 5.10: Handling Newlines in Encryption
+#### 42: Handling Newlines in Encryption
 ```python
 # The Caesar cipher above handles \n as they are printable
 # Let's test explicitly
