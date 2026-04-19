@@ -77,8 +77,6 @@
 f = open("list.txt", "r")   # Read
 f = open("new.txt", "w")    # Write (overwrite)
 f = open("log.txt", "a")    # Append
-f = open("log.txt", "a+")    # Append (create if not exist)
-f = open("data.txt", "r+")  # Read+Write
 ```
 
 <div align="left">
@@ -98,6 +96,8 @@ print(file.read())       # Read entire file
 file.seek(0)            # Reset to beginning
 
 print(file.readline())   # Read first line
+file.seek(0)   
+
 print(file.readlines())  # Read all lines as list
 file.close()
 ```
@@ -267,6 +267,11 @@ content = f.read()
 # f.close()
 ```
 File remains open if exception occurs!
+
+1. Data may not be fully written to the file (most dangerous!)
+2. File handle leakage (exhaustion of file descriptors)
+3. The file may be locked and inaccessible to other programs/processes
+4. Automatic closing by garbage collection is unreliable
 
 <div align="left">
   <a href="#s2.1">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.3"> Next →</a>
@@ -594,9 +599,9 @@ File closed automatically!
 - **After**: `vacation_001.jpg`, `vacation_002.jpg`
   ```python
   for file in os.listdir("photos/"):
-    if file.startswith("photo"):
-      new_name = file.replace("photo", "vacation")
-      os.rename("photos/" + file, "photos/" + new_name)
+      if file.startswith("photo"):
+          new_name = file.replace("photo", "vacation")
+          os.rename("photos/" + file, "photos/" + new_name)
   ```
 
 <div align="left">
