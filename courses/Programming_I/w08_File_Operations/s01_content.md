@@ -73,7 +73,7 @@
 
 ## 3. Opening Files: The open() Function
 ```python
-# Modes cheat sheet
+# Modes
 f = open("list.txt", "r")   # Read
 f = open("new.txt", "w")    # Write (overwrite)
 f = open("log.txt", "a")    # Append
