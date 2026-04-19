@@ -9,7 +9,7 @@
 
 [Section 1. File Operations Basics](#s1.0)
 
-[Section 2. The Magic of `with` Statement](#s2.0)
+[Section 2. `with` Statement](#s2.0)
 
 [Section 3. File System Operations](#s3.0)
 
@@ -231,7 +231,7 @@ Updated file:
 <div style="height: 1000px;">&nbsp;</div>
 
 <a id="s2.0"></a>
-# Section 2. The Magic of `with` Statement
+# Section 2. `with` Statement
 
 <div align="left">
   <a href="#s1.9">← Prev </a> | <a href="#all"> Home </a> | <a href="#s2.1"> Next →</a>
