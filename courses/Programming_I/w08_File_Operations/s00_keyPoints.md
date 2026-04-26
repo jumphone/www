@@ -42,10 +42,3 @@
 
 * Caesar cipher decrypts by shifting back: `chr(ord(char) - shift)`.
 
-* Encrypt files by reading content, encrypting, writing to new file.
-
-* Decrypt files by reading encrypted content, decrypting, writing to new file.
-
-* Compare files by reading both and checking `if content1 == content2:`.
-
-* Compare first N lines using `readlines()[:N]` on both files.
