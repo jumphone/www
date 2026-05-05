@@ -14,6 +14,10 @@ This is an important part of your "General Performance". Please ensure timely su
 
 ---
 
+#### Recommended: 3, 5, 6, 7, 9, 10, 12, 14, 15, 16
+
+
+
 ### Tips
 
 - `tab` type the first few letters of a file name or command, then press the Tab key. Linux will automatically complete the rest for you.
