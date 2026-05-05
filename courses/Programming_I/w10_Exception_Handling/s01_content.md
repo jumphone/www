@@ -715,7 +715,7 @@ safe_divide(5, 0)
 ```python
 import requests
 try:
-    response = requests.get("https://www.google.com", timeout=3)
+    response = requests.get("https://www.baidu.com", timeout=3)
 except requests.exceptions.ConnectTimeout:
     print("Oops! Connection took too long!")
 ```
@@ -743,7 +743,7 @@ wait_time=3
 
 for attempt in range(3):
     try:
-        requests.get("https://www.google.com",timeout=3)
+        requests.get("https://www.baidu.com",timeout=3)
         break
     except Exception:
         print("Attempt " + str(attempt+1) + " failed")
