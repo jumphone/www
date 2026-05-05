@@ -45,8 +45,8 @@ Password: dt + Student ID + @biuh2025 (e.g. dt2023000001@biuh2025)
 
 ```
 cd ~
-mkdir -p w02_error_handling
-cd w02_error_handling
+mkdir w10_error_handling
+cd w10_error_handling
 ```
 
 <br>
