@@ -561,7 +561,7 @@ Type the following code:
 ```python
 import requests
 try:
-    response = requests.get("https://www.google.com", timeout=3)
+    response = requests.get("https://www.baidu.com", timeout=3)
     print("Connection successful!")
 except requests.exceptions.ConnectTimeout:
     print("Oops! Connection took too long!")
@@ -594,7 +594,7 @@ wait_times = [3, 2, 1]  # Dynamic wait times
 
 for attempt in range(3):
     try:
-        requests.get("https://www.google.com",timeout=3)
+        requests.get("https://www.baidu.com",timeout=3)
         print(f"Attempt {attempt+1} succeeded!")
         break
     except Exception:
