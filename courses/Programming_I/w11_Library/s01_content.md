@@ -42,7 +42,6 @@
 
 ### Package
 - A folder containing multiple modules
-- Must include `__init__.py` file
 - Organizes related modules together
 
 ### Module
