@@ -292,6 +292,10 @@ requests   2.31.0
 setuptools 57.4.0
 ```
 
+#### pip3 install requests==2.31.0
+
+#### pip3 show requests
+
 ---
 
 <div align="left">
