@@ -178,6 +178,8 @@ print("Square root of 121: " + str(sq(121)))
 - `datetime` - Date and time manipulation
 - `shutil` - High-level file operations
 
+#### Learn to use "help()" for self-study.
+
 ---
 
 <div align="left">
