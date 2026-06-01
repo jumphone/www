@@ -50,7 +50,7 @@ def buildValue(value_content):
     start_message_2 =[{'role':'user','content': start_content_update_2 }]
     print('以下是广告第一帧提示词:')
     start_img_prompts = getResult( start_message_2 )
-    ###使用循环生成20s电影
+    ###使用循环生成15s广告
     start_video_prompts_list=[]
     print('以下是第一个5s的提示词:')
     start_content_update_3 = '{' + start_img_prompts +'}' +'以上为广告开头画面的提示词，现在根据以下15s广告框架设计第一个5秒钟的片段的提示词，{'+start_all_prompts +'}，用于输入WAN生成广告片段，用中文生成提示词'
