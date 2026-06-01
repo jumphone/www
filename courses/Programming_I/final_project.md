@@ -1,3 +1,4 @@
+```
 from .common_imports import *
 from src.util import *
 
@@ -71,3 +72,5 @@ def run():
     #result2=buildQuestion(start_content)
     value_content='卖洗发水的广告'
     result3=buildValue(value_content)
+
+```
