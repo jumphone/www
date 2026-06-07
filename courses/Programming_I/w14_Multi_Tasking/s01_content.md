@@ -20,9 +20,12 @@ import multiprocessing
 - **Threading**: Multiple tasks waiting for responses (web scraping, file downloads)
 - **Subprocess**: Launching external applications (system commands, other programs)
 - **Multiprocessing**: CPU-intensive calculations (data processing, computations)
-
 ---
 
+<br>
+<br>
+<br>
+<br>
 
 ---
 
@@ -58,6 +61,11 @@ def add_item(item):
 | Communication | Direct (risky) | Pipes/files |
 
 ---
+
+<br>
+<br>
+<br>
+<br>
 
 ## Threading
 
