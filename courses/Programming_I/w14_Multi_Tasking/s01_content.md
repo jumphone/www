@@ -111,18 +111,18 @@ blocking_task()
 
 this_thread=Thread(target=blocking_task)
 this_thread.start()
-this_thread.isAlive()
+this_thread.is_alive()
 this_thread.join()
-this_thread.isAlive()
+this_thread.is_alive()
 
 # Non-blocking
 
 this_thread=Thread(target=blocking_task)
 this_thread.start()
 print("Main thread continues working")
-this_thread.isAlive()
+this_thread.is_alive()
 
-this_thread.isAlive()
+this_thread.is_alive()
 
 
 ## Give arguments
@@ -138,11 +138,11 @@ def blocking_task(sleepTime=5):
 
 this_thread=Thread(target=blocking_task,args=(15,))
 this_thread.start()
-this_thread.isAlive()
+this_thread.is_alive()
 
 this_thread.join()
 
-this_thread.isAlive()
+this_thread.is_alive()
 
 
 
@@ -162,11 +162,11 @@ def blocking_task(q, sleepTime=5):
 q=queue.Queue()
 this_thread=Thread(target=blocking_task,args=(q,3))
 this_thread.start()
-this_thread.isAlive()
+this_thread.is_alive()
 
 this_thread.join()
 
-this_thread.isAlive()
+this_thread.is_alive()
 
 result=q.get()
 print(result)
