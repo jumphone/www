@@ -1,4 +1,6 @@
-## Programming I (Python), 2026.09
+## Programming I (Python)
+
+2026.09
 
 <br>
 
