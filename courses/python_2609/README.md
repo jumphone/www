@@ -8,7 +8,7 @@
 
 * [w02 Python Basics](/courses/python_2609/w02_Python_Basics)
 
-* w03 Phase_Test_I + SSS (2hrs)
+* w03 Phase Test I + SSS (2hrs)
 
 * [w04 Control Flow](courses/python_2609/w04_Control_Flow)
 
