@@ -28,7 +28,7 @@
 
 * [w12 Library & Multi-Tasking](courses/python_2609/w12_Library_Multi_Tasking)
 
-* [w13 Phase Test IV ](courses/python_2609/w10_Phase_Test_IV) + SSS
+* [w13 Phase Test IV ](courses/python_2609/w10_Phase_Test_IV) + SSS(2hrs)
 
 * w14 SSS(4hrs)
 
