@@ -30,6 +30,6 @@
 
 * [w13 Phase Test IV ](courses/python_2609/w10_Phase_Test_IV) + SSS (2hrs)
 
-* w14 Final Presentation Guidance (1hr) + SSS (3hrs)
+* [w14 Final Presentation Guidance](courses/python_2609/w14_Final_Presentation)+ SSS (3hrs)
 
-* [w15 Final Presentation](courses/python_2609/w15_Final_Presentation)
+* w15 Final Presentation
