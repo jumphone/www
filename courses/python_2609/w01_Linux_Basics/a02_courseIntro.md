@@ -2,6 +2,7 @@
 
 # Syllabus
 
+<br>
 
 ### Basic Information
 
