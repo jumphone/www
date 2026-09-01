@@ -1,6 +1,6 @@
 ## Programming I (Python)
 
-Z.F., 2026.09
+2026.09
 
 <br>
 
@@ -10,26 +10,26 @@ Z.F., 2026.09
 
 * w03 Phase Test I + SSS (2hrs)
 
-* [w04 Control Flow](courses/python_2609/w04_Control_Flow)
+* [w04 Control Flow](/courses/python_2609/w04_Control_Flow)
 
-* [w05 Function Module](courses/python_2609/w05_Function_Module)
+* [w05 Function Module](/courses/python_2609/w05_Function_Module)
 
 * w06 Phase Test II + SSS (2hrs)
 
-* [w07 Data Structure](courses/python_2609/w07_Data_Structure)
+* [w07 Data Structure](/courses/python_2609/w07_Data_Structure)
 
-* [w08 File Operations](courses/python_2609/w08_File_Operations)
+* [w08 File Operations](/courses/python_2609/w08_File_Operations)
 
 * w09 SSS (4hrs)
 
 * w10 Phase Test III + SSS (2hrs)
 
-* [w11 Exception Handling](courses/python_2609/w11_Exception_Handling)
+* [w11 Exception Handling](/courses/python_2609/w11_Exception_Handling)
 
-* [w12 Library & Multi-Tasking](courses/python_2609/w12_Library_Multi_Tasking)
+* [w12 Library & Multi-Tasking](/courses/python_2609/w12_Library_Multi_Tasking)
 
 * w13 Phase Test IV + SSS (2hrs)
 
-* [w14 Presentation Guidance](courses/python_2609/w14_Final_Presentation)+ SSS (3hrs)
+* [w14 Presentation Guidance](/courses/python_2609/w14_Presentation_Guidance)+ SSS (3hrs)
 
 * w15 Final Presentation
