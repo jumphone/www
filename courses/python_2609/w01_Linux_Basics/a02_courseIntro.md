@@ -1,3 +1,5 @@
+<a href="javascript:history.back()">Back</a>
+
 <br>
 
 ### Basic Information
