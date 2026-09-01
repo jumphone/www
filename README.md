@@ -1,6 +1,8 @@
 
 <br>
 
+* [Courses](/courses/)
+  
 * [Project Info](/projects/)
 
 * [Server Info](/server/)
@@ -9,7 +11,6 @@
 
 * [Student List](/student/)
 
-* [Courses](/courses/)
 
 <br><br><br>
 
