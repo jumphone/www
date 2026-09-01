@@ -1,6 +1,6 @@
 ## Programming I (Python)
 
-Z.F., 2026.09
+2026.09
 
 <br>
 
