@@ -1,6 +1,6 @@
 <br>
 
-#### Syllabus
+# Syllabus
 
 
 ### Basic Information
