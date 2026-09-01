@@ -1,5 +1,31 @@
 <br>
 
+### Basic Information
+
+Course Name: Programming I (Python)
+
+Lecturer: Prof Dr ZHANG Feng
+
+### Learning Outcomes
+
+1. Learn the Python’s basic environment and write simple scripts using basic syntax.
+2. Master the use of primitive and composite data types and type conversion.
+3. Use conditional statements and loops to control program flow.
+4. Define functions and use modules and packages.
+5. Perform file operations: opening, closing, reading, writing, and basic management.
+6. Handle exceptions with try-except structures, identify common built-in exceptions, manually raise exceptions, and improve program reliability.
+
+### Date
+
+<p float="left">
+<a href='https://www.bioinfo-lab.com/src/f02_date_202609.png'>
+  <img src="https://www.bioinfo-lab.com/src/f02_date_202609.png" width="500">
+</a>
+</p>
+
+<br>
+
+
 ### Course Content
 
 * w01 Linux Basics
@@ -20,7 +46,7 @@
 
 Lecture/Seminar + Lab + Phase Test + Presentation = 45hrs
 
-SSS = 15hrs
+SSS (Supervised Self Study) = 15hrs
 
 <br>
 
@@ -28,16 +54,15 @@ SSS = 15hrs
 
 ### Weekly Plan
 
-#### Non-Recitation Weeks:
+#### Non-Phase-Test Weeks:
 
-1. Lecture + Seminar + Examples: 90 mins
-2. Hands‑on Practice + Q&A + Submit Weekly Report: 90 mins
+1. Lecture/Seminar: 90m (2hrs)
+2. Lab: 90m (2hrs)
 
-#### Recitation Weeks:
+#### Phase-Test Weeks:
 
-1. Review: 45~90 mins
-2. Test: 45~90 mins
-3. Team Work + Q&A: the remaining time
+1. Phase Test: 90m (2hrs) 
+2. SSS: 90m (2hrs)
 
 <br>
 
@@ -49,11 +74,13 @@ SSS = 15hrs
 
 2. We have multiple rounds of member selection.
 
-3. In each round, each Team Lead will provide one offer to one member (you can reject the offer, and then the lead should turn to another one). 
+3. In each round, each Team Lead will introduce him/her-self.
 
-4. For the final project, the maximum grade is 30 (final presentation). Team Lead can get 3 bonus points (10%).
+4. Each Team Lead will provide one offer to one or more members (you can reject the offer). 
 
-5. If more than 5 people want to be the team lead, let’s vote for it. If less than 5 people want to be the lead, I will randomly assign the remaining team lead.
+5. For the final project, the maximum grade is 30 (final presentation). Team Lead can get 3 bonus points (10%).
+
+6. If more than 5 people want to be the Team Lead, let’s vote for it. If less than 5 people want to be the lead, I will randomly assign the remaining Team Leads.
 
 <br>
 
@@ -84,6 +111,18 @@ else if AQ < 0.2 and Total Test Score < Passing Line:
 
 ---------------------------
 
-### In Programming I, please make full use of LLM and AI tools !
+### Reading / Materials
+
+
+
+### Academic integrity
+
+* No AI in Phase Tests !
+
+* Outside of Phase Tests, please make full use of LLM and AI tools !
+
+
+
+
 
 <br>
