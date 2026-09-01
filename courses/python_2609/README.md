@@ -30,6 +30,6 @@ Z.F., 2026.09
 
 * w13 Phase Test IV + SSS (2hrs)
 
-* [w14 Presentation Guidance](courses/python_2609/w14_Final_Presentation)+ SSS (3hrs)
+* [w14 Presentation Guidance](courses/python_2609/w14_Presentation_Guidance)+ SSS (3hrs)
 
 * w15 Final Presentation
