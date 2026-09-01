@@ -134,8 +134,15 @@ else if AQ < 0.2 and Total Test Score < Passing Line:
 
 <br>
 
+### Office Hour
 
+* Office Hour: Wednesday, 12:00-20:00 (please schedule a time with me by email at least one day in advance)
 
+* Office Room: Teaching Building B526
+
+* Email: feng.zhang@hibiuh.edu.cn
+
+* BiUH DT Email: dt@hibiuh.edu.cn
 
 
 <br>
