@@ -1,5 +1,3 @@
-<a href="javascript:history.back()">Back</a>
-
 <br>
 
 ### Name: ZHANG Feng (张丰)
