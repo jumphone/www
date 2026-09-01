@@ -36,16 +36,14 @@ Course Slides: https://www.bioinfo-lab.com/courses/python_2609/
 
 For learning Python, it is recommended to use the *official Python tutorial* [https://docs.python.org/3/tutorial/index.html](https://docs.python.org/3/tutorial/index.html). As the official tutorial is fairly comprehensive, you may follow the main learning path via the course slides if you wish to stay focused.
 
----
+Python Proficiency Levels:
 
-Python Proficiency Levels
-
-- Beginner (required): Complete two key components of the Programming 1 course: control flow and functions & modules.
-- Introductory: Complete all components of the Programming 1 course, and understand hands‑on practice and final project content.
-- Introductory‑to‑Intermediate: Able to write or modify code for hands‑on practice and the final project independently based on given problems or prompts.
-- Intermediate: Complete the Object‑Oriented Programming section of the Programming 2 course.
-- Intermediate‑to‑Advanced: Finish all projects in the Programming 2 course; understand the code and capable of writing or modifying it independently.
-- Advanced: Complete the official Python Tutorial ([https://docs.python.org/3/tutorial/index.html](https://docs.python.org/3/tutorial/index.html))
+* Beginner (required): Complete two key components of the Programming 1 course: control flow and functions & modules.
+* Introductory: Complete all components of the Programming 1 course, and understand hands‑on practice and final project content.
+* Introductory‑to‑Intermediate: Able to write or modify code for hands‑on practice and the final project independently based on given problems or prompts.
+* Intermediate: Complete the Object‑Oriented Programming section of the Programming 2 course.
+* Intermediate‑to‑Advanced: Finish all projects in the Programming 2 course; understand the code and capable of writing or modifying it independently.
+* Advanced: Complete the official Python Tutorial ([https://docs.python.org/3/tutorial/index.html](https://docs.python.org/3/tutorial/index.html))
 
 <br>
 
