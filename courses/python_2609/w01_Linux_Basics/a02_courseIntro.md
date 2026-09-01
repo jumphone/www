@@ -104,24 +104,6 @@ SSS (Supervised Self Study) = 15hrs
 
 ---------------------------
 
-### Team Arrangement
-
-1. In total, we have 5 teams (5-7 members per team).
-
-2. We have multiple rounds of member selection.
-
-3. In each round, each Team Lead will introduce him/her-self.
-
-4. Each Team Lead will provide one offer to one or more members (you can reject the offer). 
-
-5. For the final project, the maximum grade is 30 (final presentation). Team Lead can get 3 bonus points (10%).
-
-6. If more than 5 people want to be the Team Lead, let’s vote for it. If less than 5 people want to be the lead, I will randomly assign the remaining Team Leads.
-
-<br>
-
----------------------------
-
 ### Final Grade
 
 We use a quantile-based evaluation method to calculate the final grade (ranging from 0 to 100), which consists of three components:
