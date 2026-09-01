@@ -1,6 +1,8 @@
 
 ### Intro to Programming I (Python)
 
+<br>
+
 [Introduction to the Lecturer](https://www.bioinfo-lab.com/courses/python_2609/w01_Linux_Basics/a01_selfIntro)
 
 [Introduction to the Course (Syllabus)](https://www.bioinfo-lab.com/courses/python_2609/w01_Linux_Basics/a02_courseIntro)
@@ -12,6 +14,8 @@
 ------------------
 
 ### Linux Basics
+
+<br>
 
 [Lecture & Seminar](https://www.bioinfo-lab.com/courses/python_2609/w01_Linux_Basics/s01_content)
 
