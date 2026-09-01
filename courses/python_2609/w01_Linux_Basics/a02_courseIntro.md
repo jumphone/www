@@ -6,6 +6,8 @@ Course Name: Programming I (Python)
 
 Lecturer: Prof Dr ZHANG Feng
 
+<br>
+
 ### Learning Outcomes
 
 1. Learn the Python’s basic environment and write simple scripts using basic syntax.
@@ -14,6 +16,8 @@ Lecturer: Prof Dr ZHANG Feng
 4. Define functions and use modules and packages.
 5. Perform file operations: opening, closing, reading, writing, and basic management.
 6. Handle exceptions with try-except structures, identify common built-in exceptions, manually raise exceptions, and improve program reliability.
+
+<br>
 
 ### Date
 
@@ -90,7 +94,7 @@ SSS (Supervised Self Study) = 15hrs
 
 We use a quantile-based evaluation method to calculate the final grade (ranging from 0 to 100), which consists of three components:
 
-1. General Performance (weekly reports in non-recitation weeks)
+1. General Performance (attendance & weekly reports)
 2. Final Project (final presentation + slides)
 3. Total Test Score (recitation sessions)
 
