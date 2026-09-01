@@ -161,7 +161,7 @@ else if AQ < 0.2 and Total Test Score < Passing Line:
 
 ### Retake Policy
 
-NO RESIT EXAM! 
+NO RESIT EXAM !!! NO FREE RETAKE OPPORTUNITY !!!
 
 Students who fail this course have to retake this course.
 
