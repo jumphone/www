@@ -11,21 +11,22 @@ Research field: bioinformatics, computational biology, biomedical data analysis
 
 ### Education & Work experience: 
 
-* **Associate Professor & Program Lead**, Hainan Bielefeld University of Applied Sciences, China, 2025.03-present
-
-* **Associate Professor**, Hainan Bielefeld University of Applied Sciences, China, 2025.02-2025.03
-
-* **Research Associate Professor**, Shanghai Jiao Tong University School of Medicine, China, 2024.01-2025.01
-
-* **Research Assistant Professor**, Shanghai Jiao Tong University School of Medicine, China, 2020.10-2023.12
-
-* **Graduate Assistant & Visiting Scholar**, Cincinnati Children's Hospital Medical Center, USA, 2018.01-2020.01
-
-* **PhD**, Biostatistics, School of Life Sciences, Fudan University, China, 2015.09-2020.06 
+* **BSc**, Information Security, School of Mathmatics, Shandong University, China, 2011.09-2015.06
 
 * **Summer School**, University of California, Los Angeles, USA, 2013.08-2013.09
 
-* **BSc**, Information Security, School of Mathmatics, Shandong University, China, 2011.09-2015.06 
+* **PhD**, Biostatistics, School of Life Sciences, Fudan University, China, 2015.09-2020.06
+  
+* **Graduate Assistant & Visiting Scholar**, Cincinnati Children's Hospital Medical Center, USA, 2018.01-2020.01
+
+* **Research Assistant Professor**, Shanghai Jiao Tong University School of Medicine, China, 2020.10-2023.12
+
+* **Research Associate Professor**, Shanghai Jiao Tong University School of Medicine, China, 2024.01-2025.01
+
+* **Associate Professor & Program Lead**, Hainan Bielefeld University of Applied Sciences, China, 2025.02-present
+
+* **Guest Associate Professor**, Shanghai Children’s Hospital of Shanghai Jiao Tong University School of Medicine, China, 2026.03-present
+
 
 <br>
 
@@ -98,8 +99,8 @@ Published over 30 research papers.
 ### BiUH DT Learning Roadmap (Latest Version)
 
 <p float="left">
-<a href='https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/src/f01_roadmap.png'>
-  <img src="https://www.bioinfo-lab.com/courses/Programming_I/w01_Linux_Basics/src/f01_roadmap.png" width="500">
+<a href='https://www.bioinfo-lab.com/src/f01_roadmap_2609.png'>
+  <img src="https://www.bioinfo-lab.com/src/f01_roadmap_2609.png" width="500">
 </a>
 </p>
 
@@ -111,11 +112,11 @@ Published over 30 research papers.
 
 * Office Room: Teaching Building B526
 
-* Email: feng.zhang@hainan-biuh.edu.cn
+* Email: feng.zhang@hibiuh.edu.cn
 
-* Available Office Hour: Monday, 12:00-20:00 (please schedule a time with me by email at least one day in advance)
+* Available Office Hour: Wednesday, 12:00-20:00 (please schedule a time with me by email at least one day in advance)
 
-* BiUH DT Email: dt@hainan-biuh.edu.cn
+* BiUH DT Email: dt@hibiuh.edu.cn
 
 
 
