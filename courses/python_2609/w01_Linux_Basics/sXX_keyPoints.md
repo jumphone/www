@@ -1,3 +1,6 @@
+<a href="javascript:history.back()">Back</a>
+
+<br>
 
 # Linux Basics
 
