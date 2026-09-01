@@ -159,6 +159,23 @@ else if AQ < 0.2 and Total Test Score < Passing Line:
 ---------------------------
 
 
+### Retake Policy
+
+NO RESIT EXAM! 
+
+Students who fail this course have to retake this course.
+
+The retake assessment consists of Phase Tests and Multiple Tasks.
+
+The same quantile‑based grading rules apply for retake candidates.
+
+Students must register for the retake (Academic Affairs Office, AAO) according to university administrative deadlines.
+
+<br>
+
+---------------------------
+
+
 ### Office Hour
 
 * Office Hour: Wednesday, 12:00-20:00 (please schedule a time with me by email at least one day in advance)
@@ -175,20 +192,5 @@ else if AQ < 0.2 and Total Test Score < Passing Line:
 ---------------------------
 
 
-### Retake Policy
-
-NO RESIT EXAM! 
-
-Students who fail this course have to retake this course.
-
-The retake assessment consists of Phase Tests and Multiple Tasks.
-
-The same quantile‑based grading rules apply for retake candidates.
-
-Students must register for the retake (Academic Affairs Office, AAO) according to university administrative deadlines.
-
-<br>
-
----------------------------
 
 
