@@ -1,2 +1,2 @@
 
-[Programming I (Python)](/coueses/python_2609)
+* [Programming I (Python)](/coueses/python_2609)
