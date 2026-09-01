@@ -113,17 +113,21 @@ else if AQ < 0.2 and Total Test Score < Passing Line:
 
 <br>
 
----------------------------
 
 ### Reading / Materials
 
 
 
+<br>
+
+
 ### Academic integrity
 
-* No AI in Phase Tests !
+* No AI or cheating in Phase Tests !
 
 * Outside of Phase Tests, please make full use of LLM and AI tools !
+
+<br>
 
 
 
