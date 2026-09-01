@@ -12,3 +12,5 @@
 [Lecture & Seminar & Examples](https://www.bioinfo-lab.com/courses/python_2609/w01_Linux_Basics/s01_content)
 
 [Hands‑on Practice (Weekly Report)](https://www.bioinfo-lab.com/courses/python_2609/w01_Linux_Basics/s02_practice)
+
+[Review](https://www.bioinfo-lab.com/courses/python_2609/w01_Linux_Basics/s03_keyPoints)
