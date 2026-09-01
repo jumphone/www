@@ -11,6 +11,8 @@ Course Name: Programming I (Python)
 Lecturer: Prof Dr ZHANG Feng
 
 <br>
+---------------------------
+
 
 ### Learning Outcomes
 
@@ -23,16 +25,15 @@ Upon completion of this course, students will be able to:
 6. Handle exceptions using try‑except blocks, recognise common built‑in exceptions, manually raise exceptions, and enhance overall program reliability.
 
 <br>
+---------------------------
 
-### Date
 
-<p float="left">
-<a href='https://www.bioinfo-lab.com/src/f02_date_202609.png'>
-  <img src="https://www.bioinfo-lab.com/src/f02_date_202609.png" width="500">
-</a>
-</p>
+### Reading / Materials
+
+
 
 <br>
+---------------------------
 
 
 ### Course Content
@@ -58,7 +59,17 @@ Lecture/Seminar + Lab + Phase Test + Presentation = 45hrs
 SSS (Supervised Self Study) = 15hrs
 
 <br>
+---------------------------
 
+### Date
+
+<p float="left">
+<a href='https://www.bioinfo-lab.com/src/f02_date_202609.png'>
+  <img src="https://www.bioinfo-lab.com/src/f02_date_202609.png" width="500">
+</a>
+</p>
+
+<br>
 ---------------------------
 
 ### Weekly Plan
@@ -74,7 +85,6 @@ SSS (Supervised Self Study) = 15hrs
 2. SSS: 90m (2hrs)
 
 <br>
-
 ---------------------------
 
 ### Team Arrangement
@@ -92,7 +102,6 @@ SSS (Supervised Self Study) = 15hrs
 6. If more than 5 people want to be the Team Lead, let’s vote for it. If less than 5 people want to be the lead, I will randomly assign the remaining Team Leads.
 
 <br>
-
 ---------------------------
 
 ### Final Grade
@@ -117,13 +126,7 @@ else if AQ < 0.2 and Total Test Score < Passing Line:
 ```
 
 <br>
-
-
-### Reading / Materials
-
-
-
-<br>
+---------------------------
 
 
 ### Academic integrity
@@ -133,6 +136,8 @@ else if AQ < 0.2 and Total Test Score < Passing Line:
 * Outside of Phase Tests, please make full use of LLM and AI tools !
 
 <br>
+---------------------------
+
 
 ### Office Hour
 
