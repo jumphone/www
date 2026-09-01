@@ -9,7 +9,7 @@
 
 [Introduction to the Final Project](https://www.bioinfo-lab.com/courses/python_2609/w01_Linux_Basics/a03_projectIntro)
 
-[Lecture & Seminar & Examples](https://www.bioinfo-lab.com/courses/python_2609/w01_Linux_Basics/s01_content)
+[Lecture & Seminar](https://www.bioinfo-lab.com/courses/python_2609/w01_Linux_Basics/s01_content)
 
 [Hands‑on Practice (Weekly Report)](https://www.bioinfo-lab.com/courses/python_2609/w01_Linux_Basics/s02_practice)
 
