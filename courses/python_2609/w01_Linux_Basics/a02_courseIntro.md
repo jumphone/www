@@ -10,7 +10,7 @@ Lecturer: Prof Dr ZHANG Feng
 
 ### Learning Outcomes
 
-1. Learn the Python’s basic environment and write simple scripts using basic syntax.
+1. Learn the Python’s basic environment (in Linux) and write simple scripts using basic syntax.
 2. Master the use of primitive and composite data types and type conversion.
 3. Use conditional statements and loops to control program flow.
 4. Define functions and use modules and packages.
