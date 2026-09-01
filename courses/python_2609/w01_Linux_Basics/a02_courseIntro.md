@@ -10,12 +10,13 @@ Lecturer: Prof Dr ZHANG Feng
 
 ### Learning Outcomes
 
-1. Learn the Python’s basic environment (in Linux) and write simple scripts using basic syntax.
-2. Master the use of primitive and composite data types and type conversion.
-3. Use conditional statements and loops to control program flow.
-4. Define functions and use modules and packages.
-5. Perform file operations: opening, closing, reading, writing, and basic management.
-6. Handle exceptions with try-except structures, identify common built-in exceptions, manually raise exceptions, and improve program reliability.
+Upon completion of this course, students will be able to:
+1. Work with the basic Python environment (in Linux) and implement simple scripts using fundamental syntax.
+2. Apply primitive and composite data types and perform type conversion.
+3. Control program execution flow by means of conditional statements and loops.
+4. Define functions and make use of modules and packages.
+5. Carry out file‑handling operations including opening, closing, reading, writing and basic file management.
+6. Handle exceptions using try‑except blocks, recognise common built‑in exceptions, manually raise exceptions, and enhance overall program reliability.
 
 <br>
 
