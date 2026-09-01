@@ -9,6 +9,8 @@
 
 * [Student List](/student/)
 
+* [Courses](/courses/)
+
 <br><br><br>
 
 
