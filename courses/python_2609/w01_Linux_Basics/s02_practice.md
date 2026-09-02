@@ -106,10 +106,10 @@ ls
 
 ```
 # use less to check the content of a demo file. press "q" to quit
-less /home/students/dt2025/resource/demo.txt
+less /home/students/dt2026/resource/demo.txt
 
 # use cat to show the entire content of a demo file.
-cat /home/students/dt2025/resource/demo.txt
+cat /home/students/dt2026/resource/demo.txt
 
 ```
 
