@@ -119,7 +119,7 @@ cat /home/students/dt2026/resource/demo.txt
 cd ~
 
 # copy the demo.txt to your home directory
-cp /home/students/dt2025/resource/demo.txt ~/demo.txt
+cp /home/students/dt2026/resource/demo.txt ~/demo.txt
 ls
 
 # move the your demo.txt to demo_mv.txt
