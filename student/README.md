@@ -6,7 +6,20 @@ For more information or relevant letters of recommendation for the students, ple
 <br>
 
 Name | Cohort | City & Date | Place |
-:---------|:--------|:-------|:---------------------------|:---------|
+:---------|:--------|:-------|:---------------------------|
+CHEN Jingtong | DT2024 | Wuhan <br> 2026.06.01-2026.08.07 | School of Artificial Intelligence, Wuhan University, Prof. QIN Qian | 
+ZHANG Yuchen | DT2024 | Wuhan <br> 2026.06.01-2026.08.07 | School of Artificial Intelligence, Wuhan University, Prof. QIN Qian | 
+XU Zihao | DT2024 | Wuhan <br> 2026.06.01-2026.08.07 | School of Artificial Intelligence, Wuhan University, Prof. QIN Qian | 
+DENG Zifeng | DT2024 | Wuhan <br> 2026.06.01-2026.08.07 | School of Artificial Intelligence, Wuhan University, Prof. QIN Qian | 
+LEI Zizhuo | DT2024 | Shanghai <br> 22026.06.01-2026.08.07 | Shanghai Jiao Tong University School of Medicine, Prof. LI Lingjie |
+WANG Wei | DT2024 | Shanghai <br> 2026.06.01-2026.08.07 | Shanghai Jiao Tong University School of Medicine, Prof. LI Lingjie |
+PENG Ziyan | CS2024 | Shanghai <br> 2026.06.01-2026.08.07 | Shanghai Jiao Tong University School of Medicine, Prof. LI Lingjie |
+JI Ruihan | DT2024 | Shanghai <br> 2026.06.01-2026.08.07 | Shanghai Jiao Tong University School of Medicine, Prof. LI Lingjie |
+WANG Zishuo | CS2024 | Shanghai <br> 2026.06.01-2026.08.07 | Fudan University, School of Life Sciences, Prof. TIAN Weidong |
+MA Junzhe | CS2024 | Shanghai <br> 2026.06.01-2026.08.07 | Fudan University, School of Life Sciences, Prof. TIAN Weidong |
+ZHANG Zhengkuo | CS2024 | Hangzhou <br> 2026.06.01-2026.08.07 | Zhejiang University, Innovation Institute for Artificial Intelligence in Medicine, Prof. WANG Jiajia |
+LIU Yichen | DT2024 | Shanghai <br> 2026.06.01-2026.08.07 | Shanghai Children's Hospital, Prof. HUANG Yichen | 
+CHEN Siyan | CS2024 | Shanghai <br> 2026.06.01-2026.08.07 | Shanghai Children's Hospital, Prof. HUANG Yichen | 
 YE Chenglin | DT2024 | Guangzhou <br> 2025.12.01-2026.02.06 | Guangzhou Women and Children's Medical Center, Molecular Medicine Center, Prof. LU Yulan |
 XU Senwei | CS2024 | Guangzhou <br> 2025.12.01-2026.02.06 | Guangzhou Women and Children's Medical Center, Molecular Medicine Center, Prof. LU Yulan |
 WU Siyi | DT2024 | Guangzhou <br> 2025.12.01-2026.02.06 | Guangzhou Women and Children's Medical Center, Molecular Medicine Center, Prof. LU Yulan |
