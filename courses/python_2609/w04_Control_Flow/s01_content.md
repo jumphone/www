@@ -148,10 +148,9 @@ graph TD
 
 ## 1.5. Why Control Flow Matters
 
-1. Programs need to make decisions
-2. Handle different situations
-3. Repeat tasks efficiently
-4. Makes code adaptable
+1. Programs need to make decisions (handle different situations)
+2. Repeat tasks efficiently
+3. Make code adaptable
 
 ### Automatic Door Control Example
 ```python
@@ -269,7 +268,7 @@ while attempts < 10:
 1. `if-elif-else` for decisions
 2. `while` for repeating tasks
 3. Condition evaluation (True/False)
-4. Loop control variables (i, counter)
+4. Loop control variables (i, counter, flag)
 5. Avoid infinite loops!
 
 ```python
@@ -740,7 +739,7 @@ MAX_ATTEMPTS = 3
 
 while counter < MAX_ATTEMPTS:
     print("Attempt:", counter+1)
-    counter += 1
+    counter = counter + 1
 ```
 
 ---
@@ -1014,7 +1013,7 @@ flowchart TD
 attempts = 0
 while attempts < 5:
     # Game logic
-    attempts += 1
+    attempts = attempts + 1
     
 if attempts == 5:
     print("Game Over! Number was", target)
@@ -1208,7 +1207,7 @@ if is_positive_even and within_limit and valid_user:
 counter = 0
 while counter < 3:
     print("DEBUG: Current counter - " + str(counter))  # Debug line
-    counter += 1
+    counter = counter + 1
 ```
 
 ```mermaid
@@ -1216,7 +1215,7 @@ flowchart TD
     S[Start] --> I[counter=0]
     I --> C{counter < 3?}
     C -->|Yes| P[Print counter]
-    P --> U[counter +=1]
+    P --> U[counter=counter+1]
     U --> C
     C -->|No| E[End]
 ```
@@ -1260,12 +1259,12 @@ def calculate_discount(price):
 # Incorrect
 while x < 5
     print(x)
-    x += 1
+    x = x + 1
 
 # Correct
 while x < 5:
     print(x)
-    x += 1
+    x = x + 1
 ```
 
 ---
@@ -1284,16 +1283,16 @@ while x < 5:
 
 ```python
 # Wrong mixing of spaces/tabs
-def test():
+
 while n > 0:  # Missing indentation
 print(n)      # Wrong level
-    n -= 1
+    n = n-1
 
 # Correct
-def count_down(n):
-    while n > 0:
-        print(n)
-        n -= 1
+
+while n > 0:
+    print(n)
+    n = n-1
 ```
 
 ---
@@ -1352,7 +1351,7 @@ flowchart TD
     S[Start] --> I[attempt=0]
     I --> C{attempt < 3?}
     C -->|Yes| L[Execute loop]
-    L --> U[attempt +=1]
+    L --> U[attempt = attempt+1]
     U --> C
     C -->|No| E[End]
 ```
