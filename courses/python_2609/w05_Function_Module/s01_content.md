@@ -34,7 +34,7 @@
 
 ## 1.1. Functions: Like a Microwave Preset Button
 
-### Real-life analogy:
+### Real-life example:
 - Preset buttons = Predefined functions
 - "Popcorn" button = `def popcorn_mode()`
 - "Beverage" button = `def reheat_drink()`
