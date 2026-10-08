@@ -171,18 +171,7 @@ Hello World!
 ### Script Version (hello.py)
 ```python
 
-### Full version #####
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-def main():
-    print("Hello World!")
-
-if __name__ == "__main__":
-    main()
-
-#### Ok to run #######
-
+# In the file named "hello.py"
 print('Hello World!')
 
 ```
@@ -191,7 +180,7 @@ print('Hello World!')
 1. Login to Linux Server using Termius
 2. Create file: `nano hello.py`
 3. Write code
-4. Save: `Ctrl+O` → Press "enter": `Ctrl+X`
+4. Save: `Ctrl+O` → Press "enter" → `Ctrl+X`
 5. Run: `python3 hello.py`
 
 ---
