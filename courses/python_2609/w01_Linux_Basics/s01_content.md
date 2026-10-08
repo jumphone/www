@@ -166,9 +166,9 @@ Relative Path: The path from your current working directory to a file or folder.
 
 nano is a text editor that works in the linux terminal.
 
-In nano, Ctrl + O is used to save your work
+In nano, "Ctrl + O" and then "press enter", is used to save your work
 
-In nano, Ctrl + X is used to exit nano
+In nano, “Ctrl + X” is used to exit nano
 
 ---
 
