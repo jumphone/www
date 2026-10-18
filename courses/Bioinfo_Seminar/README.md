@@ -1,6 +1,5 @@
 
-## Bioinfo_Seminar
-
+## Bioinformatics
 
 PPT: [PDF](RNAseq.pdf)
 
