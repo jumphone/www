@@ -7,9 +7,9 @@ Welcome to one of the most important milestones in your programming journey! Up 
 
 欢迎来到你编程之旅中最重要的里程碑之一！到目前为止，你可能一直都是从上到下、逐行编写代码。但随着程序变得越来越庞大，这种方式会变得难以管理。在本章中，我们将学习如何使用函数（Functions）**和**模块（Modules）来组织、重用和分享我们的代码。
 
-<br>
-
 ---
+
+<br>
 
 ## Section 1. Introduction to Functions & Modules
 
@@ -36,6 +36,8 @@ start_microwave("popcorn")
 
 ```
 
+<br>
+
 ### 1.2. Why Do We Need Functions? / 为什么我们需要函数？
 
 Imagine you are writing a game where a character makes sandwiches. Without functions, you have to type out the instructions every single time:
@@ -60,6 +62,8 @@ print("3. Close sandwich")
 This violates a core rule of programming: **DRY (Don't Repeat Yourself)**. If you suddenly want to add "Cut sandwich in half" to the recipe, you have to change your code in three different places!
 这违反了编程中的一个核心原则：**DRY（Don't Repeat Yourself / 不要重复自己）**。如果你突然想在食谱里加上“把三明治切成两半”，你就得在代码里的三个不同地方进行修改！
 
+<br>
+
 ### 1.3. Creating Our First Function / 创建我们的第一个函数
 
 Let's solve the sandwich problem by packaging those steps into a function:
@@ -79,6 +83,8 @@ make_sandwich()
 
 ```
 
+<br>
+
 ### 1.4. Making Functions Flexible (Parameters) / 让函数更灵活（参数）
 
 A function that only makes plain sandwiches is boring. We can make our functions flexible by passing them information. We call these pieces of information **parameters**.
@@ -96,6 +102,8 @@ make_sandwich("ham")
 make_sandwich("cheese")
 
 ```
+
+<br>
 
 ### 1.5. Modules: The Game Sound Library / 模块：游戏音效库
 
@@ -115,6 +123,8 @@ import sound_module
 sound_module.play_jingle()
 
 ```
+
+<br>
 
 ### 1.6. Building Our Own Module / 构建我们自己的模块
 
@@ -149,6 +159,8 @@ kitchen.oven_timer()
 4. `import` lets you reuse code across different programs. / `import`（导入）让你能够在不同程序间重用代码。
 
 ---
+
+<br>
 
 ## Section 2. Function Basic Syntax
 
