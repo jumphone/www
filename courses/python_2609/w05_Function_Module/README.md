@@ -11,4 +11,5 @@
 
 [Review Material](https://www.bioinfo-lab.com/courses/python_2609/w05_Function_Module/s03_review)
 
+[Self Study](https://www.bioinfo-lab.com/courses/python_2609/w05_Function_Module/s04_selfstudy)
 
