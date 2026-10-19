@@ -7,9 +7,9 @@ Welcome to one of the most important milestones in your programming journey! Up 
 
 欢迎来到你编程之旅中最重要的里程碑之一！到目前为止，你可能一直都是从上到下、逐行编写代码。但随着程序变得越来越庞大，这种方式会变得难以管理。在本章中，我们将学习如何使用函数（Functions）**和**模块（Modules）来组织、重用和分享我们的代码。
 
----
-
 <br>
+
+---
 
 ## Section 1. Introduction to Functions & Modules
 
@@ -158,9 +158,9 @@ kitchen.oven_timer()
 3. Modules help organize code into separate files. / 模块帮你把代码整理到不同的文件中。
 4. `import` lets you reuse code across different programs. / `import`（导入）让你能够在不同程序间重用代码。
 
----
-
 <br>
+
+---
 
 ## Section 2. Function Basic Syntax
 
@@ -174,6 +174,8 @@ Think of a function like a recipe or a small factory:
 1. **Receive ingredients** (Parameters/Arguments) / **接收原料**（参数）
 2. **Follow steps** (The internal code block) / **遵循步骤**（内部的代码块）
 3. **Give a result** (Return value) / **交付成果**（返回值）
+
+<br>
 
 ### 2.2. Function Structure in Python / Python 中的函数结构
 
@@ -190,6 +192,8 @@ def magic_oven(ingredient):  # Function header (def keyword, name, and parameter
 * `def`: Tells Python you are defining a function. / 告诉 Python 你正在定义一个函数。
 * `: ` (Colon): Placed at the end of the header. It tells Python "the instructions are starting now." / （冒号）：放在函数头的末尾。它告诉 Python“指令现在开始了”。
 * **Indentation**: The code inside the function *must* be indented (usually 4 spaces). / **缩进**：函数内部的代码**必须**缩进（通常为 4 个空格）。
+
+<br>
 
 ### 2.3. Multiple Parameters: Shape-Shifting Greetings / 多个参数：会变形的问候语
 
@@ -208,6 +212,8 @@ flexible_greet("Diana", "Ni hao")
 **Warning:** The order matters! If you type `flexible_greet("Good morning", "Charlie")`, it will print "Charlie Good morning!".
 **警告：** 顺序很重要！如果你写成 `flexible_greet("Good morning", "Charlie")`，它会打印出“Charlie Good morning!”。
 
+<br>
+
 ### 2.4. Return Values: The Calculator Function / 返回值：计算器函数
 
 Sometimes we don't want a function to print something to the screen; we want it to calculate a value and give it back to us so we can use it later. We use the `return` keyword for this.
@@ -224,6 +230,8 @@ pizza_price = pizza_area * 0.02
 print("Pizza price is: $" + str(pizza_price))
 
 ```
+
+<br>
 
 ### 2.5. Common Beginner Mistakes / 初学者常见错误
 
@@ -255,6 +263,8 @@ def clean_function():
     print("Perfect!")
 
 ```
+
+<br>
 
 ### 2.6. Multi-Parameter Function Demo: BMI Calculator / 多参数函数演示：BMI计算器
 
@@ -293,6 +303,8 @@ print("BMI:", calculate_bmi(70, 1.75))
 > 
 > 
 
+<br>
+
 ---
 
 ## Section 3. Advanced Parameters & Return Values
@@ -319,6 +331,8 @@ make_pizza(toppings="cheese", size=20)
 **Why use keyword arguments?** It makes your code highly readable. Imagine seeing `make_pizza(25, ["pepperoni"])`. It's somewhat confusing. `make_pizza(size=25, toppings=["pepperoni"])` is crystal clear.
 **为什么要用关键字参数？** 它能让你的代码极具可读性。想象一下看到 `make_pizza(25, ["pepperoni"])`，可能有点让人迷惑。而 `make_pizza(size=25, toppings=["pepperoni"])` 则一目了然。
 
+<br>
+
 ### 3.2. Default Parameters / 默认参数
 
 You can give a parameter a default value. If the user doesn't provide that argument, Python will automatically use the default.
@@ -333,6 +347,8 @@ print(calculate_shipping(3.5))       # Uses the default base_fee of 5.0
 print(calculate_shipping(2.0, 4.0))  # Overrides the default with 4.0
 
 ```
+
+<br>
 
 ### 3.3. Multiple Return Values (Tuple Unpacking) / 多个返回值（元组解包）
 
@@ -350,6 +366,8 @@ vol, surf = box_calculator(2, 2, 2)
 print("Perfect cube volume: " + str(vol))
 
 ```
+
+<br>
 
 ### 3.4. Variable Scope (Local vs. Global) / 变量作用域（局部与全局）
 
@@ -379,6 +397,8 @@ def update_points():
 
 ```
 
+<br>
+
 ### 3.5. Naming Best Practices / 命名最佳实践
 
 A good function name should tell you exactly what it does.
@@ -388,6 +408,8 @@ A good function name should tell you exactly what it does.
 * **Bad / 坏的示例:** `tax()` (Is it calculating tax? Paying tax? / 是在算税还是在交税?), `user()` (Verb is missing / 缺少动词), `temp_conv()` (Abbreviations get confusing / 缩写容易造成困惑).
 * **Checklist / 检查清单:** Use lowercase words separated by underscores (`snake_case`), start with a verb, and keep it under 3 words.
 （使用由下划线分隔的小写单词即`蛇形命名法`，以动词开头，并尽量控制在 3 个单词以内。）
+
+<br>
 
 ---
 
@@ -419,6 +441,8 @@ print(randint(1, 50)) # No need to type random. before the function
 *Warning:* Be careful with `from X import *`. It can cause "name collisions" where an imported function overwrites a function you wrote with the same name!
 *警告：* 请慎用 `from X import *`。它可能会导致“命名冲突”，也就是说，导入的函数可能会覆盖掉你自己写的同名函数！
 
+<br>
+
 ### 4.2. Upgrading our Print Statements (f-strings) / 升级我们的 Print 语句（f-strings）
 
 Let's calculate the hypotenuse using the `math` library. Up until now, we've been using `+` to combine strings and variables. Let's learn a modern Python trick called **f-strings**.
@@ -441,6 +465,8 @@ c = math.sqrt(a**2 + b**2)
 print(f"The hypotenuse is: {c}")
 
 ```
+
+<br>
 
 ### 4.3. Standard Libraries Demo / 标准库演示
 
@@ -468,6 +494,8 @@ print("Blast off! 🚀")
 
 ```
 
+<br>
+
 ### 4.4. Understanding Namespaces / 理解命名空间
 
 Think of modules as separate **toolboxes**.
@@ -483,6 +511,8 @@ math.sqrt(16)   # Grabs sqrt from the math toolbox
 mymath.sqrt(16) # Grabs sqrt from your custom toolbox
 
 ```
+
+<br>
 
 ---
 
@@ -530,6 +560,8 @@ print(generate_password(10)) # Generates a 10-character password
 > 
 > 
 
+<br>
+
 ### Example 2: Simple Calculator / 案例 2：简易计算器
 
 **Goal:** A function that performs basic math operations based on a string input.
@@ -551,6 +583,8 @@ def calculator(a, b, operator="+"):
 print(f"5 * 3 = {calculator(5, 3, '*')}")
 
 ```
+
+<br>
 
 ### Example 3: Temperature Conversion System / 案例 3：温度转换系统
 
