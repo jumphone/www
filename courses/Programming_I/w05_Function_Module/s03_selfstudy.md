@@ -1,12 +1,13 @@
 
 # Functions & Modules
 
-#函数与模块
+# 函数与模块
 
 Welcome to one of the most important milestones in your programming journey! Up until now, you may have been writing code straight down, line by line. But as programs get larger, this becomes difficult to manage. In this chapter, we will learn how to organize, reuse, and share our code using **Functions** and **Modules**.
 
 欢迎来到你编程之旅中最重要的里程碑之一！到目前为止，你可能一直都是从上到下、逐行编写代码。但随着程序变得越来越庞大，这种方式会变得难以管理。在本章中，我们将学习如何使用函数（Functions）**和**模块（Modules）来组织、重用和分享我们的代码。
 
+<br>
 ---
 
 ## Section 1. Introduction to Functions & Modules
