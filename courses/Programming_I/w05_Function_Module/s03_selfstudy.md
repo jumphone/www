@@ -328,7 +328,7 @@ print("BMI:", calculate_bmi(70, 1.75))
 
 ## 第 3 节：进阶参数与返回值
 
-### 3.0 Parameter V.S. Argument
+### 3.0. Parameter V.S. Argument / 形式参数 V.S. 实际参数
 
 * **Parameter**: A parameter is a variable listed inside the parentheses in the function definition. It acts as a placeholder for values that will be supplied later when the function is called.
 
