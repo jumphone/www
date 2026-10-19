@@ -539,14 +539,15 @@ Normal BMI range: 18.5 - 24.9
 <a id="s3.1"></a>
 
 ---
-
-## 3.1. Positional vs Keyword Arguments
-
-### Parameter V.S. Argument
+## 3.0. Parameter vs Argument
 
 A **parameter** is a variable listed inside the parentheses in the function *definition*. It acts as a placeholder for values that will be supplied later when the function is called.
 
 An **argument** is the actual value passed into a function when the function is *called*. It is the real data that fills the parameter placeholder.
+
+<br>
+
+## 3.1. Positional vs Keyword Arguments
 
 ### Pizza Ordering System Example
 
