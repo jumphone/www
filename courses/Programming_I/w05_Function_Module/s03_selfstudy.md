@@ -328,22 +328,21 @@ print("BMI:", calculate_bmi(70, 1.75))
 
 ## 第 3 节：进阶参数与返回值
 
+### 3.0 Parameter V.S. Argument
+
+* **Parameter**: A parameter is a variable listed inside the parentheses in the function definition. It acts as a placeholder for values that will be supplied later when the function is called.
+
+* **形参（Parameter）**: 形参是写在**函数定义**的圆括号内的变量。它充当占位符，用于接收后续调用函数时传入的值。
+
+* **Argument**: An argument is the actual value passed into a function when the function is called. It is the real data that fills the parameter placeholder.
+
+* **实参（Argument）**: 实参是**调用函数**时传入函数的真实值。它是填充到形参占位符里的实际数据。
+
+
+<br>
+
+
 ### 3.1. Positional vs Keyword Arguments / 位置参数与关键字参数
-
-#### Parameter V.S. Argument
-
-**Parameter**
-A parameter is a variable listed inside the parentheses in the function definition. It acts as a placeholder for values that will be supplied later when the function is called.
-
-**形参（Parameter）**
-形参是写在**函数定义**的圆括号内的变量。它充当占位符，用于接收后续调用函数时传入的值。
-
-**Argument**
-An argument is the actual value passed into a function when the function is called. It is the real data that fills the parameter placeholder.
-
-**实参（Argument）**
-实参是**调用函数**时传入函数的真实值。它是填充到形参占位符里的实际数据。
-
 
 When passing multiple arguments into a function, Python matches them by their position by default. But you can also explicitly state which parameter you are targeting.
 
