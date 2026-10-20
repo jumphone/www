@@ -42,15 +42,20 @@
 ### Python example:
 
 ```python
+
 def popcorn_mode():
     print('heat for 180 seconds')
 
 popcorn_mode()
 
+############################################################
+
 def reheat_drink():
     print('heat for 45 seconds')
 
 reheat_drink()
+
+############################################################
 
 # combined with conditional statement "if-elif"
 
