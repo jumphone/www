@@ -33,3 +33,10 @@
 * [w14 Presentation Guidance](/courses/python_2609/w14_Presentation_Guidance)+ SSS (3hrs)
 
 * w15 Final Presentation
+
+<br>
+
+* [Final Project Demo](/courses/python_2609/final_project)
+
+
+
