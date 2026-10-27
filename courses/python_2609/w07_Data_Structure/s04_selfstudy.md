@@ -1,6 +1,6 @@
-# Python Data Structures
+# Data Structures
 
-# Python 数据结构
+# 数据结构
 
 Welcome to another essential milestone in your programming journey! Whenever you need to manage multiple pieces of data—like a list of users, a collection of unique tags, or a phone book of contacts—you will need **Data Structures**. In this chapter, we will learn how to store, organize, and manipulate data using **Lists**, **Tuples**, **Dictionaries**, and **Sets**.
 
