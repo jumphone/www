@@ -6,6 +6,8 @@ Welcome to another essential milestone in your programming journey! Whenever you
 
 欢迎来到你编程之旅中另一个不可或缺的里程碑！每当你需要管理多条数据时——比如用户列表、唯一标签的集合，或者联系人电话簿——你都会用到**数据结构（Data Structures）**。在本章中，我们将学习如何使用**列表（Lists）**、**元组（Tuples）**、字典（Dictionaries）**和**集合（Sets）来存储、组织和操作数据。
 
+<br>
+
 ---
 
 ## Section 1. Lists
@@ -25,6 +27,9 @@ print("My shopping list:" + str(groceries))
 
 ```
 
+<br>
+
+
 ### 1.2. Four Ways to Create Lists / 创建列表的四种方法
 
 **1. Square brackets `[]` / 方括号 `[]**`
@@ -34,12 +39,18 @@ colors = ["red", "green", "blue"]
 
 ```
 
+<br>
+
+
 **2. `list()` constructor / `list()` 构造函数**
 
 ```python
 numbers = list((1, 2, 3))  # Converts tuple to list / 将元组转换为列表
 
 ```
+
+<br>
+
 
 ### 1.3. More Creation Methods / 更多创建方法
 
@@ -50,6 +61,8 @@ squares = [x**2 for x in range(5)]
 # [0, 1, 4, 9, 16]
 
 ```
+<br>
+
 
 **4. Convert from string / 从字符串转换**
 
@@ -58,6 +71,9 @@ word = list("hello")
 # ['h', 'e', 'l', 'l', 'o']
 
 ```
+
+<br>
+
 
 ### 1.4. Accessing Elements / 访问元素
 
@@ -72,6 +88,9 @@ print(games[-1]) # Pokémon (negative index / 负向索引)
 
 ```
 
+<br>
+
+
 ### 1.5. Slicing Lists / 列表切片
 
 Get sub-lists with `[start:end]`.
@@ -85,6 +104,9 @@ print(months[:2])   # First two / 前两个: ['Jan', 'Feb']
 print(months[3:])   # Last two / 后两个: ['Apr', 'May']
 
 ```
+
+<br>
+
 
 ### 1.6. Adding Items / 添加元素
 
@@ -109,6 +131,9 @@ print(todo)  # ['wake up', 'make bed', 'brush teeth']
 > 
 > 
 
+<br>
+
+
 ### 1.7. Removing Items / 移除元素
 
 Use `remove()` to delete by value, and `pop()` to remove by index (or the last item).
@@ -132,6 +157,9 @@ print(last)         # 'hamster'
 > 
 > 
 
+<br>
+
+
 ### 1.8. Sorting Lists / 列表排序
 
 Use the `sort()` method to arrange items in order.
@@ -149,6 +177,9 @@ print(scores)  # [100, 92, 88, 75]
 
 ```
 
+<br>
+
+
 ### 1.9. Practice: Student Grades System / 实践：学生成绩系统
 
 Store multiple students' scores in separate lists:
@@ -160,6 +191,9 @@ students = ["Alice", "Bob", "Charlie"]
 scores = [88, 92, 75]
 
 ```
+
+<br>
+
 
 ### 1.10. Calculate Average / 计算平均分
 
@@ -176,6 +210,9 @@ print("Class average: " + str(average))
 > * *Solution (答案):* `print(f"Class average: {average}")`
 > 
 > 
+
+<br>
+
 
 ### 1.11. Sort Scores / 分数排序
 
@@ -206,6 +243,9 @@ for one in combined:
 
 ---
 
+<br>
+
+
 ## Section 2. Tuples
 
 ## 第 2 节：元组 (Tuples)
@@ -230,6 +270,9 @@ colors[0] = "pink"
 📌 Tuples use `()` while lists use `[]` / 元组使用 `()` 而列表使用 `[]`
 📌 Tuple elements cannot be changed after creation / 元组元素在创建后无法被修改
 
+<br>
+
+
 ### 2.2. Why Immutability Matters? / 为什么不可变性很重要？
 
 Real-life examples of unchangeable data:
@@ -246,6 +289,9 @@ black = (0, 0, 0)
 current_position = (37.7749, -122.4194)
 
 ```
+
+<br>
+
 
 ### 2.3. Tuple Unpacking / 元组解包
 
@@ -266,6 +312,9 @@ b = 10
 a, b = b, a
 
 ```
+
+<br>
+
 
 ### 2.4. Advanced Unpacking Tricks / 进阶解包技巧
 
@@ -291,6 +340,9 @@ first, *middle, last = numbers
 > * *Solution (答案):* The `*` collects the remaining items into a list. `middle` will be `[1, 4, 1, 5]`. (`*` 会把剩余的元素收集到一个列表中。`middle` 会是 `[1, 4, 1, 5]`。)
 > 
 > 
+
+<br>
+
 
 ### 2.5. Single-element Tuple Trap / 单元素元组陷阱
 
@@ -319,6 +371,9 @@ print(type(proper_tuple))  # <class 'tuple'>
 > 
 > 
 
+<br>
+
+
 ### 2.6. Returning Multiple Values / 返回多个值
 
 Simple example / 简单示例：
@@ -342,6 +397,9 @@ print("Area is " + str(area) + " units")
 
 ```
 
+<br>
+
+
 ### 2.7. When to Use Tuples? / 什么时候使用元组？
 
 Perfect for / 非常适合：
@@ -359,6 +417,9 @@ locations = {
 }
 
 ```
+
+<br>
+
 
 ### 2.8. Tuple Operations Summary / 元组操作总结
 
@@ -379,6 +440,9 @@ print(my_tuple.count(2))  # 1
 
 ---
 
+<br>
+
+
 ## Section 3. Dictionaries
 
 ## 第 3 节：字典 (Dictionaries)
@@ -396,6 +460,9 @@ phone_book = {
 print(phone_book["Alice"])  # Outputs / 输出: 555-1234
 
 ```
+
+<br>
+
 
 ### 3.2. Three Ways to Create Dictionaries / 创建字典的三种方法
 
@@ -420,6 +487,10 @@ weekdays = dict([(1, "Mon"), (2, "Tue"), (3, "Wed")])
 
 ```
 
+
+<br>
+
+
 ### 3.3. Adding & Changing Entries / 添加与修改条目
 
 ```python
@@ -431,6 +502,9 @@ print(animal_sounds)  # {'dog': 'Woof!', 'cat': 'Meow'}
 
 ```
 
+<br>
+
+
 ### 3.4. Removing Entries / 移除条目
 
 ```python
@@ -441,6 +515,9 @@ print(animal_sounds)  # Empty now / 现在为空
 
 ```
 
+<br>
+
+
 ### 3.5. Safe Value Access with get() / 使用 get() 安全访问值
 
 ```python
@@ -449,6 +526,9 @@ print(grades.get("History", "Subject not found"))
 # Outputs / 输出: Subject not found
 
 ```
+
+<br>
+
 
 ### 3.6. Building a Simple Translator / 构建一个简单的翻译器
 
@@ -467,6 +547,9 @@ print("Spanish: " + str(translation))
 
 ```
 
+
+<br>
+
 ### 3.7. Handling Unknown Words / 处理未知单词
 
 ```python
@@ -475,6 +558,9 @@ if translation == "Translation not available":
     print("Current dictionary words:" + str(list(translator.keys())))
 
 ```
+
+<br>
+
 
 ### 3.8. Dictionary Methods Summary / 字典方法总结
 
@@ -485,6 +571,9 @@ print(my_dict.values())  # dict_values([1, 2])
 print(my_dict.items())   # dict_items([('a', 1), ('b', 2)])
 
 ```
+
+<br>
+
 
 ### 3.9. Real-World Example: Movie Ratings / 现实世界案例：电影评分
 
@@ -501,6 +590,9 @@ movie = input("Enter movie title: ")
 print("Rating: " + str(movies.get(movie, "Not in database")) + "/10")
 
 ```
+
+<br>
+
 
 ### 3.10. Dictionary Power Tips 💡 / 字典高阶技巧 💡
 
@@ -520,6 +612,9 @@ mixed_example = {
 
 ---
 
+<br>
+
+
 ## Section 4. Sets
 
 ## 第 4 节：集合 (Sets)
@@ -530,6 +625,9 @@ mixed_example = {
 * **Unordered (无序性)**: No index-based access (没有基于索引的访问)
 * **Mutable (可变性)**: Can add/remove elements (可以添加或删除元素)
 * **Math Operations (数学运算)**: Built-in set operations (内置集合运算)
+
+<br>
+
 
 ### 4.2. Automatic Deduplication Demo / 自动去重演示
 
@@ -543,6 +641,9 @@ print("Set: " + str(fruits_set))    # Auto-removes duplicates / 自动移除重�
 
 ```
 
+<br>
+
+
 ### 4.3. Real-World Deduplication Example / 现实世界的去重案例
 
 ```python
@@ -554,6 +655,9 @@ print("Total votes: " + str(len(votes)))
 print("Unique voters: " + str(len(unique_voters)))
 
 ```
+
+<br>
+
 
 ### 4.4. Set Operations: Intersection / 集合操作：交集
 
@@ -567,6 +671,9 @@ print("Students in both clubs: " + str(both))
 
 ```
 
+<br>
+
+
 ### 4.5. Set Operations: Union / 集合操作：并集
 
 ```python
@@ -579,6 +686,9 @@ print("All customers: " + str(all_customers))
 
 ```
 
+<br>
+
+
 ### 4.6. Set Operations: Difference / 集合操作：差集
 
 ```python
@@ -590,6 +700,9 @@ remaining = available_colors - used_colors
 print("Remaining colors: " + str(remaining))
 
 ```
+
+<br>
+
 
 ### 4.7. Voting System Case Study / 投票系统案例研究
 
@@ -624,6 +737,9 @@ print("Candidates: " + ', '.join(unique_votes))
 > 
 > 
 
+<br>
+
+
 ### 4.8. Friend Finder System / 寻找好友系统
 
 ```python
@@ -640,6 +756,9 @@ print("Updated friends: " + str(alice_friends))
 
 ```
 
+<br>
+
+
 ### 4.9. Set Methods Cheat Sheet / 集合方法速查表
 
 | Method / 方法 | Example / 示例 | Description / 描述 |
@@ -651,6 +770,9 @@ print("Updated friends: " + str(alice_friends))
 
 *Note: Lists also have `clear()` and `copy()`!*
 *注：列表（List）同样也有 `clear()` 和 `copy()` 方法！*
+
+<br>
+
 
 ### 4.10. Why Use Sets? / 为什么使用集合？
 
@@ -674,6 +796,9 @@ print("Updated friends: " + str(alice_friends))
 > 
 
 ---
+
+<br>
+
 
 ## Section 5. Data Structures in Action
 
@@ -747,6 +872,9 @@ print(a)
 > 
 > 
 
+<br>
+
+
 ### 5.2. Storing Students / 存储学生信息
 
 ```python
@@ -762,6 +890,9 @@ student1 = {
 students.append(student1)
 
 ```
+
+<br>
+
 
 ### 5.3. Adding Students / 添加学生
 
@@ -781,6 +912,9 @@ def add_student():
 
 ```
 
+<br>
+
+
 ### 5.4. Sorting Students / 学生排序
 
 > **🧠 Interactive Exercises & Explanations / 互动练习与解析:**
@@ -799,6 +933,9 @@ def add_student():
 > 
 > 
 
+
+<br>
+
 ### 5.5. Word Frequency Analyzer / 词频分析器
 
 **1. Splitting Text / 分割文本**
@@ -810,6 +947,9 @@ words = text.lower().split()
 print(words)
 
 ```
+
+<br>
+
 
 ### 5.6. Counting Words / 统计单词
 
@@ -825,6 +965,9 @@ for word in words:
 print(word_counts)
 
 ```
+
+<br>
+
 
 ### 5.7. Finding TOP5 Words / 找出出现频率前五的单词
 
@@ -852,6 +995,9 @@ print(word_counts)
 > 
 
 ---
+
+<br>
+
 
 **Congratulations! / 恭喜你！** You have successfully learned how to store and manipulate complex data in Python using Data Structures. These tools (Lists, Tuples, Dictionaries, and Sets) are the foundation of all advanced programming concepts!
 
