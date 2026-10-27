@@ -56,13 +56,13 @@ print("My shopping list:" + str(groceries))
 
 ## 1.2. Four Ways to Create Lists
 
-1. Square brackets `[]`
+[1] Square brackets `[]`
 
 ```python
 colors = ["red", "green", "blue"]
 ```
 
-2. `list()` constructor
+[2] `list()` constructor
 
 ```python
 numbers = list((1, 2, 3))  # Converts tuple to list
@@ -82,14 +82,14 @@ numbers = list((1, 2, 3))  # Converts tuple to list
 
 ## 1.3. More Creation Methods
 
-3. List comprehension
+[3] List comprehension
 
 ```python
 squares = [x**2 for x in range(5)]
 # [0, 1, 4, 9, 16]
 ```
 
-4. Convert from string
+[4] Convert from string
 
 ```python
 word = list("hello")
