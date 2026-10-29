@@ -20,13 +20,13 @@
 
 * [w08 File Operations](/courses/python_2609/w08_File_Operations)
 
-* w09 SSS (4hrs)
+* w09 Phase Test III + SSS (2hrs)
 
-* w10 Phase Test III + SSS (2hrs)
+* [w10 Exception Handling](/courses/python_2609/w11_Exception_Handling)
 
-* [w11 Exception Handling](/courses/python_2609/w11_Exception_Handling)
+* [w11 Library & Multi-Tasking](/courses/python_2609/w12_Library_Multi_Tasking)
 
-* [w12 Library & Multi-Tasking](/courses/python_2609/w12_Library_Multi_Tasking)
+* w12 SSS (4hrs)
 
 * w13 Phase Test IV + SSS (2hrs)
 
