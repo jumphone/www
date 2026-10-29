@@ -14,25 +14,27 @@
 
 * [w05 Function Module](/courses/python_2609/w05_Function_Module)
 
-* w06 Phase Test II + SSS (2hrs)
+* <b>Holiday</b>
 
-* [w07 Data Structure](/courses/python_2609/w07_Data_Structure)
+* w07 Phase Test II + SSS (2hrs)
 
-* [w08 File Operations](/courses/python_2609/w08_File_Operations)
+* [w08 Data Structure](/courses/python_2609/w07_Data_Structure)
 
-* w09 Phase Test III + SSS (2hrs)
+* [w09 File Operations](/courses/python_2609/w08_File_Operations)
 
-* [w10 Exception Handling](/courses/python_2609/w11_Exception_Handling)
+* w10 Phase Test III + SSS (2hrs)
 
-* [w11 Library & Multi-Tasking](/courses/python_2609/w12_Library_Multi_Tasking)
+* [w11 Exception Handling](/courses/python_2609/w11_Exception_Handling)
 
-* w12 SSS (4hrs)
+* [w12 Library & Multi-Tasking](/courses/python_2609/w12_Library_Multi_Tasking)
 
-* w13 Phase Test IV + SSS (2hrs)
+* w13 SSS (4hrs)
 
-* [w14 Presentation Guidance](/courses/python_2609/w14_Presentation_Guidance)+ SSS (3hrs)
+* w14 Phase Test IV + SSS (2hrs)
 
-* w15 Final Presentation
+* [w15 Presentation Guidance](/courses/python_2609/w14_Presentation_Guidance)+ SSS (3hrs)
+
+* w16 Final Presentation
 
 <br>
 
