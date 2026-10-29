@@ -14,7 +14,7 @@
 
 * [w05 Function Module](/courses/python_2609/w05_Function_Module)
 
-* <b>Holiday</b>
+* w06 <b>Holiday</b>
 
 * w07 Phase Test II + SSS (2hrs)
 
