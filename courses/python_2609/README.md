@@ -6,8 +6,6 @@
 
 * [Preview](/courses/python_2609/preview)
 
-<br>
-
 * [w01 Linux Basics](/courses/python_2609/w01_Linux_Basics)
 
 * [w02 Python Basics](/courses/python_2609/w02_Python_Basics)
