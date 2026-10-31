@@ -1,6 +1,10 @@
 ## Programming I (Python)
 
-2026.09
+2026.10
+
+<br>
+
+* [Preview](/courses/python_2609/preview)
 
 <br>
 
