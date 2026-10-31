@@ -1,3 +1,8 @@
+# AI platform
+
+[https://github.com/jumphone/ai](https://github.com/jumphone/ai)
+
+
 # main_ai_magi.py
 
 ```python
