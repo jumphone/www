@@ -2,9 +2,9 @@
 
 # 控制流
 
-Welcome to this comprehensive bilingual guide on Python Control Flow. Control flow is the heart of any program—it determines which code statements run first, which run next, whether to repeat them, and whether to skip them based on specific conditions.
+Control flow is the heart of any program—it determines which code statements run first, which run next, whether to repeat them, and whether to skip them based on specific conditions.
 
-欢迎使用本 Python 控制流全面双语教程。控制流是任何程序的核心——它决定了哪些代码语句先运行，哪些后运行，是否需要重复执行，以及是否需要根据特定条件跳过某些语句。
+控制流是任何程序的核心——它决定了哪些代码语句先运行，哪些后运行，是否需要重复执行，以及是否需要根据特定条件跳过某些语句。
 
 > **Q: Why is control flow fundamental to programming?**
 > **问：为什么控制流对编程至关重要？**
