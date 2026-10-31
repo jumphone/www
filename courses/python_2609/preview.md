@@ -1,7 +1,7 @@
 
-* [EN](https://www.bioinfo-lab.com/courses/python_2609/preview.md#en)
+* [EN](https://www.bioinfo-lab.com/courses/python_2609/preview#en)
 
-* [CN](https://www.bioinfo-lab.com/courses/python_2609/preview.md#cn)
+* [CN](https://www.bioinfo-lab.com/courses/python_2609/preview#cn)
 
 <br><br>
 
