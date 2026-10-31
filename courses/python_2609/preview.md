@@ -1,4 +1,8 @@
-[EN]
+
+[EN](https://www.bioinfo-lab.com/courses/python_2609/preview.md#en)
+[CN](https://www.bioinfo-lab.com/courses/python_2609/preview.md#cn)
+
+# EN
 
 # PR1 Course Preview: What Kind of Programming Foundation This Course Builds for You
 
@@ -149,7 +153,8 @@ It may not be the fastest path. But it is the steadiest one. And on the road of 
 
 <br><br>
 
-[CN]
+
+# CN
 
 # PR1 课程前瞻：这门课，想给你打下什么样的编程底子
 如果你是第一次接触编程，打开这份大纲的时候，大概率会有一个疑问：
