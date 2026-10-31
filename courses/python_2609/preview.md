@@ -17,6 +17,8 @@ We are fully aware that PR1 is not the end of your programming journey. It is on
 
 ---
 
+<br>
+
 ## Why We Start with Linux and the Terminal
 
 One of the biggest misconceptions beginners have is that “programming = writing code in an editor.” Many students write code smoothly on their local IDE, yet the moment they face a real working environment — running scripts on a lab server, troubleshooting file path errors, debugging on a headless machine — they feel completely lost.
@@ -32,6 +34,8 @@ You might ask: can’t all of this be done with buttons in an IDE later? Yes, mu
 PR1 does not want you to become an “IDE button-pusher” who only knows how to click run. It wants you to see the operating system underneath your code — to see how files are stored, how scripts are executed, and how data flows. That layer of understanding is better built early than late.
 
 ---
+
+<br>
 
 ## Why We Stick to nano in PR1, and Save Local IDEs for PR2
 
@@ -50,6 +54,8 @@ More importantly, when you pick up IDEs again in PR2, they will no longer feel l
 Think of it as learning to drive on a manual transmission first. It is not because manual cars are nicer to drive, but because they teach you how the clutch, gears, and throttle actually work. Once you understand the mechanics, you can drive an automatic confidently and competently.
 
 ---
+
+<br>
 
 ## Why Object-Oriented Programming Belongs in PR2, Not PR1
 
@@ -73,6 +79,8 @@ That is how programming should be learned: experience the problem first, then le
 
 ---
 
+<br>
+
 ## How the Topics in PR1 Build on Each Other
 
 If PR1 were building a house, it would not start by showing you the roof decorations. It would start with the foundation, then the walls, then the doors and windows.
@@ -93,6 +101,8 @@ If you trace the whole path, you will see that PR1 does not chase sheer quantity
 
 ---
 
+<br>
+
 ## The Designs That “Feel Like Extra Work” Are Actually Careful Choices
 
 Many students find weekly reports tedious at first: screenshot every step, put them in a PowerPoint, export to PDF, and submit. Why not just turn in the code?
@@ -108,6 +118,8 @@ Another small but important detail is the thought questions scattered throughout
 There are no perfect answers to these questions, but they push you to think about *why things are designed this way*. Programming is not about memorizing instructions — it is about understanding the trade-offs behind design decisions. Once you work through those “why” questions, what you take away is not a scattered list of commands, but a whole way of thinking.
 
 ---
+
+<br>
 
 ## How PR1 and PR2 Fit Together
 
@@ -131,6 +143,8 @@ A solid stance keeps your combinations from falling apart. You *could* skip PR1 
 
 ---
 
+<br>
+
 ## A Few Words for Each of You
 
 **If you are a student choosing this course:**
@@ -143,6 +157,8 @@ The value of this curriculum goes beyond its topic list. It conveys a teaching p
 You can absolutely use this material on your own. Go at your own pace. If you do not have access to a server yet, you can follow along with a local virtual machine or WSL. Do not rush to finish a chapter in one day. The key is to type every command and every line of code yourself, and see the output with your own eyes. When you hit an error, do not immediately search for the solution — try to read the error message first. The ability to read tracebacks is the single most important skill for a self-taught programmer. Once you work through PR1 thoroughly, moving on to OOP and libraries in PR2 will be much faster than if you had jumped ahead.
 
 ---
+
+<br>
 
 ## In Closing
 
@@ -167,6 +183,8 @@ It may not be the fastest path. But it is the steadiest one. And on the road of 
 
 因为我们很清楚：PR1 不是编程学习的终点，它只是整个序列的第一站。后面还有 PR2，会带你走进本地 IDE、面向对象编程，还有 numpy、pandas、pygame 这些更有趣、更强大的工具。而 PR1 存在的全部意义，就是让你在进入 PR2 之前，脚下是实的，不会因为环境、路径、基础概念模糊而一路磕磕绊绊。
 
+<br>
+
 ## 一、为什么第一课，我们先从 Linux 和终端讲起
 很多人学编程的第一个误区，是把“编程”等同于“在编辑器里写代码”。他们会在本地 IDE 里写得很顺，可一旦碰到真实的工作场景——比如要把脚本传到实验室的服务器上运行，要处理文件路径报错，要在没有图形界面的机器上调试——立刻就手足无措。
 
@@ -179,6 +197,8 @@ It may not be the fastest path. But it is the steadiest one. And on the road of 
 你可能会问：这些东西以后用 IDE 不都能点按钮完成吗？是的，很多可以。但如果你没在命令行里亲手走过一遍路径，你永远不会真正理解“当前工作目录”是什么意思。而理解不了这件事，未来你会在“模块导入失败”“文件找不到”这类问题上，浪费无数个小时。
 
 PR1 不想让你成为只会点运行按钮的“IDE 操作员”。它想让你先看见代码底下的操作系统——看见文件是怎么存放的，脚本是怎么被调用的，数据是怎么流动的。这层认知，早建立比晚建立好。
+
+<br>
 
 ## 二、为什么 PR1 全程用 nano，不急着上本地 IDE
 你可能已经听说了，PR2 会正式教本地 IDE，比如 VS Code，会教断点调试、语法高亮、自动补全这些非常好用的功能。那为什么 PR1 不直接从 IDE 开始呢？
@@ -194,6 +214,8 @@ PR1 选择先用 nano 这种最朴素的终端编辑器，就是故意先把拐�
 更重要的是，当你在 PR2 重新拿起 IDE 这把“利器”的时候，你不会再觉得它是魔法。你会明白：自动补全只是帮你省时间，断点调试只是比 print 调试更高效，它们本质上都没有改变“代码运行在操作系统上”这件事。你是在驾驭工具，而不是依赖工具。
 
 这就像学车先学手动挡，不是因为手动挡更好开，而是因为它能让你明白变速箱、离合、油门之间到底是什么关系。等你理解了底层逻辑，再开自动挡，你开得明白，也开得稳。
+
+<br>
 
 ## 三、为什么面向对象（OOP）要放到 PR2，PR1 只讲过程式
 很多入门课会早早地把 `class`、`self`、继承塞给学生，好像不讲面向对象就不算学过 Python。但 PR1 没有这么做。它把完整的面向对象编程，全部留给了 PR2。
@@ -214,6 +236,8 @@ PR1 选择先用 nano 这种最朴素的终端编辑器，就是故意先把拐�
 
 这才是学习编程该有的节奏：先体验问题，再学习解法。而不是反过来，先塞给你一堆语法，却告诉你“以后会用到的”。
 
+<br>
+
 ## 四、PR1 的知识点，是怎么一步步串起来的
 如果把 PR1 比作盖房子，它不是先给你看屋顶的装饰，而是从打地基、砌墙、装门窗一步步来的。
 
@@ -231,6 +255,8 @@ PR1 选择先用 nano 这种最朴素的终端编辑器，就是故意先把拐�
 
 整条路径看下来你会发现：PR1 没有追求“知识点多”，它追求的是“每一步都踩实”。前面的知识，永远是后面的基础。没有哪一章是孤立的。
 
+<br>
+
 ## 五、那些看起来“麻烦”的设计，其实都是用心
 很多学生一开始会觉得周报很麻烦：每一步操作都要截图，放进 PPT，导出 PDF 提交。为什么不能直接交代码？
 
@@ -243,6 +269,8 @@ PR1 选择先用 nano 这种最朴素的终端编辑器，就是故意先把拐�
 还有一个设计细节：课程里到处都是思考题。比如“GUI 和 CLI 各有什么优缺点？”“为什么我们需要相对路径？”“为什么要有 4 空格缩进原则？”
 
 这些问题没有标准答案，但它们在逼你思考“为什么这么设计”。编程不是背指令，是理解设计背后的权衡。想通了这些为什么，你学到的就不是一堆零散的命令，而是一整套思维方式。
+
+<br>
 
 ## 六、PR1 和 PR2 是怎么接在一起的
 说到这里，你应该已经能隐约看到两门课的衔接关系了。
@@ -263,6 +291,8 @@ PR2 给你的，是工具升级和能力扩容：
 简单说：PR1 负责“扎马步”，PR2 负责“打连招”。
 马步扎得稳，连招才不会散。如果跳过 PR1 直接去 PR2，你也能学，也能写出东西，但底层是空的。稍微遇到一点环境问题、边界问题，就容易卡壳。
 
+<br>
+
 ## 七、写给不同的你
 如果你是选课的学生：
 请不要轻视 Linux 和命令行那部分，不要觉得“我以后用 IDE 就够了”。现在多花一点时间在终端里摸爬滚打，未来你会感谢现在的自己。认真做每一次实操，认真写周报，不要抄答案。编程这东西，手熟和不熟，骗不了人。这门课不会让你学完立刻变成大神，但它会帮你避开绝大多数新手必经的坑。
@@ -272,6 +302,8 @@ PR2 给你的，是工具升级和能力扩容：
 
 如果你是自学者：
 你完全可以用这套材料自学。节奏可以自己调，Linux 部分如果暂时没有服务器，也可以先在本地装个虚拟机或者 WSL 跟着练。不用强求一天学完一章，重点是每一个命令、每一段代码都亲手敲一遍，看到运行结果。遇到报错不要立刻搜答案，先试着自己读错误信息。读报错的能力，是自学者最重要的能力之一。等你把 PR1 扎扎实实走完，再去学 PR2 的 OOP 和各种库，进度会比直接跳过去快得多。
+
+<br>
 
 ## 最后
 PR1 不是一门“让你七天速成 Python”的课。它不想给你一种“我学会了”的幻觉。
