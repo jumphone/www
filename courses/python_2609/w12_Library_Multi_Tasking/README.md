@@ -21,3 +21,6 @@
 
 [Lecture & Seminar](https://www.bioinfo-lab.com/courses/python_2609/w12_Library_Multi_Tasking/s04_content)
 
+---------
+
+[Self Study](https://www.bioinfo-lab.com/courses/python_2609/w12_Library_Multi_Tasking/s05_selfstudy)
