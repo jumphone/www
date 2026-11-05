@@ -4,6 +4,12 @@
 
 <br>
 
+* [Handbook](/courses/python_2609/pr1_handbook.pdf)
+
+* [Answers to Exercises](/courses/python_2609/pr1_practice.pdf)
+
+<br>
+
 * [Preview](/courses/python_2609/preview)
 
 * [w01 Linux Basics](/courses/python_2609/w01_Linux_Basics)
