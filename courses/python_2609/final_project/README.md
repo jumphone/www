@@ -212,7 +212,7 @@ def run():
 
 ```
 
-## All
+## Answer
 
 
 ```python
@@ -316,10 +316,7 @@ def buildAnwser(question_content):
 
 def run():
     start_content='生成一个科幻电影'
-    result1=buildOpen(start_content)
     result2=buildQuestion(start_content)
-    value_content='卖洗发水的广告'
-    result3=buildValue(value_content)
     result4=buildAnwser(result2[0])
 
 
