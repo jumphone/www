@@ -248,7 +248,7 @@ Tool: Doubao (work task)
 
 Input: The complete film script produced by main_ai
 
-Prompt: Ignore the original segmentation. Extract key frames with scenes, characters and camera changes based on the story framework, and create concise Chinese prompts for these key frame images. Prepare concise Chinese prompts for transition clips linking these frames. Save them into two separate TXT files with sequential numbering.
+Prompt: Ignore the original segmentation. Extract key frames with scenes, characters and camera changes based on the story framework, and create detailed prompts for these key frame images. Prepare detailed prompts for transition clips linking these frames. Save them into two separate TXT files with sequential numbering.
 
 ### 3. Generate character and scene assets
 
@@ -297,7 +297,7 @@ Input: Stitch together the video clips produced in Step 5
 
 输入：main_ai 产生的完整电影脚本
 
-提示词：不要在乎原有的分段，基于故事框架，提取出带有场景、人物、镜头变化的，适合作为关键帧，形成用于生成这些关键帧画面的提示词。在画面之间形成中文的适合作为提示词简洁的连接视频的提示词。分别放到两个txt文件里。标好顺序
+提示词：不要在乎原有的分段，基于故事框架，提取出带有场景、人物、镜头变化的，适合作为关键帧，形成用于生成这些关键帧画面的详细提示词。在画面之间形成中文的适合作为提示词详细的连接视频的提示词。分别放到两个txt文件里。标好顺序
 
 ### 3. 生成人物和场景素材
 
