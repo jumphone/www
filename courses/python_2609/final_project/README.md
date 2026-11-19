@@ -280,6 +280,10 @@ Input: Stitch together the video clips produced in Step 5
 
 
 <br>
+<br>
+<br>
+
+## 制作电影
 
 豆包 + ltx-2.3 (start2end, 首尾帧)
 
