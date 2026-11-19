@@ -236,76 +236,92 @@ def run():
 
 ## Making Movie
 
-Doubao + LTX-2.3 (start2end, start and end frames)
+#### Doubao + LTX-2.3 (start2end, start and end frames)
 
 1. Generate film script
 
-    Use the revised "main_ai" to generate the full film script.
+Use the revised "main_ai" to generate the full film script.
 
 2. Adjust storyboards and transition shots
 
-    Tool: Doubao (work task)
-    Input: The complete film script produced by main_ai
-    Prompt: Ignore the original segmentation. Extract key frames with scenes, characters and camera changes based on the story framework, and create concise Chinese prompts for these key frame images. Prepare concise Chinese prompts for transition clips linking these frames. Save them into two separate TXT files with sequential numbering.
+Tool: Doubao (work task)
+
+Input: The complete film script produced by main_ai
+
+Prompt: Ignore the original segmentation. Extract key frames with scenes, characters and camera changes based on the story framework, and create concise Chinese prompts for these key frame images. Prepare concise Chinese prompts for transition clips linking these frames. Save them into two separate TXT files with sequential numbering.
 
 3. Generate character and scene assets
 
-    Tool: Doubao (work task)
-    Input: The two TXT files from Step 2
-    Prompt: Create front-view portraits of core characters on plain white backgrounds. Create background scene plates with no characters. Also generate images for supporting     characters and secondary environments.
+Tool: Doubao (work task)
+
+Input: The two TXT files from Step 2
+
+Prompt: Create front-view portraits of core characters on plain white backgrounds. Create background scene plates with no characters. Also generate images for supporting     characters and secondary environments.
 
 4. Generate key frame images
 
-    Tool: Doubao (work task)
-    Input: The two TXT files from Step 2, plus character and scene assets from Step 3
-    Prompt: Generate all key frame images using the provided reference images and prompts. Name the files sequentially starting from 01 and save them to the desktop.
+Tool: Doubao (work task)
+
+Input: The two TXT files from Step 2, plus character and scene assets from Step 3
+
+Prompt: Generate all key frame images using the provided reference images and prompts. Name the files sequentially starting from 01 and save them to the desktop.
 
 5. Generate transition footage
 
-    Tool: ComfyUI, LTX-2.3 (start2end)
-    Input: Key frame images from Step 4, transition prompts from Step 2 (translated into English by Doubao)
+Tool: ComfyUI, LTX-2.3 (start2end)
+
+Input: Key frame images from Step 4, transition prompts from Step 2 (translated into English by Doubao)
 
 6. Video editing and voiceover
 
-    Tool: Jianying
-    Input: Stitch together the video clips produced in Step 5
+Tool: Jianying
+
+Input: Stitch together the video clips produced in Step 5
 
 
+<br>
 
-
-豆包 + ltx-2.3 (start2end, 首尾帧)
+#### 豆包 + ltx-2.3 (start2end, 首尾帧)
 
 1. 生成电影脚本
 
-    使用修改后的 “main_ai” 生成所有电影脚本
+使用修改后的 “main_ai” 生成所有电影脚本
 
 2. 调整分镜和过度镜头   
 
-    工具：豆包（工作任务）
-    输入：main_ai 产生的完整电影脚本
-    提示词：不要在乎原有的分段，基于故事框架，提取出带有场景、人物、镜头变化的，适合作为关键帧，形成用于生成这些关键帧画面的提示词。在画面之间形成中文的适合作为提示词简洁的连接视频的提示词。分别放到两个txt文件里。标好顺序
+工具：豆包（工作任务）
+
+输入：main_ai 产生的完整电影脚本
+
+提示词：不要在乎原有的分段，基于故事框架，提取出带有场景、人物、镜头变化的，适合作为关键帧，形成用于生成这些关键帧画面的提示词。在画面之间形成中文的适合作为提示词简洁的连接视频的提示词。分别放到两个txt文件里。标好顺序
 
 3. 生成人物和场景素材
 
-    工具：豆包（工作任务）
-    输入：第2步产生的两个txt文件
-    提示词：形成关键人物角色的正面图、背景白色。形成关键场景的背景图，背景图不要有人物。还有配角的图像，和附属场景的图像.
+工具：豆包（工作任务）
+
+输入：第2步产生的两个txt文件
+
+提示词：形成关键人物角色的正面图、背景白色。形成关键场景的背景图，背景图不要有人物。还有配角的图像，和附属场景的图像.
 
 4. 生成关键帧图像
 
-    工具：豆包（工作任务）
-    输入：第2步产生的两个txt文件，第3步产生的人物和场景素材
-    提示词：基于给的图片和提示词，生成所有关键帧的图片，并且按顺序从01开始往后命名放到桌面。
+工具：豆包（工作任务）
+
+输入：第2步产生的两个txt文件，第3步产生的人物和场景素材
+
+提示词：基于给的图片和提示词，生成所有关键帧的图片，并且按顺序从01开始往后命名放到桌面。
 
 5. 生成过度镜头影响
 
-    工具：ComfyUI, ltx-2.3 (start2end)
-    输入：第4步生成的关键帧图像，第2步生成的过渡镜头（连接关键帧影像）的提示词（用豆包翻译成英文）
+工具：ComfyUI, ltx-2.3 (start2end)
+
+输入：第4步生成的关键帧图像，第2步生成的过渡镜头（连接关键帧影像）的提示词（用豆包翻译成英文）
 
 6. 视频剪辑和配音
 
-    工具：剪映
-    输入：第5步产生的视频拼接起来
+工具：剪映
+
+输入：第5步产生的视频拼接起来
 
 
 
