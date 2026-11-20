@@ -270,7 +270,7 @@ Prompt: Generate all key frame images using the provided reference images and pr
 
 Tool: ComfyUI, wan2_2_start2end
 
-Input: Key frame images from Step 4, transition prompts from Step 2 (translated into English by Doubao)
+Input: Key frame images from Step 4, transition prompts from Step 2.
 
 ### 6. Video editing and voiceover
 
