@@ -236,7 +236,7 @@ def run():
 
 ## Making Movie
 
-Doubao + LTX-2.3 (start2end, start and end frames)
+Doubao + wan2_2_start2end (start2end, start and end frames)
 
 ### 1. Generate film script
 
@@ -248,7 +248,7 @@ Tool: Doubao (work task)
 
 Input: The complete film script produced by main_ai
 
-Prompt: Ignore the original segmentation. Extract key frames with scenes, characters and camera changes based on the story framework, and create detailed prompts for these key frame images. Prepare detailed prompts for transition clips linking these frames. Save them into two separate TXT files with sequential numbering.
+Prompt: Ignore the original segmentation. Extract key frames with scenes, characters and camera changes based on the story framework, and create detailed prompts for these key frame images. Prepare detailed prompts for transition clips linking these frames (wan2_2). Save them into two separate TXT files with sequential numbering.
 
 ### 3. Generate character and scene assets
 
@@ -268,7 +268,7 @@ Prompt: Generate all key frame images using the provided reference images and pr
 
 ### 5. Generate transition footage
 
-Tool: ComfyUI, LTX-2.3 (start2end)
+Tool: ComfyUI, wan2_2_start2end
 
 Input: Key frame images from Step 4, transition prompts from Step 2 (translated into English by Doubao)
 
@@ -285,7 +285,7 @@ Input: Stitch together the video clips produced in Step 5
 
 ## 制作电影
 
-豆包 + ltx-2.3 (start2end, 首尾帧)
+豆包 + wan2_2_start2end (start2end, 首尾帧)
 
 ### 1. 生成电影脚本
 
@@ -297,7 +297,7 @@ Input: Stitch together the video clips produced in Step 5
 
 输入：main_ai 产生的完整电影脚本
 
-提示词：不要在乎原有的分段，基于故事框架，提取出带有场景、人物、镜头变化的，适合作为关键帧，形成用于生成这些关键帧画面的详细提示词。在画面之间形成中文的适合作为提示词详细的连接视频的提示词。分别放到两个txt文件里。标好顺序
+提示词：不要在乎原有的分段，基于故事框架，提取出带有场景、人物、镜头变化的，适合作为关键帧，形成用于生成这些关键帧画面的详细提示词。在画面之间形成中文的适合作为提示词详细的连接视频的提示词(适用于wan2_2)。分别放到两个txt文件里。标好顺序
 
 ### 3. 生成人物和场景素材
 
@@ -315,9 +315,9 @@ Input: Stitch together the video clips produced in Step 5
 
 提示词：基于给的图片和提示词，生成所有关键帧的图片，并且按顺序从01开始往后命名放到桌面。
 
-### 5. 生成过度镜头影响
+### 5. 生成过度镜头影像
 
-工具：ComfyUI, ltx-2.3 (start2end)
+工具：ComfyUI, wan2_2_start2end
 
 输入：第4步生成的关键帧图像，第2步生成的过渡镜头（连接关键帧影像）的提示词（用豆包翻译成英文）
 
