@@ -319,7 +319,7 @@ Input: Stitch together the video clips produced in Step 5
 
 工具：ComfyUI, wan2_2_start2end
 
-输入：第4步生成的关键帧图像，第2步生成的过渡镜头（连接关键帧影像）的提示词（用豆包翻译成英文）
+输入：第4步生成的关键帧图像，第2步生成的过渡镜头（连接关键帧影像）的提示词.
 
 ### 6. 视频剪辑和配音
 
